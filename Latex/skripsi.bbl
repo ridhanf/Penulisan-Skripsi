@@ -1,0 +1,152 @@
+\begin{thebibliography}{10}
+
+\bibitem{IEA}
+IEA.
+\newblock {\em {ENERGY EFFICIENCY 2017 Laporan Khusus: Efisiensi Energi di
+  Indonesia}}.
+\newblock International Energy Agency, Indonesia, 2017.
+
+\bibitem{ASHRAE55}
+ASHRAE.
+\newblock {\em {ANSI/ASHRAE Standard 55-2010 Thermal Environmental Conditions
+  for Human Occupancy}}.
+\newblock American Society of Heating, Refrigerating, and Air-Conditioning
+  Engineers, Inc., Atlanta, GA, 2010.
+
+\bibitem{skripsi1}
+Ichfan Kurniawan.
+\newblock {\em {Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan
+  Metode Simulasi CFD Dengan Perangkat Lunak IES VE}}.
+\newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
+  Universitas Gadjah Mada, Yogyakarta, 2019.
+
+\bibitem{article4}
+A.~P. Leskinen, J.~K. Jokiniemi  dan K.~E.~J. Lehtinen.
+\newblock ``{Characterization of Aging Wood Chip Combustion Aerosol in an
+  Environmental Chamber}''.
+\newblock {\em Elsevier Ltd.}, 41:3713--3721, 2007.
+
+\bibitem{article5}
+W.~He, G.~Xu  dan R.~Shen.
+\newblock ``{Control of Temperature Uniformity in the Temperature Chamber With
+  Centrifugal Acceleration}''.
+\newblock {\em Journal of Process Control, Elsevier Ltd.}, 24:1--6, 2014.
+
+\bibitem{article6}
+A.~Huguet, A.~Francez, C.~Fosse M.~Dung  dan S.~Derenne.
+\newblock ``{A Climatic Chamber Experiment to Test the Short Term Effect of
+  Increasing Temperature on Branched GDGT Distribution in Sphagnum Peat}''.
+\newblock {\em Journal of Organic Geochemistry, Elsevier Ltd.}, 73:109--112,
+  2014.
+
+\bibitem{article7}
+E.~Martinez dan S.~J. Agosta.
+\newblock ``{Budget-Limited Thermal Biology: Design, Construction and
+  Performance of a Large, Walk-in Style Temperature-Controlled Chamber}''.
+\newblock {\em Journal of Thermal Biology, Elsevier Ltd.}, 58:29--34, 2016.
+
+\bibitem{article8}
+Jose~A. Jofre-reche, J.~C. Su  dan C.~Alia.
+\newblock ``{Characterization of the Chemical Structure of Vinyl Ester Resin in
+  a Climate Chamber Under Different Conditions of Degradation}''.
+\newblock {\em Polymer Degradation and Stability, Elsevier Ltd.}, 153:88--99,
+  2018.
+
+\bibitem{article9}
+A.~Srinivasa, S.~Das, H.~Kottyen, V.~Ashok  dan P.~Shankarrao.
+\newblock ``{The Effect of Cold Chamber Temperature on the Cadaver's
+  Electrolyte Changes in Vitreous Humor and Plasma}''.
+\newblock {\em Journal of Forensic and Legal Medicine, Elsevier Ltd.},
+  62:87--91, 2019.
+
+\bibitem{SNI-03-06390-2000}
+BSN.
+\newblock {\em {SNI 03-6390-2000: Konservasi Energi Sistem Tata Udara pada
+  Bangunan Gedung}}.
+\newblock Badan Standardisasi Nasional, 2000.
+
+\bibitem{article11}
+G.~Mustafaraj, J.~Chen  dan G.~Lowry.
+\newblock ``{Thermal Behaviour Prediction Utilizing Artificial Neural Networks
+  for an Open Office}''.
+\newblock {\em Elsevier Ltd.}, 2010.
+
+\bibitem{article12}
+Jin~Woo Moon dan Jong-Jin Kim.
+\newblock ``{ANN-Based Thermal Control Models for Residential Buildings}''.
+\newblock {\em Elsevier Ltd.}, 2010.
+
+\bibitem{article13}
+Jin~Woo Moon, Sung~Kwon Jung, Youngchul Kim  dan Seung-Hoon Han.
+\newblock ``{Comparative Study of Artificial Intelligence-Based Building
+  Thermal Control Methods E Application of Fuzzy, Adaptive Neuro-Fuzzy
+  Inference System, and Artificial Neural Network}''.
+\newblock {\em Elsevier Ltd.}, 2011.
+
+\bibitem{article14}
+Zakia Afroz, GM~Shafiullah, Tania Urmee  dan Gary Higgins.
+\newblock ``{Prediction of Indoor Temperature in an Institutional Building}''.
+\newblock {\em Elsevier Ltd.}, 2017.
+
+\bibitem{article15}
+Ján Drgoňa, Damien Picard, Michal Kvasnica  dan Lieve Helsen.
+\newblock ``{Approximate Model Predictive Building Control via Machine
+  Learning}''.
+\newblock {\em Elsevier Ltd.}, 2018.
+
+\bibitem{article16}
+Hyun-Jung Yoon, Dong-Seok Lee, Hyun Cho  dan Jae-Hun Jo.
+\newblock ``{Prediction of Thermal Environment in a Large Space Using
+  Artificial Neural Network}''.
+\newblock {\em MDPI}, 2018.
+
+\bibitem{article17}
+Zhipeng Deng dan Qingyan Chen.
+\newblock ``{Artificial Neural Network Models Using Thermal Sensations and
+  Occupants’ Behavior for Predicting Thermal Comfort}''.
+\newblock {\em Elsevier Ltd.}, 2018.
+
+\bibitem{BuildingPhysics}
+Hugo Hens.
+\newblock {\em {Building Physics - Heat, Air and Moisture: Fundamentals and
+  Engineering Methods with Examples and Exercises}}.
+\newblock Ernst and Sohn, Berlin, Germany, 2007.
+
+\bibitem{book1}
+William~R. Santee dan William~T. Matthew.
+\newblock {\em {Military Quantitative Physiology: Problems and Concepts in
+  Military Operational Medicine}}.
+\newblock Office of The Surgeon General Borden Institute, Fort Detrick,
+  Maryland, 2012.
+
+\bibitem{ControlSystem}
+Norman~S. Nise.
+\newblock {\em {Control System Engineering}}.
+\newblock John Wiley and Sons, Inc., United State of America, 2011.
+
+\bibitem{NNControlBook}
+Jagannathan Sarangapani.
+\newblock {\em {Neural Network Control of Nonlinear Discrete-Time Systems}}.
+\newblock Taylor and Francis Group, LLC, United State of America, 2006.
+
+\bibitem{MPCDissertation}
+Ing.~Ján Drgoňa.
+\newblock {\em {Model Predictive Control with Applications in Building Thermal
+  Comfort}}.
+\newblock Disertasi, Slovak University of Technology in Bratislava, Vazovova 5,
+  811 07 Bratislava, Slovakia, 2017.
+
+\bibitem{article23}
+D.~Soloway dan P.~J. Haley.
+\newblock ``{Neural Generalized Predictive Control}''.
+\newblock {\em Proceedings of the 1996 IEEE International Symposium on
+  Intelligent Control}, hal. 277--282, 1996.
+
+\bibitem{article24}
+John E.~Dennis Jr. dan Robert~B. Schnabel.
+\newblock ``{Numerical Methods for Unconstrained Optimization and Nonlinear
+  Equations}''.
+\newblock {\em Journal of the American Statistical Association}, 80:247--248,
+  1983.
+
+\end{thebibliography}

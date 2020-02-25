@@ -1,0 +1,19 @@
+\nomenclatureentry{aa\emph {Lambang }@[{\emph {Lambang }}]\begingroup \emph {Kuantitas } \nomunit {\emph {Satuan }}\nomeqref {0.0}|nompageref}{xiv}
+\nomenclatureentry{ba\emph {Lambang }@[{\emph {Lambang }}]\begingroup \emph {Kuantitas } \nomunit {\emph {Satuan }}\nomeqref {0.0}|nompageref}{xiv}
+\nomenclatureentry{ca\emph {Lambang }@[{\emph {Lambang }}]\begingroup \emph {Deskripsi }\nomeqref {0.0}|nompageref}{xiv}
+\nomenclatureentry{da\emph {Lambang }@[{\emph {Lambang }}]\begingroup \emph {Deskripsi }\nomeqref {0.0}|nompageref}{xiv}
+\nomenclatureentry{abg$G$@[{$G$}]\begingroup laju aliran massa  \nomunit{kg/s}\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{abh$h$@[{$h$}]\begingroup entalpi  \nomunit{J/kg}\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{abq\textbf{q}@[{\textbf{q}}]\begingroup fluks kalor  \nomunit{W/m$^2$}\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{bbe$\epsilon$@[{$\epsilon$}]\begingroup emisivitas  \nomunit{--}\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{bbs$\Sigma_f$@[{$\Sigma_f$}]\begingroup tampang lintang fisi makroskopik  \nomunit{1/cm}\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{bbs$\Sigma_s$@[{$\Sigma_s$}]\begingroup tampang lintang fisi hamburan  \nomunit{1/cm}\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{cbeext@[{ext}]\begingroup external\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{cbiin@[{in}]\begingroup inlet\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{cboout@[{out}]\begingroup outlet\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{dbfF@[{F}]\begingroup fuel\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{dbjj@[{j}]\begingroup indeks koordinat\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{ebhHTGR@[{HTGR}]\begingroup High Temperature Gas-cooled Reactor\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{ebeECCS@[{ECCS}]\begingroup Emergency Core Cooling System\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{ebjDTNTF@[{DTNTF}]\begingroup Departemen Teknik Nuklir dan Teknik Fisika\nomeqref {0.0}|nompageref}{xv}
+\nomenclatureentry{ebrRANS@[{RANS}]\begingroup Reynold-Average Navier-Stokes\nomeqref {0.0}|nompageref}{xv}

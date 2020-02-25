@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: skripsi.aux
+The style file: skripsi.bst
+Database file #1: pustaka.bib
+You've used 24 entries,
+            2230 wiz_defined-function locations,
+            632 strings with 8220 characters,
+and the built_in function-call counts, 5364 in all, are:
+= -- 648
+> -- 211
+< -- 1
++ -- 81
+- -- 57
+* -- 262
+:= -- 924
+add.period$ -- 72
+call.type$ -- 24
+change.case$ -- 15
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 221
+empty$ -- 459
+format.name$ -- 57
+if$ -- 1286
+int.to.chr$ -- 0
+int.to.str$ -- 24
+missing$ -- 29
+newline$ -- 123
+num.names$ -- 24
+pop$ -- 76
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 241
+stack$ -- 0
+substring$ -- 151
+swap$ -- 33
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 33
+width$ -- 26
+write$ -- 260

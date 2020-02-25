@@ -1,0 +1,14 @@
+LATAR BELAKANG
+
+Data ENERGI: IEA Efisiensi Indonesia 2017
+Mengapa penghematannya 40%
+Mengapa butuh kendali otomatis untuk lingkungan termal
+3 kata kunci masuk ke latar belakang (Kendali Otomatis, Lingkungan Termal Climate Chamber, Jaringan Saraf Tiruan)
+Latar belakang belum mengerucut ke Rumusan Masalah
+
+KEBUTUHAN UNTUK KEGUNAAN CLIMATE CHAMBER
+
+
+RUMUSAN MASALAH
+Kendali-kendali yang biasa digunakan
+

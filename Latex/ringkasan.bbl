@@ -1,0 +1,111 @@
+\begin{thebibliography}{10}
+
+\bibitem{book1}
+Weston~M. Stacey.
+\newblock {\em {Nuclear Reactor Physics}}.
+\newblock John Wiley \& Sons, Inc., New York, 2007.
+
+\bibitem{book2}
+Eric Bonabeau, Marco Dorigo  dan Guy Theraulaz.
+\newblock {\em {Swarm Inteligence: From Natural to Artificial Systems}}.
+\newblock Oxford University Press, Oxford, 1999.
+
+\bibitem{skripsi}
+Aditya~Endrita Putra.
+\newblock {\em {Analisis CFD Aliran Fluida pada \textit{Tornado Type Wind
+  Turbines} (TTWT) Menggunakan Fluent 6.2.16}}.
+\newblock Skripsi, Jurusan Teknik Fisika, Fakultas Teknik, Universitas Gadjah
+  Mada, Yogyakarta, 2008.
+
+\bibitem{tesis}
+Agus Arif.
+\newblock {\em {Kontrol Sliding Mode dengan Tebal Boundary Layer yang
+  Bervariasi pada Manipulator Planar}}.
+\newblock Tesis, Program Pasca Sarjana, Institut Teknologi Bandung, Bandung,
+  2000.
+
+\bibitem{disertasi}
+Barend van Wachem.
+\newblock {\em {Derivation, Implementation and Validation of Computer
+  Simulation Models for Gas-Solid Fluidized Beds}}.
+\newblock Disertasi, Delft University of Technology, Delft, 2000.
+
+\bibitem{kp}
+Dian Dwilaga.
+\newblock {\em {Perhitungan Perisai Radiasi untuk Menentukan Workload Pesawat
+  Teleterapi Co-60 Cyrus}}.
+\newblock Laporan Kerja Praktek, Jurusan Teknik Fisika, Fakultas Teknik,
+  Universitas Gadjah Mada, Yogyakarta, 2007.
+
+\bibitem{article1}
+Fatih Alim, Konstadin Ivanov  dan Samuel Levine.
+\newblock ``{New Genetic Algorithm (GA) to Optimize PWR Reactor. Part I:
+  Loading Pattern and Burnable Poison Placement Optimization Techniques for
+  PWRs}''.
+\newblock {\em Annals of Nuclear Energy}, 35:93--112, 2008.
+
+\bibitem{proceeding1}
+Fitri Wulandari, Andang~Widi Harto  dan Alexander Agung.
+\newblock ``{Perhitungan Reaktivitas Desain Teras Molten Salt Fast Breeder
+  Reactor (MS-FBR)}''.
+\newblock  {\em Prosiding Seminar Nasional ke-12 Teknologi dan Keselamatan PLTN
+  serta Fasilitas Nuklir}, hal. 432 -- 441, Yogyakarta, 12 -- 13 September
+  2006.
+
+\bibitem{penelitian}
+Nazrul~Effendy dan Faridah.
+\newblock {\em {Pengenalan Intonasi dalam Ucapan Berbahasa Indonesia
+  Menggunakan Jaringan Syaraf Tiruan}}.
+\newblock Laporan Penelitian, DIKS, Fakultas Teknik, Universitas Gadjah Mada,
+  Yogyakarta, 2008.
+
+\bibitem{dokteknama}
+Maurice Greene dan Lester Petrie.
+\newblock {\em {XSDRNPM: A One-Dimensional Discrete Ordinates Code for
+  Transport Analysis}}.
+\newblock Laporan teknis ORNL/NUREG/CSD-2/V2/R6, Oak Ridge National Laboratory,
+  Oak Ridge, 2000.
+
+\bibitem{dokteknonama}
+{\em {Fluent 6.3 User's Guide}}.
+\newblock Laporan teknis, Fluent Inc., Lebanon, NH, 2006.
+
+\bibitem{majalah1}
+``{Ketika Musim Berganti di Nistelrode}''.
+\newblock {\em Kompas}, hal.~45, 14 November 2009.
+
+\bibitem{majalah2}
+``{Grow Your Own: The Biofuels of The Future Will Be Tailor-Made}''.
+\newblock {\em The Economist}, hal. 13 -- 16, 21 -- 27 Juni 2008.
+
+\bibitem{web1}
+Wikipedia.
+\newblock {\em {Hydrogen}}.
+\newblock Diakses dari \url{http://en.wikipedia.org/wiki/Hydrogen}, 11 November
+  2007.
+
+\bibitem{web2}
+Cheng~Ting Hsu.
+\newblock {\em {Tornado Type Wind Turbine}}.
+\newblock United States Patent, 1984.
+\newblock Diakses dari \url{http://www.freepatentsonline.com/4452562.pdf}, 1
+  Mei 2009.
+
+\bibitem{presentasi}
+Ester Wijayanti.
+\newblock ``{Optimasi Numeris}''.
+\newblock Kuliah, {\em {Optimasi Teknik}}, Jurusan Teknik Fisika, Universitas
+  Gadjah Mada, Yogyakarta, 20 Oktober 2008.
+
+\bibitem{diktat}
+Rachmawan Budiarto.
+\newblock {\em {Diktat Rekayasa Energi Air}}.
+\newblock Diktat, Jurusan Teknik Fisika, Universitas Gadjah Mada, Yogyakarta,
+  2010.
+
+\bibitem{komprivat}
+Albert Einstein.
+\newblock {\em Komunikasi Pribadi}.
+\newblock 1 Januari 2010.
+
+\end{thebibliography}

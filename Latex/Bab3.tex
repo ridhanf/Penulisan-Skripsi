@@ -1,0 +1,470 @@
+\chapter{DASAR TEORI}
+\label{dasar-teori}
+
+\section{Fisika Bangunan}
+
+Terdapat beberapa definisi mengenai fisika bangunan. Maka dari itu, penulis mencoba untuk mengambil definisi dari salah satu sumber referensi terpercaya yang berbunyi sebagai berikut: \textit{Building Physics is an applied science that studies the hygrothermal, acoustical and light related properties of building components (roofs, facades, windows, partition walls, etc.), room, building and building assemblies)} \cite{BuildingPhysics}. Fisika bangunan memiliki hubungan dengan pemenuhan kebutuhan dalam hal kenyamanan dan kesehatan penghuni, di sisi yang lain mempertimbangkan keterbatasan material, arsitektur, ekologi lingkungan, dan ekonomi. Kenyamanan merupakan kondisi kesehatan mental dan fisik makhluk hidup. Hal tersebut dapat tercapai bergantung kepada faktor manusia dan lingkungannya. Dapat disimpulkan bahwa pemenuhan terhadap kenyamanan termal, kenyamanan akustik, dan kenyamanan visual memerlukan kemampuan rekayasa (\textit{engineering}).
+
+\subsection{Lingkungan Termal}
+
+Lingkungan termal dapat didefinisikan sebagai karakteristik lingkungan yang mempengaruhi perpindahan kalor seseorang \cite{ASHRAE55} atau aspek-aspek lingkungan fisik individu atau populasi yang secara langsung mempengaruhi potensi pertukaran panas antara subjek atau populasi dan lingkungannya \cite{book1}. Lingkungan yang dimaksud disini yaitu segala sesuatu yang mengelilingi objek, organisme, ataupun populasi yang diteliti kenyamanannya (kenyamanan termal). \\
+
+\noindent \textbf{Parameter Lingkungan Termal}
+
+Kualitas lingkungan termal dapat ditentukan berdasarkan beberapa parameter. Beberapa penelitian mengenai kualitas lingkungan termal, secara umum menggunakan empat parameter meteorologis, yakni suhu, kelembapan relatif, kecepatan angin, dan radiasi matahari \cite{book1}.
+
+Perbedaan antara lingkungan luar (lapangan) dan bangunan (dalam ruang) dapat bergantung relatif kepada seberapa penting perbedaan parameter-parameter lingkungan tersebut, tetapi empat parameter yang sama masih dapat digunakan dalam menetapkan kondisi lingkungan termal. Interior bangunan mencakup variasi yang hampir tak terbatas, mulai dari kantor modern bertingkat tinggi hingga garasi dan hanggar tanpa pemanas. Dalam bangunan tertutup dengan iklim terkendali, kondisi termal sering diwakili dengan suhu ruang, terlepas dari kontribusi parameter lainnya, karena keempat parameter tersebut pada dasarnya konstan pada pengaturan suhu tertentu.
+
+\subsection{Kenyamanan Termal}
+Kenyamanan termal adalah suatu kondisi pikiran yang mengekspresikan kepuasan dengan lingkungan termal, baik secara fisiologis maupun psikologis, dan dinilai dengan evaluasi subyektif oleh penghuni itu sendiri \cite{ASHRAE55}. Kenyamanan termal penting untuk kesehatan dan kebugaran tubuh manusia. Hal tersebut berpengaruh terhadap produktivitas manusia dalam melakukan kegiatan. Kurangnya kenyamanan termal dapat mengakibatkan kondisi stres bagi penghuni bangunan. Apabila kondisi bangungan terlalu panas, maka penghuni akan merasa lelah. Apabila kondisi bangunan terlalu dingin, maka penghuni akan merasa gelisah dan bimbang. Dalam hal sensasi, kenyamanan termal digambarkan sebagai sensasi termal dalam bentuk \textit{too warm} atau \textit{too cold}, yang ditentukan oleh skala tujuh poin sensasi termal berdasarkan ASHRAE sebagai berikut:
+
+\qquad\qquad\qquad\qquad\qquad\qquad -3 = cold
+
+\qquad\qquad\qquad\qquad\qquad\qquad -2 = cool
+
+\qquad\qquad\qquad\qquad\qquad\qquad -1 = slightly cool
+
+\qquad\qquad\qquad\qquad\qquad\qquad\ 0 = neutral
+
+\qquad\qquad\qquad\qquad\qquad\qquad\ 1 = slightly warm
+
+\qquad\qquad\qquad\qquad\qquad\qquad\ 2 = warm
+
+\qquad\qquad\qquad\qquad\qquad\qquad\ 3 = hot
+
+
+
+Standar SNI terkait kenyamanan termal ruangan, yaitu menjaga suhu dan kelembapan ruangan pada nilai tertentu. Nilai standar suhu udara (\textit{drybulb}) dijaga pada nilai $25\pm 1^{\circ}C$, dan nilai kelembapan dalam bentuk \textit{relative humidity} (RH), dijaga pada nilai $60\% \pm 10\%$ untuk kenyamanan penghuni \cite{SNI-03-06390-2000}.
+
+\section{Sistem Kontrol Otomatis}
+
+Sistem kontrol otomatis telah memegang peranan yang sangat penting dalam
+perkembangan ilmu dan teknologi. Disamping sangat diperlukan pada pesawat ruang angkasa, peluru kendali, sistem kontrol pesawat, dan sebagainya, sistem kontrol juga mejadi bagian penting dan terpadu dari proses-proses dalam pabrik dan industri modern. Sistem kontrol otomatis sangat diperlukan dalam operasi-operasi di industri untuk mengendalikan tekanan, temperatur, laju aliran dan sebagainya.
+
+\subsection{Dasar-dasar Sistem Kontrol}
+
+Sistem adalah kombinasi dari beberapa komponen yang bekerja bersama-sama dan bersinergi untuk mencapai tujuan yang diinginkan. Sistem tidak hanya dibatasi hanya untuk sistem fisik saja. Konsep sistem dapat digunakan pada gejala yang abstrak dan dinamis lainnya seperti sistem ekonomi, biologi, organisasi, dan lain sebagainya. Sistem kontrol adalah interkoneksi dari berbagai komponen kontrol yang membentuk suatu konfigurasi sistem yang akan menghasilkan respon sistem yang diinginkan.
+
+Komponen utama dari sistem kontrol terdiri dari proses dan kontroler. Proses adalah komponen atau grup yang terdiri dari beberapa komponen yang dikendalikan. Kontroler adalah komponen yang mengendalikan proses. Keluaran dari kontroler adalah nilai variabel yang memanipulasi proses.
+
+Sistem kontrol dapat dikategorikan menjadi dua macam, yakni sistem kontrol lup terbuka dan sistem kontrol sistem tertutup. Sistem kontrol lup terbuka adalah sistem kontrol yang keluarannya tidak berpengaruh pada aksi kontrol. Pada sistem ini keluaran tidak dibandingkan dengan \textit{setpoint}. Sehingga untuk setiap \textit{setpoint}, terdapat suatu kondisi operasi yang tetap. Jadi ketelitian sistem tergantung dari kalibrasi sistem. Sistem kontrol lup terbuka ini juga tidak akan bisa bekerja jika ada gangguan internal maupun eksternal pada sistem. Sistem kontrol lup tertutup atau sistem kontrol berumpan balik adalah sistem kontrol yang sinyal keluarannya mempunyai pengaruh langsung pada aksi kontrol. Sinyal kesalahan penggerak, yang merupakan selisih antara nilai keluaran sistem dan nilai \textit{setpoint} diumpankan ke kontroler untuk memperkecil kesalahan dan membuat agar nilai keluaran sistem mendekati harga yang diinginkan (\textit{setpoint}). Penggunaan umpan balik membuat respon sistem menjadi kurang peka terhadap gangguan internal maupun eksternal sehingga, jika dibandingkan dengan sistem kontrol lup tertutup, sangat mungkin diperoleh sistem kontrol yang lebih teliti meskipun menggunakan komponen-komponen yang relatif kurang teliti.
+
+Sistem kontrol merupakan hal yang dinamis. Sistem akan memberikan respon terhadap input yang diberikan, dimana pada awalnya sistem akan memberikan suatu respon transien yang selanjutnya tercapai kondisi keadaan-ajeg yang secara umum akan mengikuti input yang diberikan. Terdapat tiga hal utama tujuan desain dan analisis dari sistem kontrol, yaitu:
+
+\begin{enumerate}
+	\item Menghasilkan spesifikasi dari respon transien yang diinginkan.
+	\item Mengurangi kesalahan pada keadaan-ajeg.
+	\item Mencapai kestabilan sistem.
+\end{enumerate}
+
+\noindent \textbf{Respon Transien}
+
+Jika suatu sistem kontrol dikenakan suatu input tertentu, sistem tidak bisa langsung mengikuti input yang diberikan, tetapi sistem terlebih dahulu akan berusaha untuk menyesuaikan karakter naturalnya dengan input yang diberikan. Respon inilah yang dinamakan respon transien dan menjadi hal penting untuk dianalisis dalam desain sistem kontrol. Sebagai contoh adalah respon sistem kontrol posisi elevator. Jika respon transien terlalu lambat maka akan membuat penumpang tidak sabar. Tetapi jika respon transien terlalu cepat maka akan membuat penumpang merasa tidak nyaman. Respon transien juga penting untuk alasan struktur. Respon transien yang terlalu cepat bisa juga menyebabkan kerusakan fisik pada peralatan yang dikendalikan. \\
+
+\noindent \textbf{Respon Keadaan-Ajeg}
+
+Salah satu tujuan dari desain dan analisis dari sistem kontrol difokuskan pada respon keadaan-ajeg. Misalnya dalam sistem kontrol posisi elevator, kesalahan pada keadaan-ajeg akan menyebabkan posisi elevator tidak tepat pada lantai yang dituju, tetapi bisa pada posisi di atas atau di bawahnya. Dalam keadaan-ajeg diharapkan respon sistem sesuai dengan input yang diberikan. Tujuan dari desain dan analisis sistem kontrol diarahkan pada bagaimana memperkecil kesalahan pada keadaan-ajeg. \\
+
+\noindent \textbf{Kestabilan Sistem}
+
+Respon dari sistem merupakan hasil penjumlahan dari respon natural sistem dan respon paksaan. Respon natural merupakan respon sistem karena karakter natural dari sistem. Respon paksaan adalah respon sistem terhadap input atau paksaan yang diberikan pada sistem.
+Sistem kontrol dikatakan stabil jika respon natural:
+\begin{enumerate}
+	\item hukum-hukum alam, 
+	\item relasi-relasi empirik, dan 
+	\item sarana berpikir deduktif (matematika) serta 
+	\item sarana berpikir induktif (statistika). 
+\end{enumerate}
+
+\noindent	\textbf{Proses Pengendalian}
+
+Proses Pengendalian merupakan tugas seorang insinyur kontrol untuk menganalisis sistem yang ada, dan merancang sistem baru untuk memenuhi kebutuhan spesifik. Terkadang sistem baru perlu dirancang, tetapi suatu unit kontroler lebih sering dirancang untuk meningkatkan kinerja sistem yang ada. Ketika perancangan suatu sistem atau penerapan suatu kontroler dalam menambah sistem yang ada, kita perlu mengikuti beberapa langkah berikut:
+
+\begin{enumerate}
+	\item Pemodelan sistem
+	\item Analisis sistem
+	\item Perancangan kontroler
+	\item Penerapan kontroler dan pengujian
+\end{enumerate}
+
+\subsection{Kesalahan Keadaan-Ajeg}
+
+Kesalahan keadaan tunak adalah perbedaan antara input dan output untuk input tes yang ditentukan ketika $t \rightarrow \infty$. Dalam sistem kendali, kita memperhatikan perbedaan antara input dan output dari sistem kontrol umpan balik setelah mencapai keadaan-ajeg. Sehingga hal ini dibatasi untuk sistem yang stabil, dimana respons alami mendekati nol selayaknya $t \rightarrow \infty$ . Sistem yang tidak stabil merepresentasikan hilangnya kendali dalam keadaan-ajeg dan sama sekali tidak dapat diterima untuk digunakan. Persamaan yang diperoleh untuk menghitung kesalahan keadaan tunak dapat diterapkan secara keliru ke sistem yang tidak stabil. Dengan demikian, insinyur harus memeriksa stabilitas sistem saat melakukan analisis dan perancangan kesalahan keadaan tunak. Sehingga, peneliti mengasumsikan bahwa semua sistem dalam contoh dan masalah dalam bab ini merupakan sistem yang stabil.
+
+Banyak kesalahan keadaan tunak pada sistem kontrol muncul dari sumber nonlinear, seperti serangan balik dari roda gigi atau motor yang tidak bergerak terkecuali ketika tegangan input melebihi nilai ambang batas. Kesalahan keadaan tunak yang dipelajari adalah kesalahan yang muncul dari konfigurasi sistem itu sendiri dan jenis input yang diterapkan. 
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SSEExample}
+	\caption{Sistem dengan \textbf{a.} kesalahan keadaan tunak bernilai terbatas untuk input fungsi step; \textbf{b.} kesalahan keadaan tunak nol untuk input fungsi step}
+	\label{fig:3:steadystateerror}
+\end{figure}
+
+Contohnya, amati Gambar \ref{fig:3:steadystateerror}(a), dimana $R(s)$ adalah input, $C(s)$ adalah output, dan $E(s) = R(s) - C(s)$ adalah eror (kesalahan keadaan tunak). Pada keadaan-ajeg, jika $c(t) = r(t)$, maka $e(t)$ bernilai nol. Tetapi dengan adanya \textit{gain} (pengali) , $K$, eror tersebut, $e(t)$, tidak dapat bernilai nol jika $c(t)$ bernilai terbatas dan tak nol. Sehingga, keutamaan dari konfigurasi sistem (\textit{gain} murni K pada umpan maju), haruslah memiliki nilai eror. Jika kita sebut $c_{steady-state}$ adalah nilai keadaan tunak suatu output dan $e_{steady-state}$ adalah nilai keadaan tunak suatu eror, maka $c_{steady-state} = K e_{steady-state}$, atau 
+
+\begin{equation} \label{eq:3:steady-state-error}
+e_{steady-state} = \frac{1}{K} \ c_{steady-state}
+\end{equation}
+
+Dengan demikian, semakin besar nilai K dan semakin kecil nilai $e_{steady-state}$ haruslah menghasilkan nilai $c_{steady-state}$ yang sama. Kesimpulan yang dapat kita tarik yaitu \textit{gain} murni pada umpan maju akan selalu menjadi suatu kesalahan keadaan tunak untuk input fungsi step. Kesalahan ini berkurang ketika nilai K meningkat.
+
+Jika penguatan jalur maju digantikan oleh integrator, seperti yang ditunjukkan pada Gambar \ref{fig:3:steadystateerror}(b), akan ada nol kesalahan pada kondisi tunak untuk input fungsi steo. Alasannya adalah sebagai berikut: Ketika $c(t$ meningkat, $e(t)$ akan berkurang, karena $e(t) = r(t) - c(t)$. Penurunan ini akan berlanjut hingga tidak ada kesalahan nol, tetapi masih akan ada nilai untuk $c(t)$ karena integrator dapat memiliki output yang konstan tanpa input apa pun. Misalnya, motor dapat direpresentasikan hanya sebagai integrator. Tegangan yang diberikan pada motor akan menyebabkan putaran. Ketika tegangan yang diberikan dilepas, motor akan berhenti dan tetap pada posisi keluaran saat ini. Karena tidak kembali ke posisi semula, kami memiliki output perpindahan sudut tanpa input ke motor. Oleh karena itu, sistem yang mirip dengan Gambar \ref{fig:3:steadystateerror}(b), yang menggunakan motor di jalur maju, dapat memiliki nol kondisi tunak untuk input fungsi step \cite{ControlSystem}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SSEExample2}
+	\caption{Eror sistem kontrol tertutup: a. Representasi secara umum; b. Representasi untuk sistem umpan balik satuan}
+	\label{fig:3:steadystateerror2}
+\end{figure}
+
+Pertimbangkan Gambar \ref{fig:3:steadystateerror2}(a). Untuk menentukan $E(s)$, kesalahan antara input, $R(s)$, dan output, $C(s)$, ditulis sebagai:
+\begin{equation} \label{eq:3:steady-state-error2}
+E(s) = R(s) - C(s)
+\end{equation}
+tetapi,
+\begin{equation} \label{eq:3:steady-state-error3}
+C(s) = R(s)T(s)
+\end{equation}
+Dengan mensubstitusi Persamaan \ref{eq:3:steady-state-error3} ke \ref{eq:3:steady-state-error2}, lalu disederhanakan dan dicari solusi pemecahan untuk $E(s)$, yaitu:
+\begin{equation} \label{eq:3:steady-state-error4}
+E(s) = R(s)(1 - T(s))
+\end{equation}
+Meskipun Persamaan \ref{eq:3:steady-state-error4} membantu kita dalam menyelesaikan $e(t)$ di setiap waktu, t, tetapi kita lebih tertarik untuk mengetahui nilai akhir dari eror, $e(\infty)$. Dengan mengaplikasikan teorema nilai akhir, yang mana memungkinkan kita untuk menggunakan nilai akhir dari $e(t)$ tanpa mengambil transformasi balik Laplace $E(S)$, dan kemudian membiarkan $t$ mendekati $\infty$, didapatkan
+\begin{equation} \label{eq:3:steady-state-error5}
+e(\infty) = \lim_{t \to \infty} e(t) = \lim_{s \to 0} sE(s)
+\end{equation}
+Substitusi Persamaan \ref{eq:3:steady-state-error4} ke \ref{eq:3:steady-state-error5}, didapatkan:
+\begin{equation} \label{eq:3:final-steady-state-error}
+e(\infty) = \lim_{t \to \infty} e(t) = \lim_{s \to 0} sR(s)[1 - T(s)]
+\end{equation}
+
+Pertimbangkan sistem kontrol umpan balik ditunjukkan pada Gambar \ref{fig:3:steadystateerror2}(b). Karena umpan balik, $H(s)$, sama dengan 1, sistem memiliki umpan balik satuan. Implikasinya adalah bahwa $E(s)$ sebenarnya adalah kesalahan antara input, $R(s)$, dan output, $C(s)$. Jadi, jika kita memecahkan Persamaan untuk $E(s)$, kita akan memiliki ekspresi untuk kesalahan tersebut. Kemudian diterapkan teorema nilai akhir untuk mengevaluasi kesalahan keadaan-ajeg.
+
+Menulis $E(s)$ berdasarkan Gambar \ref{fig:3:steadystateerror2}(b), didapatkan
+\begin{equation} \label{eq:3:sse-g}
+E(s) = R(s) - C(s)
+\end{equation}
+Tetapi,
+\begin{equation} \label{eq:3:sse-g2}
+C(s) = E(s)G(s)
+\end{equation}
+Substitusi Persamaan \ref{eq:3:sse-g2} ke \ref{eq:3:sse-g}, didapatkan:
+\begin{equation} \label{eq:3:sse-g3}
+E(s) = \frac{ R(s) }{ 1 + G(s) }
+\end{equation}
+Kemudikan diterapkan teorema nilai akhir, \ref{eq:3:steady-state-error5}. Pada titik ini dalam perhitungan numerik, kita harus memeriksa apakah sistem loop tertutup stabil, menggunakan, misalnya, kriteria Routh-Hurwitz. Namun, untuk saat ini, asumsikan bahwa sistem loop tertutup adalah stabil dan gantikan Persamaan \ref{eq:3:sse-g3} ke Persamaan \ref{eq:3:steady-state-error5}, didapatkan:
+\begin{equation} \label{eq:3:sse-g4}
+e(\infty) = \lim_{s \to 0} \frac{ sR(s) }{ 1 + G(s) }
+\end{equation}
+
+
+\section{Jaringan Saraf Tiruan}
+Jaringan Saraf Tiruan (JST) dimodelkan dari proses biologis untuk pemrosesan informasi, termasuk secara khusus sistem saraf dan unit dasarnya, neuron (sel saraf). Sinyal didistribusikan dalam bentuk beda potensial antara bagian dalam dan luar sel. Komponen sel saraf (neuron) ditunjukkan pada Gambar \ref{fig:3:neuron}. Dendrit membawa sinyal dari neuron lain ke dalam badan sel (soma), kemungkinan dengan memperkalikan setiap sinyal yang masuk dengan koefisien pembobotan pengiriman.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/neuron}
+	\caption{Anatomi neuron}
+	\label{fig:3:neuron}
+\end{figure}
+
+Pada badan sel, kapasitansi sel mengintegrasikan sinyal yang terkumpul di \textit{axon hillock} (bagian khusus dari badan sel neuron yang terhubung dengan akson). Sekalinya sinyal gabungan melebihi ambang batas nilai tertentu, sinyal/impuls ditransmisikan melalui akson. Ketidaklinieran sel menjadikan impuls komposit sebagai fungsi nonlinier dari kombinasi sinyal yang datang. Akson tersebut, melalui sinapsis, terhubung dengan dendrit pada neuron berikutnya. Sinapsis beroperasi melalui pelepasan kimiawi \textit{neurotransmitter} melintasi celah antar sel, dan dapat berupa \textit{excitatory} (kecenderungan dalam penembakan neuron berikutnya) atau \textit{inhibitory} (kecenderungan dalam mencegah penembakan neuron berikutnya) \cite{NNControlBook}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/neuronmath}
+	\caption{Model matematis neuron.}
+	\label{fig:3:math}
+\end{figure}
+
+\subsection{Model Matematis Neuron}
+
+Model matematis dari suatu neuron dilukiskan oleh Gambar \ref{fig:3:math}, yang mana menunjukkan pembobotan dendrit $v_j$, nilai ambang batas penembakan $v_0$ (disebut juga sebagai bias), penjumlahan dari sinyal masuk yang diberi bobot, dan fungsi nonlinear $\sigma(\cdot)$. Sel input adalah sinyal ke-$n$ pada waktu instan 	$kx_1(k), kx_2(k), kx_3(k),...,x_n(k)$ dan outputnya adalah nilai skalar $y(k)$, yang dapat dinyatakan sebagai
+
+\begin{equation} \label{eq:3:perceptron}
+y(k) = \sigma \left( \sum_{j=1}^{n}v_jx_j(k)+v_0 \right)
+\end{equation}
+
+Bobot-bobot positif  $v_j$ berhubungan dengan sinapsis \textit{exitatory} dan bobot-bobot negatif dengan sinapsis \textit{inhibitory}. Jaringan ini disebut sebagai \textit{perceptron} oleh Rosenblatt pada tahun 1959 (Haykin 1994).
+
+Fungsi sel nonlinear dikenal sebagai fungsi aktivasi. Fungsi aktivasi dipilih secara khusus untuk aplikasi-aplikasi meskipun beberapa pilihan yg umum diilustrasikan pada Gambar \ref{fig:3:activation} Intensi pada fungsi aktivasi adalah untuk memodelkan perilaku nonlinier suatu sel dimana tidak terdapat output dibawah nilai tertentu suatu argumen. Fungsi sigmoid adalah sebuah kelas umum dari fungsi yang tidak meningkat secara monoton dengan mengambil nilai-nilai yang dibatasi antaran nilai $-\infty$ dan $+\infty$. 
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/activationFunction}
+	\caption{Fungsi-fungsi aktivasi}
+	\label{fig:3:activation}
+\end{figure}
+Perlu dicatat bahwa ketika nilai ambang batas atau bias $v_0$ berubah, fungsi aktivasi bergeser ke kiri atau ke kanan. Untuk kebanyakan algoritma pelatihan JST (termasuk \textit{backpropagation}), turunan dari $\sigma(\cdot)$ dibutuhkan sehingga fungsi aktivasi yang dipilih haruslah terdiferensiasi.
+
+Ekspresi untuk output neuron $y(k)$ pada waktu instan $k$ (dalam kasus waktu yang kontinyu) dapat dirampingkan dengan menentukan vektor kolom dari bobot-bobot JST $\ \overline{v}(k) \in \mathbb{R}^n $ sebagai
+\vspace{-1em}
+\begin{equation} \label{eq:3:vektorKolom}
+\overline{x}(k) = [x_1\ x_2\ \cdots\ x_n]^T, \qquad \overline{v}(k) = [v_1\ v_2\ \cdots\ v_n]^T
+\end{equation}
+
+Kemudian, ini memungkinkan untuk ditulis dalam notasi matriks
+\vspace{-1em}
+\begin{equation} \label{eq:3:matriksy}
+y = \sigma(\overline{v}^T\overline{x}) + v_0
+\end{equation}
+
+Menentukan vektor kolom input \textit{augmented} $x(k) \in \mathbb{R}^{n+1} $ dan vektor kolom bobot JST $v(k) \in \mathbb{R}^{n+1} $ sebagai
+\vspace{-1em}
+\begin{equation} \label{eq:3:matriksaugmented}
+\begin{split}
+x(k) = [1\;\; \overline{x}^T]^T = [1\;\; x_1\ x_2\ \cdots\ x_n]^T \\
+v(k) = [v_0\ \overline{v}^T]^T = [v_0\ v_1\ v_2\ \cdots\ v_n]^T
+\end{split}
+\end{equation}
+
+bisa juga ditulis sebagai
+\vspace{-2em}
+\begin{equation} \label{eq:3:matriksfinal}
+\begin{split}
+y = \sigma(v^Tx)
+\end{split}
+\end{equation}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/jstTunggal}
+	\caption{Jaringan layar tunggal}
+	\label{fig:3:jstTunggal}
+\end{figure}
+Meskipun vektor input $\overline{x}(k) \in \mathbb{R}^n $ dan vektor bobot $\overline{v}(k) \in \mathbb{R}^n $ masing-masing telah ditambahkan dengan 1 dan $v_0$, untuk memasukkan nilai bias, terkadang kita dengan bebas dapat mengatakan bahwa $x(k)$ dan $v$ adalah elemen $\mathbb{R}^n$.\\
+
+Vektor penggambaran output neuron $y(k)$ disebut sebagai mekanisme penarikan sel. Mereka mendeskripsikan bagaimana output itu direkonstruksi dari sinyal input dan nilai parameter sel.
+
+Gambar \ref{fig:3:jstTunggal} menunjukkan sebuah JST yang mengandung L buah sel, semuanya diberi umpan oleh sinyal input yang sama dan memproduksi satu output $y(k)$ per neuron. Kita sebut ini sebagai jaringan layar tunggal. Persamaan \textit{recall} untuk jaringan ini ditunjukkan sebagai berikut
+\vspace{0em}
+\begin{equation} \label{eq:3:recall}
+y_l(k) = \sigma \left( \sum_{j=1}^{n}v_{lj}x_j(k)+v_{l0} \right); \qquad l = 1,2,...,L
+\end{equation}
+
+Akan lebih mudah untuk menulis bobot dan bias masing-masing dalam bentuk matriks dan vektor. Dengan menentukan matriks bobot dan vektor bias sebagai berikut
+\vspace{-1em}
+\begin{equation} \label{eq:3:weightVector}
+\overline{V}^T \equiv
+\left[
+\begin{matrix}
+v_{11} & v_{12} & \cdots & v_{1n} \\
+v_{21} & v_{22} & \cdots & v_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+v_{L1} & v_{L2} & \cdots & v_{Ln} \\
+\end{matrix}
+\right], \qquad
+b_v = 
+\left[
+\begin{matrix}
+v_{10} \\
+v_{20} \\
+\vdots \\
+v_{L0} \\
+\end{matrix}
+\right],
+\end{equation}
+
+\noindent Salah satu cara menulis vektor output $y(t) = [y_0\ y_1\ y_2\ \cdots y_L]^T$ sebagai berikut
+\vspace{-1em}
+\begin{equation} \label{eq:3:outputVector}
+y = \overline{\sigma}(\overline{V}^T\overline{x}+b_v)
+\end{equation}
+\noindent Vektor fungsi aktivasi yang ditentukan oleh vektor $w\equiv [w_1\ w_2\ \cdots w_L]^T$ adalah
+\vspace{-1em}
+\begin{equation} \label{eq:3:activation}
+\overline{\sigma}(w)\equiv [\overline{\sigma}(w)_1\ \overline{\sigma}(w)_2\ \cdots\ \overline{\sigma}(w)_L]^T
+\end{equation}
+
+Penyempurnaan lebih lanjut dapat dicapai dengan memasukkan vektor bias sebagai kolom pertama dari matriks \textit{augmented} bobot sebagai berikut
+\vspace{-1em}
+\begin{equation} \label{eq:3:fullVector}
+V^T \equiv
+\left[
+\begin{matrix}
+v_{10} & v_{11} & \cdots & v_{1n} \\
+v_{20} & v_{21} & \cdots & v_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+v_{L0} & v_{L1} & \cdots & v_{Ln} \\
+\end{matrix}
+\right]
+\end{equation}\
+
+Kemudian output JST dapat digambarkan dalam bentuk vektor \textit{augmented} input $x(k)$ sebagai
+\vspace{0em}
+\begin{equation} \label{eq:3:finalVector}
+y = \overline{\sigma}(V^Tx)
+\end{equation}
+
+\subsection{Jaringan Layar Jamak (MLP)}
+Jaringan layar jamak (\textit{Multilayer Perceptron}) merupakan perluasan dari jaringan layar tunggal (\textit{perceptron}). Sebuah JST 2 layar memiliki dua lapisan neuron dengan satu layar memiliki $L$ buah neuron yang memberikan umpan kepada lapisan kedua yang memiliki $m$ buah neuron, digambarkan pada Gambar \ref{fig:3:mlp}. Lapisan pertama dikenal sebagai lapisan tersembunyi, dengan $L$ sebagai jumlah neuron pada lapisan tersembunyi tersebut. Lapisan kedua dikenal sebagai lapisan output. Jaringan saraf tiruan yang terdiri dari banyak lapisan disebut sebagai \textit{multilayer perceptron}. Daya komputasi untuk lapisan ini perlu ditingkatkan secara signifikan dibandingkan jaringan layar tunggal. Dengan jaringan layar tunggal, dimungkinkan untuk menerapkan operasi digital seperti AND, OR, dan COMPLEMENT. 
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/mlp}
+	\caption{Jaringan 2 layar}
+	\label{fig:3:mlp}
+\end{figure}
+Namun, penelitian mengenai JST telah dihentikan bertahun-tahun yang lalu ketika ditunjukkan bahwa jaringan layar tunggal tidak mampu melakukan operasi EXCLUSIVE OR (X-OR), yang merupakan masalah dasar dalam perancangan sistem logika digital. Kemudian telah ditunjukkan bahwa jaringan 2 layar dapat menerapkan operasi EXCLUSIVE OR (X-OR) dan ini kembali mempercepat penelitian JST di awal 1980-an. Beberapa peneliti (Hush dan Horne 1993) mempresentasikan solusi untuk operasi X-OR dengan menggunakan fungsi aktivasi sigmoid.
+
+\noindent Output jaringan 2 layar ditunjukkan oleh Persamaan \textit{recall} berikut
+\begin{equation} \label{eq:3:2layerOut}
+y_i = \sigma
+\left(
+\sum_{l=1}^{L}w_{il}\sigma
+	\left(
+		\sum_{j=1}^{n}v_{lj}x_j + v_{l0}
+	\right)
+	+ w_{i0}
+\right); \qquad i = 1,2,\dots,m
+\end{equation}
+
+\noindent Menentukan output jaringan tersembunyi $z_1$ dapat ditulis sebagai berikut
+\begin{equation} \label{eq:3:hiddenlayer}
+\begin{split}
+z_l = \sigma\left(\sum_{j=1}^{n}v_{lj}x_j+v_{l0} \right);\qquad l = 1,2,\dots,L\\
+y_i = \sigma\left(\sum_{l=1}^{L}w_{il}z_l+w_{i0} \right);\qquad l = 1,2,\dots,m
+\end{split}
+\end{equation}
+
+\noindent Menentukan matriks bobot layar pertama $\overline{V}$ dan $V$ dan matriks bobot layar kedua sebagai berikut
+\begin{equation} \label{eq:3:weight21Vector}
+\overline{W}^T \equiv
+\left[
+\begin{matrix}
+w_{11} & w_{12} & \cdots & w_{1n} \\
+w_{21} & w_{22} & \cdots & w_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+w_{L1} & w_{L2} & \cdots & w_{Ln} \\
+\end{matrix}
+\right], \qquad
+b_w = 
+\left[
+\begin{matrix}
+w_{10} \\
+w_{20} \\
+\vdots \\
+w_{L0} \\
+\end{matrix}
+\right],
+\end{equation}
+\begin{equation} \label{eq:3:weight22Vector}
+W^T \equiv
+\left[
+\begin{matrix}
+w_{10} & w_{11} & \cdots & w_{1n} \\
+w_{20} & w_{21} & \cdots & w_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+w_{L0} & w_{L1} & \cdots & w_{Ln} \\
+\end{matrix}
+\right]
+\end{equation}
+
+\noindent Output JST dapat ditulis sebagai berikut
+\begin{equation} \label{eq:3:2layer}
+y = \overline{\sigma}
+\left(
+	\overline{W}^T\overline{\sigma}(\overline{V}^T\overline{x}+b_v)+b_w
+\right),
+\end{equation}
+atau
+\begin{equation} \label{eq:3:2layerfinal}
+y = \overline{\sigma}
+\left(
+	W^T\sigma(V^Tx)
+\right).
+\end{equation}
+Pada Persamaan ini, notasi $\overline{\sigma}$ berarti bahwa vektor ditentukan sesuai dengan Persamaan (\ref{eq:3:activation}). Dalam (\ref{eq:3:2layerfinal}) perlu menggunakan vektor \textit{augmented}
+\begin{equation} \label{eq:3:augVector}
+\sigma(w) \equiv [1\quad \overline{\sigma}(w)^T]^T = [1\quad \sigma(w_1)\ \sigma(w_2)\ \dots\ \sigma(w_L)\ ]^T,
+\end{equation}
+\noindent dimana nilai 1 ditempatkan sebagai entri pertama untuk memungkinkan penggabungan bias $w_{i0}$ sebagai kolom pertama dari $W^T$. Dalam hal vektor output layar tersembunyi $z\in \mathbb{R}^L$ seseorang dapat menuliskan
+\begin{equation} \label{eq:3:final19}
+\overline{z} = \sigma(V^Tx),
+\end{equation}
+\begin{equation} \label{eq:3:final20}
+y = \sigma(W^Tz).
+\end{equation}
+\noindent dimana $z \equiv [1\quad \overline{z}^T]^T$
+
+\subsection{Kendali Jaringan Saraf Tiruan}
+
+Untuk mengendalikan lingkungan termal, peneliti pada umumnya menggunakan sistem kendali modern (\textit{modern control system}). Hal ini didasarkan pada karakteristik lingkungan termal yang memiliki sifat MIMO (\textit{multiple input multiple output}). Sehingga, sistem kendali klasik tidak tepat digunakan untuk sistem ini.
+\begin{table}[!h]
+	\caption{Perbandingan metode kendali}
+	\label{tbl:3:whyann}
+	\centering
+	% use packages: array
+	\begin{tabular}{|p{4cm}|p{4cm}|p{4.5cm}|}
+		\hline
+		\textbf{Metode Kendali} & \textbf{Klasik} & \textbf{Modern} \\ 
+		\hline
+		Domain & Frekuensi, Domain-S & Waktu, Domain-t \\ 
+		\hline
+		Representasi Model & Fungsi Transfer & State-Space \\ 
+		\hline
+		Kontinyuitas & Kontinyu & Kontinyu, Diskrit, \textit{Hybrid} \\ 
+		\hline
+		Linieritas & Linier & Linier, Nonlinier \\ 
+		\hline
+		Variansi waktu & \textit{Time-invariant} (TI) & \textit{Time-variant} (TV) \\ 
+		\hline
+		Dimensi & SISO & MIMO \\ 
+		\hline
+		Determinisme & Deterministik & Deterministik, Stokastik \\ 
+		\hline
+		Optimisasi & Tidak & Ya \\ 
+		\hline
+		Batasan & Tidak & YA \\ 
+		\hline
+		Implementasi & Murah, Mudah & Mahal, Kompleks \\ 
+		\hline
+	\end{tabular}
+\end{table}
+
+Kelemahan utama dari metode klasik adalah, bahwa mereka hanya dapat digunakan untuk mengendalikan sistem \textit{single-input single-output} (SISO), dengan persyaratan pada model sistem untuk menjadi \textit{linear time-invariant} (LTI). Metode klasik memberikan hasil yang memuaskan hanya dalam mengendalikan proses sederhana, tetapi hasil yang tidak memuaskan dalam kontrol sistem yang lebih kompleks \cite{MPCDissertation}. \\
+
+\noindent \textbf{Neural Network Predictive Control}
+
+\textit{Neural Network Predictive Control} menggunakan model JST (\textit{Neural Network}) dari sistem nonlinier \textit{plant} untuk memprediksi kinerja \textit{plant} di masa depan. Kontroler tersebut kemudian menghitung nilai input kendali yang akan mengoptimisasi kinerja \textit{plant} atas horison waktu yang ditentukan di masa depan. Langkah awal dalam \textit{model predictive control} adalah dengan menentukan model JST \textit{plant} (identifikasi sistem). Kemudian, model \textit{plant} digunakan oleh kontroler untuk mempredikasi kinerja di masa depan.\\
+
+\noindent \textbf{Identifikasi Sistem}
+
+Tahap awal dalam membangun \textit{model predictive control} adalah dengan melatih suatu JST yang merepresentasikan dinamika sistem dari suatu \textit{plant}. Nilai galat antara keluaran \textit{plant} dan keluaran JST akan digunakan sebagai sinyal pelatihan JST. Proses tersebut digambarkan pada Gambar \ref{fig:3:plantidentification}.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/PlantIdentification}
+	\caption{Identifikasi \textit{Plant}}
+	\label{fig:3:plantidentification}
+\end{figure}
+
+NARMA (\textit{Nonlinear Autoregressive-Moving Average}) digunakan sebagai salah satu model standar untuk identifikasi sistem nonlinier, dengan Persamaan sebagai berikut:
+\begin{equation} \label{eq:3:NARMA}
+y(k+d) = h[ y(k),y(k-1),\dots,y(k-n+1),u(k),u(k-1),\dots,u(k-m+1) ]
+\end{equation}
+dimana $u(k)$ merupakan input sistem, $y(k)$ merupakan output sistem dan $d$ merupakan \textit{delay} sistem. Untuk fase identifikasi sistem, penulis melakukan pelatihan JST untuk aproksimasi fungsi nonlinier $h$. Struktur model JST \textit{plant} ditunjukan oleh Gambar \ref{fig:3:NNPlantModel}, dimana blok yang berlabel TDL merupakan \textit{tapped delay lines} yang berfungsi untuk memberikan nilai sebelumnya dari sinyal input. Persamaan model \textit{plant} ditunjukkan sebagai berikut:
+\begin{equation} \label{eq:3:plantmodel}
+y_m(k+1) = \hat{h}[ y_p(k),\dots,y_p(k-n+1),u(k),\dots,u(k-m+1);\textbf{x} ] ,
+\end{equation}
+dimana $\hat{h}[.,\textbf{x}]$ merupakan fungsi implementasi JST, dan $\textbf{x} $ merupakan vektor yang berisi semua bobot dan bias jaringan. \\ \\
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=1\textwidth]{figures/modelJSTPlant}
+	\caption{Model JST \textit{Plant}}
+	\label{fig:3:NNPlantModel}
+\end{figure}
+
+\noindent \textbf{Desain \textit{Predictive Control} menggunakan Optimisasi}
+
+Metode \textit{model predictive control} didasarkan pada teknik horison mundur \cite{article23}. Model JST memprediksi tanggapan \textit{plant} atas horison waktu yang ditentukan. Hasil prediksi digunakan oleh program optimisasi numerik untuk menentukan sinyal kendali dalam meminimalkan kriteria kinerja berikut atas horison yang ditentukan.
+\begin{equation} \label{eq:3:performance}
+J = \sum_{j=N_1}^{N_2} (y_r(k+j) - y_m(k+j))^2 + \rho\sum_{j=1}^{N_u} (u'(k+j-1) - u'(k+j-2))^2
+\end{equation}
+dimana $N_1$, $N_2$ dan $N_u$ menentukan horison di mana kesalahan pelacakan dan peningkatan kontrol dievaluasi. Variabel $u'$ merupakan sinyal kendali tentatif, $y_r$ merupakan respons yang diinginkan dan $y_m$ merupakan respon model JST. Nilai $\rho$ menentukan kontribusi yang dimiliki jumlah kuadrat dari kenaikan kontrol pada indeks kinerja.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/NNPredictiveControl}
+	\caption{Diagram Blok NN Predictive Control}
+	\label{fig:3:nncontrolblock}
+\end{figure}
+
+Diagram blok diatas mengilustrasikan proses \textit{model predictive control}. Kontroler terdiri dari model JST \textit{plant} dan blok optimisasi. Blok optimisasi menentukan nilai $u'$ yang meminimalkan nilai $J$, dan kemudian nilai $u$ optimal masuk ke dalam \textit{plant}. Blok optimisasi yang digunakan adalah Algoritma BFGS quasi-Newton, dengan algoritma pencarian \textit{backtracking line search} \cite{article24}.

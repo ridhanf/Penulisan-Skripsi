@@ -1,0 +1,52 @@
+\babel@toc {bahasa}{}
+\contentsline {chapter}{HALAMAN JUDUL}{i}
+\contentsline {chapter}{PERNYATAAN BEBAS PLAGIASI}{ii}
+\contentsline {chapter}{HALAMAN PENGESAHAN}{iv}
+\contentsline {chapter}{HALAMAN TUGAS}{iv}
+\contentsline {chapter}{HALAMAN PERSEMBAHAN}{v}
+\contentsline {chapter}{HALAMAN MOTTO}{vi}
+\contentsline {chapter}{KATA PENGANTAR}{vii}
+\contentsline {chapter}{DAFTAR LAMBANG DAN SINGKATAN}{xiii}
+\contentsline {chapter}{INTISARI}{xv}
+\contentsline {chapter}{ABSTRACT}{xvi}
+\babel@toc {bahasa}{}
+\babel@toc {bahasa}{}
+\contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}
+\contentsline {section}{\numberline {I.1.}Latar Belakang}{1}
+\contentsline {section}{\numberline {I.2.}Perumusan Masalah}{1}
+\contentsline {section}{\numberline {I.3.}Batasan Masalah}{2}
+\contentsline {section}{\numberline {I.4.}Tujuan}{2}
+\contentsline {section}{\numberline {I.5.}Manfaat}{2}
+\contentsline {chapter}{\numberline {II}TINJAUAN PUSTAKA}{3}
+\contentsline {section}{\numberline {II.1.}Isi Tinjauan Pustaka}{3}
+\contentsline {chapter}{\numberline {III}DASAR TEORI}{5}
+\contentsline {section}{\numberline {III.1.}Isi Dasar Teori}{5}
+\contentsline {section}{\numberline {III.2.}Hipotesis (\textit {bila perlu})}{6}
+\contentsline {subsection}{\numberline {III.2.1.}Anak Subbab Pertama}{7}
+\contentsline {subsection}{\numberline {III.2.2.}Anak Subbab Kedua}{7}
+\contentsline {section}{\numberline {III.3.}Subbab Ketiga}{8}
+\contentsline {chapter}{\numberline {IV}PELAKSANAAN PENELITIAN}{9}
+\contentsline {section}{\numberline {IV.1.}Alat dan Bahan Penelitian}{9}
+\contentsline {section}{\numberline {IV.2.}Tata Laksana Penelitian}{9}
+\contentsline {section}{\numberline {IV.3.}Rencana Analisis Hasil}{9}
+\contentsline {chapter}{\numberline {V}HASIL DAN PEMBAHASAN}{11}
+\contentsline {section}{\numberline {V.1.}Hasil Penelitian}{11}
+\contentsline {section}{\numberline {V.2.}Pembahasan}{11}
+\contentsline {section}{\numberline {V.3.}Contoh Penulisan Persamaan}{11}
+\contentsline {section}{\numberline {V.4.}Contoh Penulisan Acuan ke Pustaka yang Digunakan}{11}
+\contentsline {section}{\numberline {V.5.}Contoh Penulisan Gambar dan Acuannya}{12}
+\contentsline {section}{\numberline {V.6.}Contoh Penulisan Tabel dan Acuannya}{12}
+\contentsline {section}{\numberline {V.7.}Format Penulisan Acuan Pustaka}{14}
+\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{18}
+\contentsline {section}{\numberline {VI.1.}Kesimpulan}{18}
+\contentsline {section}{\numberline {VI.2.}Saran}{18}
+\contentsline {chapter}{LAMPIRAN}{}
+\contentsline {chapter}{\numberline {A}Judul Lampiran}{22}
+\contentsline {section}{\numberline {A.1.}Contoh Gambar pada Lampiran}{22}
+\contentsline {section}{\numberline {A.2.}Contoh Penulisan Tabel pada Lampiran}{22}
+\contentsline {section}{\numberline {A.3.}Contoh Penulisan Persamaan pada Lampiran}{24}
+\contentsline {chapter}{\numberline {B}Listing Program}{25}
+\contentsline {chapter}{\numberline {C}About \LaTeX }{27}
+\contentsline {section}{\numberline {C.1.}Package yang Diperlukan}{27}
+\contentsline {section}{\numberline {C.2.}File yang diubah isinya oleh penulis}{28}
+\contentsline {section}{\numberline {C.3.}Menghasilkan file PDF}{28}

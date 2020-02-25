@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ringkasan.aux
+The style file: skripsi.bst
+Database file #1: ringkasan.bib
+Warning--empty author in dokteknonama
+Warning--empty institution in web1
+You've used 18 entries,
+            2230 wiz_defined-function locations,
+            587 strings with 6228 characters,
+and the built_in function-call counts, 3669 in all, are:
+= -- 516
+> -- 88
+< -- 4
++ -- 40
+- -- 22
+* -- 160
+:= -- 632
+add.period$ -- 52
+call.type$ -- 18
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 161
+empty$ -- 284
+format.name$ -- 22
+if$ -- 888
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 8
+newline$ -- 91
+num.names$ -- 15
+pop$ -- 35
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 191
+stack$ -- 0
+substring$ -- 98
+swap$ -- 44
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 24
+width$ -- 20
+write$ -- 205
+(There were 2 warnings)
