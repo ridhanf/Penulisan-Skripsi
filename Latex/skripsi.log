@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  26 FEB 2020 11:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  2 MAR 2020 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -684,7 +684,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
 ] [10]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 59.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
 )
 \tf@toc=\write4
 \openout4 = `skripsi.toc'.
@@ -1163,54 +1163,44 @@ Underfull \hbox (badness 1057) in paragraph at lines 23--24
  []
 
 
-Overfull \hbox (16.67531pt too wide) in paragraph at lines 13--30
+Underfull \hbox (badness 1137) in paragraph at lines 27--28
+\T1/ptm/m/n/12 kung-an ter-mal \T1/ptm/m/it/12 cli-ma-te cham-ber \T1/ptm/m/n/1
+2 dan va-ri-a-si
+ []
+
+
+Overfull \hbox (16.67531pt too wide) in paragraph at lines 13--36
  [][] 
  []
 
 
-Overfull \hbox (16.67531pt too wide) in paragraph at lines 38--53
+Overfull \hbox (16.67531pt too wide) in paragraph at lines 44--59
  [][] 
  []
 
-<figures/AlurPenelitian.png, id=206, 439.6425pt x 396.48125pt>
-File: figures/AlurPenelitian.png Graphic file (type png)
-<use figures/AlurPenelitian.png>
-Package pdftex.def Info: figures/AlurPenelitian.png  used on input line 59.
-(pdftex.def)             Requested size: 223.7822pt x 201.80951pt.
+<figures/TataLaksanaPenelitian.png, id=206, 217.81375pt x 866.23625pt>
+File: figures/TataLaksanaPenelitian.png Graphic file (type png)
+<use figures/TataLaksanaPenelitian.png>
+Package pdftex.def Info: figures/TataLaksanaPenelitian.png  used on input line 
+65.
+(pdftex.def)             Requested size: 122.06358pt x 485.43266pt.
 [36
 
-]
-<figures/PerancanganModel.png, id=210, 735.74875pt x 463.7325pt>
-File: figures/PerancanganModel.png Graphic file (type png)
-<use figures/PerancanganModel.png>
-Package pdftex.def Info: figures/PerancanganModel.png  used on input line 66.
-(pdftex.def)             Requested size: 345.84578pt x 217.98967pt.
- [37 <./figures/AlurPenelitian.png> <./figures/PerancanganModel.png>]
-<figures/DiagramPenelitianFull.png, id=216, 1020.81375pt x 563.10374pt>
-File: figures/DiagramPenelitianFull.png Graphic file (type png)
-<use figures/DiagramPenelitianFull.png>
-Package pdftex.def Info: figures/DiagramPenelitianFull.png  used on input line 
-74.
-(pdftex.def)             Requested size: 610.31172pt x 336.67912pt.
-
-[38
-
- <./figures/DiagramPenelitianFull.png>] [39
-
-]) (./Bab5.tex [40]
+] [37 <./figures/TataLaksanaPenelitian.png>] [38] [39] [40]) (./Bab5.tex
+[41] [42]
 BAB V.
-) (./Bab6.tex [41
+[43
 
-]
+]) (./Bab6.tex [44]
 BAB VI.
-) (./skripsi.bbl [42
+) (./skripsi.bbl [45
 
-] [43
+] [46
 
-]) [44]
+] [47]) [48]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 26.
- [45
+ [49
 
 ] (./app1.tex
 LAMPIRAN A.
@@ -1218,9 +1208,9 @@ File: logoUGM.jpg Graphic file (type jpg)
 <use logoUGM.jpg>
 Package pdftex.def Info: logoUGM.jpg  used on input line 12.
 (pdftex.def)             Requested size: 142.26378pt x 144.33249pt.
-[46
+[50
 
-]) (./app2.tex [47] [48]
+]) (./app2.tex [51] [52]
 LAMPIRAN B.
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -1233,7 +1223,7 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
- [49
+ [53
 
 ]
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 8
@@ -1244,9 +1234,9 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
-) (./app3.tex [50]
+) (./app3.tex [54]
 LAMPIRAN C.
-[51
+[55
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 35
@@ -1259,12 +1249,12 @@ Overfull \hbox (32.12271pt too wide) in paragraph at lines 36--37
 a fi-le \T1/pcr/m/n/12 muka_skripsi.tex\T1/ptm/m/n/12 . 
  []
 
-[52]) [53] (./skripsi.aux) ) 
+[56]) [57] (./skripsi.aux) ) 
 Here is how much of TeX's memory you used:
- 19310 strings out of 492163
- 334819 string characters out of 6129076
- 742085 words of memory out of 5000000
- 23377 multiletter control sequences out of 15000+600000
+ 19293 strings out of 492163
+ 334332 string characters out of 6129076
+ 741944 words of memory out of 5000000
+ 23362 multiletter control sequences out of 15000+600000
  588072 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,16n,125p,1431b,1874s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1283,10 +1273,10 @@ exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/ut
 mbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texl
 ive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on skripsi.pdf (70 pages, 998706 bytes).
+Output written on skripsi.pdf (74 pages, 946813 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 206 compressed objects within 3 object streams
+ 336 PDF objects out of 1000 (max. 8388607)
+ 216 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

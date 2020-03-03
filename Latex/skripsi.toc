@@ -34,29 +34,31 @@
 \contentsline {chapter}{\numberline {IV}PELAKSANAAN PENELITIAN}{36}%
 \contentsline {section}{\numberline {IV.1.}Alat dan Bahan Penelitian}{36}%
 \contentsline {section}{\numberline {IV.2.}Tata Laksana Penelitian}{37}%
-\contentsline {subsection}{\numberline {IV.2.1.}Studi Literatur}{39}%
-\contentsline {subsection}{\numberline {IV.2.2.}Pengambilan Data}{39}%
-\contentsline {subsection}{\numberline {IV.2.3.}Tuntutan Rancangan}{40}%
-\contentsline {subsection}{\numberline {IV.2.4.}Pemodelan Sistem Kendali}{40}%
-\contentsline {section}{\numberline {IV.3.}Rencana Analisis Hasil Penelitian}{40}%
-\contentsline {chapter}{\numberline {V}HASIL DAN PEMBAHASAN}{41}%
-\contentsline {section}{\numberline {V.1.}Hasil Pengambilan Data}{41}%
-\contentsline {subsection}{\numberline {V.1.1.}Kondisi \textit {Climate Chamber}}{41}%
-\contentsline {subsection}{\numberline {V.1.2.}Hasil Rancangan Skenario}{41}%
-\contentsline {subsection}{\numberline {V.1.3.}Hasil Simulasi IES-VE}{41}%
-\contentsline {section}{\numberline {V.2.}Pembangunan Arsitektur JST}{41}%
-\contentsline {section}{\numberline {V.3.}Analisis Kinerja Arsitektur JST yang terpilih}{41}%
-\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{42}%
-\contentsline {section}{\numberline {VI.1.}Kesimpulan}{42}%
-\contentsline {section}{\numberline {VI.2.}Saran}{42}%
+\contentsline {subsection}{\numberline {IV.2.1.}Studi Literatur}{38}%
+\contentsline {subsection}{\numberline {IV.2.2.}Penentuan Tuntutan Rancangan}{38}%
+\contentsline {subsection}{\numberline {IV.2.3.}Pengambilan Data Simulasi IES-VE}{38}%
+\contentsline {subsection}{\numberline {IV.2.4.}Pemodelan \textit {Plant}}{39}%
+\contentsline {subsection}{\numberline {IV.2.5.}Perancangan Kendali Berbasis JST}{39}%
+\contentsline {subsection}{\numberline {IV.2.6.}{Penarikan Kesimpulan}}{41}%
+\contentsline {section}{\numberline {IV.3.}Rencana Analisis Hasil Penelitian}{41}%
+\contentsline {chapter}{\numberline {V}HASIL DAN PEMBAHASAN}{43}%
+\contentsline {section}{\numberline {V.1.}Hasil Pengambilan Data Simulasi IES-VE}{43}%
+\contentsline {subsection}{\numberline {V.1.1.}Kondisi \textit {Climate Chamber}}{43}%
+\contentsline {subsection}{\numberline {V.1.2.}Hasil Rancangan Skenario}{43}%
+\contentsline {subsection}{\numberline {V.1.3.}Hasil Simulasi IES-VE}{43}%
+\contentsline {section}{\numberline {V.2.}Pembangunan Arsitektur JST}{43}%
+\contentsline {section}{\numberline {V.3.}Analisis Kinerja Arsitektur JST yang terpilih}{44}%
+\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{45}%
+\contentsline {section}{\numberline {VI.1.}Kesimpulan}{45}%
+\contentsline {section}{\numberline {VI.2.}Saran}{45}%
 \contentsline {chapter}{LAMPIRAN}{}
-\contentsline {chapter}{\numberline {A}Data Penelitian}{46}%
-\contentsline {section}{\numberline {A.1.}Data \textit {Climate Chamber}}{46}%
-\contentsline {section}{\numberline {A.2.}Contoh Gambar pada Lampiran}{46}%
-\contentsline {section}{\numberline {A.3.}Contoh Penulisan Tabel pada Lampiran}{46}%
-\contentsline {section}{\numberline {A.4.}Contoh Penulisan Persamaan pada Lampiran}{47}%
-\contentsline {chapter}{\numberline {B}Listing Program}{49}%
-\contentsline {chapter}{\numberline {C}About \LaTeX }{51}%
-\contentsline {section}{\numberline {C.1.}Package yang Diperlukan}{51}%
-\contentsline {section}{\numberline {C.2.}File yang diubah isinya oleh penulis}{52}%
-\contentsline {section}{\numberline {C.3.}Menghasilkan file PDF}{52}%
+\contentsline {chapter}{\numberline {A}Data Penelitian}{50}%
+\contentsline {section}{\numberline {A.1.}Data \textit {Climate Chamber}}{50}%
+\contentsline {section}{\numberline {A.2.}Contoh Gambar pada Lampiran}{50}%
+\contentsline {section}{\numberline {A.3.}Contoh Penulisan Tabel pada Lampiran}{50}%
+\contentsline {section}{\numberline {A.4.}Contoh Penulisan Persamaan pada Lampiran}{51}%
+\contentsline {chapter}{\numberline {B}Listing Program}{53}%
+\contentsline {chapter}{\numberline {C}About \LaTeX }{55}%
+\contentsline {section}{\numberline {C.1.}Package yang Diperlukan}{55}%
+\contentsline {section}{\numberline {C.2.}File yang diubah isinya oleh penulis}{56}%
+\contentsline {section}{\numberline {C.3.}Menghasilkan file PDF}{56}%
