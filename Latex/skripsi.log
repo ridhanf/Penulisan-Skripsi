@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  2 MAR 2020 15:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  4 MAR 2020 08:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1189,18 +1189,47 @@ Package pdftex.def Info: figures/TataLaksanaPenelitian.png  used on input line
 ] [37 <./figures/TataLaksanaPenelitian.png>] [38] [39] [40]) (./Bab5.tex
 [41] [42]
 BAB V.
+<figures/KondisiChamber.png, id=230, 484.81125pt x 282.45525pt>
+File: figures/KondisiChamber.png Graphic file (type png)
+<use figures/KondisiChamber.png>
+Package pdftex.def Info: figures/KondisiChamber.png  used on input line 10.
+(pdftex.def)             Requested size: 406.87448pt x 237.06252pt.
 [43
 
-]) (./Bab6.tex [44]
+ <./figures/KondisiChamber.PNG>]
+<figures/AC.jpg, id=235, 834.11626pt x 1111.90407pt>
+File: figures/AC.jpg Graphic file (type jpg)
+<use figures/AC.jpg>
+Package pdftex.def Info: figures/AC.jpg  used on input line 19.
+(pdftex.def)             Requested size: 203.43724pt x 271.18883pt.
+<figures/Heater.jpg, id=236, 152.0955pt x 202.6845pt>
+File: figures/Heater.jpg Graphic file (type jpg)
+<use figures/Heater.jpg>
+Package pdftex.def Info: figures/Heater.jpg  used on input line 28.
+(pdftex.def)             Requested size: 203.43724pt x 271.10405pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/HeaterAC.png, id=237, 425.1885pt x 296.90926pt>
+File: figures/HeaterAC.png Graphic file (type png)
+<use figures/HeaterAC.png>
+Package pdftex.def Info: figures/HeaterAC.png  used on input line 52.
+(pdftex.def)             Requested size: 325.50082pt x 227.31152pt.
+[44 <./figures/AC.jpg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[45 <./figures/Heater.jpg>]) (./Bab6.tex [46 <./figures/HeaterAC.PNG>]
 BAB VI.
-) (./skripsi.bbl [45
+) (./skripsi.bbl [47
 
-] [46
+] [48
 
-] [47]) [48]
+] [49]) [50]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 26.
- [49
+ [51
 
 ] (./app1.tex
 LAMPIRAN A.
@@ -1208,9 +1237,9 @@ File: logoUGM.jpg Graphic file (type jpg)
 <use logoUGM.jpg>
 Package pdftex.def Info: logoUGM.jpg  used on input line 12.
 (pdftex.def)             Requested size: 142.26378pt x 144.33249pt.
-[50
+[52
 
-]) (./app2.tex [51] [52]
+]) (./app2.tex [53] [54]
 LAMPIRAN B.
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -1223,7 +1252,7 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
- [53
+ [55
 
 ]
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 8
@@ -1234,9 +1263,9 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
-) (./app3.tex [54]
+) (./app3.tex [56]
 LAMPIRAN C.
-[55
+[57
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 35
@@ -1249,12 +1278,12 @@ Overfull \hbox (32.12271pt too wide) in paragraph at lines 36--37
 a fi-le \T1/pcr/m/n/12 muka_skripsi.tex\T1/ptm/m/n/12 . 
  []
 
-[56]) [57] (./skripsi.aux) ) 
+[58]) [59] (./skripsi.aux) ) 
 Here is how much of TeX's memory you used:
- 19293 strings out of 492163
- 334332 string characters out of 6129076
- 741944 words of memory out of 5000000
- 23362 multiletter control sequences out of 15000+600000
+ 19332 strings out of 492163
+ 335092 string characters out of 6129076
+ 742225 words of memory out of 5000000
+ 23397 multiletter control sequences out of 15000+600000
  588072 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,16n,125p,1431b,1874s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1273,10 +1302,10 @@ exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/ut
 mbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texl
 ive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on skripsi.pdf (74 pages, 946813 bytes).
+Output written on skripsi.pdf (76 pages, 1196064 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 216 compressed objects within 3 object streams
+ 348 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
