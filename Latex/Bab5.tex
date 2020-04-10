@@ -59,17 +59,128 @@ Rancangan skenario pada \textit{climate chamber} menghasilkan kombinasi antara s
 
 
 \subsection{Hasil Simulasi IES-VE}
+Pada Gambar \ref{fig:5:HasilIESVE} penulis menunjukan salah satu hasi simulasi untuk skenario SET AC 26$^{\circ}$C dan SET Heater ON 2 buah. Grafik yang ditampilkan terdiri dari 4 parameter yaitu suhu luar (To), intensitas radiasi matahari (Rad), suhu udara ruang (Td), dan kelembapan relatif (RH). 
 
-\section{Pembangunan Arsitektur JST}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/HasilSimulasiIESVE}
+	\caption{Hasil Simulasi IES-VE 23 September, AC 26, Heater ON 2}
+	\label{fig:5:HasilIESVE}
+\end{figure}
+
+Skenario diatas dilakukan selama 24 jam dengan selang waktu pengambilan data selama 6 menit dimulai dari pukul 00:03 hingga 23:57. Selang waktu tersebut adalah waktu tersingkat yang dapat dilakukan pada \textit{software} IES-VE 2019.
+
+Respon waktu suhu udara terhadap aktivasi AC tidak penulis perhitungkan dikarenakan secara fisis, respons transien termal pada bangunan cukup lama, sehingga para peneliti umumnya hanya fokus untuk meninjau nilai kesalahan keadaan tunak (\textit{steady state error}).
+
+\section{Pembangunan Model JST}
+
+\subsection{Pembangunan Model JST Plant}
+
+\noindent \textbf{Penentuan Pembagian Data} 
+
+Dalam menentukan pembagiaan data, penulis melakukan perbandingan dengan beberapa variasi pembagiaan data ke dalam 6 variasi. Kemudian, penulis membandingkan kinerja dari setiap pembagian data dengan menggunakan model JST dengan konfigurasi \textit{hyperparameter} standar dari pustaka \textit{Scikit-Learn}. Pada tabel yang akan penulis sajikan, penulis menulis pembagian data dengan format 'Data Splitting n (x\% y\% z\%)' dimana n = nomor variasi, x = pembagian data pelatihan, y = pembagian data validasi, dan z = pembagian data pengujian. Hasil perbandingan pembagian data dapat dilihat pada Tabel \ref{tbl:5:DataSplitting}
+\begin{table}[!h]
+	\caption{Daftar variasi pembagian data}
+	\label{tbl:5:DataSplitting}
+	\centering
+	% use packages: array
+	\begin{tabular}{|p{6cm}|p{1.5cm}|p{1cm}|p{1.5cm}|p{1cm}|}
+		\hline
+		\multirow{2}{*}{Pembagian Data } & \multicolumn{2}{|c|}{Training} & \multicolumn{2}{|c|}{Validation} \\
+		\cline{2-5}	
+		         & EVScore & RMSE & EVScore & RMSE \\
+		\hline
+		Data Splitting 1 (50\% 25\% 25\%) & 45.58\% & 7.24 & 46.85\% & 7.25 \\
+		\hline
+		Data Splitting 2 (50\% 30\% 22\%) & 43.56\% & 7.26 & 43.79\% & 7.29 \\
+		\hline
+		Data Splitting 3 (70\% 15\% 15\%) & 49.21\% & 6.86 & 48.91\% & 6.85 \\
+		\hline
+		Data Splitting 4 (70\% 20\% 10\%) & 49.29\% & 6.91 & 49.62\% & 6.85 \\
+		\hline
+		Data Splitting 5 (80\% 10\% 10\%) & 48.69\% & 6.77 & 48.99\% & 6.65 \\
+		\hline
+		Data Splitting 6 (80\% 15\% 05\%) & 52.09\% & 6.67 & 52.50\% & 6.69 \\
+		\hline
+	\end{tabular}
+\end{table}
+
+Pembagian data terbaik yang penulis gunakan yaitu pembagian data bernama \textit{Data Splitting 6}. Data dibagi menjadi 3 bagian, yakni 80\% data pelatihan, 15\% data validasi, dan 5\% data pengujian. Model JST menggunakan arsitektur \textit{multilayer perceptron} dengan jumlah neuron sebanyak 100 neuron di lapisan tersembunyi 1. \\
+
+\noindent \textbf{Penentuan Nilai Maksimal Iterasi}
+
+Pada \textit{hyperparameter} ini penulis membandingkan dua nilai $max\_iter$, yaitu $max\_iter = 200$ (\textit{default}) dan $max\_iter = 5000$. Perbandingan tersebut disajikan dalam bentuk grafik yang dapat dilihat pada Gambar \ref{fig:5:MaxIter200} dan Gambar \ref{fig:5:MaxIter5000}. \\
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/maxiter200}
+	\caption{Grafik kinerja model JST \textit{plant} dengan $max\_iter = 200$}
+	\label{fig:5:MaxIter200}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/maxiter5000}
+	\caption{Grafik kinerja model JST \textit{plant} dengan $max\_iter = 5000$}
+	\label{fig:5:MaxIter5000}
+\end{figure}
+
+Berdasarkan kedua grafik tersebut didapatkan hasil bahwa $max\_iter = 5000$ memiliki kinerja lebih baik dibandingkan $max\_iter = 200$ dikarenakan pada $max\_iter = 5000$ model dapat lebih cepat mencapai nilai RMSE yang jauh lebih rendah. \\
+
+\noindent \textbf{Penentuan Jumlah Neuron dan \textit{Hidden Layer}}
+
+Dalam menentukan jumlah neuron dan \textit{hidden layer} yang optimal, penulis melakukan perbandingan \textit{trial and error} pada setiap jumlah neuron. Hasil perbandingan tersebut akan penulis sajikan dalam bentuk grafik-grafik perbandingan. Pertama-tama, penulis mencoba meniliki kinerja model jst dengan jumlah neuron kelipatan 5 dari jumlah neuron bernilai 5 hingga bernilai 100. Kinerja model jst tersebut dapat dilihat pada Gambar \ref{fig:5:Neuron5-100}.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{figures/Neuron5-100}
+	\caption{Grafik kinerja model JST \textit{plant} dengan jumlah neuron 5-100}
+	\label{fig:5:Neuron5-100}
+\end{figure}
+
+Berdasarkan grafik pada Gambar \ref{fig:5:Neuron5-100} didapatkan bahwa nilai RMSE terendah terdapat pada rentang nilai jumah neuron 85-95. Kemudian penulis mencoba membandingan jumlah neuron bernilai 85 hingga 95 dengan rentang perubahan sebesar 1 neuron. Perbandingan tersebut dapat dilihat pada Gambar \ref{fig:5:Neuron85-95}.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{figures/Neuron85-95}
+	\caption{Grafik kinerja model JST \textit{plant} dengan jumlah neuron 85-95}
+	\label{fig:5:Neuron85-95}
+\end{figure}
+
+Dari grafik pada Gamber \ref{fig:5:Neuron85-95} dapat disimpulkan bahwa jumlah neuron optimal terletak pada nilai 91 neuron, yaitu dengan nilai RMSE = 6,14 pada proses validasi. Nilai ini berlaku untuk model JST dengan arsitektur MLP (\textit{multi-layer perceptron}) dengan \textit{hidden layer} berjumlah 1.
+
+Setelah itu penulis mencoba untuk menilik kinerja model terhadap masing-masing variabel, yaitu terhadap suhu udara (Td) dan kelembapan relatif (RH).
+\begin{table}[!h]
+	\caption{Tabel Kinerja Model JST Plant 91 Neuron}
+	\label{tbl:5:Performance}
+	\centering
+	% use packages: array
+	\begin{tabular}{|p{1.3cm}|p{1.4cm}|p{1cm}|p{0.8cm}|p{0.9cm}|p{0.5cm}|p{1.4cm}|p{1cm}|p{0.8cm}|p{0.9cm}|p{0.5cm}|}
+		\hline
+		\multirow{2}{*}{Variabel} & \multicolumn{5}{|c|}{Training} & \multicolumn{5}{|c|}{Validation} \\
+		\cline{2-11}	
+		& EVScore & RMSE & MAE & Mean & Std & EVScore & RMSE & MAE & Mean & Std \\
+		\hline
+		Td & 82.34\% & 1.05 & 0.74 & -0.13 & 1 & 83.00\% & 1.07 &  0.75 & -0.19 & 1.1 \\
+		\hline
+		RH & 32.15\% & 8.68 & 7.18 & 0.31 & 8.7 & 34.00\% & 8.62 & 7.20 & 0.19 & 8.6 \\
+		\hline
+	\end{tabular}
+\end{table}
+
+Berdasarkan data pada Tabel \ref{tbl:5:Performance}, dapat dilihat bahwa pada proses validasi (\textit{validation}) masing-masing suhu udara (Td) dan kelembapan relatif (RH) memiliki nilai MAE = 0.75 dan MAE = 7.20. Nilai tersebut merupakan nilai yang dapat diterima oleh tuntutan rancangan pada penelitian ini. Sehingga, model JST ini dapat digunakan sebagai model \textit{plant}. \\
+
+\noindent \textbf{Penentuan Algoritma Pembelajaran (\textit{Solver/Optimizer})} \\
+
+\noindent \textbf{Penentuan \textit{Epoch, Alpha, dan Learning Rate}} \\
+
+\subsection{Pembangunan Model JST Kontroler}
 Data dibagi menjadi 3 bagian, yakni 70\% data pelatihan, 15\% data validasi, dan 15\% data pengujian. Model JST menggunakan arsitektur \textit{multilayer perceptron} dengan jumlah neuron sebanyak $x_1$ di lapisan tersembunyi 1, $x_2$ di lapisan tersembunyi 2, dan $x_3$ di lapisan tersembunyi 3.
 
-\section{Analisis Kinerja Arsitektur JST yang terpilih}
+\section{Analisis Kinerja Model JST yang terpilih}
 
+\subsection{Analisis Kinerja Model JST Plant}
 Persamaan ditulis rata tengah dan nomor persamaan ditulis rata kanan. Nomor persamaan
-diurutkan dengan format (nomor\_bab.nomor\_persamaan). Contoh dapat dilihat pada Persamaan \eqref{eq:1}.
+diurutkan dengan format (nomor\_bab.nomor\_persamaan). Contoh dapat dilihat pada
 
-\begin{equation}
-    \dfrac{Dv}{Dt} = \dfrac{\partial v}{\partial t} + \nabla \cdot \mathbf{uu}
-\label{eq:1}
-\end{equation}
-
+\subsection{Analisis Kinerja Model JST Kontroler}
+Persamaan ditulis rata tengah dan nomor persamaan ditulis rata kanan. Nomor persamaan
+diurutkan dengan format (nomor\_bab.nomor\_persamaan). Contoh dapat dilihat pada Persamaan

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  9 MAR 2020 10:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  15 MAR 2020 19:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -684,7 +684,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
 ] [10]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 65.
 )
 \tf@toc=\write4
 \openout4 = `skripsi.toc'.
@@ -695,24 +695,24 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 
  [12
 
-] (./skripsi.lof)
+] (./skripsi.lof
+[13
+
+])
 \tf@lof=\write6
 \openout6 = `skripsi.lof'.
 
-
-[13
-
-] (./skripsi.nls [14
+ [14] (./skripsi.nls [15
 
 
-]) (./lambang.tex) [15] (./abstrakind.tex) [16
+]) (./lambang.tex) [16] (./abstrakind.tex)
+[17
 
-]
-(./abstrakeng.tex) [17
+] (./abstrakeng.tex) [18
 
 ]) (./Bab1.tex
 BAB I.
-<figures/EnergyUsage.png, id=65, 601.24625pt x 255.95625pt>
+<figures/EnergyUsage.png, id=68, 601.24625pt x 255.95625pt>
 File: figures/EnergyUsage.png Graphic file (type png)
 <use figures/EnergyUsage.png>
 Package pdftex.def Info: figures/EnergyUsage.png  used on input line 8.
@@ -1031,20 +1031,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []
 
 [18] [19]
-<figures/SSEExample.png, id=130, 490.83376pt x 105.39375pt>
+<figures/SSEExample.png, id=134, 490.83376pt x 105.39375pt>
 File: figures/SSEExample.png Graphic file (type png)
 <use figures/SSEExample.png>
 Package pdftex.def Info: figures/SSEExample.png  used on input line 98.
 (pdftex.def)             Requested size: 305.15585pt x 65.52676pt.
  [20 <./figures/SSEExample.PNG>]
-<figures/SSEExample2.png, id=136, 801.99625pt x 209.78375pt>
+<figures/SSEExample2.png, id=139, 801.99625pt x 209.78375pt>
 File: figures/SSEExample2.png Graphic file (type png)
 <use figures/SSEExample2.png>
 Package pdftex.def Info: figures/SSEExample2.png  used on input line 115.
 (pdftex.def)             Requested size: 305.15585pt x 79.82108pt.
  [21 <./figures/SSEExample2.png>]
 [22]
-<figures/neuron.png, id=144, 237.2865pt x 189.70876pt>
+<figures/neuron.png, id=147, 237.2865pt x 189.70876pt>
 File: figures/neuron.png Graphic file (type png)
 <use figures/neuron.png>
 Package pdftex.def Info: figures/neuron.png  used on input line 166.
@@ -1054,7 +1054,7 @@ Package pdftex.def Info: figures/neuron.png  used on input line 166.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [23]
-<figures/neuronmath.png, id=148, 443.40656pt x 297.36093pt>
+<figures/neuronmath.png, id=151, 443.40656pt x 297.36093pt>
 File: figures/neuronmath.png Graphic file (type png)
 <use figures/neuronmath.png>
 Package pdftex.def Info: figures/neuronmath.png  used on input line 175.
@@ -1081,7 +1081,7 @@ r-hu-bung-an de-ngan si-na-psis \T1/ptm/m/it/12 exi-ta-tory \T1/ptm/m/n/12 dan
 bobot-bobot
  []
 
-<figures/activationFunction.png, id=153, 716.6775pt x 624.08156pt>
+<figures/activationFunction.png, id=156, 716.6775pt x 624.08156pt>
 File: figures/activationFunction.png Graphic file (type png)
 <use figures/activationFunction.png>
 Package pdftex.def Info: figures/activationFunction.png  used on input line 193
@@ -1091,7 +1091,7 @@ Package pdftex.def Info: figures/activationFunction.png  used on input line 193
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [25 <./figures/neuronmath.PNG>] [26 <./figures/activationFunction.PNG>]
-<figures/jstTunggal.png, id=165, 329.73187pt x 364.36125pt>
+<figures/jstTunggal.png, id=168, 329.73187pt x 364.36125pt>
 File: figures/jstTunggal.png Graphic file (type png)
 <use figures/jstTunggal.png>
 Package pdftex.def Info: figures/jstTunggal.png  used on input line 230.
@@ -1102,7 +1102,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--235
  []
 
 [27 <./figures/jstTunggal.PNG>] [28]
-<figures/mlp.png, id=173, 718.685pt x 642.4pt>
+<figures/mlp.png, id=176, 718.685pt x 642.4pt>
 File: figures/mlp.png Graphic file (type png)
 <use figures/mlp.png>
 Package pdftex.def Info: figures/mlp.png  used on input line 302.
@@ -1122,7 +1122,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 427--428
  []
 
 [32]
-<figures/PlantIdentification.png, id=188, 827.09pt x 476.78125pt>
+<figures/PlantIdentification.png, id=192, 827.09pt x 476.78125pt>
 File: figures/PlantIdentification.png Graphic file (type png)
 <use figures/PlantIdentification.png>
 Package pdftex.def Info: figures/PlantIdentification.png  used on input line 43
@@ -1138,13 +1138,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 446--448
 
  []
 
-<figures/modelJSTPlant.png, id=194, 938.50626pt x 346.29375pt>
+<figures/modelJSTPlant.png, id=197, 938.50626pt x 346.29375pt>
 File: figures/modelJSTPlant.png Graphic file (type png)
 <use figures/modelJSTPlant.png>
 Package pdftex.def Info: figures/modelJSTPlant.png  used on input line 451.
 (pdftex.def)             Requested size: 406.87448pt x 150.12929pt.
 [34 <./figures/modelJSTPlant.png>]
-<figures/NNPredictiveControl.png, id=199, 837.1275pt x 457.71pt>
+<figures/NNPredictiveControl.png, id=202, 837.1275pt x 457.71pt>
 File: figures/NNPredictiveControl.png Graphic file (type png)
 <use figures/NNPredictiveControl.png>
 Package pdftex.def Info: figures/NNPredictiveControl.png  used on input line 46
@@ -1178,7 +1178,7 @@ Overfull \hbox (16.67531pt too wide) in paragraph at lines 44--59
  [][] 
  []
 
-<figures/TataLaksanaPenelitian.png, id=206, 217.81375pt x 866.23625pt>
+<figures/TataLaksanaPenelitian.png, id=209, 217.81375pt x 866.23625pt>
 File: figures/TataLaksanaPenelitian.png Graphic file (type png)
 <use figures/TataLaksanaPenelitian.png>
 Package pdftex.def Info: figures/TataLaksanaPenelitian.png  used on input line 
@@ -1189,7 +1189,7 @@ Package pdftex.def Info: figures/TataLaksanaPenelitian.png  used on input line
 ] [37 <./figures/TataLaksanaPenelitian.png>] [38] [39] [40]) (./Bab5.tex
 [41] [42]
 BAB V.
-<figures/KondisiChamber.png, id=230, 484.81125pt x 282.45525pt>
+<figures/KondisiChamber.png, id=233, 484.81125pt x 282.45525pt>
 File: figures/KondisiChamber.png Graphic file (type png)
 <use figures/KondisiChamber.png>
 Package pdftex.def Info: figures/KondisiChamber.png  used on input line 10.
@@ -1197,32 +1197,197 @@ Package pdftex.def Info: figures/KondisiChamber.png  used on input line 10.
 [43
 
  <./figures/KondisiChamber.PNG>]
-<figures/AC.jpg, id=235, 834.11626pt x 484.81125pt>
+<figures/AC.jpg, id=239, 834.11626pt x 484.81125pt>
 File: figures/AC.jpg Graphic file (type jpg)
 <use figures/AC.jpg>
 Package pdftex.def Info: figures/AC.jpg  used on input line 19.
 (pdftex.def)             Requested size: 325.50082pt x 189.19398pt.
-<figures/Heater.jpg, id=236, 152.0955pt x 202.6845pt>
+<figures/Heater.jpg, id=240, 152.0955pt x 202.6845pt>
 File: figures/Heater.jpg Graphic file (type jpg)
 <use figures/Heater.jpg>
 Package pdftex.def Info: figures/Heater.jpg  used on input line 26.
 (pdftex.def)             Requested size: 203.43724pt x 271.10405pt.
  [44 <./figures/AC.jpg> <./figures/Heater.jpg>]
-<figures/HeaterAC.png, id=241, 425.1885pt x 296.90926pt>
+<figures/HeaterAC.png, id=244, 425.1885pt x 296.90926pt>
 File: figures/HeaterAC.png Graphic file (type png)
 <use figures/HeaterAC.png>
 Package pdftex.def Info: figures/HeaterAC.png  used on input line 55.
 (pdftex.def)             Requested size: 325.50082pt x 227.31152pt.
- [45] [46 <./figures/HeaterAC.PNG>]) (./Bab6.tex [47]
+ [45] [46 <./figures/HeaterAC.PNG>]
+<figures/HasilSimulasiIESVE.png, id=252, 437.83575pt x 294.50024pt>
+File: figures/HasilSimulasiIESVE.png Graphic file (type png)
+<use figures/HasilSimulasiIESVE.png>
+Package pdftex.def Info: figures/HasilSimulasiIESVE.png  used on input line 66.
+
+(pdftex.def)             Requested size: 325.50082pt x 218.95132pt.
+ [47 <./figures/HasilSimulasiIESVE.png>]
+Overfull \hbox (0.64055pt too wide) in paragraph at lines 91--91
+[]\T1/ptm/m/n/12 EVScore| 
+ []
+
+
+Overfull \hbox (4.22295pt too wide) in paragraph at lines 91--91
+[]\T1/ptm/m/n/12 RMSE| 
+ []
+
+
+Overfull \hbox (0.64055pt too wide) in paragraph at lines 91--91
+[]\T1/ptm/m/n/12 EVScore| 
+ []
+
+
+Overfull \hbox (4.22295pt too wide) in paragraph at lines 91--92
+[]\T1/ptm/m/n/12 RMSE| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+[48]
+<figures/maxiter200.png, id=259, 289.68225pt x 202.95825pt>
+File: figures/maxiter200.png Graphic file (type png)
+<use figures/maxiter200.png>
+Package pdftex.def Info: figures/maxiter200.png  used on input line 116.
+(pdftex.def)             Requested size: 325.50082pt x 228.07042pt.
+<figures/maxiter5000.png, id=260, 289.68225pt x 202.95825pt>
+File: figures/maxiter5000.png Graphic file (type png)
+<use figures/maxiter5000.png>
+Package pdftex.def Info: figures/maxiter5000.png  used on input line 123.
+(pdftex.def)             Requested size: 325.50082pt x 228.07042pt.
+
+Overfull \hbox (22.10796pt too wide) in paragraph at lines 128--129
+\T1/ptm/m/n/12 me-mi-li-ki ki-ner-ja le-bih ba-ik di-ban-dingk-an $\OML/cmm/m/i
+t/12 max[]iter \OT1/cmr/m/n/12 = 200$ \T1/ptm/m/n/12 di-ka-re-nak-an pa-da $\OM
+L/cmm/m/it/12 max[]iter \OT1/cmr/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+[49 <./figures/maxiter200.png> <./figures/maxiter5000.png>]
+<figures/Neuron5-100.png, id=265, 289.68225pt x 202.95825pt>
+File: figures/Neuron5-100.png Graphic file (type png)
+<use figures/Neuron5-100.png>
+Package pdftex.def Info: figures/Neuron5-100.png  used on input line 135.
+(pdftex.def)             Requested size: 366.18454pt x 256.57729pt.
+<figures/Neuron85-95.png, id=266, 289.68225pt x 202.95825pt>
+File: figures/Neuron85-95.png Graphic file (type png)
+<use figures/Neuron85-95.png>
+Package pdftex.def Info: figures/Neuron85-95.png  used on input line 143.
+(pdftex.def)             Requested size: 366.18454pt x 256.57729pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[50 <./figures/Neuron5-100.png>]
+Overfull \hbox (2.99478pt too wide) in paragraph at lines 158--158
+[][]| 
+ []
+
+
+Overfull \hbox (3.486pt too wide) in paragraph at lines 160--160
+[]\T1/ptm/m/n/12 EVScore| 
+ []
+
+
+Overfull \hbox (4.22295pt too wide) in paragraph at lines 160--160
+[]\T1/ptm/m/n/12 RMSE| 
+ []
+
+
+Overfull \hbox (3.90154pt too wide) in paragraph at lines 160--160
+[]\T1/ptm/m/n/12 MAE| 
+ []
+
+
+Overfull \hbox (1.71643pt too wide) in paragraph at lines 160--160
+[]\T1/ptm/m/n/12 Mean| 
+ []
+
+
+Overfull \hbox (1.78143pt too wide) in paragraph at lines 160--160
+[]\T1/ptm/m/n/12 Std| 
+ []
+
+
+Overfull \hbox (3.486pt too wide) in paragraph at lines 160--160
+[]\T1/ptm/m/n/12 EVScore| 
+ []
+
+
+Overfull \hbox (4.22295pt too wide) in paragraph at lines 160--160
+[]\T1/ptm/m/n/12 RMSE| 
+ []
+
+
+Overfull \hbox (3.90154pt too wide) in paragraph at lines 160--160
+[]\T1/ptm/m/n/12 MAE| 
+ []
+
+
+Overfull \hbox (1.71643pt too wide) in paragraph at lines 160--160
+[]\T1/ptm/m/n/12 Mean| 
+ []
+
+
+Overfull \hbox (1.78143pt too wide) in paragraph at lines 160--161
+[]\T1/ptm/m/n/12 Std| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 162--163
+[]\T1/ptm/m/n/12 1.1| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 164--164
+[]\T1/ptm/m/n/12 8.7| 
+ []
+
+
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 164--165
+[]\T1/ptm/m/n/12 8.6| 
+ []
+
+
+Overfull \hbox (23.87892pt too wide) in paragraph at lines 156--167
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+[51 <./figures/Neuron85-95.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+) (./Bab6.tex [52]
 BAB VI.
-) (./skripsi.bbl [48
+) (./skripsi.bbl [53
 
-] [49
+] [54
 
-] [50]) [51]
+] [55]) [56]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 26.
- [52
+ [57
 
 ] (./app1.tex
 LAMPIRAN A.
@@ -1230,9 +1395,9 @@ File: logoUGM.jpg Graphic file (type jpg)
 <use logoUGM.jpg>
 Package pdftex.def Info: logoUGM.jpg  used on input line 12.
 (pdftex.def)             Requested size: 142.26378pt x 144.33249pt.
-[53
+[58
 
-]) (./app2.tex [54] [55]
+]) (./app2.tex [59] [60]
 LAMPIRAN B.
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -1245,7 +1410,7 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
- [56
+ [61
 
 ]
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 8
@@ -1256,9 +1421,9 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
-) (./app3.tex [57]
+) (./app3.tex [62]
 LAMPIRAN C.
-[58
+[63
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 35
@@ -1271,12 +1436,12 @@ Overfull \hbox (32.12271pt too wide) in paragraph at lines 36--37
 a fi-le \T1/pcr/m/n/12 muka_skripsi.tex\T1/ptm/m/n/12 . 
  []
 
-[59]) [60] (./skripsi.aux) ) 
+[64]) [65] (./skripsi.aux) ) 
 Here is how much of TeX's memory you used:
- 19332 strings out of 492163
- 335092 string characters out of 6129076
- 742224 words of memory out of 5000000
- 23397 multiletter control sequences out of 15000+600000
+ 19378 strings out of 492163
+ 336222 string characters out of 6129076
+ 742575 words of memory out of 5000000
+ 23438 multiletter control sequences out of 15000+600000
  588072 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,16n,125p,1431b,1874s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1295,10 +1460,10 @@ exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/ut
 mbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texl
 ive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on skripsi.pdf (77 pages, 1146183 bytes).
+Output written on skripsi.pdf (83 pages, 1225967 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
+ 375 PDF objects out of 1000 (max. 8388607)
+ 235 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
