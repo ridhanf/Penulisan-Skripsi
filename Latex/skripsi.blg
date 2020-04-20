@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: skripsi.aux
 The style file: skripsi.bst
 Database file #1: pustaka.bib
-You've used 25 entries,
+You've used 26 entries,
             2230 wiz_defined-function locations,
-            638 strings with 8366 characters,
-and the built_in function-call counts, 5530 in all, are:
-= -- 674
-> -- 215
-< -- 1
-+ -- 83
-- -- 58
-* -- 267
-:= -- 957
-add.period$ -- 75
-call.type$ -- 25
-change.case$ -- 15
+            643 strings with 8579 characters,
+and the built_in function-call counts, 6092 in all, are:
+= -- 747
+> -- 229
+< -- 2
++ -- 88
+- -- 62
+* -- 284
+:= -- 1016
+add.period$ -- 78
+call.type$ -- 26
+change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 228
-empty$ -- 470
-format.name$ -- 58
-if$ -- 1325
+cite$ -- 26
+duplicate$ -- 270
+empty$ -- 504
+format.name$ -- 62
+if$ -- 1478
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 29
-newline$ -- 128
-num.names$ -- 25
-pop$ -- 77
+int.to.str$ -- 26
+missing$ -- 30
+newline$ -- 133
+num.names$ -- 26
+pop$ -- 81
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 250
+skip$ -- 307
 stack$ -- 0
-substring$ -- 151
-swap$ -- 34
-text.length$ -- 1
+substring$ -- 183
+swap$ -- 68
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 34
-width$ -- 27
-write$ -- 272
+while$ -- 36
+width$ -- 28
+write$ -- 283

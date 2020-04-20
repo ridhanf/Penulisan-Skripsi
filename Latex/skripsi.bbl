@@ -156,4 +156,10 @@ Tri Hartanto.
 \newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
   Universitas Gadjah Mada, Yogyakarta, 2020.
 
+\bibitem{article26}
+Shumeet {Baluja}, David {Marwood}, Michele {Covell}  dan Nick {Johnston}.
+\newblock ``{No Multiplication? No Floating Point? No Problem! Training
+  Networks for Efficient Inference}''.
+\newblock {\em arXiv e-prints}, hal. arXiv:1809.09244, September 2018.
+
 \end{thebibliography}
