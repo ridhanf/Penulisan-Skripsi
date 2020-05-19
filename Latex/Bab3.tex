@@ -385,7 +385,7 @@ y = \sigma(W^Tz).
 \end{equation}
 \noindent dimana $z \equiv [1\quad \overline{z}^T]^T$
 
-\subsection{Kendali Jaringan Saraf Tiruan}
+\section{Kontrol berbasis Jaringan Saraf Tiruan}
 
 Untuk mengendalikan lingkungan termal, peneliti pada umumnya menggunakan sistem kendali modern (\textit{modern control system}). Hal ini didasarkan pada karakteristik lingkungan termal yang memiliki sifat MIMO (\textit{multiple input multiple output}). Sehingga, sistem kendali klasik tidak tepat digunakan untuk sistem ini.
 \begin{table}[!h]
@@ -422,11 +422,7 @@ Untuk mengendalikan lingkungan termal, peneliti pada umumnya menggunakan sistem 
 
 Kelemahan utama dari metode klasik adalah, bahwa mereka hanya dapat digunakan untuk mengendalikan sistem \textit{single-input single-output} (SISO), dengan persyaratan pada model sistem untuk menjadi \textit{linear time-invariant} (LTI). Metode klasik memberikan hasil yang memuaskan hanya dalam mengendalikan proses sederhana, tetapi hasil yang tidak memuaskan dalam kontrol sistem yang lebih kompleks \cite{MPCDissertation}. \\
 
-\noindent \textbf{Neural Network Predictive Control}
-
-\textit{Neural Network Predictive Control} menggunakan model JST (\textit{Neural Network}) dari sistem nonlinier \textit{plant} untuk memprediksi kinerja \textit{plant} di masa depan. Kontroler tersebut kemudian menghitung nilai input kendali yang akan mengoptimisasi kinerja \textit{plant} atas horison waktu yang ditentukan di masa depan. Langkah awal dalam \textit{model predictive control} adalah dengan menentukan model JST \textit{plant} (identifikasi sistem). Kemudian, model \textit{plant} digunakan oleh kontroler untuk mempredikasi kinerja di masa depan.\\
-
-\noindent \textbf{Identifikasi Sistem}
+\subsection{Identifikasi Sistem menggunakan NARX}
 
 Tahap awal dalam membangun \textit{model predictive control} adalah dengan melatih suatu JST yang merepresentasikan dinamika sistem dari suatu \textit{plant}. Nilai galat antara keluaran \textit{plant} dan keluaran JST akan digunakan sebagai sinyal pelatihan JST. Proses tersebut digambarkan pada Gambar \ref{fig:3:plantidentification}.
 \begin{figure}[!h]
@@ -453,7 +449,9 @@ dimana $\hat{h}[.,\textbf{x}]$ merupakan fungsi implementasi JST, dan $\textbf{x
 	\label{fig:3:NNPlantModel}
 \end{figure}
 
-\noindent \textbf{Desain \textit{Predictive Control} menggunakan Optimisasi}
+\subsection{Perancangan \textit{Neural Predictive Control}}
+
+\textit{Neural Predictive Control} menggunakan model JST (\textit{Neural Network}) dari sistem nonlinier \textit{plant} untuk memprediksi kinerja \textit{plant} di masa depan. Kontroler tersebut kemudian menghitung nilai input kendali yang akan mengoptimisasi kinerja \textit{plant} atas horison waktu yang ditentukan di masa depan. Langkah awal dalam \textit{model predictive control} adalah dengan menentukan model JST \textit{plant} (identifikasi sistem). Kemudian, model \textit{plant} digunakan oleh kontroler untuk mempredikasi kinerja di masa depan.\\
 
 Metode \textit{model predictive control} didasarkan pada teknik horison mundur \cite{article23}. Model JST memprediksi tanggapan \textit{plant} atas horison waktu yang ditentukan. Hasil prediksi digunakan oleh program optimisasi numerik untuk menentukan sinyal kendali dalam meminimalkan kriteria kinerja berikut atas horison yang ditentukan.
 \begin{equation} \label{eq:3:performance}

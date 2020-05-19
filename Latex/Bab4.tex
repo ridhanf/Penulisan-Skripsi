@@ -10,25 +10,31 @@ Penelitian ini tidak dapat dilakukan tanpa adanya alat dan bahan yang memudahkan
 	\label{tbl:4:alatbahan}
 	\centering
 	% use packages: array
-	\begin{tabular}{|c|p{5cm}|p{8cm}|}
+	\begin{tabular}{|c|p{4.5cm}|p{9.5cm}|}
 		\hline
 		No. & Nama alat/bahan & Fungsi \\
 		\hline
 		1 & Laptop ASUS N550JX & Perangkat komputer perancangan jaringan saraf tiruan. \\
 		\hline
-		2 & Python versi 3.7 & Bahasa pemrograman. \\
+		2 & IES-VE 2019 & Perangkat lunak untuk pengambilan data lingkungan termal \textit{climate chamber} dan variasi gangguan. \\
 		\hline
-		3 & Visual Studio Code versi 1.38 & Aplikasi penulisan dan penyuntingan kode sumber. \\
+		3 & MS Excel 365 & Perangkat lunak pengolahan data tabular. \\
 		\hline
-		4 & Jupyter Notebook 1.0 & Aplikasi web untuk menulis kode program, teks, persamaan, dan visualisasi. \\
+		4 & Visual Studio Code 1.38 & Aplikasi penulisan dan penyuntingan kode sumber. \\
 		\hline
-		5 & Scikit-Learn versi 0.21 & Pustaka pembangunan jaringan saraf tiruan. \\
+		5 & Python 3.7 & Bahasa pemrograman. \\
 		\hline
-		6 & IES-VE 2019 & Perangkat lunak untuk pengambilan data lingkungan termal \textit{climate chamber} dan variasi gangguan. \\
+		6 & Anaconda 3 & Distribusi pengelola lingkungan pengembangan dan manajemen paket untuk komputasi ilmiah. \\
 		\hline
-		7 & MS Excel 365 & Perangkat lunak pengolahan data tabular. \\
+		7 & Jupyter Notebook 1.0 & Aplikasi web untuk menulis kode program, teks, persamaan, dan visualisasi. \\
 		\hline
-		8 & MATLAB R2016a & Perangkat lunak untuk menjalankan simulasi sistem kontrol. \\
+		8 & Pandas 1.0.3 & Pustaka manupulasi dan analisis data. \\
+		\hline
+		8 & Scikit-Learn 0.21 & Pustaka pembangunan \textit{Machine Learning}. \\
+		\hline
+		9 & fireTS 0.0.7 & Pustaka prediksi deret waktu multivarian. \\
+		\hline
+		10 & MATLAB R2016a & Perangkat lunak untuk menjalankan simulasi sistem kontrol. \\
 		\hline
 		%6 & Raspberry Pi versi 3 B & Komputer mikro sebagai perangkat pengendali. \\
 		%\hline
@@ -53,7 +59,9 @@ Penelitian ini tidak dapat dilakukan tanpa adanya alat dan bahan yang memudahkan
 		\hline
 		4 & Tipe sistem operasi & 64-bit \\
 		\hline
-		5 & Sistem operasi & Manjaro Linux \\ 
+		5 & Sistem operasi I & Manjaro Linux \\ 
+		\hline
+		6 & Sistem operasi II & Windows 10 Home Single Language \\ 
 		\hline
 	\end{tabular}
 \end{table}
@@ -93,10 +101,10 @@ Tuntutan pada rancangan ini merujuk pada standar SNI dengan nilai standar suhu u
 \subsection{Pengambilan Data Simulasi IES-VE}
 Penelitian ini menggunakan data dari model yang telah dibuat di penelitian sebelumnya berjudul \textbf{Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan Metode Simulasi CFD dengan Perangkat Lunak IES-VE} yang diteliti oleh Ichfan Kurniawan \cite{skripsiIchfan}.  Data tersebut merupakan hasil simulasi pada \textit{software} IES-VE dengan menerapkan beberapa variasi kondisi lingkungan pada model \textit{climate chamber}. Variasi tersebut yaitu kondisi batas lingkungan (radiasi matahari dan suhu bola kering luar / \textit{drybulb temperature}), kondisi AC, dan kondisi \textit{heater}. Variasi kondisi batas lingkungan tersebut diwujudkan dalam pembagian 4 musim dalam 1 tahun, yakni bulan maret, juni, september dan desember. Keluaran dari model IES-VE berupa nilai suhu udara ruang (\textit{air temperature}) \textit{chamber} dan kelembapan relatif (RH) \textit{chamber}. Dari model tersebut didapatkan nilai MAE perhitungan selisih variabel lingkungan termal hasil simulasi dan pengukuran lapangan sebesar 0,8 $\pm$ 0,7$^{\circ}$C untuk suhu udara dan 2,5 $\pm$ 3,8\% untuk kelembaban relatif \cite{skripsiIchfan}. Data yang sudah terkumpul disajikan dalam bentuk tabular yang kemudian diolah dalam program komputer yang dibuat oleh penulis.
 
-\subsection{Pemodelan \textit{Plant}}
+\subsection{Identifikasi Sistem menggunakan NARX}
 Penelitian ini menggunakan model \textit{plant} yang telah dirancang dari penelitian sebelumnya berjudul \textbf{Pemodelan Lingkungan Termal Sistem \textit{Climate Chamber} dengan Metode Jaringan Saraf Tiruan} yang diteliti oleh Tri Hartanto \cite{skripsiTanto}. Model tersebut merupakan hasil perancangan pada piranti lunak MATLAB dengan menggunakan perangkat NNtools. Model \textit{plant} tersebut memiliki nilai MAE perhitungan antara target dan prediksi sebesar 0,59$^{\circ}$C untuk suhu udara dan 5,44\% untuk kelembapan relatif. Akurasi JST sebesar 96,23\% untuk suhu udara dan 68,90\% untuk kelembapan relatif \cite{skripsiTanto}. Model \textit{plant} tersebut akan diadaptasi oleh penulis dalam melakukan perancangan kendali berbasi jaringan saraf tiruan.
 
-\subsection{Perancangan Kendali Berbasis JST}
+\subsection{Perancangan \textit{Neural Predictive Control}}
 Langkah awal untuk melakukan pemodelan kendali yaitu mendefinisikan terlebih dahulu pasangan data input dan data output dari sistem kendali. Untuk mendefinisikan nya perlu menyesuaikan variabel gangguan yang diberikan terhadap sistem dengan variabel keluaran dari AC yang dimana nilai keluaran tersebut dianggap optimal untuk menyesuaikan nilainya terhadap \textit{setpoint}. Nilai output tersebut didapat dari hasil simulasi pada software IES-VE, yang kemudian akan menjadi data latih pada JST yang digunakan pada software MATLAB. Adapun pasangan data kendali dilampirkan pada \textcolor{red}{Lampiran B}.
 
 Pada langkah ini penulis menjabarkan variabel apa saja yang terlibat dalam \textit{plant} terkait sistem kendali yang akan dibuat. Dalam suatu sistem kendali perlu diketahui variabel apa saja yang termasuk dalam kategori \textit{controlled variables}, \textit{manipulated variables}, dan \textit{disturbance variables}. \textit{Controlled variables} adalah variabel akan dikendalikan dalam suatu sistem kendali. \textit{Manipulated variables} adalah variabel yang akan mempengaruhi nilai \textit{controlled variables} melalui \textit{manipulator}/\textit{actuator}. Sementara, \textit{disturbance variables} adalah variabel yang mempengaruhi sistem tetapi perancang tidak memiliki kuasa dalam mengatur nilainya. Hasil dari identifikasi sistem berbentuk diagram blok fungsional. \textit{Manipulated variables} yang akan dikendalikan, yaitu set AC dan set \textit{heater} berada dalam bentuk bilangan bulat. Penulis menggunakan metode yang dijelaskan oleh Shumeet Baluja dalam mengatasi permasalahan estimasi bilangan bulat (tanpa desimal) ini\cite{article26}.

@@ -30,15 +30,17 @@
 \contentsline {section}{\numberline {III.3.}Jaringan Saraf Tiruan}{23}%
 \contentsline {subsection}{\numberline {III.3.1.}Model Matematis Neuron}{24}%
 \contentsline {subsection}{\numberline {III.3.2.}Jaringan Layar Jamak (MLP)}{29}%
-\contentsline {subsection}{\numberline {III.3.3.}Kendali Jaringan Saraf Tiruan}{32}%
+\contentsline {section}{\numberline {III.4.}Kontrol berbasis Jaringan Saraf Tiruan}{32}%
+\contentsline {subsection}{\numberline {III.4.1.}Identifikasi Sistem menggunakan NARX}{33}%
+\contentsline {subsection}{\numberline {III.4.2.}Perancangan \textit {Neural Predictive Control}}{34}%
 \contentsline {chapter}{\numberline {IV}PELAKSANAAN PENELITIAN}{36}%
 \contentsline {section}{\numberline {IV.1.}Alat dan Bahan Penelitian}{36}%
 \contentsline {section}{\numberline {IV.2.}Tata Laksana Penelitian}{37}%
 \contentsline {subsection}{\numberline {IV.2.1.}Studi Literatur}{38}%
 \contentsline {subsection}{\numberline {IV.2.2.}Penentuan Tuntutan Rancangan}{38}%
 \contentsline {subsection}{\numberline {IV.2.3.}Pengambilan Data Simulasi IES-VE}{38}%
-\contentsline {subsection}{\numberline {IV.2.4.}Pemodelan \textit {Plant}}{39}%
-\contentsline {subsection}{\numberline {IV.2.5.}Perancangan Kendali Berbasis JST}{39}%
+\contentsline {subsection}{\numberline {IV.2.4.}Identifikasi Sistem menggunakan NARX}{39}%
+\contentsline {subsection}{\numberline {IV.2.5.}Perancangan \textit {Neural Predictive Control}}{39}%
 \contentsline {subsection}{\numberline {IV.2.6.}{Penarikan Kesimpulan}}{41}%
 \contentsline {section}{\numberline {IV.3.}Rencana Analisis Hasil Penelitian}{41}%
 \contentsline {chapter}{\numberline {V}HASIL DAN PEMBAHASAN}{43}%
@@ -46,23 +48,21 @@
 \contentsline {subsection}{\numberline {V.1.1.}Kondisi \textit {Climate Chamber}}{43}%
 \contentsline {subsection}{\numberline {V.1.2.}Hasil Rancangan Skenario}{46}%
 \contentsline {subsection}{\numberline {V.1.3.}Hasil Simulasi IES-VE}{47}%
-\contentsline {section}{\numberline {V.2.}Pembangunan Model JST}{48}%
-\contentsline {subsection}{\numberline {V.2.1.}Pembangunan Model JST Plant}{48}%
-\contentsline {subsection}{\numberline {V.2.2.}Pembangunan Model JST Kontroler}{52}%
-\contentsline {section}{\numberline {V.3.}Analisis Kinerja Model JST yang terpilih}{52}%
-\contentsline {subsection}{\numberline {V.3.1.}Analisis Kinerja Model JST Plant}{52}%
-\contentsline {subsection}{\numberline {V.3.2.}Analisis Kinerja Model JST Kontroler}{52}%
-\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{53}%
-\contentsline {section}{\numberline {VI.1.}Kesimpulan}{53}%
-\contentsline {section}{\numberline {VI.2.}Saran}{53}%
+\contentsline {section}{\numberline {V.2.}Pemodelan menggunakan NARX}{48}%
+\contentsline {subsection}{\numberline {V.2.1.}Analisis Kinerja Model}{52}%
+\contentsline {section}{\numberline {V.3.}Pembangunan \textit {Neural Predictive Control}}{53}%
+\contentsline {subsection}{\numberline {V.3.1.}Analisis Kinerja Kontroler}{53}%
+\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{54}%
+\contentsline {section}{\numberline {VI.1.}Kesimpulan}{54}%
+\contentsline {section}{\numberline {VI.2.}Saran}{54}%
 \contentsline {chapter}{LAMPIRAN}{}
-\contentsline {chapter}{\numberline {A}Data Penelitian}{58}%
-\contentsline {section}{\numberline {A.1.}Data \textit {Climate Chamber}}{58}%
-\contentsline {section}{\numberline {A.2.}Contoh Gambar pada Lampiran}{58}%
-\contentsline {section}{\numberline {A.3.}Contoh Penulisan Tabel pada Lampiran}{58}%
-\contentsline {section}{\numberline {A.4.}Contoh Penulisan Persamaan pada Lampiran}{59}%
-\contentsline {chapter}{\numberline {B}Listing Program}{61}%
-\contentsline {chapter}{\numberline {C}About \LaTeX }{63}%
-\contentsline {section}{\numberline {C.1.}Package yang Diperlukan}{63}%
-\contentsline {section}{\numberline {C.2.}File yang diubah isinya oleh penulis}{64}%
-\contentsline {section}{\numberline {C.3.}Menghasilkan file PDF}{64}%
+\contentsline {chapter}{\numberline {A}Data Penelitian}{59}%
+\contentsline {section}{\numberline {A.1.}Data \textit {Climate Chamber}}{59}%
+\contentsline {section}{\numberline {A.2.}Contoh Gambar pada Lampiran}{59}%
+\contentsline {section}{\numberline {A.3.}Contoh Penulisan Tabel pada Lampiran}{59}%
+\contentsline {section}{\numberline {A.4.}Contoh Penulisan Persamaan pada Lampiran}{60}%
+\contentsline {chapter}{\numberline {B}Listing Program}{62}%
+\contentsline {chapter}{\numberline {C}About \LaTeX }{64}%
+\contentsline {section}{\numberline {C.1.}Package yang Diperlukan}{64}%
+\contentsline {section}{\numberline {C.2.}File yang diubah isinya oleh penulis}{65}%
+\contentsline {section}{\numberline {C.3.}Menghasilkan file PDF}{65}%

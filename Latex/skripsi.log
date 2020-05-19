@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  11 APR 2020 05:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  8 MAY 2020 23:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1116,65 +1116,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 423--424
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 427--428
-
- []
-
-[32]
-<figures/PlantIdentification.png, id=192, 827.09pt x 476.78125pt>
+<figures/PlantIdentification.png, id=188, 827.09pt x 476.78125pt>
 File: figures/PlantIdentification.png Graphic file (type png)
 <use figures/PlantIdentification.png>
 Package pdftex.def Info: figures/PlantIdentification.png  used on input line 43
-4.
+0.
 (pdftex.def)             Requested size: 325.50082pt x 187.63902pt.
- [33 <./figures/PlantIdentification.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 446--448
+[32] [33 <./figures/PlantIdentification.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 442--444
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--448
+Underfull \hbox (badness 10000) in paragraph at lines 442--444
 
  []
 
 <figures/modelJSTPlant.png, id=197, 938.50626pt x 346.29375pt>
 File: figures/modelJSTPlant.png Graphic file (type png)
 <use figures/modelJSTPlant.png>
-Package pdftex.def Info: figures/modelJSTPlant.png  used on input line 451.
+Package pdftex.def Info: figures/modelJSTPlant.png  used on input line 447.
 (pdftex.def)             Requested size: 406.87448pt x 150.12929pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+
+ []
+
 [34 <./figures/modelJSTPlant.png>]
 <figures/NNPredictiveControl.png, id=202, 837.1275pt x 457.71pt>
 File: figures/NNPredictiveControl.png Graphic file (type png)
 <use figures/NNPredictiveControl.png>
 Package pdftex.def Info: figures/NNPredictiveControl.png  used on input line 46
-5.
+3.
 (pdftex.def)             Requested size: 345.84578pt x 189.09406pt.
 ) (./Bab4.tex [35 <./figures/NNPredictiveControl.PNG>]
 BAB IV.
 
-Underfull \hbox (badness 3396) in paragraph at lines 21--22
-[]\T1/ptm/m/n/12 Aplikasi pe-nu-lis-an dan pe-nyun-ting-an ko-de
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 23--24
-[]\T1/ptm/m/n/12 Aplikasi web un-tuk me-nu-lis ko-de pro-gram,
- []
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 27--28
-\T1/ptm/m/n/12 kung-an ter-mal \T1/ptm/m/it/12 cli-ma-te cham-ber \T1/ptm/m/n/1
-2 dan va-ri-a-si
- []
-
-
-Overfull \hbox (16.67531pt too wide) in paragraph at lines 13--36
+Overfull \hbox (45.12807pt too wide) in paragraph at lines 13--42
  [][] 
  []
 
 
-Overfull \hbox (16.67531pt too wide) in paragraph at lines 44--59
+Overfull \hbox (16.67531pt too wide) in paragraph at lines 50--67
  [][] 
  []
 
@@ -1182,7 +1165,7 @@ Overfull \hbox (16.67531pt too wide) in paragraph at lines 44--59
 File: figures/TataLaksanaPenelitian.png Graphic file (type png)
 <use figures/TataLaksanaPenelitian.png>
 Package pdftex.def Info: figures/TataLaksanaPenelitian.png  used on input line 
-65.
+73.
 (pdftex.def)             Requested size: 122.06358pt x 485.43266pt.
 [36
 
@@ -1221,55 +1204,55 @@ Package pdftex.def Info: figures/HasilSimulasiIESVE.png  used on input line 66.
 
 (pdftex.def)             Requested size: 325.50082pt x 218.95132pt.
  [47 <./figures/HasilSimulasiIESVE.png>]
-Overfull \hbox (0.64055pt too wide) in paragraph at lines 91--91
+Overfull \hbox (0.64055pt too wide) in paragraph at lines 89--89
 []\T1/ptm/m/n/12 EVScore| 
  []
 
 
-Overfull \hbox (4.22295pt too wide) in paragraph at lines 91--91
+Overfull \hbox (4.22295pt too wide) in paragraph at lines 89--89
 []\T1/ptm/m/n/12 RMSE| 
  []
 
 
-Overfull \hbox (0.64055pt too wide) in paragraph at lines 91--91
+Overfull \hbox (0.64055pt too wide) in paragraph at lines 89--89
 []\T1/ptm/m/n/12 EVScore| 
  []
 
 
-Overfull \hbox (4.22295pt too wide) in paragraph at lines 91--92
+Overfull \hbox (4.22295pt too wide) in paragraph at lines 89--90
 []\T1/ptm/m/n/12 RMSE| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
-[48]
-<figures/maxiter200.png, id=259, 289.68225pt x 202.95825pt>
+<figures/maxiter200.png, id=256, 289.68225pt x 202.95825pt>
 File: figures/maxiter200.png Graphic file (type png)
 <use figures/maxiter200.png>
-Package pdftex.def Info: figures/maxiter200.png  used on input line 116.
+Package pdftex.def Info: figures/maxiter200.png  used on input line 114.
 (pdftex.def)             Requested size: 325.50082pt x 228.07042pt.
+[48]
 <figures/maxiter5000.png, id=260, 289.68225pt x 202.95825pt>
 File: figures/maxiter5000.png Graphic file (type png)
 <use figures/maxiter5000.png>
-Package pdftex.def Info: figures/maxiter5000.png  used on input line 123.
+Package pdftex.def Info: figures/maxiter5000.png  used on input line 121.
 (pdftex.def)             Requested size: 325.50082pt x 228.07042pt.
 
-Overfull \hbox (22.10796pt too wide) in paragraph at lines 128--129
+Overfull \hbox (22.10796pt too wide) in paragraph at lines 126--127
 \T1/ptm/m/n/12 me-mi-li-ki ki-ner-ja le-bih ba-ik di-ban-dingk-an $\OML/cmm/m/i
 t/12 max[]iter \OT1/cmr/m/n/12 = 200$ \T1/ptm/m/n/12 di-ka-re-nak-an pa-da $\OM
 L/cmm/m/it/12 max[]iter \OT1/cmr/m/n/12 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
@@ -1277,117 +1260,112 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--129
 <figures/Neuron5-100.png, id=265, 289.68225pt x 202.95825pt>
 File: figures/Neuron5-100.png Graphic file (type png)
 <use figures/Neuron5-100.png>
-Package pdftex.def Info: figures/Neuron5-100.png  used on input line 135.
+Package pdftex.def Info: figures/Neuron5-100.png  used on input line 133.
 (pdftex.def)             Requested size: 366.18454pt x 256.57729pt.
 <figures/Neuron85-95.png, id=266, 289.68225pt x 202.95825pt>
 File: figures/Neuron85-95.png Graphic file (type png)
 <use figures/Neuron85-95.png>
-Package pdftex.def Info: figures/Neuron85-95.png  used on input line 143.
+Package pdftex.def Info: figures/Neuron85-95.png  used on input line 141.
 (pdftex.def)             Requested size: 366.18454pt x 256.57729pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [50 <./figures/Neuron5-100.png>]
-Overfull \hbox (2.99478pt too wide) in paragraph at lines 158--158
+Overfull \hbox (2.99478pt too wide) in paragraph at lines 156--156
 [][]| 
  []
 
 
-Overfull \hbox (3.486pt too wide) in paragraph at lines 160--160
+Overfull \hbox (3.486pt too wide) in paragraph at lines 158--158
 []\T1/ptm/m/n/12 EVScore| 
  []
 
 
-Overfull \hbox (4.22295pt too wide) in paragraph at lines 160--160
+Overfull \hbox (4.22295pt too wide) in paragraph at lines 158--158
 []\T1/ptm/m/n/12 RMSE| 
  []
 
 
-Overfull \hbox (3.90154pt too wide) in paragraph at lines 160--160
+Overfull \hbox (3.90154pt too wide) in paragraph at lines 158--158
 []\T1/ptm/m/n/12 MAE| 
  []
 
 
-Overfull \hbox (1.71643pt too wide) in paragraph at lines 160--160
+Overfull \hbox (1.71643pt too wide) in paragraph at lines 158--158
 []\T1/ptm/m/n/12 Mean| 
  []
 
 
-Overfull \hbox (1.78143pt too wide) in paragraph at lines 160--160
+Overfull \hbox (1.78143pt too wide) in paragraph at lines 158--158
 []\T1/ptm/m/n/12 Std| 
  []
 
 
-Overfull \hbox (3.486pt too wide) in paragraph at lines 160--160
+Overfull \hbox (3.486pt too wide) in paragraph at lines 158--158
 []\T1/ptm/m/n/12 EVScore| 
  []
 
 
-Overfull \hbox (4.22295pt too wide) in paragraph at lines 160--160
+Overfull \hbox (4.22295pt too wide) in paragraph at lines 158--158
 []\T1/ptm/m/n/12 RMSE| 
  []
 
 
-Overfull \hbox (3.90154pt too wide) in paragraph at lines 160--160
+Overfull \hbox (3.90154pt too wide) in paragraph at lines 158--158
 []\T1/ptm/m/n/12 MAE| 
  []
 
 
-Overfull \hbox (1.71643pt too wide) in paragraph at lines 160--160
+Overfull \hbox (1.71643pt too wide) in paragraph at lines 158--158
 []\T1/ptm/m/n/12 Mean| 
  []
 
 
-Overfull \hbox (1.78143pt too wide) in paragraph at lines 160--161
+Overfull \hbox (1.78143pt too wide) in paragraph at lines 158--159
 []\T1/ptm/m/n/12 Std| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 162--163
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 160--161
 []\T1/ptm/m/n/12 1.1| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 164--164
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 162--162
 []\T1/ptm/m/n/12 8.7| 
  []
 
 
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 164--165
+Overfull \hbox (0.77364pt too wide) in paragraph at lines 162--163
 []\T1/ptm/m/n/12 8.6| 
  []
 
 
-Overfull \hbox (23.87892pt too wide) in paragraph at lines 156--167
+Overfull \hbox (23.87892pt too wide) in paragraph at lines 154--165
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
 [51 <./figures/Neuron85-95.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
-
- []
-
-) (./Bab6.tex [52]
+[52]) (./Bab6.tex [53]
 BAB VI.
-) (./skripsi.bbl [53
+) (./skripsi.bbl [54
 
-] [54
+] [55
 
-] [55]) [56]
+] [56]) [57]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 26.
- [57
+ [58
 
 ] (./app1.tex
 LAMPIRAN A.
@@ -1395,9 +1373,9 @@ File: logoUGM.jpg Graphic file (type jpg)
 <use logoUGM.jpg>
 Package pdftex.def Info: logoUGM.jpg  used on input line 12.
 (pdftex.def)             Requested size: 142.26378pt x 144.33249pt.
-[58
+[59
 
-]) (./app2.tex [59] [60]
+]) (./app2.tex [60] [61]
 LAMPIRAN B.
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -1410,7 +1388,7 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
- [61
+ [62
 
 ]
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 8
@@ -1421,9 +1399,9 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
-) (./app3.tex [62]
+) (./app3.tex [63]
 LAMPIRAN C.
-[63
+[64
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 35
@@ -1436,12 +1414,12 @@ Overfull \hbox (32.12271pt too wide) in paragraph at lines 36--37
 a fi-le \T1/pcr/m/n/12 muka_skripsi.tex\T1/ptm/m/n/12 . 
  []
 
-[64]) [65] (./skripsi.aux) ) 
+[65]) [66] (./skripsi.aux) ) 
 Here is how much of TeX's memory you used:
- 19379 strings out of 492163
- 336233 string characters out of 6129076
- 742577 words of memory out of 5000000
- 23439 multiletter control sequences out of 15000+600000
+ 19381 strings out of 492163
+ 336268 string characters out of 6129076
+ 742593 words of memory out of 5000000
+ 23441 multiletter control sequences out of 15000+600000
  588072 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,16n,125p,1431b,1874s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1460,10 +1438,10 @@ exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/ut
 mbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texl
 ive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on skripsi.pdf (83 pages, 1226940 bytes).
+Output written on skripsi.pdf (84 pages, 1228020 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
+ 378 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

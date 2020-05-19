@@ -72,9 +72,7 @@ Skenario diatas dilakukan selama 24 jam dengan selang waktu pengambilan data sel
 
 Respon waktu suhu udara terhadap aktivasi AC tidak penulis perhitungkan dikarenakan secara fisis, respons transien termal pada bangunan cukup lama, sehingga para peneliti umumnya hanya fokus untuk meninjau nilai kesalahan keadaan tunak (\textit{steady state error}).
 
-\section{Pembangunan Model JST}
-
-\subsection{Pembangunan Model JST Plant}
+\section{Pemodelan menggunakan NARX}
 
 \noindent \textbf{Penentuan Pembagian Data} 
 
@@ -166,21 +164,66 @@ Setelah itu penulis mencoba untuk menilik kinerja model terhadap masing-masing v
 	\end{tabular}
 \end{table}
 
-Berdasarkan data pada Tabel \ref{tbl:5:Performance}, dapat dilihat bahwa pada proses validasi (\textit{validation}) masing-masing suhu udara (Td) dan kelembapan relatif (RH) memiliki nilai MAE = 0.75 dan MAE = 7.20. Nilai tersebut merupakan nilai yang dapat diterima oleh tuntutan rancangan pada penelitian ini. Sehingga, model JST ini dapat digunakan sebagai model \textit{plant}. \\
+Berdasarkan data pada Tabel \ref{tbl:5:Performance}, dapat dilihat bahwa pada proses validasi (\textit{validation}) masing-masing suhu udara (Td) dan kelembapan relatif (RH) memiliki nilai MAE = 0.75 dan MAE = 7.20. Nilai tersebut merupakan nilai yang dapat diterima oleh tuntutan rancangan pada penelitian ini.\\
 
-\noindent \textbf{Penentuan Algoritma Pembelajaran (\textit{Solver/Optimizer})} \\
+\textit{Hyperparameter} yang digunakan pada pembangunan MLP ini dijelaskan pada tabel berikut:
 
-\noindent \textbf{Penentuan \textit{Epoch, Alpha, dan Learning Rate}} \\
+\begin{table}[!h]
+	\caption{Tabel Rancangan MLP}
+	\label{tbl:5:MLPDesign}
+	\centering
+	% use packages: array
+	\begin{tabular}{|p{5.7cm}|p{5cm}|}
+		\hline
+		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\
+		\hline
+		Jumlah Layar Tersembunyi & 1 \\
+		\hline
+		Jumlah Neuron pada Layar & [91] \\
+		\hline
+		Angka Maksimal Iterasi & 5000 \\
+		\hline
+		Fungsi Aktivasi Layar & ReLU \\
+		\hline
+		Algoritma Optimisasi (\textit{Solver}) & ADAM \\
+		\hline
+	\end{tabular}
+\end{table}
 
-\subsection{Pembangunan Model JST Kontroler}
-Data dibagi menjadi 3 bagian, yakni 70\% data pelatihan, 15\% data validasi, dan 15\% data pengujian. Model JST menggunakan arsitektur \textit{multilayer perceptron} dengan jumlah neuron sebanyak $x_1$ di lapisan tersembunyi 1, $x_2$ di lapisan tersembunyi 2, dan $x_3$ di lapisan tersembunyi 3.
+%\noindent \textbf{Penentuan Algoritma Pembelajaran (\textit{Solver/Optimizer})} \\
 
-\section{Analisis Kinerja Model JST yang terpilih}
+%\noindent \textbf{Penentuan \textit{Epoch, Alpha, dan Learning Rate}} \\
 
-\subsection{Analisis Kinerja Model JST Plant}
+\noindent \textbf{{Pembangunan NARX menggunakan MLP yang telah dibuat}} \\
+
+Pembangunan NARX menggunakan pustaka Python bernama \textbf{fireTS}. \textit{Hyperparameter} yang digunakan pada pembangunan NARX ini dijelaskan pada tabel berikut:
+\begin{table}[!h]
+	\caption{Tabel Rancangan NARX}
+	\label{tbl:5:NARXDesign}
+	\centering
+	% use packages: array
+	\begin{tabular}{|p{5.7cm}|p{5cm}|}
+		\hline
+		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\
+		\hline
+		Fungsi estimator & Multilayer Perceptron (MLP) \\
+		\hline
+		The autoregression order & 1 \\
+		\hline
+		The exogenous input order & [1,1,1,1] \\
+		\hline
+		The delay of the exogenous input& [0,0,0,0] \\
+		\hline
+	\end{tabular}
+\end{table}
+
+\subsection{Analisis Kinerja Model}
 Persamaan ditulis rata tengah dan nomor persamaan ditulis rata kanan. Nomor persamaan
 diurutkan dengan format (nomor\_bab.nomor\_persamaan). Contoh dapat dilihat pada
 
-\subsection{Analisis Kinerja Model JST Kontroler}
+\section{Pembangunan \textit{Neural Predictive Control}}
+Data dibagi menjadi 3 bagian, yakni 70\% data pelatihan, 15\% data validasi, dan 15\% data pengujian. Model JST menggunakan arsitektur \textit{multilayer perceptron} dengan jumlah neuron sebanyak $x_1$ di lapisan tersembunyi 1, $x_2$ di lapisan tersembunyi 2, dan $x_3$ di lapisan tersembunyi 3.
+
+\subsection{Analisis Kinerja Kontroler}
 Persamaan ditulis rata tengah dan nomor persamaan ditulis rata kanan. Nomor persamaan
 diurutkan dengan format (nomor\_bab.nomor\_persamaan). Contoh dapat dilihat pada Persamaan
