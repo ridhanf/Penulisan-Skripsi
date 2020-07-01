@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  8 MAY 2020 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  29 JUN 2020 18:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -684,7 +684,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
 ] [10]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 65.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 59.
 )
 \tf@toc=\write4
 \openout4 = `skripsi.toc'.
@@ -695,24 +695,24 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 
  [12
 
-] (./skripsi.lof
-[13
-
-])
+] (./skripsi.lof)
 \tf@lof=\write6
 \openout6 = `skripsi.lof'.
 
- [14] (./skripsi.nls [15
+
+[13
+
+] (./skripsi.nls [14
 
 
-]) (./lambang.tex) [16] (./abstrakind.tex)
-[17
+]) (./lambang.tex) [15] (./abstrakind.tex) [16
 
-] (./abstrakeng.tex) [18
+]
+(./abstrakeng.tex) [17
 
 ]) (./Bab1.tex
 BAB I.
-<figures/EnergyUsage.png, id=68, 601.24625pt x 255.95625pt>
+<figures/EnergyUsage.png, id=65, 601.24625pt x 255.95625pt>
 File: figures/EnergyUsage.png Graphic file (type png)
 <use figures/EnergyUsage.png>
 Package pdftex.def Info: figures/EnergyUsage.png  used on input line 8.
@@ -725,302 +725,363 @@ BAB II.
 [6
 
 ] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]\T1/ptm/m/n/12 Peneliti,
+Underfull \hbox (badness 7832) in paragraph at lines 23--23
+[]\T1/ptm/m/n/12 Bangunan tan-pa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]\T1/ptm/m/n/12 Variabel
+Underfull \hbox (badness 7064) in paragraph at lines 23--23
+[]\T1/ptm/m/n/12 Suhu ne-tral,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]\T1/ptm/m/n/12 A. P.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-\T1/ptm/m/n/12 Les-ki-
+Underfull \hbox (badness 2689) in paragraph at lines 23--23
+[]\T1/ptm/m/n/12 Dilakukan pa-da ren-tang su-hu
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]\T1/ptm/m/n/12 Partikel
+[]\T1/ptm/m/n/12 Sensasi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-\T1/ptm/m/it/12 aging ae-
+Underfull \hbox (badness 2126) in paragraph at lines 27--27
+\T1/ptm/m/n/12 J. K. Jo-ki-ni-e-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-\T1/ptm/m/it/12 ro-sol \T1/ptm/m/n/12 da-ri
+Underfull \hbox (badness 1028) in paragraph at lines 27--27
+[]\T1/ptm/m/n/12 Peneliti meng-i-ngink-an te-kan-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-\T1/ptm/m/n/12 pem-ba-kar-an
+Underfull \hbox (badness 1205) in paragraph at lines 27--27
+\T1/ptm/m/n/12 di da-lam cham-ber yang sa-ma
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 25--25
-[]\T1/ptm/m/n/12 Penulis meng-i-ngink-an te-kan-an di da-lam cham-ber
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]\T1/ptm/m/n/12 W. He,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-\T1/ptm/m/n/12 dkk.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]\T1/ptm/m/n/12 Pesawat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-\T1/ptm/m/n/12 ulang alik
+Underfull \hbox (badness 2150) in paragraph at lines 27--27
+\T1/ptm/m/n/12 de-ngan su-hu dan ke-lem-bab-an
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\T1/ptm/m/n/12 et, dkk.
+[]\T1/ptm/m/n/12 Pesawat ulang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]\T1/ptm/m/n/12 Lumut
+Underfull \hbox (badness 3088) in paragraph at lines 29--29
+\T1/ptm/m/n/12 li-ti-a-n/pe-nge-tes-an yang ter-kon-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-\T1/ptm/m/n/12 Sphag-num
+Underfull \hbox (badness 4779) in paragraph at lines 29--29
+\T1/ptm/m/n/12 trol da-ri pe-sa-wat ulang alik
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 31--31
-[]\T1/ptm/m/n/12 Objek bi-o-lo-
+Underfull \hbox (badness 6078) in paragraph at lines 29--29
+\T1/ptm/m/it/12 ber \T1/ptm/m/n/12 pe-ne-li-ti-an dan mem-ban-
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 31--31
-\T1/ptm/m/n/12 gis, in-sek-ta-
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]\T1/ptm/m/n/12 A. Hu-gu-et,
  []
 
 
-Underfull \hbox (badness 6575) in paragraph at lines 31--31
-[]\T1/ptm/m/it/12 Walk in style Tem-pe-ra-tu-re Con-tro-lled
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\T1/ptm/m/n/12 A. Fran-cez,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]\T1/ptm/m/n/12 A. Jo-
+Underfull \hbox (badness 3815) in paragraph at lines 31--31
+\T1/ptm/m/n/12 M. Dung, C.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-\T1/ptm/m/n/12 fre-re-che,
+Underfull \hbox (badness 1902) in paragraph at lines 31--31
+\T1/ptm/m/n/12 Fos-se, dan S.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-\T1/ptm/m/n/12 dkk.
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]\T1/ptm/m/n/12 Lumut Sphag-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]\T1/ptm/m/n/12 Material
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-\T1/ptm/m/n/12 Pos-tcu-red
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-\T1/ptm/m/n/12 vi-nyl es-ter
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-\T1/ptm/m/n/12 ke-lem-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]\T1/ptm/m/it/12 Weathering cham-ber \T1/ptm/m/n/12 di-gu-nak-an un-tuk
- []
-
-
-Underfull \hbox (badness 1221) in paragraph at lines 33--33
-\T1/ptm/m/n/12 mem-be-rik-an aging pa-da post cu-red VE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-[]\T1/ptm/m/n/12 A. Sri-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-\T1/ptm/m/n/12 ni-va-sa,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-\T1/ptm/m/n/12 dkk.
- []
-
-
-Overfull \hbox (57.15497pt too wide) in paragraph at lines 18--38
+Overfull \hbox (24.7886pt too wide) in paragraph at lines 19--33
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 41.32535pt on input line 38.
+LaTeX Warning: Float too large for page by 26.42537pt on input line 33.
 
-[8] [9
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]\T1/ptm/m/n/12 E. Mar-ti-nez,
+ []
 
 
-] [10] [11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+[]\T1/ptm/m/n/12 Objek bi-o-lo-gis,
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 46--46
+\T1/ptm/m/it/12 tro-lled Cham-ber \T1/ptm/m/n/12 (TCC) di-gu-
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 46--46
+[]\T1/ptm/m/n/12 Peneliti meng-i-ngink-an kon-trol
+ []
+
+
+Underfull \hbox (badness 4765) in paragraph at lines 46--46
+\T1/ptm/m/n/12 su-hu da-lam cham-ber de-ngan
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 46--46
+\T1/ptm/m/n/12 aku-ra-si ter-ten-tu, me-mi-li-ki ra-
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 46--46
+\T1/ptm/m/n/12 wak-tu yang di-bu-tuhk-an un-tuk
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 48--48
+[]\T1/ptm/m/n/12 A. Jo-fre-re-che,
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 48--48
+[]\T1/ptm/m/n/12 Material Pos-tcu-
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 48--48
+[]\T1/ptm/m/n/12 Peneliti meng-i-ngink-an ter-ja-di-
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 48--48
+\T1/ptm/m/n/12 bab-an re-la-tif 90% la-lu di-li-hat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]\T1/ptm/m/n/12 A. Sri-ni-va-sa,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]\T1/ptm/m/it/12 Chamber \T1/ptm/m/n/12 di-gu-nak-an se-ba-gai
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+\T1/ptm/m/n/12 tem-pat me-nyimp-an se-ka-li-gus
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 50--50
+\T1/ptm/m/n/12 tem-pat pe-ne-li-ti-an ma-yat yang
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 50--50
+[]\T1/ptm/m/n/12 Peneliti men-ja-ga su-hu di da-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]\T1/ptm/m/it/12 Chamber \T1/ptm/m/n/12 di-gu-nak-an se-ba-gai
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]\T1/ptm/m/n/12 Suhu dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+\T1/ptm/m/n/12 ke-lem-bap-an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--54
+[]\T1/ptm/m/it/12 Chamber \T1/ptm/m/n/12 di-gu-nak-an se-ba-gai
+ []
+
+
+Overfull \hbox (30.7886pt too wide) in paragraph at lines 41--57
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 26.42537pt on input line 57.
+
+[9] [10
+
+
+
+
+] [11] [12] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 []\T1/ptm/m/n/12 G. Mus-ta-fa-raj,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 []\T1/ptm/m/n/12 Kantor ta-pak
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 72--72
+Underfull \hbox (badness 2818) in paragraph at lines 90--90
 \T1/ptm/m/n/12 ke-lem-bap-an re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 \T1/ptm/m/n/12 ne-u-ral ne-tworks:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 \T1/ptm/m/n/12 NNA-RX, NNAR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 1184) in paragraph at lines 90--90
+\T1/ptm/m/n/12 Ni-lai R$[]$ masing-masing ber-ni-lai 0.95,
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 90--90
+\T1/ptm/m/n/12 0.9469, dan 0.8586 un-tuk NNA-RX,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 []\T1/ptm/m/n/12 Suhu, ke-lem-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \T1/ptm/m/n/12 bap-an re-la-tif,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []\T1/ptm/m/n/12 Zakia Afroz,
  []
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 78--78
-[]\T1/ptm/m/n/12 Lovenberg-Marquardt me-ru-pak-an al-go-ri-tma pe-la-tih-an
+Overfull \hbox (36.4791pt too wide) in paragraph at lines 85--99
+ [][] 
  []
 
+[14
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+]
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []\T1/ptm/m/n/12 Ján Dr-go-¬a,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []\T1/ptm/m/n/12 Bangunan re-si-
  []
 
 
-Underfull \hbox (badness 6775) in paragraph at lines 80--80
+Underfull \hbox (badness 6775) in paragraph at lines 112--112
 []\T1/ptm/m/n/12 Suhu ope-ra-sio-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []\T1/ptm/m/n/12 MPC, PID, RBC,
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 82--82
+Underfull \hbox (badness 1389) in paragraph at lines 112--112
+\T1/ptm/m/n/12 men-ta-ra itu mam-pu meng-u-ra-ngi kom-
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 114--114
 []\T1/ptm/m/n/12 Hyun-Jung Yo-
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 82--82
+Underfull \hbox (badness 1442) in paragraph at lines 114--114
 []\T1/ptm/m/n/12 Zona-zona sta-di-
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 82--82
+Underfull \hbox (badness 1248) in paragraph at lines 114--114
 []\T1/ptm/m/n/12 Suhu uda-ra ru-
  []
 
 
-Underfull \hbox (badness 7759) in paragraph at lines 84--84
+Underfull \hbox (badness 7759) in paragraph at lines 116--116
 []\T1/ptm/m/n/12 Zhipeng Deng,
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 84--84
+Underfull \hbox (badness 1412) in paragraph at lines 116--116
 []\T1/ptm/m/n/12 Kantor (10) dan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 \T1/ptm/m/n/12 ru-ma-h/a-par-te-men
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 []\T1/ptm/m/n/12 Sensasi ter-mal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 \T1/ptm/m/n/12 dan per-i-la-ku
  []
 
 
-Overfull \hbox (57.15497pt too wide) in paragraph at lines 67--86
- [][] 
+Underfull \hbox (badness 2818) in paragraph at lines 118--118
+\T1/ptm/m/n/12 ke-lem-bap-an re-
  []
 
 
-LaTeX Warning: Float too large for page by 41.72533pt on input line 86.
+Overfull \hbox (36.4791pt too wide) in paragraph at lines 107--120
+ [][] 
+ []
 
-[13]) (./Bab3.tex
+[15
+
+
+]) (./Bab3.tex
 BAB III.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-[14
+[16
 
 
-
-] [15]
+] [17]
 Overfull \hbox (0.15947pt too wide) in paragraph at lines 46--47
 []\T1/ptm/m/n/12 Sistem ada-lah kom-bi-na-si da-ri be-be-ra-pa kom-po-nen yang 
 be-ker-ja bersama-sama
  []
 
-[16] [17]
+[18] [19]
 Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
@@ -1030,21 +1091,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-[18] [19]
-<figures/SSEExample.png, id=134, 490.83376pt x 105.39375pt>
+[20] [21]
+<figures/SSEExample.png, id=137, 490.83376pt x 105.39375pt>
 File: figures/SSEExample.png Graphic file (type png)
 <use figures/SSEExample.png>
 Package pdftex.def Info: figures/SSEExample.png  used on input line 98.
 (pdftex.def)             Requested size: 305.15585pt x 65.52676pt.
- [20 <./figures/SSEExample.PNG>]
-<figures/SSEExample2.png, id=139, 801.99625pt x 209.78375pt>
+ [22 <./figures/SSEExample.PNG>]
+<figures/SSEExample2.png, id=142, 801.99625pt x 209.78375pt>
 File: figures/SSEExample2.png Graphic file (type png)
 <use figures/SSEExample2.png>
 Package pdftex.def Info: figures/SSEExample2.png  used on input line 115.
 (pdftex.def)             Requested size: 305.15585pt x 79.82108pt.
- [21 <./figures/SSEExample2.png>]
-[22]
-<figures/neuron.png, id=147, 237.2865pt x 189.70876pt>
+ [23 <./figures/SSEExample2.png>]
+[24]
+<figures/neuron.png, id=150, 237.2865pt x 189.70876pt>
 File: figures/neuron.png Graphic file (type png)
 <use figures/neuron.png>
 Package pdftex.def Info: figures/neuron.png  used on input line 166.
@@ -1053,8 +1114,8 @@ Package pdftex.def Info: figures/neuron.png  used on input line 166.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23]
-<figures/neuronmath.png, id=151, 443.40656pt x 297.36093pt>
+[25]
+<figures/neuronmath.png, id=154, 443.40656pt x 297.36093pt>
 File: figures/neuronmath.png Graphic file (type png)
 <use figures/neuronmath.png>
 Package pdftex.def Info: figures/neuronmath.png  used on input line 175.
@@ -1074,24 +1135,24 @@ Overfull \hbox (22.53708pt too wide) in paragraph at lines 182--183
 /cmm/m/it/12 k\OT1/cmr/m/n/12 )$
  []
 
-[24 <./figures/neuron.png>]
+[26 <./figures/neuron.png>]
 Overfull \hbox (1.39546pt too wide) in paragraph at lines 188--189
 []\T1/ptm/m/n/12 Bobot-bobot po-si-tif $\OML/cmm/m/it/12 v[]$ \T1/ptm/m/n/12 be
 r-hu-bung-an de-ngan si-na-psis \T1/ptm/m/it/12 exi-ta-tory \T1/ptm/m/n/12 dan 
 bobot-bobot
  []
 
-<figures/activationFunction.png, id=156, 716.6775pt x 624.08156pt>
+<figures/activationFunction.png, id=160, 716.6775pt x 624.08156pt>
 File: figures/activationFunction.png Graphic file (type png)
 <use figures/activationFunction.png>
 Package pdftex.def Info: figures/activationFunction.png  used on input line 193
 .
-(pdftex.def)             Requested size: 305.15585pt x 265.7311pt.
+(pdftex.def)             Requested size: 406.87448pt x 354.3113pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25 <./figures/neuronmath.PNG>] [26 <./figures/activationFunction.PNG>]
-<figures/jstTunggal.png, id=168, 329.73187pt x 364.36125pt>
+[27 <./figures/neuronmath.PNG>] [28 <./figures/activationFunction.PNG>]
+<figures/jstTunggal.png, id=171, 329.73187pt x 364.36125pt>
 File: figures/jstTunggal.png Graphic file (type png)
 <use figures/jstTunggal.png>
 Package pdftex.def Info: figures/jstTunggal.png  used on input line 230.
@@ -1101,8 +1162,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
-[27 <./figures/jstTunggal.PNG>] [28]
-<figures/mlp.png, id=176, 718.685pt x 642.4pt>
+[29 <./figures/jstTunggal.PNG>] [30]
+<figures/mlp.png, id=179, 718.685pt x 642.4pt>
 File: figures/mlp.png Graphic file (type png)
 <use figures/mlp.png>
 Package pdftex.def Info: figures/mlp.png  used on input line 302.
@@ -1111,261 +1172,68 @@ Package pdftex.def Info: figures/mlp.png  used on input line 302.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29] [30 <./figures/mlp.png>] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 423--424
+[31] [32 <./figures/mlp.png>] [33]) (./Bab4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 423--1
 
  []
 
-<figures/PlantIdentification.png, id=188, 827.09pt x 476.78125pt>
-File: figures/PlantIdentification.png Graphic file (type png)
-<use figures/PlantIdentification.png>
-Package pdftex.def Info: figures/PlantIdentification.png  used on input line 43
-0.
-(pdftex.def)             Requested size: 325.50082pt x 187.63902pt.
-[32] [33 <./figures/PlantIdentification.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 442--444
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--444
-
- []
-
-<figures/modelJSTPlant.png, id=197, 938.50626pt x 346.29375pt>
-File: figures/modelJSTPlant.png Graphic file (type png)
-<use figures/modelJSTPlant.png>
-Package pdftex.def Info: figures/modelJSTPlant.png  used on input line 447.
-(pdftex.def)             Requested size: 406.87448pt x 150.12929pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
-
- []
-
-[34 <./figures/modelJSTPlant.png>]
-<figures/NNPredictiveControl.png, id=202, 837.1275pt x 457.71pt>
-File: figures/NNPredictiveControl.png Graphic file (type png)
-<use figures/NNPredictiveControl.png>
-Package pdftex.def Info: figures/NNPredictiveControl.png  used on input line 46
-3.
-(pdftex.def)             Requested size: 345.84578pt x 189.09406pt.
-) (./Bab4.tex [35 <./figures/NNPredictiveControl.PNG>]
+[34]
 BAB IV.
 
-Overfull \hbox (45.12807pt too wide) in paragraph at lines 13--42
+Overfull \hbox (5.29437pt too wide) in paragraph at lines 13--30
  [][] 
  []
 
 
-Overfull \hbox (16.67531pt too wide) in paragraph at lines 50--67
+Overfull \hbox (16.67531pt too wide) in paragraph at lines 38--48
  [][] 
  []
 
-<figures/TataLaksanaPenelitian.png, id=209, 217.81375pt x 866.23625pt>
+<figures/TataLaksanaPenelitian.png, id=195, 380.42125pt x 654.445pt>
 File: figures/TataLaksanaPenelitian.png Graphic file (type png)
 <use figures/TataLaksanaPenelitian.png>
 Package pdftex.def Info: figures/TataLaksanaPenelitian.png  used on input line 
-73.
-(pdftex.def)             Requested size: 122.06358pt x 485.43266pt.
-[36
+55.
+(pdftex.def)             Requested size: 284.81088pt x 489.97375pt.
+[35
 
-] [37 <./figures/TataLaksanaPenelitian.png>] [38] [39] [40]) (./Bab5.tex
-[41] [42]
+] [36 <./figures/TataLaksanaPenelitian.png>] [37] [38]) (./Bab5.tex [39]
 BAB V.
-<figures/KondisiChamber.png, id=233, 484.81125pt x 282.45525pt>
-File: figures/KondisiChamber.png Graphic file (type png)
-<use figures/KondisiChamber.png>
-Package pdftex.def Info: figures/KondisiChamber.png  used on input line 10.
-(pdftex.def)             Requested size: 406.87448pt x 237.06252pt.
-[43
+[40
 
- <./figures/KondisiChamber.PNG>]
-<figures/AC.jpg, id=239, 834.11626pt x 484.81125pt>
-File: figures/AC.jpg Graphic file (type jpg)
-<use figures/AC.jpg>
-Package pdftex.def Info: figures/AC.jpg  used on input line 19.
-(pdftex.def)             Requested size: 325.50082pt x 189.19398pt.
-<figures/Heater.jpg, id=240, 152.0955pt x 202.6845pt>
-File: figures/Heater.jpg Graphic file (type jpg)
-<use figures/Heater.jpg>
-Package pdftex.def Info: figures/Heater.jpg  used on input line 26.
-(pdftex.def)             Requested size: 203.43724pt x 271.10405pt.
- [44 <./figures/AC.jpg> <./figures/Heater.jpg>]
-<figures/HeaterAC.png, id=244, 425.1885pt x 296.90926pt>
-File: figures/HeaterAC.png Graphic file (type png)
-<use figures/HeaterAC.png>
-Package pdftex.def Info: figures/HeaterAC.png  used on input line 55.
-(pdftex.def)             Requested size: 325.50082pt x 227.31152pt.
- [45] [46 <./figures/HeaterAC.PNG>]
-<figures/HasilSimulasiIESVE.png, id=252, 437.83575pt x 294.50024pt>
-File: figures/HasilSimulasiIESVE.png Graphic file (type png)
-<use figures/HasilSimulasiIESVE.png>
-Package pdftex.def Info: figures/HasilSimulasiIESVE.png  used on input line 66.
+]
+<figures/DataSplittingResult.png, id=216, 466.8642pt x 334.851pt>
+File: figures/DataSplittingResult.png Graphic file (type png)
+<use figures/DataSplittingResult.png>
+Package pdftex.def Info: figures/DataSplittingResult.png  used on input line 52
+.
+(pdftex.def)             Requested size: 366.18454pt x 262.64912pt.
 
-(pdftex.def)             Requested size: 325.50082pt x 218.95132pt.
- [47 <./figures/HasilSimulasiIESVE.png>]
-Overfull \hbox (0.64055pt too wide) in paragraph at lines 89--89
-[]\T1/ptm/m/n/12 EVScore| 
- []
-
-
-Overfull \hbox (4.22295pt too wide) in paragraph at lines 89--89
-[]\T1/ptm/m/n/12 RMSE| 
- []
-
-
-Overfull \hbox (0.64055pt too wide) in paragraph at lines 89--89
-[]\T1/ptm/m/n/12 EVScore| 
- []
-
-
-Overfull \hbox (4.22295pt too wide) in paragraph at lines 89--90
-[]\T1/ptm/m/n/12 RMSE| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
+<figures/DataSplittingFinal.png, id=217, 361.35pt x 216.81pt>
+File: figures/DataSplittingFinal.png Graphic file (type png)
+<use figures/DataSplittingFinal.png>
+Package pdftex.def Info: figures/DataSplittingFinal.png  used on input line 61.
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-<figures/maxiter200.png, id=256, 289.68225pt x 202.95825pt>
-File: figures/maxiter200.png Graphic file (type png)
-<use figures/maxiter200.png>
-Package pdftex.def Info: figures/maxiter200.png  used on input line 114.
-(pdftex.def)             Requested size: 325.50082pt x 228.07042pt.
-[48]
-<figures/maxiter5000.png, id=260, 289.68225pt x 202.95825pt>
-File: figures/maxiter5000.png Graphic file (type png)
-<use figures/maxiter5000.png>
-Package pdftex.def Info: figures/maxiter5000.png  used on input line 121.
-(pdftex.def)             Requested size: 325.50082pt x 228.07042pt.
-
-Overfull \hbox (22.10796pt too wide) in paragraph at lines 126--127
-\T1/ptm/m/n/12 me-mi-li-ki ki-ner-ja le-bih ba-ik di-ban-dingk-an $\OML/cmm/m/i
-t/12 max[]iter \OT1/cmr/m/n/12 = 200$ \T1/ptm/m/n/12 di-ka-re-nak-an pa-da $\OM
-L/cmm/m/it/12 max[]iter \OT1/cmr/m/n/12 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+(pdftex.def)             Requested size: 406.87448pt x 244.12567pt.
+[41 <./figures/DataSplittingResult.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-[49 <./figures/maxiter200.png> <./figures/maxiter5000.png>]
-<figures/Neuron5-100.png, id=265, 289.68225pt x 202.95825pt>
-File: figures/Neuron5-100.png Graphic file (type png)
-<use figures/Neuron5-100.png>
-Package pdftex.def Info: figures/Neuron5-100.png  used on input line 133.
-(pdftex.def)             Requested size: 366.18454pt x 256.57729pt.
-<figures/Neuron85-95.png, id=266, 289.68225pt x 202.95825pt>
-File: figures/Neuron85-95.png Graphic file (type png)
-<use figures/Neuron85-95.png>
-Package pdftex.def Info: figures/Neuron85-95.png  used on input line 141.
-(pdftex.def)             Requested size: 366.18454pt x 256.57729pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[50 <./figures/Neuron5-100.png>]
-Overfull \hbox (2.99478pt too wide) in paragraph at lines 156--156
-[][]| 
- []
-
-
-Overfull \hbox (3.486pt too wide) in paragraph at lines 158--158
-[]\T1/ptm/m/n/12 EVScore| 
- []
-
-
-Overfull \hbox (4.22295pt too wide) in paragraph at lines 158--158
-[]\T1/ptm/m/n/12 RMSE| 
- []
-
-
-Overfull \hbox (3.90154pt too wide) in paragraph at lines 158--158
-[]\T1/ptm/m/n/12 MAE| 
- []
-
-
-Overfull \hbox (1.71643pt too wide) in paragraph at lines 158--158
-[]\T1/ptm/m/n/12 Mean| 
- []
-
-
-Overfull \hbox (1.78143pt too wide) in paragraph at lines 158--158
-[]\T1/ptm/m/n/12 Std| 
- []
-
-
-Overfull \hbox (3.486pt too wide) in paragraph at lines 158--158
-[]\T1/ptm/m/n/12 EVScore| 
- []
-
-
-Overfull \hbox (4.22295pt too wide) in paragraph at lines 158--158
-[]\T1/ptm/m/n/12 RMSE| 
- []
-
-
-Overfull \hbox (3.90154pt too wide) in paragraph at lines 158--158
-[]\T1/ptm/m/n/12 MAE| 
- []
-
-
-Overfull \hbox (1.71643pt too wide) in paragraph at lines 158--158
-[]\T1/ptm/m/n/12 Mean| 
- []
-
-
-Overfull \hbox (1.78143pt too wide) in paragraph at lines 158--159
-[]\T1/ptm/m/n/12 Std| 
- []
-
-
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 160--161
-[]\T1/ptm/m/n/12 1.1| 
- []
-
-
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 162--162
-[]\T1/ptm/m/n/12 8.7| 
- []
-
-
-Overfull \hbox (0.77364pt too wide) in paragraph at lines 162--163
-[]\T1/ptm/m/n/12 8.6| 
- []
-
-
-Overfull \hbox (23.87892pt too wide) in paragraph at lines 154--165
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-[51 <./figures/Neuron85-95.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
-
- []
-
-[52]) (./Bab6.tex [53]
+) (./Bab6.tex [42 <./figures/DataSplittingFinal.png>] [43]
 BAB VI.
-) (./skripsi.bbl [54
+) (./skripsi.bbl [44
 
-] [55
+] [45
 
-] [56]) [57]
+] [46]) [47]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 26.
- [58
+ [48
 
 ] (./app1.tex
 LAMPIRAN A.
@@ -1373,9 +1241,9 @@ File: logoUGM.jpg Graphic file (type jpg)
 <use logoUGM.jpg>
 Package pdftex.def Info: logoUGM.jpg  used on input line 12.
 (pdftex.def)             Requested size: 142.26378pt x 144.33249pt.
-[59
+[49
 
-]) (./app2.tex [60] [61]
+]) (./app2.tex [50] [51]
 LAMPIRAN B.
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -1388,7 +1256,7 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
- [62
+ [52
 
 ]
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 8
@@ -1399,9 +1267,9 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
-) (./app3.tex [63]
+) (./app3.tex [53]
 LAMPIRAN C.
-[64
+[54
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 35
@@ -1414,34 +1282,32 @@ Overfull \hbox (32.12271pt too wide) in paragraph at lines 36--37
 a fi-le \T1/pcr/m/n/12 muka_skripsi.tex\T1/ptm/m/n/12 . 
  []
 
-[65]) [66] (./skripsi.aux) ) 
+[55]) [56] (./skripsi.aux) ) 
 Here is how much of TeX's memory you used:
- 19381 strings out of 492163
- 336268 string characters out of 6129076
- 742593 words of memory out of 5000000
- 23441 multiletter control sequences out of 15000+600000
- 588072 words of font info for 104 fonts, out of 8000000 for 9000
+ 19287 strings out of 492163
+ 334199 string characters out of 6129076
+ 741884 words of memory out of 5000000
+ 23357 multiletter control sequences out of 15000+600000
+ 586376 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,16n,125p,1431b,1874s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r
 .enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/
 texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2
 019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2019/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
-.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/
-texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/20
-19/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2019/t
-exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/
-type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/ut
-mbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texl
-ive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on skripsi.pdf (84 pages, 1228020 bytes).
+-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
+fb><c:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2
+019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fon
+ts/type1/urw/times/utmbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on skripsi.pdf (73 pages, 906746 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 237 compressed objects within 3 object streams
+ 323 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

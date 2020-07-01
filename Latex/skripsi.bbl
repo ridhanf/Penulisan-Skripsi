@@ -20,50 +20,63 @@ Ichfan Kurniawan.
 \newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
   Universitas Gadjah Mada, Yogyakarta, 2019.
 
-\bibitem{article4}
+\bibitem{article2.1:1}
+H.~Feriadi dan N.~Hien.
+\newblock ``{Thermal comfort for naturally ventilated houses in Indonesia}''.
+\newblock {\em Journal of Building Environment, Elsevier Ltd.}, 109:208--223,
+  2004.
+
+\bibitem{article2.1:2}
+E.~Arens, H.~Zhang  dan C.~Huizenga.
+\newblock ``{Partial- and whole-body thermal sensation and comfort - Part I:
+  Uniform environmental conditions}''.
+\newblock {\em Journal of Thermal Biology, Elsevier Ltd.}, 31:53--59, 2006.
+
+\bibitem{article2.1:4}
 A.~P. Leskinen, J.~K. Jokiniemi  dan K.~E.~J. Lehtinen.
 \newblock ``{Characterization of Aging Wood Chip Combustion Aerosol in an
   Environmental Chamber}''.
 \newblock {\em Elsevier Ltd.}, 41:3713--3721, 2007.
 
-\bibitem{article5}
+\bibitem{article2.1:5}
 W.~He, G.~Xu  dan R.~Shen.
 \newblock ``{Control of Temperature Uniformity in the Temperature Chamber With
   Centrifugal Acceleration}''.
 \newblock {\em Journal of Process Control, Elsevier Ltd.}, 24:1--6, 2014.
 
-\bibitem{article6}
-A.~Huguet, A.~Francez, C.~Fosse M.~Dung  dan S.~Derenne.
+\bibitem{article2.1:6}
+A.~Huguet, A.~Francez, M.~Dung, C.~Fosse  dan S.~Derenne.
 \newblock ``{A Climatic Chamber Experiment to Test the Short Term Effect of
   Increasing Temperature on Branched GDGT Distribution in Sphagnum Peat}''.
 \newblock {\em Journal of Organic Geochemistry, Elsevier Ltd.}, 73:109--112,
   2014.
 
-\bibitem{article7}
+\bibitem{article2.1:7}
 E.~Martinez dan S.~J. Agosta.
 \newblock ``{Budget-Limited Thermal Biology: Design, Construction and
   Performance of a Large, Walk-in Style Temperature-Controlled Chamber}''.
 \newblock {\em Journal of Thermal Biology, Elsevier Ltd.}, 58:29--34, 2016.
 
-\bibitem{article8}
+\bibitem{article2.1:8}
 Jose~A. Jofre-reche, J.~C. Su  dan C.~Alia.
 \newblock ``{Characterization of the Chemical Structure of Vinyl Ester Resin in
   a Climate Chamber Under Different Conditions of Degradation}''.
 \newblock {\em Polymer Degradation and Stability, Elsevier Ltd.}, 153:88--99,
   2018.
 
-\bibitem{article9}
+\bibitem{article2.1:9}
 A.~Srinivasa, S.~Das, H.~Kottyen, V.~Ashok  dan P.~Shankarrao.
 \newblock ``{The Effect of Cold Chamber Temperature on the Cadaver's
   Electrolyte Changes in Vitreous Humor and Plasma}''.
 \newblock {\em Journal of Forensic and Legal Medicine, Elsevier Ltd.},
   62:87--91, 2019.
 
-\bibitem{SNI-03-06390-2000}
-BSN.
-\newblock {\em {SNI 03-6390-2000: Konservasi Energi Sistem Tata Udara pada
-  Bangunan Gedung}}.
-\newblock Badan Standardisasi Nasional, 2000.
+\bibitem{skripsiMuna}
+Nur~Muna Nadiya.
+\newblock {\em {Analisis Pengaruh Perubahan Lingkungan Termal terhadap
+  Perubahan Level Sensasi Termal}}.
+\newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
+  Universitas Gadjah Mada, Yogyakarta, 2020.
 
 \bibitem{article11}
 G.~Mustafaraj, J.~Chen  dan G.~Lowry.
@@ -118,6 +131,12 @@ William~R. Santee dan William~T. Matthew.
   Military Operational Medicine}}.
 \newblock Office of The Surgeon General Borden Institute, Fort Detrick,
   Maryland, 2012.
+
+\bibitem{SNI-03-06390-2000}
+BSN.
+\newblock {\em {SNI 03-6390-2000: Konservasi Energi Sistem Tata Udara pada
+  Bangunan Gedung}}.
+\newblock Badan Standardisasi Nasional, 2000.
 
 \bibitem{ControlSystem}
 Norman~S. Nise.

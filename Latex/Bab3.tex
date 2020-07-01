@@ -89,7 +89,7 @@ Proses Pengendalian merupakan tugas seorang insinyur kontrol untuk menganalisis 
 
 \subsection{Kesalahan Keadaan-Ajeg}
 
-Kesalahan keadaan tunak adalah perbedaan antara input dan output untuk input tes yang ditentukan ketika $t \rightarrow \infty$. Dalam sistem kendali, kita memperhatikan perbedaan antara input dan output dari sistem kontrol umpan balik setelah mencapai keadaan-ajeg. Sehingga hal ini dibatasi untuk sistem yang stabil, dimana respons alami mendekati nol selayaknya $t \rightarrow \infty$ . Sistem yang tidak stabil merepresentasikan hilangnya kendali dalam keadaan-ajeg dan sama sekali tidak dapat diterima untuk digunakan. Persamaan yang diperoleh untuk menghitung kesalahan keadaan tunak dapat diterapkan secara keliru ke sistem yang tidak stabil. Dengan demikian, insinyur harus memeriksa stabilitas sistem saat melakukan analisis dan perancangan kesalahan keadaan tunak. Sehingga, peneliti mengasumsikan bahwa semua sistem dalam contoh dan masalah dalam bab ini merupakan sistem yang stabil.
+Kesalahan keadaan tunak adalah perbedaan antara input dan output untuk input tes yang ditentukan ketika $t \rightarrow \infty$. Dalam sistem kontrol, kita memperhatikan perbedaan antara input dan output dari sistem kontrol umpan balik setelah mencapai keadaan-ajeg. Sehingga hal ini dibatasi untuk sistem yang stabil, dimana respons alami mendekati nol selayaknya $t \rightarrow \infty$ . Sistem yang tidak stabil merepresentasikan hilangnya kendali dalam keadaan-ajeg dan sama sekali tidak dapat diterima untuk digunakan. Persamaan yang diperoleh untuk menghitung kesalahan keadaan tunak dapat diterapkan secara keliru ke sistem yang tidak stabil. Dengan demikian, insinyur harus memeriksa stabilitas sistem saat melakukan analisis dan perancangan kesalahan keadaan tunak. Sehingga, peneliti mengasumsikan bahwa semua sistem dalam contoh dan masalah dalam bab ini merupakan sistem yang stabil.
 
 Banyak kesalahan keadaan tunak pada sistem kontrol muncul dari sumber nonlinear, seperti serangan balik dari roda gigi atau motor yang tidak bergerak terkecuali ketika tegangan input melebihi nilai ambang batas. Kesalahan keadaan tunak yang dipelajari adalah kesalahan yang muncul dari konfigurasi sistem itu sendiri dan jenis input yang diterapkan. 
 
@@ -190,7 +190,7 @@ Bobot-bobot positif  $v_j$ berhubungan dengan sinapsis \textit{exitatory} dan bo
 Fungsi sel nonlinear dikenal sebagai fungsi aktivasi. Fungsi aktivasi dipilih secara khusus untuk aplikasi-aplikasi meskipun beberapa pilihan yg umum diilustrasikan pada Gambar \ref{fig:3:activation} Intensi pada fungsi aktivasi adalah untuk memodelkan perilaku nonlinier suatu sel dimana tidak terdapat output dibawah nilai tertentu suatu argumen. Fungsi sigmoid adalah sebuah kelas umum dari fungsi yang tidak meningkat secara monoton dengan mengambil nilai-nilai yang dibatasi antaran nilai $-\infty$ dan $+\infty$. 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/activationFunction}
+	\includegraphics[width=1\textwidth]{figures/activationFunction}
 	\caption{Fungsi-fungsi aktivasi}
 	\label{fig:3:activation}
 \end{figure}
@@ -387,15 +387,15 @@ y = \sigma(W^Tz).
 
 \section{Kontrol berbasis Jaringan Saraf Tiruan}
 
-Untuk mengendalikan lingkungan termal, peneliti pada umumnya menggunakan sistem kendali modern (\textit{modern control system}). Hal ini didasarkan pada karakteristik lingkungan termal yang memiliki sifat MIMO (\textit{multiple input multiple output}). Sehingga, sistem kendali klasik tidak tepat digunakan untuk sistem ini.
+Untuk mengendalikan lingkungan termal, peneliti pada umumnya menggunakan sistem kontrol modern (\textit{modern control system}). Hal ini didasarkan pada karakteristik lingkungan termal yang memiliki sifat MIMO (\textit{multiple input multiple output}). Sehingga, sistem kontrol klasik tidak tepat digunakan untuk sistem ini.
 \begin{table}[!h]
-	\caption{Perbandingan metode kendali}
+	\caption{Perbandingan metode kontrol}
 	\label{tbl:3:whyann}
 	\centering
 	% use packages: array
 	\begin{tabular}{|p{4cm}|p{4cm}|p{4.5cm}|}
 		\hline
-		\textbf{Metode Kendali} & \textbf{Klasik} & \textbf{Modern} \\ 
+		\textbf{Metode kontrol} & \textbf{Klasik} & \textbf{Modern} \\ 
 		\hline
 		Domain & Frekuensi, Domain-S & Waktu, Domain-t \\ 
 		\hline
@@ -421,48 +421,3 @@ Untuk mengendalikan lingkungan termal, peneliti pada umumnya menggunakan sistem 
 \end{table}
 
 Kelemahan utama dari metode klasik adalah, bahwa mereka hanya dapat digunakan untuk mengendalikan sistem \textit{single-input single-output} (SISO), dengan persyaratan pada model sistem untuk menjadi \textit{linear time-invariant} (LTI). Metode klasik memberikan hasil yang memuaskan hanya dalam mengendalikan proses sederhana, tetapi hasil yang tidak memuaskan dalam kontrol sistem yang lebih kompleks \cite{MPCDissertation}. \\
-
-\subsection{Identifikasi Sistem menggunakan NARX}
-
-Tahap awal dalam membangun \textit{model predictive control} adalah dengan melatih suatu JST yang merepresentasikan dinamika sistem dari suatu \textit{plant}. Nilai galat antara keluaran \textit{plant} dan keluaran JST akan digunakan sebagai sinyal pelatihan JST. Proses tersebut digambarkan pada Gambar \ref{fig:3:plantidentification}.
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.8\textwidth]{figures/PlantIdentification}
-	\caption{Identifikasi \textit{Plant}}
-	\label{fig:3:plantidentification}
-\end{figure}
-
-NARMA (\textit{Nonlinear Autoregressive-Moving Average}) digunakan sebagai salah satu model standar untuk identifikasi sistem nonlinier, dengan Persamaan sebagai berikut:
-\begin{equation} \label{eq:3:NARMA}
-y(k+d) = h[ y(k),y(k-1),\dots,y(k-n+1),u(k),u(k-1),\dots,u(k-m+1) ]
-\end{equation}
-dimana $u(k)$ merupakan input sistem, $y(k)$ merupakan output sistem dan $d$ merupakan \textit{delay} sistem. Untuk fase identifikasi sistem, penulis melakukan pelatihan JST untuk aproksimasi fungsi nonlinier $h$. Struktur model JST \textit{plant} ditunjukan oleh Gambar \ref{fig:3:NNPlantModel}, dimana blok yang berlabel TDL merupakan \textit{tapped delay lines} yang berfungsi untuk memberikan nilai sebelumnya dari sinyal input. Persamaan model \textit{plant} ditunjukkan sebagai berikut:
-\begin{equation} \label{eq:3:plantmodel}
-y_m(k+1) = \hat{h}[ y_p(k),\dots,y_p(k-n+1),u(k),\dots,u(k-m+1);\textbf{x} ] ,
-\end{equation}
-dimana $\hat{h}[.,\textbf{x}]$ merupakan fungsi implementasi JST, dan $\textbf{x} $ merupakan vektor yang berisi semua bobot dan bias jaringan. \\ \\
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=1\textwidth]{figures/modelJSTPlant}
-	\caption{Model JST \textit{Plant}}
-	\label{fig:3:NNPlantModel}
-\end{figure}
-
-\subsection{Perancangan \textit{Neural Predictive Control}}
-
-\textit{Neural Predictive Control} menggunakan model JST (\textit{Neural Network}) dari sistem nonlinier \textit{plant} untuk memprediksi kinerja \textit{plant} di masa depan. Kontroler tersebut kemudian menghitung nilai input kendali yang akan mengoptimisasi kinerja \textit{plant} atas horison waktu yang ditentukan di masa depan. Langkah awal dalam \textit{model predictive control} adalah dengan menentukan model JST \textit{plant} (identifikasi sistem). Kemudian, model \textit{plant} digunakan oleh kontroler untuk mempredikasi kinerja di masa depan.\\
-
-Metode \textit{model predictive control} didasarkan pada teknik horison mundur \cite{article23}. Model JST memprediksi tanggapan \textit{plant} atas horison waktu yang ditentukan. Hasil prediksi digunakan oleh program optimisasi numerik untuk menentukan sinyal kendali dalam meminimalkan kriteria kinerja berikut atas horison yang ditentukan.
-\begin{equation} \label{eq:3:performance}
-J = \sum_{j=N_1}^{N_2} (y_r(k+j) - y_m(k+j))^2 + \rho\sum_{j=1}^{N_u} (u'(k+j-1) - u'(k+j-2))^2
-\end{equation}
-dimana $N_1$, $N_2$ dan $N_u$ menentukan horison di mana kesalahan pelacakan dan peningkatan kontrol dievaluasi. Variabel $u'$ merupakan sinyal kendali tentatif, $y_r$ merupakan respons yang diinginkan dan $y_m$ merupakan respon model JST. Nilai $\rho$ menentukan kontribusi yang dimiliki jumlah kuadrat dari kenaikan kontrol pada indeks kinerja.
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.85\textwidth]{figures/NNPredictiveControl}
-	\caption{Diagram Blok NN Predictive Control}
-	\label{fig:3:nncontrolblock}
-\end{figure}
-
-Diagram blok diatas mengilustrasikan proses \textit{model predictive control}. Kontroler terdiri dari model JST \textit{plant} dan blok optimisasi. Blok optimisasi menentukan nilai $u'$ yang meminimalkan nilai $J$, dan kemudian nilai $u$ optimal masuk ke dalam \textit{plant}. Blok optimisasi yang digunakan adalah Algoritma BFGS quasi-Newton, dengan algoritma pencarian \textit{backtracking line search} \cite{article24}.
