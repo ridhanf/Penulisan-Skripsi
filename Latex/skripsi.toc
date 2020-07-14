@@ -6,9 +6,9 @@
 \contentsline {chapter}{HALAMAN PERSEMBAHAN}{v}%
 \contentsline {chapter}{HALAMAN MOTTO}{vi}%
 \contentsline {chapter}{KATA PENGANTAR}{vii}%
-\contentsline {chapter}{DAFTAR LAMBANG DAN SINGKATAN}{xiv}%
-\contentsline {chapter}{INTISARI}{xvi}%
-\contentsline {chapter}{ABSTRACT}{xvii}%
+\contentsline {chapter}{DAFTAR LAMBANG DAN SINGKATAN}{xv}%
+\contentsline {chapter}{INTISARI}{xvii}%
+\contentsline {chapter}{ABSTRACT}{xviii}%
 \babel@toc {bahasa}{}
 \babel@toc {bahasa}{}
 \contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}%
@@ -38,25 +38,26 @@
 \contentsline {subsection}{\numberline {IV.2.2.}Penentuan Tuntutan Rancangan}{37}%
 \contentsline {subsection}{\numberline {IV.2.3.}Pengambilan Data Simulasi IES-VE}{37}%
 \contentsline {subsection}{\numberline {IV.2.4.}Pengembangan model JST Plant}{38}%
-\contentsline {subsection}{\numberline {IV.2.5.}Perancangan Sistem kontrol JST}{38}%
-\contentsline {subsection}{\numberline {IV.2.6.}{Penarikan Kesimpulan}}{38}%
-\contentsline {section}{\numberline {IV.3.}Rencana Analisis Hasil Penelitian}{39}%
-\contentsline {chapter}{\numberline {V}HASIL DAN PEMBAHASAN}{40}%
-\contentsline {section}{\numberline {V.1.}Pengembangan JST Plant}{40}%
-\contentsline {section}{\numberline {V.2.}Perancangan Sistem Kontrol JST}{43}%
-\contentsline {subsection}{\numberline {V.2.1.}Perancangan JST Blok Kontroler}{43}%
-\contentsline {subsection}{\numberline {V.2.2.}Perancangan Diagram Blok Sistem Kontrol}{43}%
-\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{44}%
-\contentsline {section}{\numberline {VI.1.}Kesimpulan}{44}%
-\contentsline {section}{\numberline {VI.2.}Saran}{44}%
+\contentsline {subsection}{\numberline {IV.2.5.}Perancangan Sistem kontrol JST}{39}%
+\contentsline {subsection}{\numberline {IV.2.6.}{Penarikan Kesimpulan}}{40}%
+\contentsline {section}{\numberline {IV.3.}Rencana Analisis Hasil Penelitian}{41}%
+\contentsline {chapter}{\numberline {V}HASIL DAN PEMBAHASAN}{42}%
+\contentsline {section}{\numberline {V.1.}Hasil Pengembangan JST Plant}{42}%
+\contentsline {section}{\numberline {V.2.}Hasil Perancangan Sistem Kontrol JST}{45}%
+\contentsline {subsection}{\numberline {V.2.1.}Kinerja JST Blok Kontroler}{45}%
+\contentsline {subsection}{\numberline {V.2.2.}Kinerja JST Internal Model}{46}%
+\contentsline {subsection}{\numberline {V.2.3.}Kinerja Diagram Blok Sistem Kontrol}{46}%
+\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{48}%
+\contentsline {section}{\numberline {VI.1.}Kesimpulan}{48}%
+\contentsline {section}{\numberline {VI.2.}Saran}{48}%
 \contentsline {chapter}{LAMPIRAN}{}
-\contentsline {chapter}{\numberline {A}Data Penelitian}{49}%
-\contentsline {section}{\numberline {A.1.}Data \textit {Climate Chamber}}{49}%
-\contentsline {section}{\numberline {A.2.}Contoh Gambar pada Lampiran}{49}%
-\contentsline {section}{\numberline {A.3.}Contoh Penulisan Tabel pada Lampiran}{49}%
-\contentsline {section}{\numberline {A.4.}Contoh Penulisan Persamaan pada Lampiran}{50}%
-\contentsline {chapter}{\numberline {B}Listing Program}{52}%
-\contentsline {chapter}{\numberline {C}About \LaTeX }{54}%
-\contentsline {section}{\numberline {C.1.}Package yang Diperlukan}{54}%
-\contentsline {section}{\numberline {C.2.}File yang diubah isinya oleh penulis}{55}%
-\contentsline {section}{\numberline {C.3.}Menghasilkan file PDF}{55}%
+\contentsline {chapter}{\numberline {A}Data Penelitian}{53}%
+\contentsline {section}{\numberline {A.1.}Data \textit {Climate Chamber}}{53}%
+\contentsline {section}{\numberline {A.2.}Contoh Gambar pada Lampiran}{53}%
+\contentsline {section}{\numberline {A.3.}Contoh Penulisan Tabel pada Lampiran}{53}%
+\contentsline {section}{\numberline {A.4.}Contoh Penulisan Persamaan pada Lampiran}{54}%
+\contentsline {chapter}{\numberline {B}Listing Program}{56}%
+\contentsline {chapter}{\numberline {C}About \LaTeX }{58}%
+\contentsline {section}{\numberline {C.1.}Package yang Diperlukan}{58}%
+\contentsline {section}{\numberline {C.2.}File yang diubah isinya oleh penulis}{59}%
+\contentsline {section}{\numberline {C.3.}Menghasilkan file PDF}{59}%

@@ -17,7 +17,8 @@ Penelitian ini tidak dapat dilakukan tanpa adanya alat dan bahan yang memudahkan
 		1 & ASUS N550JX & Perangkat komputer \\ \hline
 		2 & IES-VE 2019 & Perangkat lunak untuk pengambilan data lingkungan termal \textit{climate chamber} dan variasi gangguan \\ \hline
 		3 & MS Excel 365 & Perangkat lunak pengolahan data tabular \\ \hline
-		4 & MATLAB R2018a & Perangkat lunak untuk menjalankan simulasi sistem kontrol \\ \hline
+		4 & MATLAB R2018a & Perangkat lunak pemrograman dalam merancang jaringan saraf tiruan dan sistem kontrol. \\ \hline
+		5 & Simulink & Perangkat lunak untuk menjalankan simulasi sistem kontrol. \\ \hline
 		%5 & VS Code 1.38 & Aplikasi penulisan dan penyuntingan kode sumber \\ \hline
 		%6 & Python 3.7 & Bahasa pemrograman \\ \hline
 		%7 & Anaconda 3 & Distribusi pengelola lingkungan pengembangan dan manajemen paket untuk komputasi ilmiah \\ \hline
@@ -78,16 +79,48 @@ Studi pustaka bertujuan untuk mendapatkan pemahaman dalam penyelesaian masalah y
 
 \subsection{Penentuan Tuntutan Rancangan}
 
-Tuntutan Rancangan yang digunakan yaitu ...
+Penulis dituntut untuk mampu membangun sistem kendali yang mampu mengendalikan \textit{plant} sesuai dengan \textit{setpoint} yang diinginkan mengikuti skema pengujian pada penggunaan \textit{climate chamber}.
 
 \subsection{Pengambilan Data Simulasi IES-VE}
 Penelitian ini menggunakan data yang sama dengan data yang digunakan oleh penelitian Tanto \cite{skripsiTanto} yang bersumber dari model yang telah dibuat di penelitian sebelumnya berjudul "Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan Metode Simulasi CFD dengan Perangkat Lunak IES-VE" yang diteliti oleh Ichfan Kurniawan \cite{skripsiIchfan}.  Data tersebut merupakan hasil simulasi pada \textit{software} IES-VE dengan menerapkan beberapa variasi kondisi lingkungan pada model \textit{climate chamber}. Variasi tersebut yaitu kondisi batas lingkungan (radiasi matahari dan suhu bola kering luar / \textit{outdoor dry bulb temperature}), kondisi AC, dan kondisi \textit{heater}. Variasi kondisi batas lingkungan tersebut diwujudkan dalam pembagian 4 musim dalam 1 tahun, yakni bulan maret, juni, september dan desember. Keluaran dari model IES-VE berupa nilai suhu udara ruang (\textit{air temperature}) \textit{chamber} dan kelembapan relatif (RH) \textit{chamber}. Dari model tersebut didapatkan nilai MAE perhitungan selisih variabel lingkungan termal hasil simulasi dan pengukuran lapangan sebesar 0,8 $\pm$ 0,7$^{\circ}$C untuk suhu udara dan 2,5 $\pm$ 3,8\% untuk kelembaban relatif \cite{skripsiIchfan}. Data yang sudah terkumpul disajikan dalam bentuk tabular yang kemudian diolah dalam program komputer yang dibuat oleh penulis.
 
 \subsection{Pengembangan model JST Plant}
-Penelitian ini menggunakan model \textit{plant} yang telah dirancang dari penelitian sebelumnya berjudul "Pemodelan Lingkungan Termal Sistem \textit{Climate Chamber} dengan Metode Jaringan Saraf Tiruan" yang diteliti oleh Tri Hartanto \cite{skripsiTanto}. Model tersebut merupakan hasil perancangan pada piranti lunak MATLAB dengan menggunakan perangkat NNtools. Model \textit{plant} tersebut memiliki nilai MAE perhitungan antara target dan prediksi sebesar 0,59$^{\circ}$C untuk suhu udara dan 5,44\% untuk kelembapan relatif. Akurasi JST sebesar 96,23\% untuk suhu udara dan 68,90\% untuk kelembapan relatif \cite{skripsiTanto}. Model \textit{plant} ini akan digunakan oleh penulis dalam melakukan perancangan sistem kontrol berbasi jaringan saraf tiruan.
+Penelitian ini menggunakan model \textit{plant} yang telah dirancang dari penelitian sebelumnya berjudul "Pemodelan Lingkungan Termal Sistem \textit{Climate Chamber} dengan Metode Jaringan Saraf Tiruan" yang diteliti oleh Tri Hartanto \cite{skripsiTanto}. Model tersebut merupakan hasil perancangan pada piranti lunak MATLAB. Model \textit{plant} tersebut memiliki nilai MAE perhitungan antara target dan prediksi sebesar 0,59$^{\circ}$C untuk suhu udara dan 5,44\% untuk kelembapan relatif. Akurasi JST sebesar 96,23\% untuk suhu udara dan 68,90\% untuk kelembapan relatif \cite{skripsiTanto}. Model \textit{plant} ini akan digunakan oleh penulis dalam melakukan perancangan sistem kontrol berbasi jaringan saraf tiruan. Arsitektur Model JST Plant dijabarkan oleh Gambar \ref{fig:4:NNPlantModelDesign} di bawah ini.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.65\textwidth]{figures/NNPlantModelDesign}
+	\caption{Arsitektur JST Plant}
+	\label{fig:4:NNPlantModelDesign}
+\end{figure}
 
 \subsection{Perancangan Sistem kontrol JST}
-Perancangan sistem kontrol JST untuk lingkungan termal \textit{climate chamber} dibagi ke dalam 2 proses kerja. Pertama yaitu perancangan JST sebagai blok kontroler dan kedua yaitu perancangan diagram blok sistem kontrol.
+Perancangan sistem kontrol JST untuk lingkungan termal \textit{climate chamber} menggunakan diagram blok \textit{Neural Network Internal Model Control} (NN-IMC).Diagram blok tersebut dijabarkan pada Gambar \ref{fig:4:ConstrolSystemBlockDiagram} dibawah ini:
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=1\textwidth]{figures/ControlDesignDiagram}
+	\caption{Blok Diagram Sistem Kendali JST}
+	\label{fig:4:ConstrolSystemBlockDiagram}
+\end{figure}
+
+Pada Gambar diatas, Penulis menggunakan Model Invers JST (NN Inverse Model) dari Plant sebagai blok kontroler dan Model Umpan JST (NN Forward Model) sebagai blok \textit{Internal Model}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figures/NNInverseModelDesign}
+	\caption{Arsitektur NN Inverse Model}
+	\label{fig:4:NNInverseModelDesign}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figures/NNForwardModelDesign}
+	\caption{Arsitektur NN Forward Model}
+	\label{fig:4:NNForwardModelDesign}
+\end{figure}
+
+Perancangan JST untuk Blok Kontroler menggunakan output plant, disturbance, delay umpan balik dan delay output plant sebagai sebagai input sebagai untuk pelatihan JST. NN Inverse Model dijelaskan pada Gambar \ref{fig:4:NNInverseModelDesign} dan NN Forward Model dijelaskan pada Gambar \ref{fig:4:NNForwardModelDesign}
 
 \subsection{{Penarikan Kesimpulan}}
 Penarikan kesimpulan didapatkan berdasarkan hasil model terbaik yang terpilih dari beberapa percobaan variasi penentuan jumlah \textit{hidden layer} dan/atau jumlah neuron untuk JST blok kontroler serta berbagai percobaan diagram blok sistem kontrol. Kesimpulan menggambarkan bagaimana parameter model yang terpilih dan rancangan diagram blok sistem kontrol sehingga dapat digunakan sebagai sistem kontrol lingkungan termal pada \textit{climate chamber} DTNTF FT UGM.

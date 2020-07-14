@@ -1,10 +1,10 @@
 \chapter{HASIL DAN PEMBAHASAN}
 \label{hasil-dan-pembahasan}
-Bangunan yang dijadikan objek penelitian adalah \textit{climate chamber} DTNTF FT UGM. Dalam bab ini, akan dibahas mengenai hasil perancangan sistem kontrol sesuai dengan langkah-langkah yang dijelaskan pada Bab IV dengan memvariasikan berbagai macam masukan, kemudian mengetahui keluarannya. Variasi masukan dan keluaran akan dimodelkan dengan model jaringan saraf tiruan untuk mendapatkan parameter-parameter model yang dapat mengendalikan sistem bangunan.
+Bangunan yang dijadikan objek penelitian adalah \textit{climate chamber} DTNTF FT UGM. Dalam bab ini, akan dibahas mengenai hasil perancangan sistem kontrol sesuai dengan langkah-langkah yang dijelaskan pada Bab IV dengan memvariasikan berbagai macam masukan, kemudian mengetahui keluarannya. Variasi masukan dan keluaran akan dimodelkan dengan model jaringan saraf tiruan untuk mendapatkan parameter-parameter model yang dapat mengendalikan sistem bangunan.\\
 
-\section{Pengembangan JST Plant}
+\section{Hasil Pengembangan JST Plant}
 
-Penulis menggunakan model JST yang telah dibangun oleh Tanto\cite{skripsiTanto} sebagai model acuan dalam penelitian ini. Model tersebut kemudian penulis kembangan kembali untuk mengingkatkan kinerjanya sebagai model \textit{plant}. \textit{Hyperparameter} yang digunakan Tanto pada pembangunan JST \textit{plant }ini dijelaskan pada tabel berikut:
+Penulis menggunakan model JST yang telah dibangun oleh Tanto\cite{skripsiTanto} sebagai model acuan dalam penelitian ini. Model tersebut kemudian penulis kembangan kembali untuk mengingkatkan kinerjanya sebagai model \textit{plant}. \textit{Hyperparameter} yang digunakan Tanto pada pembangunan JST \textit{plant }ini dijelaskan pada tabel berikut:\\
 
 \begin{table}[!h]
 	\caption{Tabel Rancangan Model JST Plant Tanto}
@@ -24,12 +24,11 @@ Penulis menggunakan model JST yang telah dibangun oleh Tanto\cite{skripsiTanto} 
 		Correlation Coefficient & Td: 96,23\% ; RH: 68,90\% \\ \hline
 	\end{tabular}
 \end{table}
+\vspace{2em}
 
-
-\noindent \textbf{Variasi Pembagian Data} 
+\noindent \textbf{Hasil Variasi Pembagian Data} 
 
 Dalam menentukan variasi pembagiaan data, penulis melakukan perbandingan dengan beberapa variasi pembagiaan data ke dalam 5 variasi. Kemudian, penulis membandingkan kinerja dari setiap pembagian data dengan menggunakan model JST dengan konfigurasi \textit{hyperparameter} sesuai rancangan penelitian sebelumnya\cite{skripsiTanto}.
-
 \begin{table}[h!]
 	\caption{Daftar variasi pembagian data}
 	\label{tbl:5:DataSplitting}
@@ -50,20 +49,18 @@ Dalam menentukan variasi pembagiaan data, penulis melakukan perbandingan dengan 
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.9\textwidth]{figures/DataSplittingResult}
-	\caption{}
+	\caption{Hasil Variasi Pembagian Data}
 	\label{fig:5:DataSplittingResult}
 \end{figure}
-
-Pada Tabel \ref{tbl:5:DataSplitting}, "Data Splitting 0" merupakan konfigurasi pembagian data yang digunakan oleh Tanto pada penelitian sebelumnya dalam membangun model JST \textit{plant}. Pada tabel yang penulis sajikan, penulis menulis pembagian data dengan format 'Data Splitting n' dan '(x\% y\% z\%)' dimana n = nomor variasi, x = pembagian data pelatihan, y = pembagian data validasi, dan z = pembagian data pengujian. \\
 
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=1\textwidth]{figures/DataSplittingFinal}
-	\caption{}
+	\caption{Pembagian Data yang digunakan}
 	\label{fig:5:DataSplittingFinal}
 \end{figure}
 
-Pembagian data terbaik yang penulis gunakan yaitu pembagian data bernama "Data Splitting 4". Data dibagi menjadi 3 bagian, yakni 80\% data pelatihan, 15\% data validasi, dan 5\% data pengujian.\\
+Pada Tabel \ref{tbl:5:DataSplitting}, "Data Splitting 0" merupakan konfigurasi pembagian data yang digunakan oleh Tanto pada penelitian sebelumnya dalam membangun model JST \textit{plant}. Pada tabel yang penulis sajikan, penulis menulis pembagian data dengan format 'Data Splitting n' dan '(x\% y\% z\%)' dimana n = nomor variasi, x = pembagian data pelatihan, y = pembagian data validasi, dan z = pembagian data pengujian. Pembagian data terbaik yang penulis gunakan yaitu pembagian data bernama "Data Splitting 4". Data dibagi menjadi 3 bagian, yakni 80\% data pelatihan, 15\% data validasi, dan 5\% data pengujian. Sehingga didapatkan rancangan terbaik penulis yang dirangkum pada Tabel \ref{tbl:5:NNPlantRidhan} di bawah ini.
 
 \begin{table}[!h]
 	\caption{Tabel Rancangan Model JST Plant Penulis}
@@ -79,14 +76,81 @@ Pembagian data terbaik yang penulis gunakan yaitu pembagian data bernama "Data S
 		Jumlah Neuron pada Layar & [55] \\ \hline
 		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
 		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
-		Mean Absolute Error & Td: 0,57$^\circ$C ; RH: 5,40\% \\ \hline
-		Correlation Coefficient & Td: 93,91\% ; RH: 72,05\% \\ \hline
+		Mean Absolute Error & Td: 0,62$^\circ$C ; RH: 5,45\% \\ \hline
+		Correlation Coefficient & Td: 93,09\% ; RH: 71,44\% \\ \hline
 	\end{tabular}
 \end{table}
 
+\section{Hasil Perancangan Sistem Kontrol JST}
 
-\section{Perancangan Sistem Kontrol JST}
+Pada sub-bab ini penulis akan menjabarkan hasil perancangan sistem kontrol dimulai dari kinerja JST Blok Kontroler (NN Inverse Model), Kinerja JST Internal Model (NN Forward Model), dan kinerja dari sistem kontrol pada simulasi simulink.
 
-\subsection{Perancangan JST Blok Kontroler}
+\subsection{Kinerja JST Blok Kontroler}
 
-\subsection{Perancangan Diagram Blok Sistem Kontrol}
+Pada proses pelatihan JST, penulis melakukan pengskalaan terhadap semua input JST menggunakan metode \textit{Min Max Scaling} kecuali variabel delay umpan masuk SET AC dan SET Heater. Pengskalaan bertujuan untuk meningkatkan kinerja JST menjadi optimal dengan menyamakan rentang dan besar satuan dari setiap variabel. Masing-masing variabel diubah menjadi skala satuan dengan melakukan transformasi data secara statistik. Data dari setiap variabel akan dikurangi dengan nilai minimum variabel tersebut yang dikemudian dibagi oleh selisih dari nilai maksimum dan nilai minimum variabel tersebut. Secara lengkap dapat dirumuskan pada persamaan berikut:
+\begin{equation} \label{eq:5:MinMaxScaler}
+z = \frac{x_i - min(x)}{max(x) - min(x)}
+\end{equation}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figures/NNInverseModelDesign}
+	\caption{Arsitektur NN Inverse Model}
+	\label{fig:5:NNInverseModelDesign}
+\end{figure}
+
+\begin{table}[!h]
+	\caption{Tabel Rancangan JST Blok Kontroler Tanto}
+	\label{tbl:5:NNcontrol}
+	\centering
+	% use packages: array
+	\begin{tabular}{|p{5.7cm}|p{5cm}|}
+		\hline
+		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\ \hline
+		Arsitektur & Feedforward Neural Network \\ \hline
+		Pembagian Data & 80\% 15\% 5\% \\ \hline 
+		Jumlah Layar Tersembunyi & 1 \\ \hline
+		Jumlah Neuron pada Layar & [52] \\ \hline
+		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
+		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
+		Mean Absolute Error & AC: 0,21$^\circ$C ; HT: 0,00\% \\ \hline
+		Correlation Coefficient & AC: 98,37\% ; HT: 99,58\% \\ \hline
+	\end{tabular}
+\end{table}
+
+\subsection{Kinerja JST Internal Model}
+
+\begin{figure}[!hbt]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figures/NNForwardModelDesign}
+	\caption{Arsitektur NN Forward Model}
+	\label{fig:5:NNForwardModelDesign}
+\end{figure}
+
+\begin{table}[!hbt]
+	\caption{Tabel Rancangan JST Blok Kontroler Tanto}
+	\label{tbl:5:NNInternalModel}
+	\centering
+	% use packages: array
+	\begin{tabular}{|p{5.7cm}|p{5cm}|}
+		\hline
+		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\ \hline
+		Arsitektur & Feedforward Neural Network \\ \hline
+		Pembagian Data & 80\% 15\% 5\% \\ \hline 
+		Jumlah Layar Tersembunyi & 1 \\ \hline
+		Jumlah Neuron pada Layar & [52] \\ \hline
+		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
+		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
+		Mean Absolute Error & Td: 0.51$^\circ$C ; RH: 1.43\% \\ \hline
+		Correlation Coefficient & Td: 96,38\% ; RH: 97,79\% \\ \hline
+	\end{tabular}
+\end{table}
+
+\subsection{Kinerja Diagram Blok Sistem Kontrol}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=1\textwidth]{figures/ControlDesignDiagram}
+	\caption{Blok Diagram Sistem Kendali JST}
+	\label{fig:5:ConstrolSystemBlockDiagram}
+\end{figure}
