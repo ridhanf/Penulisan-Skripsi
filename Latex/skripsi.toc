@@ -6,9 +6,9 @@
 \contentsline {chapter}{HALAMAN PERSEMBAHAN}{v}%
 \contentsline {chapter}{HALAMAN MOTTO}{vi}%
 \contentsline {chapter}{KATA PENGANTAR}{vii}%
-\contentsline {chapter}{DAFTAR LAMBANG DAN SINGKATAN}{xv}%
-\contentsline {chapter}{INTISARI}{xvii}%
-\contentsline {chapter}{ABSTRACT}{xviii}%
+\contentsline {chapter}{DAFTAR LAMBANG DAN SINGKATAN}{xiv}%
+\contentsline {chapter}{INTISARI}{xvi}%
+\contentsline {chapter}{ABSTRACT}{xvii}%
 \babel@toc {bahasa}{}
 \babel@toc {bahasa}{}
 \contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}%
@@ -18,8 +18,8 @@
 \contentsline {section}{\numberline {I.4.}Tujuan}{4}%
 \contentsline {section}{\numberline {I.5.}Manfaat}{5}%
 \contentsline {chapter}{\numberline {II}TINJAUAN PUSTAKA}{6}%
-\contentsline {section}{\numberline {II.1.}Penelitian Lingkungan Termal}{6}%
-\contentsline {section}{\numberline {II.2.}Sistem kontrol Jaringan Saraf Tiruan}{10}%
+\contentsline {section}{\numberline {II.1.}Penelitian Lingkungan Termal \textit {Climate Chamber}}{6}%
+\contentsline {section}{\numberline {II.2.}Sistem Kontrol Jaringan Saraf Tiruan}{10}%
 \contentsline {chapter}{\numberline {III}DASAR TEORI}{16}%
 \contentsline {section}{\numberline {III.1.}Fisika Bangunan}{16}%
 \contentsline {subsection}{\numberline {III.1.1.}Lingkungan Termal}{16}%
@@ -30,34 +30,34 @@
 \contentsline {section}{\numberline {III.3.}Jaringan Saraf Tiruan}{25}%
 \contentsline {subsection}{\numberline {III.3.1.}Model Matematis Neuron}{26}%
 \contentsline {subsection}{\numberline {III.3.2.}Jaringan Layar Jamak (MLP)}{31}%
-\contentsline {section}{\numberline {III.4.}Kontrol berbasis Jaringan Saraf Tiruan}{34}%
+\contentsline {section}{\numberline {III.4.}Sistem Kontrol Jaringan Saraf Tiruan}{34}%
 \contentsline {chapter}{\numberline {IV}PELAKSANAAN PENELITIAN}{35}%
 \contentsline {section}{\numberline {IV.1.}Alat dan Bahan Penelitian}{35}%
 \contentsline {section}{\numberline {IV.2.}Tata Laksana Penelitian}{36}%
 \contentsline {subsection}{\numberline {IV.2.1.}Studi Pustaka}{37}%
 \contentsline {subsection}{\numberline {IV.2.2.}Penentuan Tuntutan Rancangan}{37}%
 \contentsline {subsection}{\numberline {IV.2.3.}Pengambilan Data Simulasi IES-VE}{37}%
-\contentsline {subsection}{\numberline {IV.2.4.}Pengembangan model JST Plant}{38}%
+\contentsline {subsection}{\numberline {IV.2.4.}Pengembangan Model Plant JST}{38}%
 \contentsline {subsection}{\numberline {IV.2.5.}Perancangan Sistem kontrol JST}{39}%
 \contentsline {subsection}{\numberline {IV.2.6.}{Penarikan Kesimpulan}}{40}%
 \contentsline {section}{\numberline {IV.3.}Rencana Analisis Hasil Penelitian}{41}%
 \contentsline {chapter}{\numberline {V}HASIL DAN PEMBAHASAN}{42}%
-\contentsline {section}{\numberline {V.1.}Hasil Pengembangan JST Plant}{42}%
-\contentsline {section}{\numberline {V.2.}Hasil Perancangan Sistem Kontrol JST}{45}%
-\contentsline {subsection}{\numberline {V.2.1.}Kinerja JST Blok Kontroler}{45}%
-\contentsline {subsection}{\numberline {V.2.2.}Kinerja JST Internal Model}{46}%
-\contentsline {subsection}{\numberline {V.2.3.}Kinerja Diagram Blok Sistem Kontrol}{46}%
-\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{48}%
-\contentsline {section}{\numberline {VI.1.}Kesimpulan}{48}%
-\contentsline {section}{\numberline {VI.2.}Saran}{48}%
+\contentsline {section}{\numberline {V.1.}Hasil Pengembangan Model Plant JST}{42}%
+\contentsline {section}{\numberline {V.2.}Hasil Perancangan Sistem Kontrol JST}{46}%
+\contentsline {subsection}{\numberline {V.2.1.}Kinerja Emulator JST}{46}%
+\contentsline {subsection}{\numberline {V.2.2.}Kinerja Kontroler JST}{46}%
+\contentsline {subsection}{\numberline {V.2.3.}Kinerja Sistem Kontrol JST}{48}%
+\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{49}%
+\contentsline {section}{\numberline {VI.1.}Kesimpulan}{49}%
+\contentsline {section}{\numberline {VI.2.}Saran}{49}%
 \contentsline {chapter}{LAMPIRAN}{}
-\contentsline {chapter}{\numberline {A}Data Penelitian}{53}%
-\contentsline {section}{\numberline {A.1.}Data \textit {Climate Chamber}}{53}%
-\contentsline {section}{\numberline {A.2.}Contoh Gambar pada Lampiran}{53}%
-\contentsline {section}{\numberline {A.3.}Contoh Penulisan Tabel pada Lampiran}{53}%
-\contentsline {section}{\numberline {A.4.}Contoh Penulisan Persamaan pada Lampiran}{54}%
-\contentsline {chapter}{\numberline {B}Listing Program}{56}%
-\contentsline {chapter}{\numberline {C}About \LaTeX }{58}%
-\contentsline {section}{\numberline {C.1.}Package yang Diperlukan}{58}%
-\contentsline {section}{\numberline {C.2.}File yang diubah isinya oleh penulis}{59}%
-\contentsline {section}{\numberline {C.3.}Menghasilkan file PDF}{59}%
+\contentsline {chapter}{\numberline {A}Data Penelitian}{54}%
+\contentsline {section}{\numberline {A.1.}Data \textit {Climate Chamber}}{54}%
+\contentsline {section}{\numberline {A.2.}Contoh Gambar pada Lampiran}{54}%
+\contentsline {section}{\numberline {A.3.}Contoh Penulisan Tabel pada Lampiran}{54}%
+\contentsline {section}{\numberline {A.4.}Contoh Penulisan Persamaan pada Lampiran}{55}%
+\contentsline {chapter}{\numberline {B}Listing Program}{57}%
+\contentsline {chapter}{\numberline {C}About \LaTeX }{59}%
+\contentsline {section}{\numberline {C.1.}Package yang Diperlukan}{59}%
+\contentsline {section}{\numberline {C.2.}File yang diubah isinya oleh penulis}{60}%
+\contentsline {section}{\numberline {C.3.}Menghasilkan file PDF}{60}%

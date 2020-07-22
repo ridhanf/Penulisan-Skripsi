@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  12 JUL 2020 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  22 JUL 2020 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -702,17 +702,17 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 
 [13
 
-] [14] (./skripsi.nls [15
+] (./skripsi.nls [14
 
 
-]) (./lambang.tex) [16] (./abstrakind.tex) [17
+]) (./lambang.tex) [15] (./abstrakind.tex) [16
 
 ]
-(./abstrakeng.tex) [18
+(./abstrakeng.tex) [17
 
 ]) (./Bab1.tex
 BAB I.
-<figures/EnergyUsage.png, id=68, 601.24625pt x 255.95625pt>
+<figures/EnergyUsage.png, id=65, 601.24625pt x 255.95625pt>
 File: figures/EnergyUsage.png Graphic file (type png)
 <use figures/EnergyUsage.png>
 Package pdftex.def Info: figures/EnergyUsage.png  used on input line 8.
@@ -1092,20 +1092,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []
 
 [20] [21]
-<figures/SSEExample.png, id=140, 490.83376pt x 105.39375pt>
+<figures/SSEExample.png, id=137, 490.83376pt x 105.39375pt>
 File: figures/SSEExample.png Graphic file (type png)
 <use figures/SSEExample.png>
 Package pdftex.def Info: figures/SSEExample.png  used on input line 98.
 (pdftex.def)             Requested size: 305.15585pt x 65.52676pt.
  [22 <./figures/SSEExample.PNG>]
-<figures/SSEExample2.png, id=145, 801.99625pt x 209.78375pt>
+<figures/SSEExample2.png, id=142, 801.99625pt x 209.78375pt>
 File: figures/SSEExample2.png Graphic file (type png)
 <use figures/SSEExample2.png>
 Package pdftex.def Info: figures/SSEExample2.png  used on input line 115.
 (pdftex.def)             Requested size: 305.15585pt x 79.82108pt.
  [23 <./figures/SSEExample2.png>]
 [24]
-<figures/neuron.png, id=153, 237.2865pt x 189.70876pt>
+<figures/neuron.png, id=150, 237.2865pt x 189.70876pt>
 File: figures/neuron.png Graphic file (type png)
 <use figures/neuron.png>
 Package pdftex.def Info: figures/neuron.png  used on input line 166.
@@ -1115,7 +1115,7 @@ Package pdftex.def Info: figures/neuron.png  used on input line 166.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [25]
-<figures/neuronmath.png, id=158, 443.40656pt x 297.36093pt>
+<figures/neuronmath.png, id=154, 443.40656pt x 297.36093pt>
 File: figures/neuronmath.png Graphic file (type png)
 <use figures/neuronmath.png>
 Package pdftex.def Info: figures/neuronmath.png  used on input line 175.
@@ -1142,7 +1142,7 @@ r-hu-bung-an de-ngan si-na-psis \T1/ptm/m/it/12 exi-ta-tory \T1/ptm/m/n/12 dan
 bobot-bobot
  []
 
-<figures/activationFunction.png, id=163, 716.6775pt x 624.08156pt>
+<figures/activationFunction.png, id=160, 716.6775pt x 624.08156pt>
 File: figures/activationFunction.png Graphic file (type png)
 <use figures/activationFunction.png>
 Package pdftex.def Info: figures/activationFunction.png  used on input line 193
@@ -1152,7 +1152,7 @@ Package pdftex.def Info: figures/activationFunction.png  used on input line 193
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [27 <./figures/neuronmath.PNG>] [28 <./figures/activationFunction.PNG>]
-<figures/jstTunggal.png, id=174, 329.73187pt x 364.36125pt>
+<figures/jstTunggal.png, id=171, 329.73187pt x 364.36125pt>
 File: figures/jstTunggal.png Graphic file (type png)
 <use figures/jstTunggal.png>
 Package pdftex.def Info: figures/jstTunggal.png  used on input line 230.
@@ -1163,7 +1163,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--235
  []
 
 [29 <./figures/jstTunggal.PNG>] [30]
-<figures/mlp.png, id=182, 718.685pt x 642.4pt>
+<figures/mlp.png, id=179, 718.685pt x 642.4pt>
 File: figures/mlp.png Graphic file (type png)
 <use figures/mlp.png>
 Package pdftex.def Info: figures/mlp.png  used on input line 302.
@@ -1189,7 +1189,7 @@ Overfull \hbox (16.67531pt too wide) in paragraph at lines 39--49
  [][] 
  []
 
-<figures/TataLaksanaPenelitian.png, id=198, 380.42125pt x 654.445pt>
+<figures/TataLaksanaPenelitian.png, id=195, 380.42125pt x 654.445pt>
 File: figures/TataLaksanaPenelitian.png Graphic file (type png)
 <use figures/TataLaksanaPenelitian.png>
 Package pdftex.def Info: figures/TataLaksanaPenelitian.png  used on input line 
@@ -1198,7 +1198,7 @@ Package pdftex.def Info: figures/TataLaksanaPenelitian.png  used on input line
 [35
 
 ] [36 <./figures/TataLaksanaPenelitian.png>] [37]
-<figures/NNPlantModelDesign.png, id=210, 322.20375pt x 161.60374pt>
+<figures/NNPlantModelDesign.png, id=206, 322.20375pt x 161.60374pt>
 File: figures/NNPlantModelDesign.png Graphic file (type png)
 <use figures/NNPlantModelDesign.png>
 Package pdftex.def Info: figures/NNPlantModelDesign.png  used on input line 92.
@@ -1211,36 +1211,32 @@ In-ter-nal Mo-del Con-trol \T1/ptm/m/n/12 (NN-IMC).Diagram
  []
 
 [38 <./figures/NNPlantModelDesign.png>]
-<figures/ControlDesignDiagram.png, id=215, 603.25375pt x 256.96pt>
+<figures/ControlDesignDiagram.png, id=212, 603.25375pt x 256.96pt>
 File: figures/ControlDesignDiagram.png Graphic file (type png)
 <use figures/ControlDesignDiagram.png>
 Package pdftex.def Info: figures/ControlDesignDiagram.png  used on input line 1
 02.
-(pdftex.def)             Requested size: 406.87448pt x 173.31111pt.
-<figures/NNInverseModelDesign.png, id=216, 342.27875pt x 323.2075pt>
-File: figures/NNInverseModelDesign.png Graphic file (type png)
-<use figures/NNInverseModelDesign.png>
-Package pdftex.def Info: figures/NNInverseModelDesign.png  used on input line 1
-11.
-(pdftex.def)             Requested size: 203.43724pt x 192.10619pt.
-<figures/NNForwardModelDesign.png, id=217, 342.27875pt x 364.36125pt>
+(pdftex.def)             Requested size: 366.18454pt x 155.97687pt.
+<figures/NNForwardModelDesign.png, id=213, 342.27875pt x 364.36125pt>
 File: figures/NNForwardModelDesign.png Graphic file (type png)
 <use figures/NNForwardModelDesign.png>
 Package pdftex.def Info: figures/NNForwardModelDesign.png  used on input line 1
-18.
+09.
 (pdftex.def)             Requested size: 203.43724pt x 216.5669pt.
+<figures/NNInverseModelDesign.png, id=214, 342.27875pt x 323.2075pt>
+File: figures/NNInverseModelDesign.png Graphic file (type png)
+<use figures/NNInverseModelDesign.png>
+Package pdftex.def Info: figures/NNInverseModelDesign.png  used on input line 1
+16.
+(pdftex.def)             Requested size: 203.43724pt x 192.10619pt.
+ [39 <./figures/ControlDesignDiagram.png> <./figures/NNForwardModelDesign.png>]
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[39 <./figures/ControlDesignDiagram.png> <./figures/NNInverseModelDesign.png>])
-(./Bab5.tex [40 <./figures/NNForwardModelDesign.png>] [41]
-BAB V.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
+) (./Bab5.tex [40 <./figures/NNInverseModelDesign.png>] [41]
+BAB V.
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
@@ -1249,58 +1245,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 [42
 
 ]
-<figures/DataSplittingResult.png, id=233, 466.8642pt x 334.851pt>
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/DataSplittingResult.png, id=230, 410.0118pt x 334.3692pt>
 File: figures/DataSplittingResult.png Graphic file (type png)
 <use figures/DataSplittingResult.png>
-Package pdftex.def Info: figures/DataSplittingResult.png  used on input line 51
+Package pdftex.def Info: figures/DataSplittingResult.png  used on input line 76
 .
-(pdftex.def)             Requested size: 366.18454pt x 262.64912pt.
-<figures/DataSplittingFinal.png, id=234, 361.35pt x 216.81pt>
+(pdftex.def)             Requested size: 366.18454pt x 298.63356pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/DataSplittingFinal.png, id=231, 293.4162pt x 216.81pt>
 File: figures/DataSplittingFinal.png Graphic file (type png)
 <use figures/DataSplittingFinal.png>
-Package pdftex.def Info: figures/DataSplittingFinal.png  used on input line 58.
+Package pdftex.def Info: figures/DataSplittingFinal.png  used on input line 83.
 
-(pdftex.def)             Requested size: 406.87448pt x 244.12567pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[43 <./figures/DataSplittingResult.png>] [44 <./figures/DataSplittingFinal.png>
-]
-File: figures/NNInverseModelDesign.png Graphic file (type png)
-<use figures/NNInverseModelDesign.png>
-Package pdftex.def Info: figures/NNInverseModelDesign.png  used on input line 9
-7.
-(pdftex.def)             Requested size: 203.43724pt x 192.10619pt.
-
+(pdftex.def)             Requested size: 305.15585pt x 225.49031pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: figures/NNForwardModelDesign.png Graphic file (type png)
-<use figures/NNForwardModelDesign.png>
-Package pdftex.def Info: figures/NNForwardModelDesign.png  used on input line 1
-25.
-(pdftex.def)             Requested size: 203.43724pt x 216.5669pt.
-[45]
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+[43] [44 <./figures/DataSplittingResult.png>] [45 <./figures/DataSplittingFinal
+.png>] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
 File: figures/ControlDesignDiagram.png Graphic file (type png)
 <use figures/ControlDesignDiagram.png>
 Package pdftex.def Info: figures/ControlDesignDiagram.png  used on input line 1
-53.
+75.
 (pdftex.def)             Requested size: 406.87448pt x 173.31111pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./Bab6.tex [46] [47]
+[47]) (./Bab6.tex [48]
 BAB VI.
-) (./skripsi.bbl [48
+) (./skripsi.bbl [49
 
-] [49
+] [50
 
-] [50]) [51]
+] [51]) [52]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 26.
- [52
+ [53
 
 ] (./app1.tex
 LAMPIRAN A.
@@ -1308,9 +1303,9 @@ File: logoUGM.jpg Graphic file (type jpg)
 <use logoUGM.jpg>
 Package pdftex.def Info: logoUGM.jpg  used on input line 12.
 (pdftex.def)             Requested size: 142.26378pt x 144.33249pt.
-[53
+[54
 
-]) (./app2.tex [54] [55]
+]) (./app2.tex [55] [56]
 LAMPIRAN B.
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -1323,7 +1318,7 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
- [56
+ [57
 
 ]
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 8
@@ -1334,9 +1329,9 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
-) (./app3.tex [57]
+) (./app3.tex [58]
 LAMPIRAN C.
-[58
+[59
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 35
@@ -1349,12 +1344,12 @@ Overfull \hbox (32.12271pt too wide) in paragraph at lines 36--37
 a fi-le \T1/pcr/m/n/12 muka_skripsi.tex\T1/ptm/m/n/12 . 
  []
 
-[59]) [60] (./skripsi.aux) ) 
+[60]) [61] (./skripsi.aux) ) 
 Here is how much of TeX's memory you used:
- 19329 strings out of 492163
- 335500 string characters out of 6129076
- 742218 words of memory out of 5000000
- 23395 multiletter control sequences out of 15000+600000
+ 19328 strings out of 492163
+ 335462 string characters out of 6129076
+ 742209 words of memory out of 5000000
+ 23394 multiletter control sequences out of 15000+600000
  586376 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,16n,125p,1431b,1874s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1371,7 +1366,7 @@ fb><c:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2
 019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fon
 ts/type1/urw/times/utmbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/time
 s/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on skripsi.pdf (78 pages, 944334 bytes).
+Output written on skripsi.pdf (78 pages, 943094 bytes).
 PDF statistics:
  346 PDF objects out of 1000 (max. 8388607)
  218 compressed objects within 3 object streams
