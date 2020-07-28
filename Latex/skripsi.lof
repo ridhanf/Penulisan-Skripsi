@@ -5,13 +5,13 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Penggunaan energi final per sektor di Indonesia, 2000 dan 2015\relax }}{1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Sistem dengan \textbf {a.} kesalahan keadaan tunak bernilai terbatas untuk input fungsi step; \textbf {b.} kesalahan keadaan tunak nol untuk input fungsi step\relax }}{22}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sistem dengan \textbf {a.} kesalahan keadaan tunak bernilai terbatas untuk input fungsi step; \textbf {b.} kesalahan keadaan tunak nol untuk input fungsi step\relax }}{21}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Eror sistem kontrol tertutup: a. Representasi secara umum; b. Representasi untuk sistem umpan balik satuan\relax }}{23}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Anatomi neuron\relax }}{26}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Model matematis neuron.\relax }}{27}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Fungsi-fungsi aktivasi\relax }}{28}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Anatomi neuron\relax }}{25}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Model matematis neuron.\relax }}{26}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Fungsi-fungsi aktivasi\relax }}{27}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Jaringan layar tunggal\relax }}{29}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Jaringan 2 layar\relax }}{32}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Jaringan 2 layar\relax }}{31}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Bagan Tata Laksana Penelitian\relax }}{36}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Arsitektur Model Plant JST\relax }}{38}%
@@ -20,10 +20,25 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Arsitektur NN Inverse Model\relax }}{40}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Hasil Variasi Pembagian Data\relax }}{44}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Pembagian Data yang digunakan\relax }}{45}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Blok Diagram Sistem Kontrol JST\relax }}{48}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Pembagian Data yang digunakan\relax }}{44}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Blok Diagram Sistem Kendali JST\relax }}{47}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Hasil Simulasi Sistem Kontrol untuk Suhu Ruang SP1\relax }}{48}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Hasil Simulasi Sistem Kontrol untuk Kelembapan Relatif SP1\relax }}{49}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Nilai MV SET AC SP1\relax }}{49}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Nilai MV SET Heater SP1\relax }}{49}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Hasil Simulasi Sistem Kontrol untuk Suhu Ruang SP2\relax }}{50}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Hasil Simulasi Sistem Kontrol untuk Kelembapan Relatif SP2\relax }}{51}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Nilai MV SET AC SP2\relax }}{51}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Nilai MV SET Heater SP2\relax }}{51}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Hasil Simulasi Sistem Kontrol untuk Suhu Ruang SP3\relax }}{52}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Hasil Simulasi Sistem Kontrol untuk Kelembapan Relatif SP3\relax }}{53}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Nilai MV SET AC SP3\relax }}{53}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Nilai MV SET Heater SP3\relax }}{53}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Contoh penulisan judul gambar dan peletakkan gambar. Gambar harus dilengkapi dengan informasi yang memadai sehingga mudah ditafsirkan tanpa harus membaca isi teks (\textit {self-contained}).\relax }}{54}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Arsitektur Model Plant JST\relax }}{70}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Arsitektur NN Forward Model\relax }}{70}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Arsitektur NN Inverse Model\relax }}{71}%
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Blok Diagram Sistem Kontrol Simulink\relax }}{72}%

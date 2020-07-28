@@ -6,13 +6,14 @@
 
 \section{Kesimpulan}
 
+Setelah penulis merancang dan menganalisis hasil dari penelitian ini, penulis mendapatkan beberapa kesimpulan dari pengerjaan tugas akhir ini. Sistem kontrol berhasil dirancang menggunakan \textit{Internal Model Control} berbasis Jaringan Saraf Tiruan dengan nilai \textit{error steady-state} sebesar 0,09$^\circ$C untuk suhu ruang dan sebesar 1,24\% untuk kelembapan relatif. Kontroler berbasis jaringan saraf tiruan yang dihasilkan dibangun dengan pembagian data 60\% data latih, 20\% data validasi, dan 20\% data uji. Kontroler memiliki arsitektur jaringan dengan 1 lapisan tersembunyi (\textit{hidden layer}) dan 52 neuron pada lapisan tersembunyi (\textit{hidden layer}) tersebut. JST kontroler menggunakan fungsi aktivasi \textit{hyperbolic tangent} dengan algoritma pembelajaran Levenberg-Marquardt.
 
-Kesimpulan merupakan \textbf{rekapitulasi atau rangkuman} dari butir-butir pemikiran utama peneliti. Kesimpulan mencerminkan:
- \begin{enumerate}
- 	\item Variabel kelembapan relatif sulit dikendalikan dikarenakan perubahannya merupakan pengaruh secara tidak langsung dari manipulator yang ada (AC dan Heater).
- 	\item nilai dari penelitian yang dilakukan (sebagai wujud sumbangan orisinal peneliti), dan
- 	\item pemahaman peneliti tentang apa yang ditulis.
- \end{enumerate}
+%Diantaranya adalah sebagai berikut:
+%\begin{enumerate}
+	%\item Variabel kelembapan relatif sulit untuk dikendalikan dikarenakan perubahannya merupakan pengaruh secara tidak langsung dari manipulator yang ada (AC dan Heater). Oleh karena itu, analisis hasil dari penelitian ini lebih ditekankan pada suhu ruang.
+	%\item Pengaplikasian Jaringan Saraf Tiruan (JST) dapat dikatakan mampu digunakan sebagai sistem kontrol untuk lingkungan termal bangunan.
+	%\item Ketersediaan data sangat mempengaruhi hasil kinerja dari sistem kontrol berbasis jaringan saraf tiruan.
+%\end{enumerate}
  
 %\begin{enumerate}
 %\item \lipsum[51]
@@ -23,11 +24,10 @@ Kesimpulan merupakan \textbf{rekapitulasi atau rangkuman} dari butir-butir pemik
 
 \section{Saran}
 
-Dalam bagian ini juga bisa disampaikan \textbf{evaluasi} terhadap butir-butir pemikiran utama, misalnya terkait dengan kelemahan metode penelitian yang telah digunakan disertai dengan saran-saran untuk penyempurnaan.
+Penelitian ini jauh dari kata sempurna. Oleh karena itu, penulis memberikan beberapa saran dalam rangka penyempurnaan untuk pengembangan sistem kontrol ini pada penelitian-penelitian berikutnya. Diantaranya adalah sebagai berikut:
 \begin{enumerate}
-	\item \textit{Climate chamber} dipasangi oleh semacam manipulator/aktuator untuk memanipulasi kelembapan relatif ruang, contohnya seperti \textit{humidifier}.
-	\item nilai dari penelitian yang dilakukan (sebagai wujud sumbangan orisinal peneliti), dan
-	\item pemahaman peneliti tentang apa yang ditulis.
+	\item Menambahkan semacam manipulator/aktuator pada \textit{climate chamber} untuk memanipulasi kelembapan relatif ruang secara langsung. Contoh: \textit{humidifier}.
+	\item Menggunakan Jaringan Saraf Tiruan jenis \textit{Reinforcement Learning} dengan penerimaan data pengukuran langsung untuk pengembangan sistem kontrol pada penelitian-penelitian selanjutnya.
 \end{enumerate}
 
 %\begin{enumerate}

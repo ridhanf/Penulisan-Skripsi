@@ -1,52 +1,48 @@
+
 \begin{thenomenclature} 
-
- \nomgroup{A}
-
-  \item [{\emph {Lambang }}]\begingroup \emph {Kuantitas } \nomunit {\emph {Satuan }}\nomeqref {0.0}
-		\nompageref{xiii}
-  \item [{$G$}]\begingroup laju aliran massa  \nomunit{kg/s}\nomeqref {0.0}
-		\nompageref{xiv}
-  \item [{$h$}]\begingroup entalpi  \nomunit{J/kg}\nomeqref {0.0}
-		\nompageref{xiv}
-  \item [{\textbf{q}}]\begingroup fluks kalor  \nomunit{W/m$^2$}\nomeqref {0.0}
-		\nompageref{xiv}
-
- \nomgroup{B}
-
-  \item [{\emph {Lambang }}]\begingroup \emph {Kuantitas } \nomunit {\emph {Satuan }}\nomeqref {0.0}
-		\nompageref{xiii}
-  \item [{$\epsilon$}]\begingroup emisivitas  \nomunit{--}\nomeqref {0.0}
-		\nompageref{xiv}
-  \item [{$\Sigma_f$}]\begingroup tampang lintang fisi makroskopik  \nomunit{1/cm}\nomeqref {0.0}
-		\nompageref{xiv}
-  \item [{$\Sigma_s$}]\begingroup tampang lintang fisi hamburan  \nomunit{1/cm}\nomeqref {0.0}
-		\nompageref{xiv}
-
- \nomgroup{C}
-
-  \item [{\emph {Lambang }}]\begingroup \emph {Deskripsi }\nomeqref {0.0}
-		\nompageref{xiii}
-  \item [{ext}]\begingroup external\nomeqref {0.0}\nompageref{xiv}
-  \item [{in}]\begingroup inlet\nomeqref {0.0}\nompageref{xiv}
-  \item [{out}]\begingroup outlet\nomeqref {0.0}\nompageref{xiv}
-
- \nomgroup{D}
-
-  \item [{\emph {Lambang }}]\begingroup \emph {Deskripsi }\nomeqref {0.0}
-		\nompageref{xiii}
-  \item [{F}]\begingroup fuel\nomeqref {0.0}\nompageref{xiv}
-  \item [{j}]\begingroup indeks koordinat\nomeqref {0.0}
-		\nompageref{xiv}
-
- \nomgroup{E}
-
-  \item [{ECCS}]\begingroup Emergency Core Cooling System\nomeqref {0.0}
-		\nompageref{xiv}
-  \item [{HTGR}]\begingroup High Temperature Gas-cooled Reactor\nomeqref {0.0}
-		\nompageref{xiv}
-  \item [{JTF}]\begingroup Jurusan Teknik Fisika\nomeqref {0.0}
-		\nompageref{xiv}
-  \item [{RANS}]\begingroup Reynold-Average Navier-Stokes\nomeqref {0.0}
-		\nompageref{xiv}
+\nomgroup{A}
+  \item [{\emph {Lambang }}]\begingroup \emph {Kuantitas } \nomunit {\emph {Satuan }}\nomeqref {0.0}\nompageref{xvi}
+  \item [{$Td$}]\begingroup Suhu Ruang (Dry-Bulb Temperature)  \nomunit{$^\circ$C}\nomeqref {0.0}\nompageref{xvii}
+  \item [{$RH$}]\begingroup Kelembapan Relatif  \nomunit{\%}\nomeqref {0.0}\nompageref{xvii}
+  \item [{$To$}]\begingroup Suhu Luar (Dry-Bulb Temeperature) \nomunit{$^\circ$C}\nomeqref {0.0}\nompageref{xvii}
+  \item [{$RD$}]\begingroup Radiasi Global Matahari  \nomunit{W/m$^2$}\nomeqref {0.0}\nompageref{xvii}
+  \item [{$AC$}]\begingroup SET AC \nomunit{$^\circ$C}\nomeqref {0.0}\nompageref{xvii}
+  \item [{$HT$}]\begingroup SET Heater \nomunit{ON}\nomeqref {0.0}\nompageref{xvii}
+  \item [{$t$}]\begingroup Waktu \nomunit{detik}\nomeqref {0.0}\nompageref{xvii}
+  \item [{$s$}]\begingroup Frekuensi \nomunit{Hertz}\nomeqref {0.0}\nompageref{xvii}
+  \item [{$R$}]\begingroup Koefisien Korelasi \nomunit{\%}\nomeqref {0.0}\nompageref{xvii}
+  \item [{$\mathbb{R}$}]\begingroup Domain Bilangan Riil\nomeqref {0.0}\nompageref{xvii}
+  \item [{$R(s)$}]\begingroup Input Sistem Kontrol\nomeqref {0.0}\nompageref{xvii}
+  \item [{$E(s)$}]\begingroup Error Sistem Kontrol\nomeqref {0.0}\nompageref{xvii}
+  \item [{$C(s)$}]\begingroup Ouput Sistem Kontrol\nomeqref {0.0}\nompageref{xvii}
+  \item [{$K$}]\begingroup Gain Konstan\nomeqref {0.0}\nompageref{xvii}
+  \item [{$T(s)$}]\begingroup Fungsi Gain Lup tertutup\nomeqref {0.0}\nompageref{xvii}
+  \item [{$G(s)$}]\begingroup Fngsi Gain Lup Tertutup Umpan Balik Satuan\nomeqref {0.0}\nompageref{xvii}
+  \item [{$H(s)$}]\begingroup Fungsi Gain Umpan Balik\nomeqref {0.0}\nompageref{xvii}
+  \item [{$x$}]\begingroup Lapisan Input Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xvii}
+  \item [{$y$}]\begingroup Lapisan Output Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xvii}
+  \item [{$z$}]\begingroup Lapisan Tersembunyi Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xvii}
+  \item [{}]\begingroup \nomeqref {0.0}\nompageref{xvii}
+\nomgroup{B}
+  \item [{\emph {Lambang }}]\begingroup \emph {Kuantitas } \nomunit {\emph {Satuan }}\nomeqref {0.0}\nompageref{xvi}
+  \item [{$\nu$}]\begingroup Bobot Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xvii}
+  \item [{$\sigma$}]\begingroup Fungsi Aktivasi Neuron\nomeqref {0.0}\nompageref{xvii}
+\nomgroup{C}
+  \item [{\emph {Lambang }}]\begingroup \emph {Deskripsi }\nomeqref {0.0}\nompageref{xvi}
+  \item [{steady-state}]\begingroup Kondisi Ajeg Sistem\nomeqref {0.0}\nompageref{xvii}
+\nomgroup{D}
+  \item [{\emph {Lambang }}]\begingroup \emph {Deskripsi }\nomeqref {0.0}\nompageref{xvi}
+  \item [{n+1}]\begingroup Dimensi n+1\nomeqref {0.0}\nompageref{xvii}
+  \item [{T}]\begingroup Fungsi Tranpos Vektor/Matrix\nomeqref {0.0}\nompageref{xvii}
+\nomgroup{E}
+  \item [{ANN}]\begingroup Artificial Neural Network\nomeqref {0.0}\nompageref{xvii}
+  \item [{DBT}]\begingroup Dry-Bulb Temperature\nomeqref {0.0}\nompageref{xvii}
+  \item [{DTNTF}]\begingroup Departemen Teknik Nuklir dan Teknik Fisika\nomeqref {0.0}\nompageref{xvii}
+  \item [{IMC}]\begingroup Internal Model Control\nomeqref {0.0}\nompageref{xvii}
+  \item [{JST}]\begingroup Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xvii}
+  \item [{MRT}]\begingroup Mean Radiant Temperature\nomeqref {0.0}\nompageref{xvii}
+  \item [{MAE}]\begingroup Mean Absoulte Error\nomeqref {0.0}\nompageref{xvii}
+  \item [{MSE}]\begingroup Mean Squared Error\nomeqref {0.0}\nompageref{xvii}
+  \item [{NN}]\begingroup Neural Network\nomeqref {0.0}\nompageref{xvii}
 
 \end{thenomenclature}

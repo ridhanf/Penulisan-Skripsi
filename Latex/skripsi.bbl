@@ -132,12 +132,6 @@ William~R. Santee dan William~T. Matthew.
 \newblock Office of The Surgeon General Borden Institute, Fort Detrick,
   Maryland, 2012.
 
-\bibitem{SNI-03-06390-2000}
-BSN.
-\newblock {\em {SNI 03-6390-2000: Konservasi Energi Sistem Tata Udara pada
-  Bangunan Gedung}}.
-\newblock Badan Standardisasi Nasional, 2000.
-
 \bibitem{ControlSystem}
 Norman~S. Nise.
 \newblock {\em {Control System Engineering}}.
@@ -155,30 +149,11 @@ Ing.~Ján Drgoňa.
 \newblock Disertasi, Slovak University of Technology in Bratislava, Vazovova 5,
   811 07 Bratislava, Slovakia, 2017.
 
-\bibitem{article23}
-D.~Soloway dan P.~J. Haley.
-\newblock ``{Neural Generalized Predictive Control}''.
-\newblock {\em Proceedings of the 1996 IEEE International Symposium on
-  Intelligent Control}, hal. 277--282, 1996.
-
-\bibitem{article24}
-John E.~Dennis Jr. dan Robert~B. Schnabel.
-\newblock ``{Numerical Methods for Unconstrained Optimization and Nonlinear
-  Equations}''.
-\newblock {\em Journal of the American Statistical Association}, 80:247--248,
-  1983.
-
 \bibitem{skripsiTanto}
 Tri Hartanto.
 \newblock {\em {Pemodelan Lingkungan Termal Sistem Climate Chamber Dengan
   Metode Jaringan Saraf Tiruan}}.
 \newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
   Universitas Gadjah Mada, Yogyakarta, 2020.
-
-\bibitem{article26}
-Shumeet {Baluja}, David {Marwood}, Michele {Covell}  dan Nick {Johnston}.
-\newblock ``{No Multiplication? No Floating Point? No Problem! Training
-  Networks for Efficient Inference}''.
-\newblock {\em arXiv e-prints}, hal. arXiv:1809.09244, September 2018.
 
 \end{thebibliography}

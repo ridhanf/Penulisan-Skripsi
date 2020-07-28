@@ -7,7 +7,7 @@ Bangunan yang dijadikan objek penelitian adalah \textit{climate chamber} DTNTF F
 Penulis menggunakan model JST yang telah dibangun oleh Tri Hartanto\cite{skripsiTanto} sebagai model acuan dalam penelitian ini. Model tersebut kemudian penulis kembangan kembali untuk mengingkatkan kinerjanya sebagai model \textit{plant}. \textit{Hyperparameter} yang digunakan Tri Hartanto pada pembangunan model plant JST ini dijelaskan pada Tabel \ref{tbl:5:NNPlantTanto}.\\
 
 \begin{table}[!h]
-	\caption{Tabel Rancangan Model Plant JST Tri Hartanto (Full Day)}
+	\caption{Tabel Rancangan Model Plant JST Tri Hartanto}
 	\label{tbl:5:NNPlantTanto}
 	\centering
 	% use packages: array
@@ -27,33 +27,14 @@ Penulis menggunakan model JST yang telah dibangun oleh Tri Hartanto\cite{skripsi
 \end{table}
 \vspace{2em}
 
-Tri Hartanto membangun model \textit{plant} dengan menggunakan data menyeluruh selama 24 jam. Pada penelitian ini penulis membangun model dengan menggunakan data selama jam operasional, yaitu pukul 07:00 s.d. 17:00. Hal ini dilakukan karena pada praktiknya \textit{climate chamber} digunakan untuk pengujian pada jam operasional tersebut. Hasil model \textit{plant} dengan penyesuaian data ini dapat dilihat pada Tabel \ref{tbl:5:NNPlantTanto2}.
+%Tri Hartanto membangun model \textit{plant} dengan menggunakan data menyeluruh selama 24 jam. Pada penelitian ini penulis membangun model dengan menggunakan data selama jam operasional, yaitu pukul 07:00 s.d. 17:00. Hal ini dilakukan karena pada praktiknya \textit{climate chamber} digunakan untuk pengujian pada jam operasional tersebut. Hasil model \textit{plant} dengan penyesuaian data ini dapat dilihat pada Tabel \ref{tbl:5:NNPlantTanto2}.
 
-Berdasarkan Tabel \ref{tbl:5:NNPlantTanto} dan Tabel \ref{tbl:5:NNPlantTanto2}, penulis melihat kinerja model yang lebih baik yang digambarkan dengan nilai MAE dari model tersebut. MAE untuk model yang telah disesuaikan bernilai lebih kecil dari model yang dikembangkan Tri Hartanto. Bahkan kinerja model cukup signifikan terhadap variabel kelembapan relatif.\\
-
-\begin{table}[!t]
-	\caption{Tabel Rancangan Model Plant JST Penulis (Operational Hours)}
-	\label{tbl:5:NNPlantTanto2}
-	\centering
-	% use packages: array
-	\begin{tabular}{|p{5.7cm}|p{5cm}|}
-		\hline
-		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\ \hline
-		Arsitektur & Feedforward Neural Network \\ \hline
-		Pembagian Data & 50\% 25\% 25\% \\ \hline 
-		Jumlah Layar Tersembunyi & 1 \\ \hline
-		Jumlah Neuron pada Layar & [55] \\ \hline
-		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
-		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
-		Mean Absolute Error (MAE) & Td: 0,41$^\circ$C ; RH: 2,60\% \\ \hline
-		Mean Squared Error (MSE) & Td: 0,39$^\circ$C ; RH: 15,66\% \\ \hline
-		Koefisien Korelasi (R) & Td: 98,34\% ; RH: 92,68\% \\ \hline
-	\end{tabular}
-\end{table}
+Berdasarkan Tabel \ref{tbl:5:NNPlantTanto}, penulis melihat kinerja model yang lebih baik yang digambarkan dengan nilai MAE dari model tersebut. MAE untuk model yang telah disesuaikan bernilai lebih kecil dari model yang dikembangkan Tri Hartanto. Bahkan kinerja model cukup signifikan terhadap variabel kelembapan relatif.\\
 
 \noindent \textbf{Hasil Variasi Pembagian Data} 
 
 Dalam menentukan variasi pembagiaan data, penulis melakukan perbandingan dengan beberapa variasi pembagiaan data ke dalam 5 variasi. Kemudian, penulis membandingkan kinerja dari setiap pembagian data dengan menggunakan model JST dengan konfigurasi \textit{hyperparameter} sesuai rancangan penelitian sebelumnya\cite{skripsiTanto}.
+
 \begin{table}[h!]
 	\caption{Daftar variasi pembagian data}
 	\label{tbl:5:DataSplitting}
@@ -78,6 +59,8 @@ Dalam menentukan variasi pembagiaan data, penulis melakukan perbandingan dengan 
 	\label{fig:5:DataSplittingResult}
 \end{figure}
 
+Pada Tabel \ref{tbl:5:DataSplitting}, "Data Splitting 0" merupakan konfigurasi pembagian data yang digunakan oleh Tri Hartanto pada penelitian sebelumnya dalam membangun model plant JST. Pada tabel yang penulis sajikan, penulis menulis pembagian data dengan format 'Data Splitting n' dan '(x\% y\% z\%)' dimana n = nomor variasi, x = pembagian data pelatihan, y = pembagian data validasi, dan z = pembagian data pengujian. Pembagian data terbaik yang penulis gunakan yaitu pembagian data bernama "Data Splitting 4". Data dibagi menjadi 3 bagian, yakni 80\% data pelatihan, 15\% data validasi, dan 5\% data pengujian. Sehingga didapatkan rancangan terbaik penulis yang dirangkum pada Tabel \ref{tbl:5:NNPlantRidhan}.\\
+
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.75\textwidth]{figures/DataSplittingFinal}
@@ -86,10 +69,8 @@ Dalam menentukan variasi pembagiaan data, penulis melakukan perbandingan dengan 
 \end{figure}
 \vspace{1em}
 
-Pada Tabel \ref{tbl:5:DataSplitting}, "Data Splitting 0" merupakan konfigurasi pembagian data yang digunakan oleh Tri Hartanto pada penelitian sebelumnya dalam membangun model plant JST. Pada tabel yang penulis sajikan, penulis menulis pembagian data dengan format 'Data Splitting n' dan '(x\% y\% z\%)' dimana n = nomor variasi, x = pembagian data pelatihan, y = pembagian data validasi, dan z = pembagian data pengujian. Pembagian data terbaik yang penulis gunakan yaitu pembagian data bernama "Data Splitting 1". Data dibagi menjadi 3 bagian, yakni 60\% data pelatihan, 20\% data validasi, dan 20\% data pengujian. Sehingga didapatkan rancangan terbaik penulis yang dirangkum pada Tabel \ref{tbl:5:NNPlantRidhan}.\\
-
 \begin{table}[!h]
-	\caption{Tabel Rancangan Model Plant JST Penulis Final}
+	\caption{Tabel Rancangan Model Plant JST Penulis}
 	\label{tbl:5:NNPlantRidhan}
 	\centering
 	% use packages: array
@@ -97,18 +78,18 @@ Pada Tabel \ref{tbl:5:DataSplitting}, "Data Splitting 0" merupakan konfigurasi p
 		\hline
 		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\ \hline
 		Arsitektur & Feedforward Neural Network \\ \hline
-		Pembagian Data & 60\% 20\% 20\% \\ \hline 
+		Pembagian Data & 85\% 15\% 5\% \\ \hline 
 		Jumlah Layar Tersembunyi & 1 \\ \hline
 		Jumlah Neuron pada Layar & [55] \\ \hline
 		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
 		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
-		Mean Absolute Error (MAE) & Td: 0,45$^\circ$C ; RH: 2,36\% \\ \hline
-		Mean Squared Error (MSE) & Td: 0,41$^\circ$C ; RH: 13,01\% \\ \hline
-		Koefisien Korelasi (R) & Td: 98,26\% ; RH: 93,96\% \\ \hline
+		Mean Absolute Error (MAE) & Td: 0,62$^\circ$C ; RH: 5,45\% \\ \hline
+		Mean Squared Error (MSE) & Td: 0,82$^\circ$C ; RH: 54,45\% \\ \hline
+		Koefisien Korelasi (R) & Td: 93,09\% ; RH: 71,44\% \\ \hline
 	\end{tabular}
 \end{table}
 
-Dari pengembangan model plant JST ini, penulis mendapatkan rancangan yang lebih baik lagi dari hasil kinerja rancangan sebelumnya. Dengan mengubah pembagiaan data dari 50\% 25\% 25\% ke 60\% 20\% 20\%, nilai MAE model pun menjadi sebesar 0,45$^\circ$C untuk suhu udara dan 2,36\% untuk kelembapan relatif.
+Dari pengembangan model plant JST ini, penulis mendapatkan rancangan yang lebih baik lagi dari hasil kinerja rancangan sebelumnya. Dengan mengubah pembagiaan data dari 50\% 25\% 25\% ke 85\% 15\% 5\%, nilai MAE model untuk kelembapan raltif pun berubah menjadi sebesar 0,62$^\circ$C untuk suhu ruang dan 5,45\% untuk kelembapan relatif.
 
 \section{Hasil Perancangan Sistem Kontrol JST}
 
@@ -127,14 +108,14 @@ Penulis menggunakan \textit{NN Forward Model} sebagai emulator pada sistem kontr
 		\hline
 		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\ \hline
 		Arsitektur & Feedforward Neural Network \\ \hline
-		Pembagian Data & 60\% 20\% 60\% \\ \hline 
+		Pembagian Data & 80\% 15\% 5\% \\ \hline 
 		Jumlah Layar Tersembunyi & 1 \\ \hline
 		Jumlah Neuron pada Layar & [55] \\ \hline
 		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
 		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
-		Mean Absolute Error (MAE) & Td: 0,07$^\circ$C ; RH: 0,27\% \\ \hline
-		Mean Squared Error (MSE) & Td: 0,02$^\circ$C ; RH: 0,21\% \\ \hline
-		Koefisien Korelasi (R) & Td: 99,93\% ; RH: 99,99\% \\ \hline
+		Mean Absolute Error (MAE) & Td: 0,51$^\circ$C ; RH: 1,43\% \\ \hline
+		Mean Squared Error (MSE) & Td: 0,49$^\circ$C ; RH: 5,91\% \\ \hline
+		Koefisien Korelasi (R) & Td: 96,38\% ; RH: 97,79\% \\ \hline
 	\end{tabular}
 \end{table}
 
@@ -145,7 +126,7 @@ Penulis menggunakan \textit{NN Inverse Model} sebagai kontroler pada sistem kont
 z = \frac{x_i - min(x)}{max(x) - min(x)}
 \end{equation}
 
-Rancangan kontroler JST mirip dengan rancangan model plant JST. Perbedaannya hanyalah pada jumlah neuron pada \textit{hidden layer} yang berjumlah 52 neuron. Hasil kinerja dari kontroler JST ini dapat dilihat pada Tabel \ref{tbl:5:NNControler}.\\
+Rancangan kontroler JST mirip dengan rancangan model plant JST. Perbedaannya hanyalah pada jumlah neuron pada \textit{hidden layer} yang berjumlah 52 neuron. Hasil kinerja dari kontroler JST ini dapat dilihat pada Tabel \ref{tbl:5:NNControler}.
 
 \begin{table}[!h]
 	\caption{Tabel Rancangan Kontroler JST (\textit{NN Inverse Model})}
@@ -156,30 +137,197 @@ Rancangan kontroler JST mirip dengan rancangan model plant JST. Perbedaannya han
 		\hline
 		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\ \hline
 		Arsitektur & Feedforward Neural Network \\ \hline
-		Pembagian Data & 60\% 20\% 20\% \\ \hline 
+		Pembagian Data & 85\% 15\% 5\% \\ \hline 
 		Jumlah Layar Tersembunyi & 1 \\ \hline
 		Jumlah Neuron pada Layar & [52] \\ \hline
 		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
 		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
-		Mean Absolute Error (MAE) & AC: 0,52$^\circ$C ; HT: 0,01 \\ \hline
-		Mean Squared Error (MSE) & AC: 3,44$^\circ$C ; HT: 0,01 \\ \hline
-		Koefisien Korelasi (R) & AC: 97,66\% ; HT: 98,96\% \\ \hline
+		Mean Absolute Error (MAE) & AC: 0,23$^\circ$C ; HT: 0,00 \\ \hline
+		Mean Squared Error (MSE) & AC: 4,85$^\circ$C ; HT: 0,00 \\ \hline
+		Koefisien Korelasi (R) & AC: 98,41\% ; HT: 99,64\% \\ \hline
 	\end{tabular}
 \end{table}
-\vspace{8em}
+
+\hfill\break
+\hfill\break
 
 \subsection{Kinerja Sistem Kontrol JST}
 
+Sistem kontrol yang dijalankan penulis menghasilkan kinerja yang cukup baik untuk mengendalikan suhu ruang dan kelembapan relatif.
+
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=1\textwidth]{figures/ControlDesignDiagram}
-	\caption{Blok Diagram Sistem Kontrol JST}
+	\includegraphics[width=0.9\textwidth]{figures/ControlDesignDiagram}
+	\caption{Blok Diagram Sistem Kendali JST}
 	\label{fig:5:ConstrolSystemBlockDiagram}
 \end{figure}
 
-\noindent \textbf{SET POINT Konstan}
+\subsubsection{SET POINT Konstan SP1}
 
+Kombinasi SET Point dapat dilihat pada Tabel \ref{tbl:5:SP1Combination}. Hasil dari simulasi simulink dapat dilihat pada Gambar \ref{fig:5:SimulinkSP1Td} dan Gambar \ref{fig:5:SimulinkSP1RH}. Pada Gambar \ref{fig:5:SimulinkSP1Td} dan Gambar \ref{fig:5:SimulinkSP1RH} dapat dilihat bahwa nilai \textit{error steady-state} sistem kontrol cukup kecil. Nilai \textit{Error Steady-State} dari simulasi ini dapat dilihat pada Tabel \ref{tbl:5:SP1Ess}. Grafik dari hasil simulasi dapat dilihat pada Gambar \ref{fig:5:SimulinkSP1Td} untuk Suhu Ruang dan Gambar \ref{fig:5:SimulinkSP1RH} untuk Kelembapan Relatif. Kontroler mengeluarkan nilai \textit{Manipulated Variable} yang ditunjukkan oleh Gambar \ref{fig:5:SimulinkSP1AC} dan Gambar \ref{fig:5:SimulinkSP1HT}.\\
 
-\noindent \textbf{SET POINT Fungsi Step}
+\vspace{0.5em}
+\begin{table}[!h]
+	\caption{Nilai Kombinasi SET POINT SP1}
+	\label{tbl:5:SP1Combination}
+	\centering
+	% use packages: array
+	\begin{tabular}{|l|c|}
+		\hline
+		\textbf{Variabel} & \textbf{SET Point} \\ \hline
+		Suhu Ruang (Td) & 26$^\circ$C          \\ \hline
+		Kelembapan Relatif (RH) & 90\%         \\ \hline
+		Suhu Luar (To) & 27$^\circ$C           \\ \hline
+		Radiasi Matahari (RD) & 400 W/m$^2$    \\ \hline
+	\end{tabular}
+\end{table}
 
-\noindent \textbf{SET POINT Pengujian}
+\vspace{0.5em}
+\begin{table}[!h]
+	\caption{Hasil Simulasi Sistem Kontrol SP1}
+	\label{tbl:5:SP1Ess}
+	\centering
+	% use packages: array
+	\begin{tabular}{|l|c|c|c|}
+		\hline
+		\textbf{Variabel} & \textbf{SET Point} & \textbf{Output Plant} & \textbf{Error Steady-State}\\ \hline
+		Suhu Ruang (Td) & 26$^\circ$C & 26,09$^\circ$C & 0,09$^\circ$C \\ \hline
+		Kelembapan Relatif (RH) & 90\% & 88,76\% & 1,24\% \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP1Td}
+	\caption{Hasil Simulasi Sistem Kontrol untuk Suhu Ruang SP1}
+	\label{fig:5:SimulinkSP1Td}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP1RH}
+	\caption{Hasil Simulasi Sistem Kontrol untuk Kelembapan Relatif SP1}
+	\label{fig:5:SimulinkSP1RH}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP1AC}
+	\caption{Nilai MV SET AC SP1}
+	\label{fig:5:SimulinkSP1AC}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP1HT}
+	\caption{Nilai MV SET Heater SP1}
+	\label{fig:5:SimulinkSP1HT}
+\end{figure}
+
+\subsubsection{SET POINT Konstan SP2}
+
+Kombinasi SET Point dapat dilihat pada Tabel \ref{tbl:5:SP2Combination}. Hasil dari simulasi simulink dapat dilihat pada Gambar \ref{fig:5:SimulinkSP2Td} dan Gambar \ref{fig:5:SimulinkSP2RH}. Pada Gambar \ref{fig:5:SimulinkSP2Td} dan Gambar \ref{fig:5:SimulinkSP2RH} dapat dilihat bahwa nilai \textit{error steady-state} sistem kontrol cukup kecil. Nilai \textit{Error Steady-State} dari simulasi ini dapat dilihat pada Tabel \ref{tbl:5:SP2Ess}. Grafik dari hasil simulasi dapat dilihat pada Gambar \ref{fig:5:SimulinkSP2Td} untuk Suhu Ruang dan Gambar \ref{fig:5:SimulinkSP2RH} untuk Kelembapan Relatif. Kontroler mengeluarkan nilai \textit{Manipulated Variable} yang ditunjukkan oleh Gambar \ref{fig:5:SimulinkSP2AC} dan Gambar \ref{fig:5:SimulinkSP2HT}.
+
+\vspace{0.5em}
+\begin{table}[!h]
+	\caption{Nilai Kombinasi SET POINT SP2}
+	\label{tbl:5:SP2Combination}
+	\centering
+	% use packages: array
+	\begin{tabular}{|l|c|}
+		\hline
+		\textbf{Variabel} & \textbf{SET Point} \\ \hline
+		Suhu Ruang (Td) & 27$^\circ$C          \\ \hline
+		Kelembapan Relatif (RH) & 85\%         \\ \hline
+		Suhu Luar (To) & 27$^\circ$C           \\ \hline
+		Radiasi Matahari (RD) & 400 W/m$^2$    \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[!h]
+	\caption{Hasil Simulasi Sistem Kontrol SP2}
+	\label{tbl:5:SP2Ess}
+	\centering
+	% use packages: array
+	\begin{tabular}{|l|c|c|c|}
+		\hline
+		\textbf{Variabel} & \textbf{SET Point} & \textbf{Output Plant} & \textbf{Error Steady-State}\\ \hline
+		Suhu Ruang (Td) & 27$^\circ$C & 27,09$^\circ$C & 0,09$^\circ$C \\ \hline
+		Kelembapan Relatif (RH) & 85\% & 86,14\% & 1,14\% \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP2Td}
+	\caption{Hasil Simulasi Sistem Kontrol untuk Suhu Ruang SP2}
+	\label{fig:5:SimulinkSP2Td}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP2RH}
+	\caption{Hasil Simulasi Sistem Kontrol untuk Kelembapan Relatif SP2}
+	\label{fig:5:SimulinkSP2RH}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP2AC}
+	\caption{Nilai MV SET AC SP2}
+	\label{fig:5:SimulinkSP2AC}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP2HT}
+	\caption{Nilai MV SET Heater SP2}
+	\label{fig:5:SimulinkSP2HT}
+\end{figure}
+
+\subsubsection{SET POINT Fungsi Step SP3}
+
+Kombinasi SET Point dapat dilihat pada Tabel \ref{tbl:5:SP3Combination}. Hasil dari simulasi simulink dapat dilihat pada Gambar \ref{fig:5:SimulinkSP3Td} dan Gambar \ref{fig:5:SimulinkSP3RH}. Pada Gambar \ref{fig:5:SimulinkSP3Td} dan Gambar \ref{fig:5:SimulinkSP3RH} dapat dilihat bahwa nilai \textit{error steady-state} sistem kontrol cukup kecil. Nilai \textit{Error Steady-State} dari simulasi ini dapat dilihat pada Tabel \ref{tbl:5:SP3Ess}. Grafik dari hasil simulasi dapat dilihat pada Gambar \ref{fig:5:SimulinkSP3Td} untuk Suhu Ruang dan Gambar \ref{fig:5:SimulinkSP3RH} untuk Kelembapan Relatif. Kontroler mengeluarkan nilai \textit{Manipulated Variable} yang ditunjukkan oleh Gambar \ref{fig:5:SimulinkSP3AC} dan Gambar \ref{fig:5:SimulinkSP3HT}.
+
+\begin{table}[!h]
+	\caption{Nilai Kombinasi SET POINT SP3}
+	\label{tbl:5:SP3Combination}
+	\centering
+	% use packages: array
+	\begin{tabular}{|l|c|}
+		\hline
+		\textbf{Variabel} & \textbf{SET Point} \\ \hline
+		Suhu Ruang (Td) & Step 26$^\circ$C -> 27$^\circ$C \\ \hline
+		Kelembapan Relatif (RH) & Step 90\% -> 85\% \\ \hline
+		Suhu Luar (To) & 27$^\circ$C           \\ \hline
+		Radiasi Matahari (RD) & 400 W/m$^2$    \\ \hline
+	\end{tabular}
+\end{table}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP3Td}
+	\caption{Hasil Simulasi Sistem Kontrol untuk Suhu Ruang SP3}
+	\label{fig:5:SimulinkSP3Td}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP3RH}
+	\caption{Hasil Simulasi Sistem Kontrol untuk Kelembapan Relatif SP3}
+	\label{fig:5:SimulinkSP3RH}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP3AC}
+	\caption{Nilai MV SET AC SP3}
+	\label{fig:5:SimulinkSP3AC}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP3HT}
+	\caption{Nilai MV SET Heater SP3}
+	\label{fig:5:SimulinkSP3HT}
+\end{figure}

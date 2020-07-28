@@ -3,51 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: skripsi.aux
 The style file: skripsi.bst
 Database file #1: pustaka.bib
-Warning--I didn't find a database entry for "article4"
-Warning--I didn't find a database entry for "article5"
-Warning--I didn't find a database entry for "article6"
-Warning--I didn't find a database entry for "article7"
-Warning--I didn't find a database entry for "article8"
-Warning--I didn't find a database entry for "article9"
-You've used 29 entries,
+You've used 25 entries,
             2230 wiz_defined-function locations,
-            665 strings with 9088 characters,
-and the built_in function-call counts, 6800 in all, are:
-= -- 837
-> -- 255
-< -- 2
-+ -- 98
-- -- 69
-* -- 326
-:= -- 1139
-add.period$ -- 87
-call.type$ -- 29
-change.case$ -- 18
+            635 strings with 8338 characters,
+and the built_in function-call counts, 5428 in all, are:
+= -- 664
+> -- 221
+< -- 0
++ -- 85
+- -- 60
+* -- 272
+:= -- 959
+add.period$ -- 75
+call.type$ -- 25
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 29
-duplicate$ -- 295
-empty$ -- 561
-format.name$ -- 69
-if$ -- 1645
+cite$ -- 25
+duplicate$ -- 216
+empty$ -- 453
+format.name$ -- 60
+if$ -- 1288
 int.to.chr$ -- 0
-int.to.str$ -- 29
-missing$ -- 32
-newline$ -- 148
-num.names$ -- 29
-pop$ -- 84
+int.to.str$ -- 25
+missing$ -- 27
+newline$ -- 128
+num.names$ -- 25
+pop$ -- 69
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 337
+skip$ -- 238
 stack$ -- 0
-substring$ -- 219
-swap$ -- 71
-text.length$ -- 2
+substring$ -- 138
+swap$ -- 25
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 41
-width$ -- 31
-write$ -- 317
-(There were 6 warnings)
+while$ -- 33
+width$ -- 27
+write$ -- 274

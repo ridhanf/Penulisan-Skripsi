@@ -6,9 +6,9 @@
 \contentsline {chapter}{HALAMAN PERSEMBAHAN}{v}%
 \contentsline {chapter}{HALAMAN MOTTO}{vi}%
 \contentsline {chapter}{KATA PENGANTAR}{vii}%
-\contentsline {chapter}{DAFTAR LAMBANG DAN SINGKATAN}{xiv}%
-\contentsline {chapter}{INTISARI}{xvi}%
-\contentsline {chapter}{ABSTRACT}{xvii}%
+\contentsline {chapter}{DAFTAR LAMBANG DAN SINGKATAN}{xvi}%
+\contentsline {chapter}{INTISARI}{xviii}%
+\contentsline {chapter}{ABSTRACT}{xix}%
 \babel@toc {bahasa}{}
 \babel@toc {bahasa}{}
 \contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}%
@@ -23,14 +23,13 @@
 \contentsline {chapter}{\numberline {III}DASAR TEORI}{16}%
 \contentsline {section}{\numberline {III.1.}Fisika Bangunan}{16}%
 \contentsline {subsection}{\numberline {III.1.1.}Lingkungan Termal}{16}%
-\contentsline {subsection}{\numberline {III.1.2.}Kenyamanan Termal}{17}%
-\contentsline {section}{\numberline {III.2.}Sistem Kontrol Otomatis}{18}%
-\contentsline {subsection}{\numberline {III.2.1.}Dasar-dasar Sistem Kontrol}{18}%
+\contentsline {section}{\numberline {III.2.}Sistem Kontrol Otomatis}{17}%
+\contentsline {subsection}{\numberline {III.2.1.}Dasar-dasar Sistem Kontrol}{17}%
 \contentsline {subsection}{\numberline {III.2.2.}Kesalahan Keadaan-Ajeg}{21}%
-\contentsline {section}{\numberline {III.3.}Jaringan Saraf Tiruan}{25}%
+\contentsline {section}{\numberline {III.3.}Jaringan Saraf Tiruan}{24}%
 \contentsline {subsection}{\numberline {III.3.1.}Model Matematis Neuron}{26}%
-\contentsline {subsection}{\numberline {III.3.2.}Jaringan Layar Jamak (MLP)}{31}%
-\contentsline {section}{\numberline {III.4.}Sistem Kontrol Jaringan Saraf Tiruan}{34}%
+\contentsline {subsection}{\numberline {III.3.2.}Jaringan Layar Jamak (MLP)}{30}%
+\contentsline {section}{\numberline {III.4.}Sistem Kontrol Jaringan Saraf Tiruan}{33}%
 \contentsline {chapter}{\numberline {IV}PELAKSANAAN PENELITIAN}{35}%
 \contentsline {section}{\numberline {IV.1.}Alat dan Bahan Penelitian}{35}%
 \contentsline {section}{\numberline {IV.2.}Tata Laksana Penelitian}{36}%
@@ -43,21 +42,37 @@
 \contentsline {section}{\numberline {IV.3.}Rencana Analisis Hasil Penelitian}{41}%
 \contentsline {chapter}{\numberline {V}HASIL DAN PEMBAHASAN}{42}%
 \contentsline {section}{\numberline {V.1.}Hasil Pengembangan Model Plant JST}{42}%
-\contentsline {section}{\numberline {V.2.}Hasil Perancangan Sistem Kontrol JST}{46}%
-\contentsline {subsection}{\numberline {V.2.1.}Kinerja Emulator JST}{46}%
+\contentsline {section}{\numberline {V.2.}Hasil Perancangan Sistem Kontrol JST}{45}%
+\contentsline {subsection}{\numberline {V.2.1.}Kinerja Emulator JST}{45}%
 \contentsline {subsection}{\numberline {V.2.2.}Kinerja Kontroler JST}{46}%
-\contentsline {subsection}{\numberline {V.2.3.}Kinerja Sistem Kontrol JST}{48}%
-\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{49}%
-\contentsline {section}{\numberline {VI.1.}Kesimpulan}{49}%
-\contentsline {section}{\numberline {VI.2.}Saran}{49}%
+\contentsline {subsection}{\numberline {V.2.3.}Kinerja Sistem Kontrol JST}{47}%
+\contentsline {subsubsection}{\numberline {V.2.3.3.}SET POINT Konstan SP1}{47}%
+\contentsline {subsubsection}{\numberline {V.2.3.3.}SET POINT Konstan SP2}{50}%
+\contentsline {subsubsection}{\numberline {V.2.3.3.}SET POINT Fungsi Step SP3}{52}%
+\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{54}%
+\contentsline {section}{\numberline {VI.1.}Kesimpulan}{54}%
+\contentsline {section}{\numberline {VI.2.}Saran}{54}%
 \contentsline {chapter}{LAMPIRAN}{}
-\contentsline {chapter}{\numberline {A}Data Penelitian}{54}%
-\contentsline {section}{\numberline {A.1.}Data \textit {Climate Chamber}}{54}%
-\contentsline {section}{\numberline {A.2.}Contoh Gambar pada Lampiran}{54}%
-\contentsline {section}{\numberline {A.3.}Contoh Penulisan Tabel pada Lampiran}{54}%
-\contentsline {section}{\numberline {A.4.}Contoh Penulisan Persamaan pada Lampiran}{55}%
-\contentsline {chapter}{\numberline {B}Listing Program}{57}%
-\contentsline {chapter}{\numberline {C}About \LaTeX }{59}%
-\contentsline {section}{\numberline {C.1.}Package yang Diperlukan}{59}%
-\contentsline {section}{\numberline {C.2.}File yang diubah isinya oleh penulis}{60}%
-\contentsline {section}{\numberline {C.3.}Menghasilkan file PDF}{60}%
+\contentsline {chapter}{\numberline {A}Data Penelitian}{59}%
+\contentsline {section}{\numberline {A.1.}Data \textit {Climate Chamber}}{59}%
+\contentsline {section}{\numberline {A.2.}Kinerja Model Plant JST}{59}%
+\contentsline {section}{\numberline {A.3.}Kinerja Emulator JST}{59}%
+\contentsline {section}{\numberline {A.4.}Kinerja Kontroler JST}{60}%
+\contentsline {section}{\numberline {A.5.}Hasil Simulasi Simulink SP1}{60}%
+\contentsline {section}{\numberline {A.6.}Hasil Simulasi Simulink SP2}{60}%
+\contentsline {chapter}{\numberline {B}Listing Program}{61}%
+\contentsline {section}{\numberline {B.1.}Kode Sumber Model Plant JST}{61}%
+\contentsline {section}{\numberline {B.2.}Kode Sumber Emulator JST}{63}%
+\contentsline {section}{\numberline {B.3.}Kode Sumber Kontroler JST}{65}%
+\contentsline {section}{\numberline {B.4.}Fungsi Min Max Scaler}{68}%
+\contentsline {section}{\numberline {B.5.}Fungsi Kuantisasi AC}{68}%
+\contentsline {section}{\numberline {B.6.}Fungsi Kuantisasi Heater}{69}%
+\contentsline {section}{\numberline {B.7.}Fungsi Scaler Suhu Ruang}{69}%
+\contentsline {section}{\numberline {B.8.}Fungsi Scaler Kelembapan Relatif}{69}%
+\contentsline {section}{\numberline {B.9.}Fungsi Scaler Suhu Luar}{69}%
+\contentsline {section}{\numberline {B.10.}Fungsi Scaler Radiasi Matahari}{69}%
+\contentsline {chapter}{\numberline {C}Diagram Blok}{70}%
+\contentsline {section}{\numberline {C.1.}Diagram Blok Model Plant JST}{70}%
+\contentsline {section}{\numberline {C.2.}Diagram Blok Emulator JST}{70}%
+\contentsline {section}{\numberline {C.3.}Diagram Blok Kontroler JST}{71}%
+\contentsline {section}{\numberline {C.4.}Diagram Blok Sistem Kontrol Simulink}{72}%

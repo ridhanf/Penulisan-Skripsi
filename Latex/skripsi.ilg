@@ -1,14 +1,14 @@
-This is makeindex, version 2.15 [MiKTeX 2.9.6210 64-bit] (kpathsea + Thai support).
-Scanning style file C:/Program Files/MiKTeX 2.9/makeindex/nomencl/nomencl.ist.......
-** Input style error (file = C:/Program Files/MiKTeX 2.9/makeindex/nomencl/nomencl.ist, line = 70):
+This is makeindex, version 2.15 [TeX Live 2020] (kpathsea + Thai support).
+Scanning style file /usr/share/texmf-dist/makeindex/nomencl/nomencl.ist........
+** Input style error (file = /usr/share/texmf-dist/makeindex/nomencl/nomencl.ist, line = 36):
    -- Unknown specifier lethead_prefix.
-** Input style error (file = C:/Program Files/MiKTeX 2.9/makeindex/nomencl/nomencl.ist, line = 71):
+** Input style error (file = /usr/share/texmf-dist/makeindex/nomencl/nomencl.ist, line = 37):
    -- Unknown specifier lethead_suffix.
-** Input style error (file = C:/Program Files/MiKTeX 2.9/makeindex/nomencl/nomencl.ist, line = 72):
+** Input style error (file = /usr/share/texmf-dist/makeindex/nomencl/nomencl.ist, line = 38):
    -- Unknown specifier lethead_flag.
-...done (10 attributes redefined, 3 ignored).
-Scanning input file skripsi.nlo....done (19 entries accepted, 0 rejected).
-Sorting entries....done (75 comparisons).
-Generating output file skripsi.nls....done (52 lines written, 0 warnings).
+....done (12 attributes redefined, 3 ignored).
+Scanning input file skripsi.nlo....done (39 entries accepted, 0 rejected).
+Sorting entries....done (200 comparisons).
+Generating output file skripsi.nls....done (48 lines written, 0 warnings).
 Output written in skripsi.nls.
 Transcript written in skripsi.ilg.
