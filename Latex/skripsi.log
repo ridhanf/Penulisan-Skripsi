@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  28 JUL 2020 18:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  10 AUG 2020 00:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -719,7 +719,17 @@ Package pdftex.def Info: figures/EnergyUsage.png  used on input line 8.
 [1
 
 
- <./figures/EnergyUsage.png>] [2] [3] [4]) (./Bab2.tex [5]
+ <./figures/EnergyUsage.png>] [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+
+ []
+
+[4]) (./Bab2.tex [5]
 BAB II.
 [6
 
@@ -930,6 +940,11 @@ LaTeX Warning: Float too large for page by 26.42537pt on input line 57.
 
 
 ] [11] [12] [13]
+Underfull \hbox (badness 5133) in paragraph at lines 88--88
+[]\T1/ptm/m/n/12 Variabel Gang-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 90--90
 []\T1/ptm/m/n/12 G. Mus-ta-fa-raj,
  []
@@ -940,8 +955,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--90
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 90--90
-\T1/ptm/m/n/12 ke-lem-bap-an re-
+Underfull \hbox (badness 2158) in paragraph at lines 90--90
+[]\T1/ptm/m/n/12 Suhu ru-ang dan
  []
 
 
@@ -966,12 +981,7 @@ Underfull \hbox (badness 5036) in paragraph at lines 90--90
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 92--92
-[]\T1/ptm/m/n/12 Suhu, ke-lem-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
-\T1/ptm/m/n/12 bap-an re-la-tif,
+\T1/ptm/m/n/12 an re-la-tif, dan
  []
 
 
@@ -980,13 +990,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--96
  []
 
 
-Overfull \hbox (36.4791pt too wide) in paragraph at lines 85--99
+Overfull \hbox (231.19562pt too wide) in paragraph at lines 85--99
  [][] 
  []
 
 [14
 
 ]
+Underfull \hbox (badness 5133) in paragraph at lines 110--110
+[]\T1/ptm/m/n/12 Variabel Gang-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []\T1/ptm/m/n/12 Ján Dr-go-¬a,
  []
@@ -994,11 +1009,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--112
 
 Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []\T1/ptm/m/n/12 Bangunan re-si-
- []
-
-
-Underfull \hbox (badness 6775) in paragraph at lines 112--112
-[]\T1/ptm/m/n/12 Suhu ope-ra-sio-
  []
 
 
@@ -1022,7 +1032,7 @@ Underfull \hbox (badness 1442) in paragraph at lines 114--114
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 114--114
+Underfull \hbox (badness 5924) in paragraph at lines 114--114
 []\T1/ptm/m/n/12 Suhu uda-ra ru-
  []
 
@@ -1052,12 +1062,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--116
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 118--118
-\T1/ptm/m/n/12 ke-lem-bap-an re-
+Underfull \hbox (badness 2158) in paragraph at lines 118--118
+[]\T1/ptm/m/n/12 Suhu ru-ang dan
  []
 
 
-Overfull \hbox (36.4791pt too wide) in paragraph at lines 107--120
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+\T1/ptm/m/n/12 ba-nyak He-a-ter
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 118--118
+[]\T1/ptm/m/n/12 Intensitas Ra-di-
+ []
+
+
+Overfull \hbox (231.19562pt too wide) in paragraph at lines 107--120
  [][] 
  []
 
@@ -1091,28 +1111,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []
 
 [19] [20]
-<figures/SSEExample.png, id=140, 490.83376pt x 105.39375pt>
-File: figures/SSEExample.png Graphic file (type png)
-<use figures/SSEExample.png>
-Package pdftex.def Info: figures/SSEExample.png  used on input line 98.
-(pdftex.def)             Requested size: 305.15585pt x 65.52676pt.
- [21 <./figures/SSEExample.PNG>]
-<figures/SSEExample2.png, id=145, 801.99625pt x 209.78375pt>
-File: figures/SSEExample2.png Graphic file (type png)
-<use figures/SSEExample2.png>
-Package pdftex.def Info: figures/SSEExample2.png  used on input line 115.
-(pdftex.def)             Requested size: 305.15585pt x 79.82108pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[22] [23 <./figures/SSEExample2.png>] [24]
-<figures/neuron.png, id=158, 237.2865pt x 189.70876pt>
+<figures/neuron.png, id=140, 237.2865pt x 189.70876pt>
 File: figures/neuron.png Graphic file (type png)
 <use figures/neuron.png>
 Package pdftex.def Info: figures/neuron.png  used on input line 166.
 (pdftex.def)             Requested size: 305.15585pt x 243.97267pt.
-<figures/neuronmath.png, id=159, 443.40656pt x 297.36093pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21]
+<figures/neuronmath.png, id=144, 443.40656pt x 297.36093pt>
 File: figures/neuronmath.png Graphic file (type png)
 <use figures/neuronmath.png>
 Package pdftex.def Info: figures/neuronmath.png  used on input line 175.
@@ -1132,36 +1141,35 @@ Overfull \hbox (22.53708pt too wide) in paragraph at lines 182--183
 /cmm/m/it/12 k\OT1/cmr/m/n/12 )$
  []
 
-[25 <./figures/neuron.png>]
+[22 <./figures/neuron.png>]
 Overfull \hbox (1.39546pt too wide) in paragraph at lines 188--189
 []\T1/ptm/m/n/12 Bobot-bobot po-si-tif $\OML/cmm/m/it/12 v[]$ \T1/ptm/m/n/12 be
 r-hu-bung-an de-ngan si-na-psis \T1/ptm/m/it/12 exi-ta-tory \T1/ptm/m/n/12 dan 
 bobot-bobot
  []
 
-<figures/activationFunction.png, id=164, 716.6775pt x 624.08156pt>
+<figures/activationFunction.png, id=150, 716.6775pt x 624.08156pt>
 File: figures/activationFunction.png Graphic file (type png)
 <use figures/activationFunction.png>
 Package pdftex.def Info: figures/activationFunction.png  used on input line 193
 .
 (pdftex.def)             Requested size: 406.87448pt x 354.3113pt.
-[26 <./figures/neuronmath.PNG>] [27 <./figures/activationFunction.PNG>]
-<figures/jstTunggal.png, id=174, 329.73187pt x 364.36125pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23 <./figures/neuronmath.PNG>] [24 <./figures/activationFunction.PNG>]
+<figures/jstTunggal.png, id=161, 329.73187pt x 364.36125pt>
 File: figures/jstTunggal.png Graphic file (type png)
 <use figures/jstTunggal.png>
 Package pdftex.def Info: figures/jstTunggal.png  used on input line 230.
 (pdftex.def)             Requested size: 305.15585pt x 337.21234pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
-[28] [29 <./figures/jstTunggal.PNG>]
-<figures/mlp.png, id=182, 718.685pt x 642.4pt>
+[25 <./figures/jstTunggal.PNG>] [26]
+<figures/mlp.png, id=169, 718.685pt x 642.4pt>
 File: figures/mlp.png Graphic file (type png)
 <use figures/mlp.png>
 Package pdftex.def Info: figures/mlp.png  used on input line 302.
@@ -1170,12 +1178,12 @@ Package pdftex.def Info: figures/mlp.png  used on input line 302.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30] [31 <./figures/mlp.png>] [32]) (./Bab4.tex
+[27] [28 <./figures/mlp.png>] [29]) (./Bab4.tex
 Underfull \hbox (badness 10000) in paragraph at lines 423--1
 
  []
 
-[33] [34]
+[30]
 BAB IV.
 
 Overfull \hbox (5.29437pt too wide) in paragraph at lines 13--31
@@ -1187,260 +1195,355 @@ Overfull \hbox (16.67531pt too wide) in paragraph at lines 39--49
  [][] 
  []
 
-<figures/TataLaksanaPenelitian.png, id=201, 380.42125pt x 654.445pt>
+<figures/TataLaksanaPenelitian.png, id=184, 380.42125pt x 654.445pt>
 File: figures/TataLaksanaPenelitian.png Graphic file (type png)
 <use figures/TataLaksanaPenelitian.png>
 Package pdftex.def Info: figures/TataLaksanaPenelitian.png  used on input line 
 56.
-(pdftex.def)             Requested size: 284.81088pt x 489.97375pt.
-[35
+(pdftex.def)             Requested size: 244.12717pt x 419.98178pt.
+[31
 
-] [36 <./figures/TataLaksanaPenelitian.png>] [37]
-<figures/NNPlantModelDesign.png, id=213, 322.20375pt x 161.60374pt>
+] [32 <./figures/TataLaksanaPenelitian.png>] [33]
+<figures/NNPlantModelDesign.png, id=196, 322.20375pt x 161.60374pt>
 File: figures/NNPlantModelDesign.png Graphic file (type png)
 <use figures/NNPlantModelDesign.png>
 Package pdftex.def Info: figures/NNPlantModelDesign.png  used on input line 92.
 
 (pdftex.def)             Requested size: 264.46593pt x 132.64908pt.
-
-Overfull \hbox (16.27773pt too wide) in paragraph at lines 98--99
-\T1/ptm/m/n/12 meng-gu-nak-an di-a-gram blok \T1/ptm/m/it/12 Ne-u-ral Ne-twork 
-In-ter-nal Mo-del Con-trol \T1/ptm/m/n/12 (NN-IMC).Diagram
- []
-
-[38 <./figures/NNPlantModelDesign.png>]
-<figures/ControlDesignDiagram.png, id=218, 603.25375pt x 256.96pt>
+ [34 <./figures/NNPlantModelDesign.png>]
+<figures/ControlDesignDiagramI.png, id=201, 438.8897pt x 106.89937pt>
+File: figures/ControlDesignDiagramI.png Graphic file (type png)
+<use figures/ControlDesignDiagramI.png>
+Package pdftex.def Info: figures/ControlDesignDiagramI.png  used on input line 
+103.
+(pdftex.def)             Requested size: 366.18454pt x 89.19295pt.
+<figures/ControlDesignDiagramII.png, id=202, 436.63126pt x 118.19156pt>
+File: figures/ControlDesignDiagramII.png Graphic file (type png)
+<use figures/ControlDesignDiagramII.png>
+Package pdftex.def Info: figures/ControlDesignDiagramII.png  used on input line
+ 112.
+(pdftex.def)             Requested size: 366.18454pt x 99.12332pt.
+<figures/ControlDesignDiagramIII.png, id=203, 429.10312pt x 151.3153pt>
+File: figures/ControlDesignDiagramIII.png Graphic file (type png)
+<use figures/ControlDesignDiagramIII.png>
+Package pdftex.def Info: figures/ControlDesignDiagramIII.png  used on input lin
+e 121.
+(pdftex.def)             Requested size: 366.18454pt x 129.12886pt.
+<figures/ControlDesignDiagram.png, id=204, 659.46375pt x 241.65282pt>
 File: figures/ControlDesignDiagram.png Graphic file (type png)
 <use figures/ControlDesignDiagram.png>
 Package pdftex.def Info: figures/ControlDesignDiagram.png  used on input line 1
-02.
-(pdftex.def)             Requested size: 366.18454pt x 155.97687pt.
-<figures/NNForwardModelDesign.png, id=219, 342.27875pt x 364.36125pt>
-File: figures/NNForwardModelDesign.png Graphic file (type png)
-<use figures/NNForwardModelDesign.png>
-Package pdftex.def Info: figures/NNForwardModelDesign.png  used on input line 1
-09.
-(pdftex.def)             Requested size: 203.43724pt x 216.5669pt.
-<figures/NNInverseModelDesign.png, id=220, 342.27875pt x 323.2075pt>
-File: figures/NNInverseModelDesign.png Graphic file (type png)
-<use figures/NNInverseModelDesign.png>
-Package pdftex.def Info: figures/NNInverseModelDesign.png  used on input line 1
-16.
-(pdftex.def)             Requested size: 203.43724pt x 192.10619pt.
- [39 <./figures/ControlDesignDiagram.png> <./figures/NNForwardModelDesign.png>]
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-
- []
-
-) (./Bab5.tex [40 <./figures/NNInverseModelDesign.png>] [41]
+30.
+(pdftex.def)             Requested size: 366.18454pt x 134.18895pt.
+ [35 <./figures/ControlDesignDiagramI.png> <./figures/ControlDesignDiagramII.pn
+g> <./figures/ControlDesignDiagramIII.png>]) (./Bab5.tex [36 <./figures/Control
+DesignDiagram.png>]
 BAB V.
+<figures/KondisiChamber.png, id=216, 484.81125pt x 282.45525pt>
+File: figures/KondisiChamber.png Graphic file (type png)
+<use figures/KondisiChamber.png>
+Package pdftex.def Info: figures/KondisiChamber.png  used on input line 11.
+(pdftex.def)             Requested size: 406.87448pt x 237.06252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
+<figures/AC.jpg, id=217, 834.11626pt x 484.81125pt>
+File: figures/AC.jpg Graphic file (type jpg)
+<use figures/AC.jpg>
+Package pdftex.def Info: figures/AC.jpg  used on input line 21.
+(pdftex.def)             Requested size: 305.15585pt x 177.36519pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/Heater.jpg, id=218, 152.0955pt x 202.6845pt>
+File: figures/Heater.jpg Graphic file (type jpg)
+<use figures/Heater.jpg>
+Package pdftex.def Info: figures/Heater.jpg  used on input line 29.
+(pdftex.def)             Requested size: 203.43724pt x 271.10405pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37
+
+ <./figures/KondisiChamber.PNG>] [38 <./figures/AC.jpg> <./figures/Heater.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-[42
+[39]
+<figures/SkenarioData.png, id=229, 310.15875pt x 252.19218pt>
+File: figures/SkenarioData.png Graphic file (type png)
+<use figures/SkenarioData.png>
+Package pdftex.def Info: figures/SkenarioData.png  used on input line 60.
+(pdftex.def)             Requested size: 264.46593pt x 215.03778pt.
+<figures/HeaterAC.png, id=230, 425.1885pt x 296.90926pt>
+File: figures/HeaterAC.png Graphic file (type png)
+<use figures/HeaterAC.png>
+Package pdftex.def Info: figures/HeaterAC.png  used on input line 68.
+(pdftex.def)             Requested size: 203.43724pt x 142.06177pt.
+ [40 <./figures/SkenarioData.PNG> <./figures/HeaterAC.PNG>]
+<figures/HasilSimulasiIESVE.png, id=236, 511.6716pt x 303.534pt>
+File: figures/HasilSimulasiIESVE.png Graphic file (type png)
+<use figures/HasilSimulasiIESVE.png>
+Package pdftex.def Info: figures/HasilSimulasiIESVE.png  used on input line 82.
 
-]
-<figures/DataSplittingResult.png, id=237, 466.8642pt x 334.3692pt>
+(pdftex.def)             Requested size: 325.50082pt x 193.09857pt.
+
+Overfull \hbox (11.3673pt too wide) in paragraph at lines 92--93
+[]\T1/ptm/m/n/12 Model Plant meng-gu-nak-an mo-del JST yang te-lah di-ba-ngun o
+leh Tri Hartanto[[]]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+[41 <./figures/HasilSimulasiIESVE.png>]
+<figures/DataSplittingResult.png, id=241, 466.8642pt x 334.3692pt>
 File: figures/DataSplittingResult.png Graphic file (type png)
 <use figures/DataSplittingResult.png>
-Package pdftex.def Info: figures/DataSplittingResult.png  used on input line 57
-.
+Package pdftex.def Info: figures/DataSplittingResult.png  used on input line 13
+9.
 (pdftex.def)             Requested size: 366.18454pt x 262.27121pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
-<figures/DataSplittingFinal.png, id=238, 361.35pt x 216.81pt>
+<figures/DataSplittingFinal.png, id=242, 361.35pt x 216.81pt>
 File: figures/DataSplittingFinal.png Graphic file (type png)
 <use figures/DataSplittingFinal.png>
-Package pdftex.def Info: figures/DataSplittingFinal.png  used on input line 66.
-
+Package pdftex.def Info: figures/DataSplittingFinal.png  used on input line 146
+.
 (pdftex.def)             Requested size: 305.15585pt x 183.09508pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
-[43] [44 <./figures/DataSplittingResult.png> <./figures/DataSplittingFinal.png>
-] [45]
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+[42] [43 <./figures/DataSplittingResult.png> <./figures/DataSplittingFinal.png>
+]
+Overfull \hbox (0.78296pt too wide) in paragraph at lines 186--187
+[]\T1/ptm/m/n/12 Kinerja da-ri ke-em-pat ran-cang-an sis-tem kon-trol di-a-tas 
+da-pat di-a-ma-ti pa-da Gam-
+ []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+<figures/ControlSystemComparisonTd.png, id=252, 406.6392pt x 279.9258pt>
+File: figures/ControlSystemComparisonTd.png Graphic file (type png)
+<use figures/ControlSystemComparisonTd.png>
+Package pdftex.def Info: figures/ControlSystemComparisonTd.png  used on input l
+ine 190.
+(pdftex.def)             Requested size: 366.18454pt x 252.08466pt.
+[44]
+<figures/ControlSystemComparisonRH.png, id=256, 433.1382pt x 279.9258pt>
+File: figures/ControlSystemComparisonRH.png Graphic file (type png)
+<use figures/ControlSystemComparisonRH.png>
+Package pdftex.def Info: figures/ControlSystemComparisonRH.png  used on input l
+ine 197.
+(pdftex.def)             Requested size: 366.18454pt x 236.66092pt.
+ [45 <./figures/ControlSystemComparisonTd.png> <./figures/ControlSystemComparis
+onRH.png>] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
-
- []
-
-[46]
-File: figures/ControlDesignDiagram.png Graphic file (type png)
-<use figures/ControlDesignDiagram.png>
-Package pdftex.def Info: figures/ControlDesignDiagram.png  used on input line 1
-60.
-(pdftex.def)             Requested size: 366.18454pt x 155.97687pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
 
  []
 
 [47]
-<figures/SimulinkSP1Td.png, id=256, 451.6875pt x 238.491pt>
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+
+ []
+
+<figures/SimulinkSP1Td.png, id=272, 451.6875pt x 238.491pt>
 File: figures/SimulinkSP1Td.png Graphic file (type png)
 <use figures/SimulinkSP1Td.png>
-Package pdftex.def Info: figures/SimulinkSP1Td.png  used on input line 201.
+Package pdftex.def Info: figures/SimulinkSP1Td.png  used on input line 336.
 (pdftex.def)             Requested size: 305.15585pt x 161.13095pt.
-<figures/SimulinkSP1RH.png, id=257, 451.08525pt x 238.491pt>
+<figures/SimulinkSP1RH.png, id=273, 451.08525pt x 238.491pt>
 File: figures/SimulinkSP1RH.png Graphic file (type png)
 <use figures/SimulinkSP1RH.png>
-Package pdftex.def Info: figures/SimulinkSP1RH.png  used on input line 208.
+Package pdftex.def Info: figures/SimulinkSP1RH.png  used on input line 343.
 (pdftex.def)             Requested size: 305.15585pt x 161.34201pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/SimulinkSP1AC.png, id=258, 451.08525pt x 239.6955pt>
+<figures/SimulinkSP1AC.png, id=274, 451.08525pt x 239.6955pt>
 File: figures/SimulinkSP1AC.png Graphic file (type png)
 <use figures/SimulinkSP1AC.png>
-Package pdftex.def Info: figures/SimulinkSP1AC.png  used on input line 215.
+Package pdftex.def Info: figures/SimulinkSP1AC.png  used on input line 350.
 (pdftex.def)             Requested size: 305.15585pt x 162.15688pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/SimulinkSP1HT.png, id=259, 451.08525pt x 242.1045pt>
+<figures/SimulinkSP1HT.png, id=275, 451.08525pt x 242.1045pt>
 File: figures/SimulinkSP1HT.png Graphic file (type png)
 <use figures/SimulinkSP1HT.png>
-Package pdftex.def Info: figures/SimulinkSP1HT.png  used on input line 222.
+Package pdftex.def Info: figures/SimulinkSP1HT.png  used on input line 357.
 (pdftex.def)             Requested size: 305.15585pt x 163.7866pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[48 <./figures/SimulinkSP1Td.png>]
 
-LaTeX Warning: Text page 49 contains only floats.
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 
-[49 <./figures/SimulinkSP1RH.png> <./figures/SimulinkSP1AC.png> <./figures/Simu
+ []
+
+[49 <./figures/SimulinkSP1Td.png>]
+
+LaTeX Warning: Text page 50 contains only floats.
+
+[50 <./figures/SimulinkSP1RH.png> <./figures/SimulinkSP1AC.png> <./figures/Simu
 linkSP1HT.png>]
-<figures/SimulinkSP2Td.png, id=271, 451.6875pt x 237.2865pt>
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
+ []
+
+<figures/SimulinkSP2Td.png, id=286, 451.6875pt x 237.2865pt>
 File: figures/SimulinkSP2Td.png Graphic file (type png)
 <use figures/SimulinkSP2Td.png>
-Package pdftex.def Info: figures/SimulinkSP2Td.png  used on input line 262.
+Package pdftex.def Info: figures/SimulinkSP2Td.png  used on input line 382.
 (pdftex.def)             Requested size: 305.15585pt x 160.31715pt.
-<figures/SimulinkSP2RH.png, id=272, 451.6875pt x 237.2865pt>
+<figures/SimulinkSP2RH.png, id=287, 451.6875pt x 237.2865pt>
 File: figures/SimulinkSP2RH.png Graphic file (type png)
 <use figures/SimulinkSP2RH.png>
-Package pdftex.def Info: figures/SimulinkSP2RH.png  used on input line 269.
+Package pdftex.def Info: figures/SimulinkSP2RH.png  used on input line 389.
 (pdftex.def)             Requested size: 305.15585pt x 160.31715pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/SimulinkSP2AC.png, id=273, 450.483pt x 239.09325pt>
+<figures/SimulinkSP2AC.png, id=288, 450.483pt x 239.09325pt>
 File: figures/SimulinkSP2AC.png Graphic file (type png)
 <use figures/SimulinkSP2AC.png>
-Package pdftex.def Info: figures/SimulinkSP2AC.png  used on input line 276.
+Package pdftex.def Info: figures/SimulinkSP2AC.png  used on input line 396.
 (pdftex.def)             Requested size: 305.15585pt x 161.96469pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/SimulinkSP2HT.png, id=274, 450.483pt x 236.68425pt>
+<figures/SimulinkSP2HT.png, id=289, 450.483pt x 236.68425pt>
 File: figures/SimulinkSP2HT.png Graphic file (type png)
 <use figures/SimulinkSP2HT.png>
-Package pdftex.def Info: figures/SimulinkSP2HT.png  used on input line 283.
+Package pdftex.def Info: figures/SimulinkSP2HT.png  used on input line 403.
 (pdftex.def)             Requested size: 305.15585pt x 160.33281pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `tbl:5:SP3Ess' on page 50 undefined on input line 290.
+LaTeX Warning: Reference `tbl:5:SP3Ess' on page 51 undefined on input line 410.
 
 
-[50 <./figures/SimulinkSP2Td.png>]
+[51 <./figures/SimulinkSP2Td.png>]
 
-LaTeX Warning: Text page 51 contains only floats.
+LaTeX Warning: Text page 52 contains only floats.
 
-[51 <./figures/SimulinkSP2RH.png> <./figures/SimulinkSP2AC.png> <./figures/Simu
+[52 <./figures/SimulinkSP2RH.png> <./figures/SimulinkSP2AC.png> <./figures/Simu
 linkSP2HT.png>]
-<figures/SimulinkSP3Td.png, id=285, 451.08525pt x 234.8775pt>
+<figures/SimulinkSP3Td.png, id=300, 451.08525pt x 234.8775pt>
 File: figures/SimulinkSP3Td.png Graphic file (type png)
 <use figures/SimulinkSP3Td.png>
-Package pdftex.def Info: figures/SimulinkSP3Td.png  used on input line 309.
+Package pdftex.def Info: figures/SimulinkSP3Td.png  used on input line 414.
 (pdftex.def)             Requested size: 305.15585pt x 158.89745pt.
-<figures/SimulinkSP3RH.png, id=286, 451.08525pt x 235.47975pt>
+<figures/SimulinkSP3RH.png, id=301, 451.08525pt x 235.47975pt>
 File: figures/SimulinkSP3RH.png Graphic file (type png)
 <use figures/SimulinkSP3RH.png>
-Package pdftex.def Info: figures/SimulinkSP3RH.png  used on input line 316.
+Package pdftex.def Info: figures/SimulinkSP3RH.png  used on input line 421.
 (pdftex.def)             Requested size: 305.15585pt x 159.30487pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/SimulinkSP3AC.png, id=287, 451.08525pt x 235.47975pt>
+<figures/SimulinkSP3AC.png, id=302, 451.08525pt x 235.47975pt>
 File: figures/SimulinkSP3AC.png Graphic file (type png)
 <use figures/SimulinkSP3AC.png>
-Package pdftex.def Info: figures/SimulinkSP3AC.png  used on input line 323.
+Package pdftex.def Info: figures/SimulinkSP3AC.png  used on input line 428.
 (pdftex.def)             Requested size: 305.15585pt x 159.30487pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/SimulinkSP3HT.png, id=288, 451.6875pt x 239.6955pt>
+<figures/SimulinkSP3HT.png, id=303, 451.6875pt x 239.6955pt>
 File: figures/SimulinkSP3HT.png Graphic file (type png)
 <use figures/SimulinkSP3HT.png>
-Package pdftex.def Info: figures/SimulinkSP3HT.png  used on input line 330.
+Package pdftex.def Info: figures/SimulinkSP3HT.png  used on input line 435.
 (pdftex.def)             Requested size: 305.15585pt x 161.94473pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./Bab6.tex [52 <./figures/SimulinkSP3Td.png>]
-
-LaTeX Warning: Text page 53 contains only floats.
-
-[53 <./figures/SimulinkSP3RH.png> <./figures/SimulinkSP3AC.png> <./figures/Simu
-linkSP3HT.png>]
+) (./Bab6.tex [53 <./figures/SimulinkSP3Td.png> <./figures/SimulinkSP3RH.png>]
+[54 <./figures/SimulinkSP3AC.png> <./figures/SimulinkSP3HT.png>]
 BAB VI.
 
-Overfull \hbox (1.1378pt too wide) in paragraph at lines 29--30
+Overfull \hbox (1.1378pt too wide) in paragraph at lines 33--34
 []\T1/ptm/m/n/12 Menambahkan se-ma-cam ma-ni-pu-la-to-r/ak-tu-a-tor pa-da \T1/p
 tm/m/it/12 cli-ma-te cham-ber \T1/ptm/m/n/12 un-tuk me-
  []
 
-) (./skripsi.bbl [54
+) (./skripsi.bbl [55
 
-] [55
+] [56
 
-] [56]) [57]
+] [57]) [58]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 26.
- [58
+ [59
 
 ] (./app1.tex
 LAMPIRAN A.
-[59
+<figures/DataSkripsiRidhan.png, id=330, 331.83975pt x 319.1925pt>
+File: figures/DataSkripsiRidhan.png Graphic file (type png)
+<use figures/DataSkripsiRidhan.png>
+Package pdftex.def Info: figures/DataSkripsiRidhan.png  used on input line 10.
+(pdftex.def)             Requested size: 305.15585pt x 293.54863pt.
 
-]) (./app2.tex [60]
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+<figures/BobotPlant.png, id=331, 588.39825pt x 810.02625pt>
+File: figures/BobotPlant.png Graphic file (type png)
+<use figures/BobotPlant.png>
+Package pdftex.def Info: figures/BobotPlant.png  used on input line 21.
+(pdftex.def)             Requested size: 386.52951pt x 532.13461pt.
+[60
+
+ <./figures/DataSkripsiRidhan.png>]
+<figures/BobotEmulator.png, id=337, 790.152pt x 810.02625pt>
+File: figures/BobotEmulator.png Graphic file (type png)
+<use figures/BobotEmulator.png>
+Package pdftex.def Info: figures/BobotEmulator.png  used on input line 30.
+(pdftex.def)             Requested size: 406.87448pt x 417.11255pt.
+ [61 <./figures/BobotPlant.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+<figures/BobotKontroler.png, id=341, 693.792pt x 766.66425pt>
+File: figures/BobotKontroler.png Graphic file (type png)
+<use figures/BobotKontroler.png>
+Package pdftex.def Info: figures/BobotKontroler.png  used on input line 40.
+(pdftex.def)             Requested size: 406.87448pt x 449.61398pt.
+[62 <./figures/BobotEmulator.png>]) (./app2.tex [63 <./figures/BobotKontroler.p
+ng>]
 LAMPIRAN B.
 (c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
-) [61
+) [64
 
-] [62]
+] [65]
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 9
 6.
 
@@ -1449,33 +1552,32 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
- [63] [64] [65] [66]
-[67] [68]) (./app3.tex [69]
+ [66] [67] [68] [69]
+[70] [71]) (./app3.tex [72]
 LAMPIRAN C.
-File: figures/NNPlantModelDesign.png Graphic file (type png)
-<use figures/NNPlantModelDesign.png>
-Package pdftex.def Info: figures/NNPlantModelDesign.png  used on input line 7.
-(pdftex.def)             Requested size: 264.46593pt x 132.64908pt.
+<figures/NNForwardModelDesign.png, id=377, 342.27875pt x 364.36125pt>
 File: figures/NNForwardModelDesign.png Graphic file (type png)
 <use figures/NNForwardModelDesign.png>
-Package pdftex.def Info: figures/NNForwardModelDesign.png  used on input line 1
-6.
+Package pdftex.def Info: figures/NNForwardModelDesign.png  used on input line 7
+.
 (pdftex.def)             Requested size: 203.43724pt x 216.5669pt.
+<figures/NNInverseModelDesign.png, id=378, 342.27875pt x 323.2075pt>
 File: figures/NNInverseModelDesign.png Graphic file (type png)
 <use figures/NNInverseModelDesign.png>
-Package pdftex.def Info: figures/NNInverseModelDesign.png  used on input line 2
-6.
+Package pdftex.def Info: figures/NNInverseModelDesign.png  used on input line 1
+7.
 (pdftex.def)             Requested size: 203.43724pt x 192.10619pt.
-[70
+[73
 
-] [71]
-<figures/SimulinkBlockDiagram.png, id=356, 943.1235pt x 525.76425pt>
+ <./figures/NNForwardModelDesign.png> <./figures/NNInverseModelDesign.png>]
+<figures/SimulinkBlockDiagram.png, id=384, 943.1235pt x 525.76425pt>
 File: figures/SimulinkBlockDiagram.png Graphic file (type png)
 <use figures/SimulinkBlockDiagram.png>
-Package pdftex.def Info: figures/SimulinkBlockDiagram.png  used on input line 3
-5.
+Package pdftex.def Info: figures/SimulinkBlockDiagram.png  used on input line 2
+6.
 (pdftex.def)             Requested size: 610.31172pt x 340.25052pt.
- [72
+
+[74
 
  <./figures/SimulinkBlockDiagram.PNG>]) (./skripsi.aux)
 
@@ -1483,10 +1585,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 19797 strings out of 492163
- 342198 string characters out of 6129076
- 800681 words of memory out of 5000000
- 23874 multiletter control sequences out of 15000+600000
+ 19898 strings out of 492163
+ 345150 string characters out of 6129076
+ 801237 words of memory out of 5000000
+ 23962 multiletter control sequences out of 15000+600000
  566027 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,16n,110p,1431b,2127s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1501,10 +1603,10 @@ e/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/20
 19/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/font
 s/type1/urw/times/utmbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times
 /utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on skripsi.pdf (91 pages, 1150962 bytes).
+Output written on skripsi.pdf (93 pages, 1836543 bytes).
 PDF statistics:
- 406 PDF objects out of 1000 (max. 8388607)
- 241 compressed objects within 3 object streams
+ 433 PDF objects out of 1000 (max. 8388607)
+ 245 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 211 words of extra memory for PDF output out of 10000 (max. 10000000)
 

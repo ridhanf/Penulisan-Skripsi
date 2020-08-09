@@ -289,9 +289,7 @@ MAE_All = mean(MAE);
 MSE = mean(e.^2,2);
 MSE_All = perform(netC,T,u);
 MSE_Relatif = mean(e/T,2);
-% All_MSE_Relatif = mean(MSE_Relatif);
 MSE_Std = std(e,0,2);
-% All_MSE_Std = mean(MSE_Std);
 
 % Correlation Coefficient
 [~,~,R_AC] = postreg(T(1,:),u(1,:));

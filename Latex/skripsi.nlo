@@ -9,23 +9,14 @@
 \nomenclatureentry{aae$AC$@[{$AC$}]\begingroup SET AC \nomunit{$^\circ$C}\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aaf$HT$@[{$HT$}]\begingroup SET Heater \nomunit{ON}\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aag$t$@[{$t$}]\begingroup Waktu \nomunit{detik}\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aah$s$@[{$s$}]\begingroup Frekuensi \nomunit{Hertz}\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aai$R$@[{$R$}]\begingroup Koefisien Korelasi \nomunit{\%}\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aaj$\mathbb{R}$@[{$\mathbb{R}$}]\begingroup Domain Bilangan Riil\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aak$R(s)$@[{$R(s)$}]\begingroup Input Sistem Kontrol\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aal$E(s)$@[{$E(s)$}]\begingroup Error Sistem Kontrol\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aam$C(s)$@[{$C(s)$}]\begingroup Ouput Sistem Kontrol\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aan$K$@[{$K$}]\begingroup Gain Konstan\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aao$T(s)$@[{$T(s)$}]\begingroup Fungsi Gain Lup tertutup\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aap$G(s)$@[{$G(s)$}]\begingroup Fngsi Gain Lup Tertutup Umpan Balik Satuan\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aaq$H(s)$@[{$H(s)$}]\begingroup Fungsi Gain Umpan Balik\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aar$x$@[{$x$}]\begingroup Lapisan Input Jaringan Saraf Tiruan\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aas$y$@[{$y$}]\begingroup Lapisan Output Jaringan Saraf Tiruan\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aat$z$@[{$z$}]\begingroup Lapisan Tersembunyi Jaringan Saraf Tiruan\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{azzz@[{}]\begingroup \nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{bba$\nu$@[{$\nu$}]\begingroup Bobot Jaringan Saraf Tiruan\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{bbt$\sigma$@[{$\sigma$}]\begingroup Fungsi Aktivasi Neuron\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{cbdsteady-state@[{steady-state}]\begingroup Kondisi Ajeg Sistem\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{cbdsteady-state@[{steady-state}]\begingroup Kondisi-Ajeg\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{dbjn+1@[{n+1}]\begingroup Dimensi n+1\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{dbkT@[{T}]\begingroup Fungsi Tranpos Vektor/Matrix\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{eaaANN@[{ANN}]\begingroup Artificial Neural Network\nomeqref {0.0}|nompageref}{xvii}

@@ -3,32 +3,32 @@
 \babel@toc {bahasa}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Tinjauan Pustaka Lingkungan Termal\relax }}{8}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Tinjauan Pustaka Lingkungan Termal (lanjutan)\relax }}{9}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Pengkondisian Lingkungan Termal pada \textit {Climate Chamber}\relax }}{8}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Pengkondisian Lingkungan Termal pada \textit {Climate Chamber} (lanjutan)\relax }}{9}%
 \contentsline {table}{\numberline {2.3}{\ignorespaces Tinjauan Pustaka Sistem kontrol JST\relax }}{14}%
 \contentsline {table}{\numberline {2.4}{\ignorespaces Tinjauan Pustaka Sistem kontrol JST (lanjutan)\relax }}{15}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Perbandingan metode kontrol\relax }}{33}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Perbandingan metode kontrol\relax }}{30}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Daftar alat dan bahan\relax }}{35}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Spesifikasi laptop ASUS N550JX\relax }}{35}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Daftar alat dan bahan\relax }}{31}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Spesifikasi laptop ASUS N550JX\relax }}{31}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Tabel Rancangan Model Plant JST Tri Hartanto\relax }}{42}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Daftar variasi pembagian data\relax }}{43}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Tabel Rancangan Model Plant JST Penulis\relax }}{45}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Tabel Rancangan Emulator JST (\textit {NN Forward Model})\relax }}{46}%
-\contentsline {table}{\numberline {5.5}{\ignorespaces Tabel Rancangan Kontroler JST (\textit {NN Inverse Model})\relax }}{47}%
-\contentsline {table}{\numberline {5.6}{\ignorespaces Nilai Kombinasi SET POINT SP1\relax }}{48}%
-\contentsline {table}{\numberline {5.7}{\ignorespaces Hasil Simulasi Sistem Kontrol SP1\relax }}{48}%
-\contentsline {table}{\numberline {5.8}{\ignorespaces Nilai Kombinasi SET POINT SP2\relax }}{50}%
-\contentsline {table}{\numberline {5.9}{\ignorespaces Hasil Simulasi Sistem Kontrol SP2\relax }}{50}%
-\contentsline {table}{\numberline {5.10}{\ignorespaces Nilai Kombinasi SET POINT SP3\relax }}{52}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces U-Value Selubung Climate Chamber\cite {skripsiTanto}\relax }}{39}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Tabel Rancangan Model Plant JST\cite {skripsiTanto}\relax }}{42}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Daftar variasi pembagian data\relax }}{42}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Tabel Rancangan Model Plant JST Penulis\relax }}{44}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces Tabel Rancangan Emulator JST (\textit {NN Forward Model})\relax }}{46}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Tabel Rancangan Kontroler JST (\textit {NN Inverse Model})\relax }}{47}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Nilai Kombinasi SET POINT SP1\relax }}{48}%
+\contentsline {table}{\numberline {5.8}{\ignorespaces Nilai Kombinasi SET POINT SP2\relax }}{48}%
+\contentsline {table}{\numberline {5.9}{\ignorespaces Nilai Kombinasi SET POINT SP3\relax }}{48}%
+\contentsline {table}{\numberline {5.10}{\ignorespaces Hasil Simulasi Sistem Kontrol SP1\relax }}{49}%
+\contentsline {table}{\numberline {5.11}{\ignorespaces Hasil Simulasi Sistem Kontrol SP2\relax }}{51}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Tabel Rancangan Model Plant JST Penulis\relax }}{59}%
-\contentsline {table}{\numberline {A.2}{\ignorespaces Tabel Rancangan Emulator JST (\textit {NN Forward Model})\relax }}{59}%
-\contentsline {table}{\numberline {A.3}{\ignorespaces Tabel Rancangan Kontroler JST (\textit {NN Inverse Model})\relax }}{60}%
-\contentsline {table}{\numberline {A.4}{\ignorespaces Hasil Simulasi Sistem Kontrol SP1\relax }}{60}%
-\contentsline {table}{\numberline {A.5}{\ignorespaces Hasil Simulasi Sistem Kontrol SP2\relax }}{60}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Data Simulasi IES-VE\relax }}{60}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Bobot-bobot Model Plant JST\relax }}{61}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces Bobot-bobot Emulator JST\relax }}{62}%
+\contentsline {table}{\numberline {A.4}{\ignorespaces Bobot-bobot Kontroler JST\relax }}{63}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

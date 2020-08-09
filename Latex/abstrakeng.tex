@@ -1,5 +1,8 @@
 % ganti perintah \lipsum dengan isi abstract
-\lipsum[148-149]
+To meet the needs of Thermal Comfort research, The Thermal Environment conditions in the Climate Chamber (as a thermal test room) need to conditioned automatically according to the research test scheme. By using data from the IES-VE simulation in the previous research\cite{skripsiIchfan}, the author tries to design a Control System based on Artificial Neural Network (ANN) to control air temperature (Td) and relative humidity (RH) in the Climate Chamber. The Control System designed using the Internal Model Control method in which the Plant model, Emulator, and Controller are each generated with ANN by data from the IES-VE simulation.
+
+The Control System uses MATLAB to build ANN and uses Simulink for control system simulation. ANN Controller was created by split the data into 80\% training data, 15\% validation data, and 5\% testing data. ANN controller uses the hyperbolic tangent activation function with the Levenberg-Marquardt learning algorithm. ANN Controller has a network architecture with one hidden layer containing 52 neurons. The results of the author's design able to control the thermal environment of the Climate Chamber with a steady-state error value 0.09$^\circ$C for room temperature and 1.24\% for relative humidity.
+%\lipsum[148-149]
 
 \vspace{0.5cm}
 \hspace{-1.2cm}

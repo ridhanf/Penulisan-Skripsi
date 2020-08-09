@@ -1,9 +1,9 @@
 \chapter{DASAR TEORI}
 \label{dasar-teori}
 
-\section{Fisika Bangunan}
+\section{Fisika Termal Pada Sistem Bangunan}
 
-Terdapat beberapa definisi mengenai fisika bangunan. Maka dari itu, penulis mencoba untuk mengambil definisi dari salah satu sumber referensi terpercaya yang berbunyi sebagai berikut: \textit{Building Physics is an applied science that studies the hygrothermal, acoustical and light related properties of building components (roofs, facades, windows, partition walls, etc.), room, building and building assemblies)} \cite{BuildingPhysics}. Fisika bangunan memiliki hubungan dengan pemenuhan kebutuhan dalam hal kenyamanan dan kesehatan penghuni, di sisi yang lain mempertimbangkan keterbatasan material, arsitektur, ekologi lingkungan, dan ekonomi. Kenyamanan merupakan kondisi kesehatan mental dan fisik makhluk hidup. Hal tersebut dapat tercapai bergantung kepada faktor manusia dan lingkungannya. Dapat disimpulkan bahwa pemenuhan terhadap kenyamanan termal, kenyamanan akustik, dan kenyamanan visual memerlukan kemampuan rekayasa (\textit{engineering}).
+Terdapat beberapa definisi mengenai fisika bangunan. Maka dari itu, penulis mencoba untuk mengambil definisi dari salah satu sumber referensi terpercaya yang berbunyi sebagai berikut: \textit{Building Physics is an applied science that studies the hygrothermal, acoustical and light related properties of building components (roofs, facades, windows, partition walls, etc.), room, building and building assemblies)} \cite{BuildingPhysics}. Fisika bangunan memiliki hubungan dengan pemenuhan kebutuhan dalam hal kenyamanan dan kesehatan penghuni, di sisi yang lain mempertimbangkan keterbatasan material, arsitektur, ekologi lingkungan, dan ekonomi. Kenyamanan merupakan kondisi kesehatan mental dan fisik makhluk hidup. Hal tersebut dapat tercapai bergantung kepada faktor manusia dan lingkungannya. Dapat disimpulkan bahwa pemenuhan terhadap kenyamanan termal, kenyamanan akustik, dan kenyamanan visual memerlukan kemampuan rekayasa (\textit{engineering}). \textcolor{red}{INI BELUM DIUBAH DHAN!}
 
 \subsection{Lingkungan Termal}
 
@@ -89,73 +89,73 @@ Proses Pengendalian merupakan tugas seorang insinyur kontrol untuk menganalisis 
 
 \subsection{Kesalahan Keadaan-Ajeg}
 
-Kesalahan keadaan tunak adalah perbedaan antara input dan output untuk input tes yang ditentukan ketika $t \rightarrow \infty$. Dalam sistem kontrol, kita memperhatikan perbedaan antara input dan output dari sistem kontrol umpan balik setelah mencapai keadaan-ajeg. Sehingga hal ini dibatasi untuk sistem yang stabil, dimana respons alami mendekati nol selayaknya $t \rightarrow \infty$ . Sistem yang tidak stabil merepresentasikan hilangnya kendali dalam keadaan-ajeg dan sama sekali tidak dapat diterima untuk digunakan. Persamaan yang diperoleh untuk menghitung kesalahan keadaan tunak dapat diterapkan secara keliru ke sistem yang tidak stabil. Dengan demikian, insinyur harus memeriksa stabilitas sistem saat melakukan analisis dan perancangan kesalahan keadaan tunak. Sehingga, peneliti mengasumsikan bahwa semua sistem dalam contoh dan masalah dalam bab ini merupakan sistem yang stabil.
+Kesalahan keadaan-ajeg adalah perbedaan antara input dan output untuk input tes yang ditentukan ketika $t \rightarrow \infty$. Dalam sistem kontrol, kita memperhatikan perbedaan antara input dan output dari sistem kontrol umpan balik setelah mencapai keadaan-ajeg. Sehingga hal ini dibatasi untuk sistem yang stabil, dimana respons alami mendekati nol selayaknya $t \rightarrow \infty$ . Sistem yang tidak stabil merepresentasikan hilangnya kendali dalam keadaan-ajeg dan sama sekali tidak dapat diterima untuk digunakan. Persamaan yang diperoleh untuk menghitung kesalahan keadaan-ajeg dapat diterapkan secara keliru ke sistem yang tidak stabil. Dengan demikian, insinyur harus memeriksa stabilitas sistem saat melakukan analisis dan perancangan kesalahan keadaan-ajeg. Sehingga, peneliti mengasumsikan bahwa semua sistem dalam contoh dan masalah dalam bab ini merupakan sistem yang stabil.
 
-Banyak kesalahan keadaan tunak pada sistem kontrol muncul dari sumber nonlinear, seperti serangan balik dari roda gigi atau motor yang tidak bergerak terkecuali ketika tegangan input melebihi nilai ambang batas. Kesalahan keadaan tunak yang dipelajari adalah kesalahan yang muncul dari konfigurasi sistem itu sendiri dan jenis input yang diterapkan. 
+Banyak kesalahan keadaan-ajeg pada sistem kontrol muncul dari sumber nonlinear, seperti serangan balik dari roda gigi atau motor yang tidak bergerak terkecuali ketika tegangan input melebihi nilai ambang batas. Kesalahan keadaan-ajeg yang dipelajari adalah kesalahan yang muncul dari konfigurasi sistem itu sendiri dan jenis input yang diterapkan. 
 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/SSEExample}
-	\caption{Sistem dengan \textbf{a.} kesalahan keadaan tunak bernilai terbatas untuk input fungsi step; \textbf{b.} kesalahan keadaan tunak nol untuk input fungsi step}
-	\label{fig:3:steadystateerror}
-\end{figure}
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[width=0.75\textwidth]{figures/SSEExample}
+%	\caption{Sistem dengan \textbf{a.} kesalahan keadaan-ajeg bernilai terbatas untuk input fungsi step; \textbf{b.} kesalahan keadaan-ajeg nol untuk input fungsi step}
+%	\label{fig:3:steadystateerror}
+%\end{figure}
 
-Contohnya, amati Gambar \ref{fig:3:steadystateerror}(a), dimana $R(s)$ adalah input, $C(s)$ adalah output, dan $E(s) = R(s) - C(s)$ adalah eror (kesalahan keadaan tunak). Pada keadaan-ajeg, jika $c(t) = r(t)$, maka $e(t)$ bernilai nol. Tetapi dengan adanya \textit{gain} (pengali) , $K$, eror tersebut, $e(t)$, tidak dapat bernilai nol jika $c(t)$ bernilai terbatas dan tak nol. Sehingga, keutamaan dari konfigurasi sistem (\textit{gain} murni K pada umpan maju), haruslah memiliki nilai eror. Jika kita sebut $c_{steady-state}$ adalah nilai keadaan tunak suatu output dan $e_{steady-state}$ adalah nilai keadaan tunak suatu eror, maka $c_{steady-state} = K e_{steady-state}$, atau 
+%Contohnya, amati Gambar \ref{fig:3:steadystateerror}(a), dimana $R(s)$ adalah input, $C(s)$ adalah output, dan $E(s) = R(s) - C(s)$ adalah eror (kesalahan keadaan-ajeg). Pada keadaan-ajeg, jika $c(t) = r(t)$, maka $e(t)$ bernilai nol. Tetapi dengan adanya \textit{gain} (pengali) , $K$, eror tersebut, $e(t)$, tidak dapat bernilai nol jika $c(t)$ bernilai terbatas dan tak nol. Sehingga, keutamaan dari konfigurasi sistem (\textit{gain} murni K pada umpan maju), haruslah memiliki nilai eror. Jika kita sebut $c_{steady-state}$ adalah nilai keadaan-ajeg suatu output dan $e_{steady-state}$ adalah nilai keadaan-ajeg suatu eror, maka $c_{steady-state} = K e_{steady-state}$, atau 
 
-\begin{equation} \label{eq:3:steady-state-error}
-e_{steady-state} = \frac{1}{K} \ c_{steady-state}
-\end{equation}
+%\begin{equation} \label{eq:3:steady-state-error}
+%e_{steady-state} = \frac{1}{K} \ c_{steady-state}
+%\end{equation}
 
-Dengan demikian, semakin besar nilai K dan semakin kecil nilai $e_{steady-state}$ haruslah menghasilkan nilai $c_{steady-state}$ yang sama. Kesimpulan yang dapat kita tarik yaitu \textit{gain} murni pada umpan maju akan selalu menjadi suatu kesalahan keadaan tunak untuk input fungsi step. Kesalahan ini berkurang ketika nilai K meningkat.
+%Dengan demikian, semakin besar nilai K dan semakin kecil nilai $e_{steady-state}$ haruslah menghasilkan nilai $c_{steady-state}$ yang sama. Kesimpulan yang dapat kita tarik yaitu \textit{gain} murni pada umpan maju akan selalu menjadi suatu kesalahan keadaan-ajeg untuk input fungsi step. Kesalahan ini berkurang ketika nilai K meningkat.
 
-Jika penguatan jalur maju digantikan oleh integrator, seperti yang ditunjukkan pada Gambar \ref{fig:3:steadystateerror}(b), akan ada nol kesalahan pada kondisi tunak untuk input fungsi steo. Alasannya adalah sebagai berikut: Ketika $c(t$ meningkat, $e(t)$ akan berkurang, karena $e(t) = r(t) - c(t)$. Penurunan ini akan berlanjut hingga tidak ada kesalahan nol, tetapi masih akan ada nilai untuk $c(t)$ karena integrator dapat memiliki output yang konstan tanpa input apa pun. Misalnya, motor dapat direpresentasikan hanya sebagai integrator. Tegangan yang diberikan pada motor akan menyebabkan putaran. Ketika tegangan yang diberikan dilepas, motor akan berhenti dan tetap pada posisi keluaran saat ini. Karena tidak kembali ke posisi semula, kami memiliki output perpindahan sudut tanpa input ke motor. Oleh karena itu, sistem yang mirip dengan Gambar \ref{fig:3:steadystateerror}(b), yang menggunakan motor di jalur maju, dapat memiliki nol kondisi tunak untuk input fungsi step \cite{ControlSystem}.
+%Jika penguatan jalur maju digantikan oleh integrator, seperti yang ditunjukkan pada Gambar \ref{fig:3:steadystateerror}(b), akan ada nol kesalahan pada kondisi ajeg untuk input fungsi steo. Alasannya adalah sebagai berikut: Ketika $c(t$ meningkat, $e(t)$ akan berkurang, karena $e(t) = r(t) - c(t)$. Penurunan ini akan berlanjut hingga tidak ada kesalahan nol, tetapi masih akan ada nilai untuk $c(t)$ karena integrator dapat memiliki output yang konstan tanpa input apa pun. Misalnya, motor dapat direpresentasikan hanya sebagai integrator. Tegangan yang diberikan pada motor akan menyebabkan putaran. Ketika tegangan yang diberikan dilepas, motor akan berhenti dan tetap pada posisi keluaran saat ini. Karena tidak kembali ke posisi semula, kami memiliki output perpindahan sudut tanpa input ke motor. Oleh karena itu, sistem yang mirip dengan Gambar \ref{fig:3:steadystateerror}(b), yang menggunakan motor di jalur maju, dapat memiliki nol kondisi ajeg untuk input fungsi step \cite{ControlSystem}.
 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/SSEExample2}
-	\caption{Eror sistem kontrol tertutup: a. Representasi secara umum; b. Representasi untuk sistem umpan balik satuan}
-	\label{fig:3:steadystateerror2}
-\end{figure}
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[width=0.75\textwidth]{figures/SSEExample2}
+%	\caption{Eror sistem kontrol tertutup: a. Representasi secara umum; b. Representasi untuk sistem umpan balik satuan}
+%	\label{fig:3:steadystateerror2}
+%\end{figure}
 
-Pertimbangkan Gambar \ref{fig:3:steadystateerror2}(a). Untuk menentukan $E(s)$, kesalahan antara input, $R(s)$, dan output, $C(s)$, ditulis sebagai:
-\begin{equation} \label{eq:3:steady-state-error2}
-E(s) = R(s) - C(s)
-\end{equation}
-tetapi,
-\begin{equation} \label{eq:3:steady-state-error3}
-C(s) = R(s)T(s)
-\end{equation}
-Dengan mensubstitusi Persamaan \ref{eq:3:steady-state-error3} ke \ref{eq:3:steady-state-error2}, lalu disederhanakan dan dicari solusi pemecahan untuk $E(s)$, yaitu:
-\begin{equation} \label{eq:3:steady-state-error4}
-E(s) = R(s)(1 - T(s))
-\end{equation}
-Meskipun Persamaan \ref{eq:3:steady-state-error4} membantu kita dalam menyelesaikan $e(t)$ di setiap waktu, t, tetapi kita lebih tertarik untuk mengetahui nilai akhir dari eror, $e(\infty)$. Dengan mengaplikasikan teorema nilai akhir, yang mana memungkinkan kita untuk menggunakan nilai akhir dari $e(t)$ tanpa mengambil transformasi balik Laplace $E(S)$, dan kemudian membiarkan $t$ mendekati $\infty$, didapatkan
-\begin{equation} \label{eq:3:steady-state-error5}
-e(\infty) = \lim_{t \to \infty} e(t) = \lim_{s \to 0} sE(s)
-\end{equation}
-Substitusi Persamaan \ref{eq:3:steady-state-error4} ke \ref{eq:3:steady-state-error5}, didapatkan:
-\begin{equation} \label{eq:3:final-steady-state-error}
-e(\infty) = \lim_{t \to \infty} e(t) = \lim_{s \to 0} sR(s)[1 - T(s)]
-\end{equation}
+%Pertimbangkan Gambar \ref{fig:3:steadystateerror2}(a). Untuk menentukan $E(s)$, kesalahan antara input, $R(s)$, dan output, $C(s)$, ditulis sebagai:
+%\begin{equation} \label{eq:3:steady-state-error2}
+%E(s) = R(s) - C(s)
+%\end{equation}
+%tetapi,
+%\begin{equation} \label{eq:3:steady-state-error3}
+%C(s) = R(s)T(s)
+%\end{equation}
+%Dengan mensubstitusi Persamaan \ref{eq:3:steady-state-error3} ke \ref{eq:3:steady-state-error2}, lalu disederhanakan dan dicari solusi pemecahan untuk $E(s)$, yaitu:
+%\begin{equation} \label{eq:3:steady-state-error4}
+%E(s) = R(s)(1 - T(s))
+%\end{equation}
+%Meskipun Persamaan \ref{eq:3:steady-state-error4} membantu kita dalam menyelesaikan $e(t)$ di setiap waktu, t, tetapi kita lebih tertarik untuk mengetahui nilai akhir dari eror, $e(\infty)$. Dengan mengaplikasikan teorema nilai akhir, yang mana memungkinkan kita untuk menggunakan nilai akhir dari $e(t)$ tanpa mengambil transformasi balik Laplace $E(S)$, dan kemudian membiarkan $t$ mendekati $\infty$, didapatkan
+%\begin{equation} \label{eq:3:steady-state-error5}
+%e(\infty) = \lim_{t \to \infty} e(t) = \lim_{s \to 0} sE(s)
+%\end{equation}
+%Substitusi Persamaan \ref{eq:3:steady-state-error4} ke \ref{eq:3:steady-state-error5}, didapatkan:
+%\begin{equation} \label{eq:3:final-steady-state-error}
+%e(\infty) = \lim_{t \to \infty} e(t) = \lim_{s \to 0} sR(s)[1 - T(s)]
+%\end{equation}
 
-Pertimbangkan sistem kontrol umpan balik ditunjukkan pada Gambar \ref{fig:3:steadystateerror2}(b). Karena umpan balik, $H(s)$, sama dengan 1, sistem memiliki umpan balik satuan. Implikasinya adalah bahwa $E(s)$ sebenarnya adalah kesalahan antara input, $R(s)$, dan output, $C(s)$. Jadi, jika kita memecahkan Persamaan untuk $E(s)$, kita akan memiliki ekspresi untuk kesalahan tersebut. Kemudian diterapkan teorema nilai akhir untuk mengevaluasi kesalahan keadaan-ajeg.
+%Pertimbangkan sistem kontrol umpan balik ditunjukkan pada Gambar \ref{fig:3:steadystateerror2}(b). Karena umpan balik, $H(s)$, sama dengan 1, sistem memiliki umpan balik satuan. Implikasinya adalah bahwa $E(s)$ sebenarnya adalah kesalahan antara input, $R(s)$, dan output, $C(s)$. Jadi, jika kita memecahkan Persamaan untuk $E(s)$, kita akan memiliki ekspresi untuk kesalahan tersebut. Kemudian diterapkan teorema nilai akhir untuk mengevaluasi kesalahan keadaan-ajeg.
 
-Menulis $E(s)$ berdasarkan Gambar \ref{fig:3:steadystateerror2}(b), didapatkan
-\begin{equation} \label{eq:3:sse-g}
-E(s) = R(s) - C(s)
-\end{equation}
-Tetapi,
-\begin{equation} \label{eq:3:sse-g2}
-C(s) = E(s)G(s)
-\end{equation}
-Substitusi Persamaan \ref{eq:3:sse-g2} ke \ref{eq:3:sse-g}, didapatkan:
-\begin{equation} \label{eq:3:sse-g3}
-E(s) = \frac{ R(s) }{ 1 + G(s) }
-\end{equation}
-Kemudikan diterapkan teorema nilai akhir, \ref{eq:3:steady-state-error5}. Pada titik ini dalam perhitungan numerik, kita harus memeriksa apakah sistem loop tertutup stabil, menggunakan, misalnya, kriteria Routh-Hurwitz. Namun, untuk saat ini, asumsikan bahwa sistem loop tertutup adalah stabil dan gantikan Persamaan \ref{eq:3:sse-g3} ke Persamaan \ref{eq:3:steady-state-error5}, didapatkan:
-\begin{equation} \label{eq:3:sse-g4}
-e(\infty) = \lim_{s \to 0} \frac{ sR(s) }{ 1 + G(s) }
-\end{equation}
+%Menulis $E(s)$ berdasarkan Gambar \ref{fig:3:steadystateerror2}(b), didapatkan
+%\begin{equation} \label{eq:3:sse-g}
+%E(s) = R(s) - C(s)
+%\end{equation}
+%Tetapi,
+%\begin{equation} \label{eq:3:sse-g2}
+%C(s) = E(s)G(s)
+%\end{equation}
+%Substitusi Persamaan \ref{eq:3:sse-g2} ke \ref{eq:3:sse-g}, didapatkan:
+%\begin{equation} \label{eq:3:sse-g3}
+%E(s) = \frac{ R(s) }{ 1 + %G(s) }
+%\end{equation}
+%Kemudikan diterapkan teorema nilai akhir, \ref{eq:3:steady-state-error5}. Pada titik ini dalam perhitungan numerik, kita harus memeriksa apakah sistem loop tertutup stabil, menggunakan, misalnya, kriteria Routh-Hurwitz. Namun, untuk saat ini, asumsikan bahwa sistem loop tertutup adalah stabil dan gantikan Persamaan \ref{eq:3:sse-g3} ke Persamaan \ref{eq:3:steady-state-error5}, didapatkan:
+%\begin{equation} \label{eq:3:sse-g4}
+%e(\infty) = \lim_{s \to 0} \frac{ sR(s) }{ 1 + G(s) }
+%\end{equation}
 
 
 \section{Jaringan Saraf Tiruan}

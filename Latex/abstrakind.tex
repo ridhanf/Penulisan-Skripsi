@@ -1,5 +1,8 @@
 % Ganti perintah \lipsum dengan isi intisari.
-\lipsum[100-101]
+Untuk memenuhi kebutuhan penelitian kenyamanan termal, kondisi lingkungan termal pada \textit{Climate Chamber} (sebagai ruang uji termal) perlu untuk dikondisikan secara otomatis sesuai dengan skema pengujian penelitian. Dengan menggunakan data dari Simulasi IES-VE pada peneliatan sebelumnya\cite{skripsiIchfan}, penulis mencoba untuk membangun sistem kendali berbasis jaringan saraf tiruan (JST) untuk mengendalikan suhu udara (Td) dan kelembapan relatif (RH) pada \textit{Climate Chamber}. Sistem kendali dibangun menggunakan metode \textit{Internal Model Control} dimana model plant, emulator, dan kontroler masing-masing dibangun dengan JST dari data simulasi IES-VE.
+
+Sistem Kontrol menggunakan MATLAB untuk membangun JST dan menggunakan Simulink untuk simulasi sistem kontrol. JST Kontroler dibangun dengan pembagian data 80\% data latih, 15\% data validasi, dan 5\% data uji. JST kontroler menggunakan fungsi aktivasi \textit{hyperbolic tangent} dengan algoritma pembelajaran Levenberg-Marquardt. JST Kontroler memiliki arsitektur jaringan dengan 1 lapisan tersembunyi (\textit{hidden layer}) berisi 52 neuron. Hasil perancangan penulis mampu mengendalikan lingkungan termal \textit{Climate Chamber} dengan nilai \textit{steady-state error} sebesar 0,09$^\circ$C untuk suhu ruang dan sebesar 1,24\% untuk kelembapan relatif.
+%\lipsum[100-101]
 
 \vspace{0.5cm}
 \hspace{-1.2cm}
