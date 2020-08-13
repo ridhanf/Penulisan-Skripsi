@@ -102,7 +102,7 @@ All_MSETest = perform(netP,testTargets,y);
 \end{lstlisting}
 \hfill
 
-\section{Kode Sumber Emulator JST}
+\section{Kode Sumber Model Emulator JST}
 \begin{lstlisting}
 % Import Data
 data = xlsread('DataSkripsiS1Ridhan.xlsx');
@@ -186,11 +186,10 @@ testTargets = T .* tr.testMask{1};
 All_MSETrain = perform(netM,trainTargets,y);
 All_MSEVal = perform(netM,valTargets,y);
 All_MSETest = perform(netM,testTargets,y);
-
 \end{lstlisting}
 \hfill
 
-\section{Kode Sumber Kontroler JST}
+\section{Kode Sumber Model Kontroler JST}
 \begin{lstlisting}
 % Import Data
 data = xlsread('DataSkripsiS1Ridhan.xlsx');
@@ -372,7 +371,7 @@ y = ( u - minRH ) ./ ( maxRH - minRH );
 \end{lstlisting}
 \hfill
 
-\section{Fungsi Scaler Suhu Luar}
+\section{Fungsi Scaler Suhu Lingkungan}
 \begin{lstlisting}
 function y = ScalerTo(u)
   maxTo  = 29.38;

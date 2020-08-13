@@ -1,5 +1,5 @@
 \babel@toc {bahasa}{}
-\contentsline {chapter}{HALAMAN JUDUL}{ii}%
+\contentsline {chapter}{HALAMAN JUDUL}{i}%
 \contentsline {chapter}{PERNYATAAN BEBAS PLAGIASI}{ii}%
 \contentsline {chapter}{HALAMAN PENGESAHAN}{iv}%
 \contentsline {chapter}{HALAMAN TUGAS}{iv}%
@@ -13,68 +13,71 @@
 \babel@toc {bahasa}{}
 \contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}%
 \contentsline {section}{\numberline {I.1.}Latar Belakang}{1}%
-\contentsline {section}{\numberline {I.2.}Perumusan Masalah}{2}%
+\contentsline {section}{\numberline {I.2.}Perumusan Masalah}{3}%
 \contentsline {section}{\numberline {I.3.}Batasan Masalah}{4}%
 \contentsline {section}{\numberline {I.4.}Tujuan}{4}%
 \contentsline {section}{\numberline {I.5.}Manfaat}{5}%
 \contentsline {chapter}{\numberline {II}TINJAUAN PUSTAKA}{6}%
 \contentsline {section}{\numberline {II.1.}Pengkondisian Lingkungan Termal pada \textit {Climate Chamber}}{6}%
-\contentsline {section}{\numberline {II.2.}Sistem Kontrol Jaringan Saraf Tiruan}{10}%
-\contentsline {chapter}{\numberline {III}DASAR TEORI}{16}%
-\contentsline {section}{\numberline {III.1.}Fisika Termal Pada Sistem Bangunan}{16}%
-\contentsline {subsection}{\numberline {III.1.1.}Lingkungan Termal}{16}%
-\contentsline {section}{\numberline {III.2.}Sistem Kontrol Otomatis}{17}%
-\contentsline {subsection}{\numberline {III.2.1.}Dasar-dasar Sistem Kontrol}{17}%
-\contentsline {subsection}{\numberline {III.2.2.}Kesalahan Keadaan-Ajeg}{21}%
-\contentsline {section}{\numberline {III.3.}Jaringan Saraf Tiruan}{21}%
-\contentsline {subsection}{\numberline {III.3.1.}Model Matematis Neuron}{22}%
-\contentsline {subsection}{\numberline {III.3.2.}Jaringan Layar Jamak (MLP)}{27}%
-\contentsline {section}{\numberline {III.4.}Sistem Kontrol Jaringan Saraf Tiruan}{30}%
-\contentsline {chapter}{\numberline {IV}PELAKSANAAN PENELITIAN}{31}%
-\contentsline {section}{\numberline {IV.1.}Alat dan Bahan Penelitian}{31}%
-\contentsline {section}{\numberline {IV.2.}Tata Laksana Penelitian}{32}%
-\contentsline {subsection}{\numberline {IV.2.1.}Studi Pustaka}{33}%
-\contentsline {subsection}{\numberline {IV.2.2.}Penentuan Tuntutan Rancangan}{33}%
-\contentsline {subsection}{\numberline {IV.2.3.}Pengambilan Data Simulasi IES-VE}{33}%
-\contentsline {subsection}{\numberline {IV.2.4.}Pengembangan Model Plant JST}{34}%
-\contentsline {subsection}{\numberline {IV.2.5.}Perancangan Sistem kontrol JST}{35}%
-\contentsline {subsection}{\numberline {IV.2.6.}{Penarikan Kesimpulan}}{36}%
-\contentsline {section}{\numberline {IV.3.}Rencana Analisis Hasil Penelitian}{36}%
-\contentsline {chapter}{\numberline {V}HASIL DAN PEMBAHASAN}{37}%
-\contentsline {section}{\numberline {V.1.}Pengambilan Data Simulasi IES-VE}{37}%
-\contentsline {subsection}{\numberline {V.1.1.}Kondisi \textit {Climate Chamber}}{37}%
-\contentsline {subsection}{\numberline {V.1.2.}Rancangan Skenario Pengambilan Data}{39}%
-\contentsline {subsection}{\numberline {V.1.3.}Simulasi IES-VE}{41}%
-\contentsline {section}{\numberline {V.2.}Pengembangan Model Plant JST}{41}%
-\contentsline {subsection}{\numberline {V.2.1.}Variasi Pembagian Data}{42}%
-\contentsline {section}{\numberline {V.3.}Perancangan Sistem Kontrol JST}{44}%
-\contentsline {subsection}{\numberline {V.3.1.}Kinerja Emulator JST}{46}%
-\contentsline {subsection}{\numberline {V.3.2.}Kinerja Kontroler JST}{47}%
-\contentsline {subsection}{\numberline {V.3.3.}Kinerja Sistem Kontrol JST}{48}%
-\contentsline {subsubsection}{\numberline {V.3.3.3.}SET POINT SP1}{49}%
-\contentsline {subsubsection}{\numberline {V.3.3.3.}SET POINT SP2}{51}%
-\contentsline {subsubsection}{\numberline {V.3.3.3.}SET POINT SP3}{53}%
-\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{55}%
-\contentsline {section}{\numberline {VI.1.}Kesimpulan}{55}%
-\contentsline {section}{\numberline {VI.2.}Saran}{55}%
+\contentsline {section}{\numberline {II.2.}Kontrol Jaringan Saraf Tiruan}{10}%
+\contentsline {chapter}{\numberline {III}DASAR TEORI}{13}%
+\contentsline {section}{\numberline {III.1.}Lingkungan Termal}{13}%
+\contentsline {subsection}{\numberline {III.1.1.}Parameter Lingkungan Termal}{13}%
+\contentsline {subsubsection}{\numberline {III.1.1.1.}Psikrometrik}{14}%
+\contentsline {subsection}{\numberline {III.1.2.}Perpindahan Kalor pada Bangunan}{15}%
+\contentsline {subsection}{\numberline {III.1.3.}Kenyamanan Termal}{19}%
+\contentsline {section}{\numberline {III.2.}Kontrol Otomatis}{20}%
+\contentsline {subsection}{\numberline {III.2.1.}Dasar-dasar Ilmu Kontrol}{20}%
+\contentsline {subsection}{\numberline {III.2.2.}Kesalahan Keadaan-Ajeg}{23}%
+\contentsline {section}{\numberline {III.3.}Jaringan Saraf Tiruan}{25}%
+\contentsline {subsection}{\numberline {III.3.1.}Model Matematis Neuron}{26}%
+\contentsline {subsection}{\numberline {III.3.2.}Jaringan Layar Jamak (MLP)}{30}%
+\contentsline {section}{\numberline {III.4.}Kontrol Jaringan Saraf Tiruan}{34}%
+\contentsline {chapter}{\numberline {IV}PELAKSANAAN PENELITIAN}{36}%
+\contentsline {section}{\numberline {IV.1.}Alat dan Bahan Penelitian}{36}%
+\contentsline {section}{\numberline {IV.2.}Tata Laksana Penelitian}{37}%
+\contentsline {subsection}{\numberline {IV.2.1.}Studi Pustaka}{38}%
+\contentsline {subsection}{\numberline {IV.2.2.}Penentuan Tuntutan Rancangan}{38}%
+\contentsline {subsection}{\numberline {IV.2.3.}Pengambilan Data Simulasi IES-VE}{38}%
+\contentsline {subsection}{\numberline {IV.2.4.}Pengembangan Model Plant JST}{39}%
+\contentsline {subsection}{\numberline {IV.2.5.}Perancangan Kontroler JST}{40}%
+\contentsline {subsection}{\numberline {IV.2.6.}{Penarikan Kesimpulan}}{41}%
+\contentsline {section}{\numberline {IV.3.}Rencana Analisis Hasil Penelitian}{42}%
+\contentsline {chapter}{\numberline {V}HASIL DAN PEMBAHASAN}{43}%
+\contentsline {section}{\numberline {V.1.}Pengambilan Data Simulasi IES-VE}{43}%
+\contentsline {subsection}{\numberline {V.1.1.}Kondisi \textit {Climate Chamber}}{43}%
+\contentsline {subsection}{\numberline {V.1.2.}Rancangan Skenario Pengambilan Data}{46}%
+\contentsline {subsection}{\numberline {V.1.3.}Hasil Simulasi IES-VE}{47}%
+\contentsline {section}{\numberline {V.2.}Pengembangan Model Plant JST}{49}%
+\contentsline {subsection}{\numberline {V.2.1.}Variasi Pembagian Data}{50}%
+\contentsline {subsection}{\numberline {V.2.2.}Hasil Model Plant JST}{52}%
+\contentsline {section}{\numberline {V.3.}Perancangan Kontroler JST}{52}%
+\contentsline {section}{\numberline {V.4.}Kinerja Kontroler JST Terpilih}{56}%
+\contentsline {subsection}{\numberline {V.4.1.}Kinerja JST Blok Emulator}{57}%
+\contentsline {subsection}{\numberline {V.4.2.}Kinerja JST Blok Kontroler}{58}%
+\contentsline {subsection}{\numberline {V.4.3.}Kinerja Simulasi Kontrol}{59}%
+\contentsline {subsubsection}{\numberline {V.4.3.3.}SET POINT SP1}{60}%
+\contentsline {subsubsection}{\numberline {V.4.3.3.}SET POINT SP2}{61}%
+\contentsline {subsubsection}{\numberline {V.4.3.3.}SET POINT SP3}{63}%
+\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{65}%
+\contentsline {section}{\numberline {VI.1.}Kesimpulan}{65}%
+\contentsline {section}{\numberline {VI.2.}Saran}{65}%
 \contentsline {chapter}{LAMPIRAN}{}
-\contentsline {chapter}{\numberline {A}Data Penelitian}{60}%
-\contentsline {section}{\numberline {A.1.}Data Simulasi IES-VE}{60}%
-\contentsline {section}{\numberline {A.2.}Bobot-bobot Model Plant JST}{61}%
-\contentsline {section}{\numberline {A.3.}Bobot-bobot Emulator JST}{62}%
-\contentsline {section}{\numberline {A.4.}Bobot-bobot Kontroler JST}{63}%
-\contentsline {chapter}{\numberline {B}Listing Program}{64}%
-\contentsline {section}{\numberline {B.1.}Kode Sumber Model Plant JST}{64}%
-\contentsline {section}{\numberline {B.2.}Kode Sumber Emulator JST}{66}%
-\contentsline {section}{\numberline {B.3.}Kode Sumber Kontroler JST}{68}%
-\contentsline {section}{\numberline {B.4.}Fungsi Min Max Scaler}{71}%
-\contentsline {section}{\numberline {B.5.}Fungsi Kuantisasi AC}{71}%
-\contentsline {section}{\numberline {B.6.}Fungsi Kuantisasi Heater}{72}%
-\contentsline {section}{\numberline {B.7.}Fungsi Scaler Suhu Ruang}{72}%
-\contentsline {section}{\numberline {B.8.}Fungsi Scaler Kelembapan Relatif}{72}%
-\contentsline {section}{\numberline {B.9.}Fungsi Scaler Suhu Luar}{72}%
-\contentsline {section}{\numberline {B.10.}Fungsi Scaler Radiasi Matahari}{72}%
-\contentsline {chapter}{\numberline {C}Diagram Blok}{73}%
-\contentsline {section}{\numberline {C.1.}Diagram Blok Emulator JST}{73}%
-\contentsline {section}{\numberline {C.2.}Diagram Blok Kontroler JST}{73}%
-\contentsline {section}{\numberline {C.3.}Diagram Blok Sistem Kontrol Simulink}{74}%
+\contentsline {chapter}{\numberline {A}Data Penelitian}{69}%
+\contentsline {section}{\numberline {A.1.}Data Simulasi IES-VE}{69}%
+\contentsline {section}{\numberline {A.2.}Bobot-bobot Model Plant JST}{70}%
+\contentsline {section}{\numberline {A.3.}Bobot-bobot Model Emulator JST}{71}%
+\contentsline {section}{\numberline {A.4.}Bobot-bobot Model Kontroler JST}{72}%
+\contentsline {chapter}{\numberline {B}Listing Program}{73}%
+\contentsline {section}{\numberline {B.1.}Kode Sumber Model Plant JST}{73}%
+\contentsline {section}{\numberline {B.2.}Kode Sumber Model Emulator JST}{75}%
+\contentsline {section}{\numberline {B.3.}Kode Sumber Model Kontroler JST}{77}%
+\contentsline {section}{\numberline {B.4.}Fungsi Min Max Scaler}{80}%
+\contentsline {section}{\numberline {B.5.}Fungsi Kuantisasi AC}{80}%
+\contentsline {section}{\numberline {B.6.}Fungsi Kuantisasi Heater}{81}%
+\contentsline {section}{\numberline {B.7.}Fungsi Scaler Suhu Ruang}{81}%
+\contentsline {section}{\numberline {B.8.}Fungsi Scaler Kelembapan Relatif}{81}%
+\contentsline {section}{\numberline {B.9.}Fungsi Scaler Suhu Lingkungan}{81}%
+\contentsline {section}{\numberline {B.10.}Fungsi Scaler Radiasi Matahari}{82}%
+\contentsline {chapter}{\numberline {C}Diagram Blok}{83}%
+\contentsline {section}{\numberline {C.1.}Diagram Blok Rancangan Sistem Kontrol Simulink}{83}%

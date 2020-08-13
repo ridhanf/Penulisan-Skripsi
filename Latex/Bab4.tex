@@ -17,7 +17,7 @@ Penelitian ini tidak dapat dilakukan tanpa adanya alat dan bahan yang memudahkan
 		1 & ASUS N550JX & Perangkat komputer \\ \hline
 		2 & IES-VE 2019 & Perangkat lunak untuk pengambilan data lingkungan termal \textit{climate chamber} dan variasi gangguan \\ \hline
 		3 & MS Excel 365 & Perangkat lunak pengolahan data tabular \\ \hline
-		4 & MATLAB R2018a & Perangkat lunak pemrograman dalam merancang jaringan saraf tiruan dan sistem kontrol. \\ \hline
+		4 & MATLAB R2018a & Perangkat lunak pemrograman dalam merancang jaringan saraf tiruan untuk kontroler. \\ \hline
 		5 & Simulink & Perangkat lunak untuk menjalankan simulasi sistem kontrol. \\ \hline
 		%5 & VS Code 1.38 & Aplikasi penulisan dan penyuntingan kode sumber \\ \hline
 		%6 & Python 3.7 & Bahasa pemrograman \\ \hline
@@ -79,13 +79,13 @@ Studi pustaka bertujuan untuk mendapatkan pemahaman dalam penyelesaian masalah y
 
 \subsection{Penentuan Tuntutan Rancangan}
 
-Tuntutan rancangan Tugas Akhir ini yaitu sistem kendali mampu mengendalikan \textit{plant} dengan kinerja seoptimal mungkin. Kinerja sistem kontrol ditinjau dari nilai \textit{steady-state error} suhu ruang dan kelembapan relatif. Semakin kecil nilai \textit{error steady-state} sistem kontrol maka semakin baik kinerjanya.
+Tuntutan rancangan Tugas Akhir ini yaitu kontroler mampu mengendalikan \textit{plant} dengan kinerja seoptimal mungkin. Kinerja controller ditinjau dari nilai \textit{steady-state error} suhu ruang dan kelembapan relatif. Semakin kecil nilai \textit{error steady-state} kontroler maka semakin baik kinerjanya.
 
 \subsection{Pengambilan Data Simulasi IES-VE}
-Penelitian ini menggunakan data yang sama dengan data yang digunakan oleh penelitian Tanto \cite{skripsiTanto} yang bersumber dari model yang telah dibuat di penelitian sebelumnya berjudul "Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan Metode Simulasi CFD dengan Perangkat Lunak IES-VE" yang diteliti oleh Ichfan Kurniawan \cite{skripsiIchfan}.  Data tersebut merupakan hasil simulasi pada \textit{software} IES-VE dengan menerapkan beberapa variasi kondisi lingkungan pada model \textit{climate chamber}. Variasi tersebut yaitu kondisi batas lingkungan (radiasi matahari dan suhu bola kering luar / \textit{outdoor dry bulb temperature}), kondisi AC, dan kondisi \textit{heater}. Variasi kondisi batas lingkungan tersebut diwujudkan dalam pembagian 4 musim dalam 1 tahun, yakni bulan maret, juni, september dan desember. Keluaran dari model IES-VE berupa nilai suhu udara ruang (\textit{air temperature}) \textit{chamber} dan kelembapan relatif (RH) \textit{chamber}. Dari model tersebut didapatkan nilai MAE perhitungan selisih variabel lingkungan termal hasil simulasi dan pengukuran lapangan sebesar 0,8 $\pm$ 0,7$^{\circ}$C untuk suhu udara ruang dan 2,5 $\pm$ 3,8\% untuk kelembaban relatif \cite{skripsiIchfan}. Data yang sudah terkumpul disajikan dalam bentuk tabular yang kemudian diolah dalam program komputer yang dibuat oleh penulis.
+Penelitian ini menggunakan data yang sama dengan data yang digunakan oleh penelitian Tri Hartanto\cite{skripsiTanto} yang bersumber dari model yang telah dibuat di penelitian sebelumnya berjudul "Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan Metode Simulasi CFD dengan Perangkat Lunak IES-VE" yang diteliti oleh Ichfan Kurniawan \cite{skripsiIchfan}.  Data tersebut merupakan hasil simulasi pada \textit{software} IES-VE dengan menerapkan beberapa variasi kondisi lingkungan pada model \textit{climate chamber}. Variasi tersebut yaitu kondisi batas lingkungan (radiasi matahari dan suhu bola kering luar / \textit{outdoor dry bulb temperature}), kondisi AC, dan kondisi \textit{heater}. Variasi kondisi batas lingkungan tersebut diwujudkan dalam pembagian 4 musim dalam 1 tahun, yakni bulan maret, juni, september dan desember. Keluaran dari model IES-VE berupa nilai suhu ruang (\textit{air temperature}) \textit{chamber} dan kelembapan relatif (RH) \textit{chamber}. Dari model tersebut didapatkan nilai MAE perhitungan selisih variabel lingkungan termal hasil simulasi dan pengukuran lapangan sebesar 0,8 $\pm$ 0,7$^{\circ}$C untuk suhu udara ruang dan 2,5 $\pm$ 3,8\% untuk kelembaban relatif \cite{skripsiIchfan}. Data yang sudah terkumpul disajikan dalam bentuk tabular yang kemudian diolah dalam program komputer yang dibuat oleh penulis.
 
 \subsection{Pengembangan Model Plant JST}
-Model Plant menggunakan model \textit{plant} JST yang telah dirancang pada penelitian berjudul "Pemodelan Lingkungan Termal Sistem \textit{Climate Chamber} dengan Metode Jaringan Saraf Tiruan" oleh Tri Hartanto \cite{skripsiTanto}. Model \textit{plant} tersebut memiliki nilai MAE perhitungan antara target dan prediksi sebesar 0,59$^{\circ}$C untuk suhu udara ruang dan 5,44\% untuk kelembapan relatif. Akurasi JST sebesar 96,23\% untuk suhu udara ruang dan 68,90\% untuk kelembapan relatif\cite{skripsiTanto}. Model \textit{plant} ini akan digunakan oleh penulis dalam melakukan perancangan sistem kontrol berbasi jaringan saraf tiruan. Arsitektur Model Plant JST dijabarkan oleh Gambar \ref{fig:4:NNPlantModelDesign}.
+Model plant pada penelitian ini mengadaptasi model plant JST yang telah dirancang pada penelitian sebelumnya\cite{skripsiTanto}. Model plant tersebut memiliki nilai MAE perhitungan antara target dan prediksi sebesar 0,59$^{\circ}$C untuk suhu ruang dan 5,44\% untuk kelembapan relatif. Akurasi JST sebesar 96,23\% untuk suhu ruang dan 68,90\% untuk kelembapan relatif. Arsitektur Model Plant JST digambarkan pada Gambar \ref{fig:4:NNPlantModelDesign}.
 
 \begin{figure}[!h]
 	\centering
@@ -94,41 +94,44 @@ Model Plant menggunakan model \textit{plant} JST yang telah dirancang pada penel
 	\label{fig:4:NNPlantModelDesign}
 \end{figure}
 
-\subsection{Perancangan Sistem kontrol JST}
-Perancangan kontroler dipilih dengan membandingkan kinerja dengan nilai \textit{steady-state error} dari 4 rancangan kontroler berbasis jaringan saraf tiruan berikut:
+Model plant ini akan dikembangkan kembali dalam melakukan perancangan kontroler JST. Rancangan Model plant JST yang dikembangkan akan dipilih berdasarkan kinerja prediksi yang lebih baik untuk variabel kelembapan relatif. Kinerja model akan dievaluasi melalui nilai koefisien korelasi (R).
+
+\subsection{Perancangan Kontroler JST}
+Pada penelitian ini perancangan kontroler mengacu pada beberapa referensi mengenai kontroler JST \cite{paper42Paisan}\cite{paper42LMa}\cite{paper42Hussain}. Kemudian dibangun 4 rancangan blok diagram kontroler JST untuk dibandingkan. Pemilihan rancangan blok diagram terbaik dilakukan dengan membandingkan kinerja setiap rancangan melalui nilai \textit{steady-state error}. Rancangan dengan nilai \textit{steady-state error} terkecil yang akan dipilih sebagai kontroler yang akan digunakan. Berikut merupakan keempat rancangan blok diagram kontroler JST tersebut:\\
+
 \begin{enumerate}
-	\item Kontroler I: NN Inverse Model Control
+	\item Design I: Neural Network Inverse Model
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.9\textwidth]{figures/ControlDesignDiagramI}
-		\caption{Blok Diagram Sistem Kendali JST}
+		\caption{Blok Diagram Kontroler I}
 		\label{fig:4:ConstrolSystemBlockDiagramI}
 	\end{figure}
-	\vspace{-1em}
+	\vspace{1em}
 	
-	\item Kontroler II: NN Inverse Model Control umpan balik Variabel Manipulasi
+	\item Design II: NN Inverse Model dengan Umpan Variabel Manipulasi\cite{paper42Paisan}
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.9\textwidth]{figures/ControlDesignDiagramII}
-		\caption{Blok Diagram Sistem Kendali JST}
+		\caption{Blok Diagram Kontroler II}
 		\label{fig:4:ConstrolSystemBlockDiagramII}
 	\end{figure}
-	\vspace{-1em}
+	\vspace{3em}
 	
-	\item Kontroler III: NN Inverse Model Control umpan Variabel Gangguan
+	\item Design III: NN Inverse Model dengan Umpan Variabel Gangguan\cite{paper42LMa}
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.9\textwidth]{figures/ControlDesignDiagramIII}
-		\caption{Blok Diagram Sistem Kendali JST}
+		\caption{Blok Diagram Kontroler III}
 		\label{fig:4:ConstrolSystemBlockDiagramIII}
 	\end{figure}
 	\vspace{1em}
 	
-	\item Kontroler IV: NN Internal Model Control
+	\item Design IV: NN Internal Model Control\cite{paper42Hussain}
 	\begin{figure}[!h]
 		\centering
 		\includegraphics[width=0.9\textwidth]{figures/ControlDesignDiagram}
-		\caption{Blok Diagram Sistem Kendali JST}
+		\caption{Blok Diagram Kontroler IV}
 		\label{fig:4:ConstrolSystemBlockDiagram}
 	\end{figure}
 \end{enumerate}
@@ -138,7 +141,7 @@ Perancangan kontroler dipilih dengan membandingkan kinerja dengan nilai \textit{
 %Perancangan JST untuk kontroler menggunakan output plant, disturbance, delay umpan balik dan delay output plant sebagai sebagai input sebagai untuk pelatihan JST. NN Inverse Model dijelaskan pada Gambar \ref{fig:4:NNInverseModelDesign} dan NN Forward Model dijelaskan pada Gambar \ref{fig:4:NNForwardModelDesign}.\\
 
 \subsection{{Penarikan Kesimpulan}}
-Penarikan kesimpulan didapatkan berdasarkan kinerja sistem kontrol terbaik dan kinerja dari masing-masing komponen model jaringan saraf tiruan di dalamnya. Kesimpulan menggambarkan bagaimana rancangan diagram blok sistem kontrol sehingga dapat digunakan sebagai sistem kontrol lingkungan termal pada \textit{climate chamber} DTNTF FT UGM.
+Penarikan kesimpulan didapatkan berdasarkan kinerja kontroler terbaik dan kinerja dari masing-masing komponen model jaringan saraf tiruan di dalamnya. Kesimpulan menggambarkan bagaimana rancangan kontroler dapat digunakan pada \textit{climate chamber} DTNTF FT-UGM.
 
 \section{Rencana Analisis Hasil Penelitian}
-Kinerja dari model JST akan dievaluasi berdasarkan nilai MAE (\textit{Mean Absolute Error}) dan R (koefisien korelasi) dari rancangan tersebut. Kinerja dari sistem kontrol akan dievaluasi berdasarkan nilai Kesalahan Keadaan-Ajeg (\textit{steady-state error}) untuk suhu ruang dan kelembapan relatif. Kemudian sistem kontrol dengan rancangan terpilih akan diuji dengan 3 variasi SET POINT untuk ditinjau kembali nilai \textit{steady-state error} dari sistem kontrol tersebut.
+Kinerja dari model JST akan dievaluasi berdasarkan nilai MAE (\textit{Mean Absolute Error}) dan R (koefisien korelasi) dari rancangan tersebut. Kinerja dari kontroler akan dievaluasi berdasarkan nilai Kesalahan Keadaan-Ajeg (\textit{steady-state error}) untuk suhu ruang dan kelembapan relatif. Kemudian kontroler dengan rancangan terpilih akan diuji dengan 3 variasi SET POINT untuk ditinjau kembali nilai \textit{steady-state error} dari kontroler tersebut.

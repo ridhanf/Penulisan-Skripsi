@@ -8,15 +8,15 @@
 
 Berikut merupakan beberapa kesimpulan yang didapatkan dari pengerjaan Tugas Akhir dan penulisan skripsi ini:
 \begin{enumerate}
-	\item  Dengan adanya komponen emulator, sistem kontrol dengan rancangan \textit{Internal Model Control} berbasis Jaringan Saraf Tiruan memiliki kinerja paling baik dengan nilai \textit{steady-state error} sebesar 0,09$^\circ$C untuk suhu ruang dan sebesar 1,24\% untuk kelembapan relatif.
-	\item Kontroler berbasis jaringan saraf tiruan yang dihasilkan dibangun dengan pembagian data 80\% data latih, 15\% data validasi, dan 5\% data uji. Kontroler JST menggunakan fungsi aktivasi \textit{hyperbolic tangent} dengan algoritma pembelajaran Levenberg-Marquardt. Kontroler JST terdiri dari 1 lapisan tersembunyi dengan 52 neuron.
+	\item  Dengan adanya komponen emulator, kontroler dengan rancangan \textit{Internal Model Control} berbasis Jaringan Saraf Tiruan memiliki kinerja paling baik dengan nilai \textit{steady-state error} sebesar 0,09$^\circ$C untuk suhu ruang dan sebesar 1,24\% untuk kelembapan relatif.
+	\item Kontroler berbasis jaringan saraf tiruan yang dihasilkan dibangun dengan pembagian data 80\% data latih, 15\% data validasi, dan 5\% data uji. Model Kontroler JST menggunakan fungsi aktivasi \textit{hyperbolic tangent} dengan algoritma pembelajaran Levenberg-Marquardt. Model Kontroler JST terdiri dari 1 lapisan tersembunyi dengan 52 neuron.
 \end{enumerate}
 
 %Diantaranya adalah sebagai berikut:
 %\begin{enumerate}
 	%\item Variabel kelembapan relatif sulit untuk dikendalikan dikarenakan perubahannya merupakan pengaruh secara tidak langsung dari manipulator yang ada (AC dan Heater). Oleh karena itu, analisis hasil dari penelitian ini lebih ditekankan pada suhu ruang.
-	%\item Pengaplikasian Jaringan Saraf Tiruan (JST) dapat dikatakan mampu digunakan sebagai sistem kontrol untuk lingkungan termal bangunan.
-	%\item Ketersediaan data sangat mempengaruhi hasil kinerja dari sistem kontrol berbasis jaringan saraf tiruan.
+	%\item Pengaplikasian Jaringan Saraf Tiruan (JST) dapat dikatakan mampu digunakan sebagai kontroler untuk lingkungan termal bangunan.
+	%\item Ketersediaan data sangat mempengaruhi hasil kinerja dari kontroler berbasis jaringan saraf tiruan.
 %\end{enumerate}
  
 %\begin{enumerate}
@@ -28,7 +28,7 @@ Berikut merupakan beberapa kesimpulan yang didapatkan dari pengerjaan Tugas Akhi
 
 \section{Saran}
 
-Berikut merupakan saran-saran untuk pengembangan sistem kontrol ini agar menjadi lebih baik pada penelitian-penelitian selanjutnya:
+Berikut merupakan saran-saran untuk pengembangan kontroler ini agar menjadi lebih baik pada penelitian-penelitian selanjutnya:
 \begin{enumerate}
 	\item Menambahkan semacam manipulator/aktuator pada \textit{climate chamber} untuk memanipulasi kelembapan relatif ruang secara langsung. Contoh: \textit{humidifier}.
 	\item Menggunakan Jaringan Saraf Tiruan jenis \textit{Reinforcement Learning} dengan penerimaan data pengukuran langsung untuk pengembangan sistem kontrol pada penelitian-penelitian \textit{climate chamber} selanjutnya.

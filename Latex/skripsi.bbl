@@ -1,147 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{IEA}
-IEA.
-\newblock {\em {ENERGY EFFICIENCY 2017 Laporan Khusus: Efisiensi Energi di
-  Indonesia}}.
-\newblock International Energy Agency, Indonesia, 2017.
-
-\bibitem{ASHRAE55}
-ASHRAE.
-\newblock {\em {ANSI/ASHRAE Standard 55-2010 Thermal Environmental Conditions
-  for Human Occupancy}}.
-\newblock American Society of Heating, Refrigerating, and Air-Conditioning
-  Engineers, Inc., Atlanta, GA, 2010.
-
-\bibitem{skripsiIchfan}
-Ichfan Kurniawan.
-\newblock {\em {Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan
-  Metode Simulasi CFD Dengan Perangkat Lunak IES VE}}.
-\newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
-  Universitas Gadjah Mada, Yogyakarta, 2019.
-
-\bibitem{article2.1:1}
-H.~Feriadi dan N.~Hien.
-\newblock ``{Thermal comfort for naturally ventilated houses in Indonesia}''.
-\newblock {\em Journal of Building Environment, Elsevier Ltd.}, 109:208--223,
-  2004.
-
-\bibitem{article2.1:2}
-E.~Arens, H.~Zhang  dan C.~Huizenga.
-\newblock ``{Partial- and whole-body thermal sensation and comfort - Part I:
-  Uniform environmental conditions}''.
-\newblock {\em Journal of Thermal Biology, Elsevier Ltd.}, 31:53--59, 2006.
-
-\bibitem{article2.1:4}
-A.~P. Leskinen, J.~K. Jokiniemi  dan K.~E.~J. Lehtinen.
-\newblock ``{Characterization of Aging Wood Chip Combustion Aerosol in an
-  Environmental Chamber}''.
-\newblock {\em Elsevier Ltd.}, 41:3713--3721, 2007.
-
-\bibitem{article2.1:5}
-W.~He, G.~Xu  dan R.~Shen.
-\newblock ``{Control of Temperature Uniformity in the Temperature Chamber With
-  Centrifugal Acceleration}''.
-\newblock {\em Journal of Process Control, Elsevier Ltd.}, 24:1--6, 2014.
-
-\bibitem{article2.1:6}
-A.~Huguet, A.~Francez, M.~Dung, C.~Fosse  dan S.~Derenne.
-\newblock ``{A Climatic Chamber Experiment to Test the Short Term Effect of
-  Increasing Temperature on Branched GDGT Distribution in Sphagnum Peat}''.
-\newblock {\em Journal of Organic Geochemistry, Elsevier Ltd.}, 73:109--112,
-  2014.
-
-\bibitem{article2.1:7}
-E.~Martinez dan S.~J. Agosta.
-\newblock ``{Budget-Limited Thermal Biology: Design, Construction and
-  Performance of a Large, Walk-in Style Temperature-Controlled Chamber}''.
-\newblock {\em Journal of Thermal Biology, Elsevier Ltd.}, 58:29--34, 2016.
-
-\bibitem{article2.1:8}
-Jose~A. Jofre-reche, J.~C. Su  dan C.~Alia.
-\newblock ``{Characterization of the Chemical Structure of Vinyl Ester Resin in
-  a Climate Chamber Under Different Conditions of Degradation}''.
-\newblock {\em Polymer Degradation and Stability, Elsevier Ltd.}, 153:88--99,
-  2018.
-
-\bibitem{article2.1:9}
-A.~Srinivasa, S.~Das, H.~Kottyen, V.~Ashok  dan P.~Shankarrao.
-\newblock ``{The Effect of Cold Chamber Temperature on the Cadaver's
-  Electrolyte Changes in Vitreous Humor and Plasma}''.
-\newblock {\em Journal of Forensic and Legal Medicine, Elsevier Ltd.},
-  62:87--91, 2019.
-
-\bibitem{skripsiMuna}
-Nur~Muna Nadiya.
-\newblock {\em {Analisis Pengaruh Perubahan Lingkungan Termal terhadap
-  Perubahan Level Sensasi Termal}}.
-\newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
-  Universitas Gadjah Mada, Yogyakarta, 2020.
-
-\bibitem{article11}
-G.~Mustafaraj, J.~Chen  dan G.~Lowry.
-\newblock ``{Thermal Behaviour Prediction Utilizing Artificial Neural Networks
-  for an Open Office}''.
-\newblock {\em Elsevier Ltd.}, 2010.
-
-\bibitem{article12}
-Jin~Woo Moon dan Jong-Jin Kim.
-\newblock ``{ANN-Based Thermal Control Models for Residential Buildings}''.
-\newblock {\em Elsevier Ltd.}, 2010.
-
-\bibitem{article13}
-Jin~Woo Moon, Sung~Kwon Jung, Youngchul Kim  dan Seung-Hoon Han.
-\newblock ``{Comparative Study of Artificial Intelligence-Based Building
-  Thermal Control Methods E Application of Fuzzy, Adaptive Neuro-Fuzzy
-  Inference System, and Artificial Neural Network}''.
-\newblock {\em Elsevier Ltd.}, 2011.
-
-\bibitem{article14}
-Zakia Afroz, GM~Shafiullah, Tania Urmee  dan Gary Higgins.
-\newblock ``{Prediction of Indoor Temperature in an Institutional Building}''.
-\newblock {\em Elsevier Ltd.}, 2017.
-
-\bibitem{article15}
-Ján Drgoňa, Damien Picard, Michal Kvasnica  dan Lieve Helsen.
-\newblock ``{Approximate Model Predictive Building Control via Machine
-  Learning}''.
-\newblock {\em Elsevier Ltd.}, 2018.
-
-\bibitem{article16}
-Hyun-Jung Yoon, Dong-Seok Lee, Hyun Cho  dan Jae-Hun Jo.
-\newblock ``{Prediction of Thermal Environment in a Large Space Using
-  Artificial Neural Network}''.
-\newblock {\em MDPI}, 2018.
-
-\bibitem{article17}
-Zhipeng Deng dan Qingyan Chen.
-\newblock ``{Artificial Neural Network Models Using Thermal Sensations and
-  Occupants’ Behavior for Predicting Thermal Comfort}''.
-\newblock {\em Elsevier Ltd.}, 2018.
-
-\bibitem{BuildingPhysics}
-Hugo Hens.
-\newblock {\em {Building Physics - Heat, Air and Moisture: Fundamentals and
-  Engineering Methods with Examples and Exercises}}.
-\newblock Ernst and Sohn, Berlin, Germany, 2007.
-
-\bibitem{book1}
-William~R. Santee dan William~T. Matthew.
-\newblock {\em {Military Quantitative Physiology: Problems and Concepts in
-  Military Operational Medicine}}.
-\newblock Office of The Surgeon General Borden Institute, Fort Detrick,
-  Maryland, 2012.
-
-\bibitem{ControlSystem}
-Norman~S. Nise.
-\newblock {\em {Control System Engineering}}.
-\newblock John Wiley and Sons, Inc., United State of America, 2011.
-
-\bibitem{NNControlBook}
-Jagannathan Sarangapani.
-\newblock {\em {Neural Network Control of Nonlinear Discrete-Time Systems}}.
-\newblock Taylor and Francis Group, LLC, United State of America, 2006.
-
 \bibitem{MPCDissertation}
 Ing.~Ján Drgoňa.
 \newblock {\em {Model Predictive Control with Applications in Building Thermal
@@ -155,5 +13,125 @@ Tri Hartanto.
   Metode Jaringan Saraf Tiruan}}.
 \newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
   Universitas Gadjah Mada, Yogyakarta, 2020.
+
+\bibitem{IEA}
+IEA.
+\newblock {\em {ENERGY EFFICIENCY 2017 Laporan Khusus: Efisiensi Energi di
+  Indonesia}}.
+\newblock International Energy Agency, Indonesia, 2017.
+
+\bibitem{skripsiIchfan}
+Ichfan Kurniawan.
+\newblock {\em {Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan
+  Metode Simulasi CFD Dengan Perangkat Lunak IES VE}}.
+\newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
+  Universitas Gadjah Mada, Yogyakarta, 2019.
+
+\bibitem{ControlSystemBook}
+Norman~S. Nise.
+\newblock {\em {Control System Engineering}}.
+\newblock John Wiley and Sons, Inc., United State of America, 2011.
+
+\bibitem{NNControlBook}
+Jagannathan Sarangapani.
+\newblock {\em {Neural Network Control of Nonlinear Discrete-Time Systems}}.
+\newblock Taylor and Francis Group, LLC, United State of America, 2006.
+
+\bibitem{ASHRAE55}
+ASHRAE.
+\newblock {\em {ANSI/ASHRAE Standard 55-2010 Thermal Environmental Conditions
+  for Human Occupancy}}.
+\newblock American Society of Heating, Refrigerating, and Air-Conditioning
+  Engineers, Inc., Atlanta, GA, 2010.
+
+\bibitem{paper21Arens}
+Edward Arens, Hui Zhang  dan Charlie Huizenga.
+\newblock ``{Partial- and Whole-body Thermal Sensation and Comfort— Part I
+  Uniform Environmental Conditions}''.
+\newblock {\em Journal of Thermal Biology, Elsevier Ltd.}, 31:53--59, 2006.
+
+\bibitem{paper21JYLee}
+Joo-Young Lee, Mohamed Saat, Chinmei Chou, Nobuko Hashiguchi, Titis Wijayanto,
+  Hitoshi Wakabayashi  dan Yutaka Tochihara.
+\newblock ``{Cutaneous Warm and Cool Sensation Thresholds and the
+  Inter-threshold Zone in Malaysian and Japanese Males}''.
+\newblock {\em Journal of Thermal Biology, Elsevier Ltd.}, 35:70--76, 2010.
+
+\bibitem{paper21Veronica}
+Veronica Soebarto, Hui Zhang  dan Stefano Schiavon.
+\newblock ``{A Thermal Comfort Environmental Chamber Study of Older and Younger
+  People}''.
+\newblock {\em Journal of Building and Environment, Elsevier Ltd.}, 155:1--14,
+  2019.
+
+\bibitem{skripsiMuna}
+Nur~Muna Nadiya.
+\newblock {\em {Analisis Pengaruh Perubahan Lingkungan Termal terhadap
+  Perubahan Level Sensasi Termal}}.
+\newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
+  Universitas Gadjah Mada, Yogyakarta, 2020.
+
+\bibitem{paper22JJkim}
+Jin~Woo Moon dan Jong-Jin Kim.
+\newblock ``{ANN-Based Thermal Control Models for Residential Buildings}''.
+\newblock {\em Elsevier Ltd.}, 2010.
+
+\bibitem{paper22SKJung}
+Jin~Woo Moon, Sung~Kwon Jung, Youngchul Kim  dan Seung-Hoon Han.
+\newblock ``{Comparative Study of Artificial Intelligence-Based Building
+  Thermal Control Methods - Application of Fuzzy, Adaptive Neuro-Fuzzy
+  Inference System, and Artificial Neural Network}''.
+\newblock {\em Elsevier Ltd.}, 2011.
+
+\bibitem{paper22JanDrgona}
+Ján Drgoňa, Damien Picard, Michal Kvasnica  dan Lieve Helsen.
+\newblock ``{Approximate Model Predictive Building Control via Machine
+  Learning}''.
+\newblock {\em Elsevier Ltd.}, 2018.
+
+\bibitem{book1}
+William~R. Santee dan William~T. Matthew.
+\newblock {\em {Military Quantitative Physiology: Problems and Concepts in
+  Military Operational Medicine}}.
+\newblock Office of The Surgeon General Borden Institute, Fort Detrick,
+  Maryland, 2012.
+
+\bibitem{HeatTransferIncropera}
+Theodore~L. Bergman, Adrienne~S. Lavine, Frank~P. Incropera  dan David~P.
+  Dewitt.
+\newblock {\em {Fundamentals of Heat and Mass Transfer}}.
+\newblock John Wiley and Sons, United State of America, 2011.
+
+\bibitem{BuildingPhysics}
+Hugo Hens.
+\newblock {\em {Building Physics - Heat, Air and Moisture: Fundamentals and
+  Engineering Methods with Examples and Exercises}}.
+\newblock Ernst and Sohn, Berlin, Germany, 2007.
+
+\bibitem{SNI-03-06390-2000}
+BSN.
+\newblock {\em {SNI 03-6390-2000: Konservasi Energi Sistem Tata Udara pada
+  Bangunan Gedung}}.
+\newblock Badan Standardisasi Nasional, 2000.
+
+\bibitem{paper42Paisan}
+M.~A. Hussain, P.~Kittisupakorn  dan W.~Daosud.
+\newblock ``{Implementation of Neural-Network-Based Inverse-Model Control
+  Strategies on an Exothermic Reactor}''.
+\newblock {\em ScienceAsia}, 27:41--50, 2001.
+
+\bibitem{paper42LMa}
+Liangyu Ma, Kwang~Y. Lee  dan Zhiyan Wang.
+\newblock ``{Intelligent Coordinated Controller Design for a 600 MW
+  Supercritical Boiler Unit Based on Expanded-Structure Neural Network Inverse
+  Models}''.
+\newblock {\em Journal of Control Engineering Practice, Elsevier Ltd.},
+  53:194--201, 2016.
+
+\bibitem{paper42Hussain}
+M.~A. Hussain, J.~M. Ali  dan M.~J.~H. Khan.
+\newblock ``{Neural Network Inverse Model Control Strategy: Discrete-Time
+  Stability Analysis for Relative Order Two Systems}''.
+\newblock {\em Hindawi}, 2014.
 
 \end{thebibliography}

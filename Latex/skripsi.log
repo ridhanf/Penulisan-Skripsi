@@ -1,375 +1,368 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.12)  10 AUG 2020 00:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.7.22)  13 AUG 2020 21:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **skripsi.tex
 (./skripsi.tex
-LaTeX2e <2019-10-01> patch level 3
-(./skripsidtntf.cls
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-03> (./skripsidtntf.cls
 Document Class: skripsidtntf 2018/11/20 v2.1 The Department of Nuclear Engineer
 ing and Engineering Physics UGM Skripsi Class
-(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2019/12/08 3.37 The Babel package
+(/usr/share/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/05/13 3.44 The Babel package
 
-(c:/texlive/2019/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2019/12/08 3.37 Babel switching mechanism
+(/usr/share/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/05/13 3.44 Babel common definitions
+\babel@savecnt=\count167
+\U@D=\dimen134
+\l@babelnohyphens=\language86
+
+(/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
 )
-(c:/texlive/2019/texmf-dist/tex/generic/babel-indonesian/bahasa.ldf
+\bbl@dirlevel=\count168
+
+(/usr/share/texmf-dist/tex/generic/babel-indonesian/bahasa.ldf
 Language: bahasa 2017/02/15 v1.0m Bahasa Indonesia support from the babel syste
 m
 
-(c:/texlive/2019/texmf-dist/tex/generic/babel-indonesian/indonesian.ldf
+(/usr/share/texmf-dist/tex/generic/babel-indonesian/indonesian.ldf
 Language: indonesian 2017/02/15 v1.0m Bahasa Indonesia support from the babel s
 ystem
-
-(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2019/12/08 3.37 Babel common definitions
-\babel@savecnt=\count80
-\U@D=\dimen102
-
-(c:/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count81
-))))
-(c:/texlive/2019/texmf-dist/tex/latex/tools/indentfirst.sty
+)))
+(/usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(c:/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
-
-(c:/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-(c:/texlive/2019/texmf-dist/tex/latex/psnfss/times.sty
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 )
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
 )
-(c:/texlive/2019/texmf-dist/tex/latex/base/latexsym.sty
+(/usr/share/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-(c:/texlive/2019/texmf-dist/tex/latex/supertabular/supertabular.sty
-Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count82
-\ST@wd=\dimen105
-\ST@rightskip=\skip41
-\ST@leftskip=\skip42
-\ST@parfillskip=\skip43
-\ST@pageleft=\dimen106
-\ST@headht=\dimen107
-\ST@tailht=\dimen108
-\ST@pagesofar=\dimen109
-\ST@pboxht=\dimen110
-\ST@lineht=\dimen111
-\ST@stretchht=\dimen112
-\ST@prevht=\dimen113
-\ST@toadd=\dimen114
-\ST@dimen=\dimen115
-\ST@pbox=\box27
+(/usr/share/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count169
+\ST@wd=\dimen137
+\ST@rightskip=\skip47
+\ST@leftskip=\skip48
+\ST@parfillskip=\skip49
+\ST@pageleft=\dimen138
+\ST@headht=\dimen139
+\ST@tailht=\dimen140
+\ST@pagesofar=\dimen141
+\ST@pboxht=\dimen142
+\ST@lineht=\dimen143
+\ST@prevht=\dimen144
+\ST@toadd=\dimen145
+\ST@dimen=\dimen146
+\ST@pbox=\box45
 )
-(c:/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+(/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip44
-\multirow@cntb=\count83
-\multirow@dima=\skip45
-\bigstrutjot=\dimen116
+\multirow@colwidth=\skip50
+\multirow@cntb=\count170
+\multirow@dima=\skip51
+\bigstrutjot=\dimen147
 )
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty
+(/usr/share/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-(c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count84
-\rotFPtop=\skip46
-\rotFPbot=\skip47
-\rot@float@box=\box28
-\rot@mess@toks=\toks15
+\c@r@tfl@t=\count171
+\rotFPtop=\skip52
+\rotFPbot=\skip53
+\rot@float@box=\box46
+\rot@mess@toks=\toks16
 )
-(c:/texlive/2019/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2019/10/25 v1.4k Standard LaTeX document class
-(c:/texlive/2019/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
+(/usr/share/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count85
-\c@chapter=\count86
-\c@section=\count87
-\c@subsection=\count88
-\c@subsubsection=\count89
-\c@paragraph=\count90
-\c@subparagraph=\count91
-\c@figure=\count92
-\c@table=\count93
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen117
+\c@part=\count172
+\c@chapter=\count173
+\c@section=\count174
+\c@subsection=\count175
+\c@subsubsection=\count176
+\c@paragraph=\count177
+\c@subparagraph=\count178
+\c@figure=\count179
+\c@table=\count180
+\abovecaptionskip=\skip54
+\belowcaptionskip=\skip55
+\bibindent=\dimen148
 )
-(c:/texlive/2019/texmf-dist/tex/latex/appendix/appendix.sty
-Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count94
-\c@@ppsavesec=\count95
-\c@@ppsaveapp=\count96
+(/usr/share/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count181
+\c@@ppsavesec=\count182
+\c@@ppsaveapp=\count183
 )
-(c:/texlive/2019/texmf-dist/tex/latex/nomencl/nomencl.sty
-Package: nomencl 2019/11/23 v5.3 Nomenclature package
+(/usr/share/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2020/03/01 v5.4 Nomenclature package
 
-(c:/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks16
-\XKV@tempa@toks=\toks17
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
 )
-\XKV@depth=\count97
+\XKV@depth=\count184
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2019/12/23 v3.28 KOMA-Script package (handling toc-files)
+(/usr/share/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2020/04/19 v3.30 KOMA-Script package (handling toc-files)
 
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2019/12/23 v3.28 KOMA-Script package (KOMA-Script-independent 
+(/usr/share/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2020/04/19 v3.30 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(c:/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2019/12/23 v3.28 KOMA-Script package (loading files)
+(/usr/share/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/04/19 v3.30 KOMA-Script package (loading files)
 ))
-\scr@dte@tocline@numberwidth=\skip50
-\scr@dte@tocline@numbox=\box29
+\scr@dte@tocline@numberwidth=\skip56
+\scr@dte@tocline@numbox=\box47
 )
-Package tocbasic Info: setting babel extension for `nlo' on input line 163.
-Package tocbasic Info: setting babel extension for `nls' on input line 164.
-\nomlabelwidth=\dimen118
-\nom@tempdim=\dimen119
-\nomitemsep=\skip51
+Package tocbasic Info: setting babel extension for `nlo' on input line 179.
+Package tocbasic Info: setting babel extension for `nls' on input line 180.
+\nomlabelwidth=\dimen149
+\nom@tempdim=\dimen150
+\nomitemsep=\skip57
 )
 \@nomenclaturefile=\write3
-\openout3 = `skripsi.nlo'.
-
 Package nomencl Info: Writing nomenclature file skripsi.nlo on input line 85.
 
-(c:/texlive/2019/texmf-dist/tex/latex/tocloft/tocloft.sty
+(/usr/share/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip52
-\cftbeforetoctitleskip=\skip53
-\cftaftertoctitleskip=\skip54
-\cftbeforepartskip=\skip55
-\cftpartnumwidth=\skip56
-\cftpartindent=\skip57
-\cftbeforechapskip=\skip58
-\cftchapindent=\skip59
-\cftchapnumwidth=\skip60
-\cftbeforesecskip=\skip61
-\cftsecindent=\skip62
-\cftsecnumwidth=\skip63
-\cftbeforesubsecskip=\skip64
-\cftsubsecindent=\skip65
-\cftsubsecnumwidth=\skip66
-\cftbeforesubsubsecskip=\skip67
-\cftsubsubsecindent=\skip68
-\cftsubsubsecnumwidth=\skip69
-\cftbeforeparaskip=\skip70
-\cftparaindent=\skip71
-\cftparanumwidth=\skip72
-\cftbeforesubparaskip=\skip73
-\cftsubparaindent=\skip74
-\cftsubparanumwidth=\skip75
-\cftbeforeloftitleskip=\skip76
-\cftafterloftitleskip=\skip77
-\cftbeforefigskip=\skip78
-\cftfigindent=\skip79
-\cftfignumwidth=\skip80
-\cftbeforelottitleskip=\skip81
-\cftafterlottitleskip=\skip82
-\cftbeforetabskip=\skip83
-\cfttabindent=\skip84
-\cfttabnumwidth=\skip85
-\cftbeforesubfigskip=\skip86
-\cftsubfigindent=\skip87
-\cftsubfignumwidth=\skip88
-\cftbeforesubtabskip=\skip89
-\cftsubtabindent=\skip90
-\cftsubtabnumwidth=\skip91
+\cftparskip=\skip58
+\cftbeforetoctitleskip=\skip59
+\cftaftertoctitleskip=\skip60
+\cftbeforepartskip=\skip61
+\cftpartnumwidth=\skip62
+\cftpartindent=\skip63
+\cftbeforechapskip=\skip64
+\cftchapindent=\skip65
+\cftchapnumwidth=\skip66
+\cftbeforesecskip=\skip67
+\cftsecindent=\skip68
+\cftsecnumwidth=\skip69
+\cftbeforesubsecskip=\skip70
+\cftsubsecindent=\skip71
+\cftsubsecnumwidth=\skip72
+\cftbeforesubsubsecskip=\skip73
+\cftsubsubsecindent=\skip74
+\cftsubsubsecnumwidth=\skip75
+\cftbeforeparaskip=\skip76
+\cftparaindent=\skip77
+\cftparanumwidth=\skip78
+\cftbeforesubparaskip=\skip79
+\cftsubparaindent=\skip80
+\cftsubparanumwidth=\skip81
+\cftbeforeloftitleskip=\skip82
+\cftafterloftitleskip=\skip83
+\cftbeforefigskip=\skip84
+\cftfigindent=\skip85
+\cftfignumwidth=\skip86
+\cftbeforelottitleskip=\skip87
+\cftafterlottitleskip=\skip88
+\cftbeforetabskip=\skip89
+\cfttabindent=\skip90
+\cfttabnumwidth=\skip91
+\cftbeforesubfigskip=\skip92
+\cftsubfigindent=\skip93
+\cftsubfignumwidth=\skip94
+\cftbeforesubtabskip=\skip95
+\cftsubtabindent=\skip96
+\cftsubtabnumwidth=\skip97
 )
-\lebar=\skip92
+\lebar=\skip98
 
-(c:/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
+(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip93
-\enit@outerparindent=\dimen120
-\enit@toks=\toks18
-\enit@inbox=\box30
-\enit@count@id=\count98
-\enitdp@description=\count99
+\labelindent=\skip99
+\enit@outerparindent=\dimen151
+\enit@toks=\toks19
+\enit@inbox=\box48
+\enit@count@id=\count185
+\enitdp@description=\count186
 )
-(c:/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/05/10 v3.4j Customizing captions (AR)
 
-(c:/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen121
-\captionmargin@=\dimen122
-\captionwidth=\dimen123
-\caption@tempdima=\dimen124
-\caption@indent=\dimen125
-\caption@parindent=\dimen126
-\caption@hangindent=\dimen127
+\captionmargin=\dimen152
+\captionmargin@=\dimen153
+\captionwidth=\dimen154
+\caption@tempdima=\dimen155
+\caption@indent=\dimen156
+\caption@parindent=\dimen157
+\caption@hangindent=\dimen158
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count100
-\c@continuedfloat=\count101
+\c@caption@flags=\count187
+\c@continuedfloat=\count188
 Package caption Info: rotating package is loaded.
 Package caption Info: supertabular package is loaded.
 )
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count102
-\lst@gtempboxa=\box31
-\lst@token=\toks19
-\lst@length=\count103
-\lst@currlwidth=\dimen128
-\lst@column=\count104
-\lst@pos=\count105
-\lst@lostspace=\dimen129
-\lst@width=\dimen130
-\lst@newlines=\count106
-\lst@lineno=\count107
-\lst@maxwidth=\dimen131
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count189
+\lst@gtempboxa=\box49
+\lst@token=\toks20
+\lst@length=\count190
+\lst@currlwidth=\dimen159
+\lst@column=\count191
+\lst@pos=\count192
+\lst@lostspace=\dimen160
+\lst@width=\dimen161
+\lst@newlines=\count193
+\lst@lineno=\count194
+\lst@maxwidth=\dimen162
 
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count108
-\lst@skipnumbers=\count109
-\lst@framebox=\box32
+(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count195
+\lst@skipnumbers=\count196
+\lst@framebox=\box50
 )
-(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2019/09/10 1.8c listings configuration
+(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-Package: listings 2019/09/10 1.8c (Carsten Heinz)
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
+(/usr/share/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip94
-\subfigcapskip=\skip95
-\subfigcaptopadj=\dimen132
-\subfigbottomskip=\skip96
-\subfigcapmargin=\dimen133
-\subfiglabelskip=\skip97
-\c@subfigure=\count110
-\c@lofdepth=\count111
-\c@subtable=\count112
-\c@lotdepth=\count113
+\subfigtopskip=\skip100
+\subfigcapskip=\skip101
+\subfigcaptopadj=\dimen163
+\subfigbottomskip=\skip102
+\subfigcapmargin=\dimen164
+\subfiglabelskip=\skip103
+\c@subfigure=\count197
+\c@lofdepth=\count198
+\c@subtable=\count199
+\c@lotdepth=\count266
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(c:/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip98
-\subfig@bottom=\skip99
+(/usr/share/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip104
+\subfig@bottom=\skip105
 )
-(c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )) (./packages.tex
-(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2019/11/16 v2.17d AMS math features
-\@mathmargin=\skip100
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip106
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
-\ex@=\dimen134
+\@emptytoks=\toks21
+\ex@=\dimen165
 ))
-(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen135
+\pmbraise@=\dimen166
 )
-(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count114
+\inf@bad=\count267
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count115
-\leftroot@=\count116
+\uproot@=\count268
+\leftroot@=\count269
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count117
-\DOTSCASE@=\count118
+\classnum@=\count270
+\DOTSCASE@=\count271
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box33
-\strutbox@=\box34
-\big@size=\dimen136
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen167
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count119
-\c@MaxMatrixCols=\count120
-\dotsspace@=\muskip11
-\c@parentequation=\count121
-\dspbrk@lvl=\count122
-\tag@help=\toks21
-\row@=\count123
-\column@=\count124
-\maxfields@=\count125
-\andhelp@=\toks22
-\eqnshift@=\dimen137
-\alignsep@=\dimen138
-\tagshift@=\dimen139
-\tagwidth@=\dimen140
-\totwidth@=\dimen141
-\lineht@=\dimen142
-\@envbody=\toks23
-\multlinegap=\skip101
-\multlinetaggap=\skip102
-\mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2858.
-LaTeX Info: Redefining \] on input line 2859.
+\macc@depth=\count272
+\c@MaxMatrixCols=\count273
+\dotsspace@=\muskip17
+\c@parentequation=\count274
+\dspbrk@lvl=\count275
+\tag@help=\toks22
+\row@=\count276
+\column@=\count277
+\maxfields@=\count278
+\andhelp@=\toks23
+\eqnshift@=\dimen168
+\alignsep@=\dimen169
+\tagshift@=\dimen170
+\tagwidth@=\dimen171
+\totwidth@=\dimen172
+\lineht@=\dimen173
+\@envbody=\toks24
+\multlinegap=\skip107
+\multlinetaggap=\skip108
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
 )
-(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
@@ -377,214 +370,60 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amscd.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amscd.sty
 Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
-\athelp@=\toks25
-\minaw@=\dimen143
-\bigaw@=\dimen144
-\minCDarrowwidth=\dimen145
+\athelp@=\toks26
+\minaw@=\dimen174
+\bigaw@=\dimen175
+\minCDarrowwidth=\dimen176
 )
-(c:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
-(c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-11-07 L3 programming layer (loader) 
+(/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-06-03 L3 programming layer (loader) 
 
-(c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-11-07 L3 programming layer (code)
-\c_max_int=\count126
-\l_tmpa_int=\count127
-\l_tmpb_int=\count128
-\g_tmpa_int=\count129
-\g_tmpb_int=\count130
-\l__seq_internal_a_int=\count131
-\l__seq_internal_b_int=\count132
-\g__kernel_prg_map_int=\count133
-\c__ior_term_noprompt_ior=\count134
-\c_log_iow=\count135
-\l_iow_line_count_int=\count136
-\l__iow_line_target_int=\count137
-\l__iow_one_indent_int=\count138
-\l__iow_indent_int=\count139
-\c_zero_dim=\dimen146
-\c_max_dim=\dimen147
-\l_tmpa_dim=\dimen148
-\l_tmpb_dim=\dimen149
-\g_tmpa_dim=\dimen150
-\g_tmpb_dim=\dimen151
-\c_zero_skip=\skip103
-\c_max_skip=\skip104
-\l_tmpa_skip=\skip105
-\l_tmpb_skip=\skip106
-\g_tmpa_skip=\skip107
-\g_tmpb_skip=\skip108
-\c_zero_muskip=\muskip12
-\c_max_muskip=\muskip13
-\l_tmpa_muskip=\muskip14
-\l_tmpb_muskip=\muskip15
-\g_tmpa_muskip=\muskip16
-\g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count140
-\l__intarray_loop_int=\count141
-\c__intarray_sp_dim=\dimen152
-\g__intarray_font_int=\count142
-\c__fp_leading_shift_int=\count143
-\c__fp_middle_shift_int=\count144
-\c__fp_trailing_shift_int=\count145
-\c__fp_big_leading_shift_int=\count146
-\c__fp_big_middle_shift_int=\count147
-\c__fp_big_trailing_shift_int=\count148
-\c__fp_Bigg_leading_shift_int=\count149
-\c__fp_Bigg_middle_shift_int=\count150
-\c__fp_Bigg_trailing_shift_int=\count151
-\c__kernel_randint_max_int=\count152
-\g__fp_array_int=\count153
-\l__fp_array_loop_int=\count154
-\l__sort_length_int=\count155
-\l__sort_min_int=\count156
-\l__sort_top_int=\count157
-\l__sort_max_int=\count158
-\l__sort_true_max_int=\count159
-\l__sort_block_int=\count160
-\l__sort_begin_int=\count161
-\l__sort_end_int=\count162
-\l__sort_A_int=\count163
-\l__sort_B_int=\count164
-\l__sort_C_int=\count165
-\l__str_internal_int=\count166
-\c__str_replacement_char_int=\count167
-\l__tl_analysis_normal_int=\count168
-\l__tl_analysis_index_int=\count169
-\l__tl_analysis_nesting_int=\count170
-\l__tl_analysis_type_int=\count171
-\l__regex_internal_a_int=\count172
-\l__regex_internal_b_int=\count173
-\l__regex_internal_c_int=\count174
-\l__regex_balance_int=\count175
-\l__regex_group_level_int=\count176
-\l__regex_mode_int=\count177
-\c__regex_cs_in_class_mode_int=\count178
-\c__regex_cs_mode_int=\count179
-\l__regex_catcodes_int=\count180
-\l__regex_default_catcodes_int=\count181
-\c__regex_catcode_D_int=\count182
-\c__regex_catcode_S_int=\count183
-\c__regex_catcode_L_int=\count184
-\c__regex_catcode_O_int=\count185
-\c__regex_catcode_A_int=\count186
-\c__regex_all_catcodes_int=\count187
-\l__regex_show_lines_int=\count188
-\l__regex_min_state_int=\count189
-\l__regex_max_state_int=\count190
-\l__regex_left_state_int=\count191
-\l__regex_right_state_int=\count192
-\l__regex_capturing_group_int=\count193
-\l__regex_min_pos_int=\count194
-\l__regex_max_pos_int=\count195
-\l__regex_curr_pos_int=\count196
-\l__regex_start_pos_int=\count197
-\l__regex_success_pos_int=\count198
-\l__regex_curr_char_int=\count199
-\l__regex_curr_catcode_int=\count266
-\l__regex_last_char_int=\count267
-\l__regex_case_changed_char_int=\count268
-\l__regex_curr_state_int=\count269
-\l__regex_step_int=\count270
-\l__regex_min_active_int=\count271
-\l__regex_max_active_int=\count272
-\l__regex_replacement_csnames_int=\count273
-\l__regex_match_count_int=\count274
-\l__regex_min_submatch_int=\count275
-\l__regex_submatch_int=\count276
-\l__regex_zeroth_submatch_int=\count277
-\g__regex_trace_regex_int=\count278
-\c_empty_box=\box35
-\l_tmpa_box=\box36
-\l_tmpb_box=\box37
-\g_tmpa_box=\box38
-\g_tmpb_box=\box39
-\l__box_top_dim=\dimen153
-\l__box_bottom_dim=\dimen154
-\l__box_left_dim=\dimen155
-\l__box_right_dim=\dimen156
-\l__box_top_new_dim=\dimen157
-\l__box_bottom_new_dim=\dimen158
-\l__box_left_new_dim=\dimen159
-\l__box_right_new_dim=\dimen160
-\l__box_internal_box=\box40
-\l__coffin_internal_box=\box41
-\l__coffin_internal_dim=\dimen161
-\l__coffin_offset_x_dim=\dimen162
-\l__coffin_offset_y_dim=\dimen163
-\l__coffin_x_dim=\dimen164
-\l__coffin_y_dim=\dimen165
-\l__coffin_x_prime_dim=\dimen166
-\l__coffin_y_prime_dim=\dimen167
-\c_empty_coffin=\box42
-\l__coffin_aligned_coffin=\box43
-\l__coffin_aligned_internal_coffin=\box44
-\l_tmpa_coffin=\box45
-\l_tmpb_coffin=\box46
-\g_tmpa_coffin=\box47
-\g_tmpb_coffin=\box48
-\l__coffin_bounding_shift_dim=\dimen168
-\l__coffin_left_corner_dim=\dimen169
-\l__coffin_right_corner_dim=\dimen170
-\l__coffin_bottom_corner_dim=\dimen171
-\l__coffin_top_corner_dim=\dimen172
-\l__coffin_scaled_total_height_dim=\dimen173
-\l__coffin_scaled_width_dim=\dimen174
-\c__coffin_empty_coffin=\box49
-\l__coffin_display_coffin=\box50
-\l__coffin_display_coord_coffin=\box51
-\l__coffin_display_pole_coffin=\box52
-\l__coffin_display_offset_dim=\dimen175
-\l__coffin_display_x_dim=\dimen176
-\l__coffin_display_y_dim=\dimen177
-\g__char_data_ior=\read1
-
-(c:/texlive/2019/texmf-dist/tex/latex/l3kernel/l3deprecation.def
-File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
-))
-(c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2019-04-06 L3 backend support: PDF mode
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count279
 \l__pdf_internal_box=\box53
 ))
-(c:/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2019-10-11 L3 Experimental document command parser
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
 \l__xparse_current_arg_int=\count280
 \g__xparse_grabber_int=\count281
 \l__xparse_m_args_int=\count282
 \l__xparse_v_nesting_int=\count283
-)
+))
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
-(c:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+(/usr/share/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
-(c:/texlive/2019/texmf-dist/tex/latex/placeins/placeins.sty
+(/usr/share/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(c:/texlive/2019/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
-(c:/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
-(c:/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-))
-(./data_skripsi.tex) (./skripsi.aux)
-\openout1 = `skripsi.aux'.
-
+)) (./data_skripsi.tex)
+(./skripsi.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -592,29 +431,28 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 6.
 
-
-(c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ (/usr/share/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-(c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count284
-\scratchdimen=\dimen178
+\scratchdimen=\dimen177
 \scratchbox=\box54
 \nofMPsegments=\count285
 \nofMParguments=\count286
-\everyMPshowfont=\toks26
+\everyMPshowfont=\toks27
 \MPscratchCnt=\count287
-\MPscratchDim=\dimen179
+\MPscratchDim=\dimen178
 \MPnumerator=\count288
 \makeMPintoPDFobject=\count289
-\everyMPtoPDFconversion=\toks27
-) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
+\everyMPtoPDFconversion=\toks28
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -625,12 +463,6 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count290
 
 (./muka_skripsi.tex
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 2.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
 <logoUGM.jpg, id=1, 297.7524pt x 302.0886pt>
 File: logoUGM.jpg Graphic file (type jpg)
 <use logoUGM.jpg>
@@ -638,20 +470,20 @@ Package pdftex.def Info: logoUGM.jpg  used on input line 2.
 (pdftex.def)             Requested size: 156.49014pt x 158.76942pt.
  [1
 
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logoUGM.jpg>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logoUGM.jpg>]
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 3.
 
- (c:/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
+ (/usr/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
-(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
-(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Overfull \hbox (8.64542pt too wide) in paragraph at lines 3--3
@@ -659,9 +491,6 @@ Overfull \hbox (8.64542pt too wide) in paragraph at lines 3--3
  []
 
 [2]
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 4.
-
 Overfull \hbox (21.25398pt too wide) in paragraph at lines 4--4
  [][] 
  []
@@ -686,12 +515,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
 ] [10] [11])
 \tf@toc=\write4
-\openout4 = `skripsi.toc'.
-
  [12] (./skripsi.lot)
 \tf@lot=\write5
-\openout5 = `skripsi.lot'.
-
  [13
 
 ] (./skripsi.lof
@@ -699,8 +524,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
 ])
 \tf@lof=\write6
-\openout6 = `skripsi.lof'.
-
  [15] (./skripsi.nls [16
 
 
@@ -711,479 +534,410 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
 ]) (./Bab1.tex
 BAB I.
-<figures/EnergyUsage.png, id=73, 601.24625pt x 255.95625pt>
+<figures/EnergyUsage.png, id=73, 360.74776pt x 153.57375pt>
 File: figures/EnergyUsage.png Graphic file (type png)
 <use figures/EnergyUsage.png>
 Package pdftex.def Info: figures/EnergyUsage.png  used on input line 8.
-(pdftex.def)             Requested size: 406.87448pt x 173.21605pt.
+(pdftex.def)             Requested size: 406.87448pt x 173.22229pt.
 [1
 
 
- <./figures/EnergyUsage.png>] [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
-
- []
-
-[4]) (./Bab2.tex [5]
+ <./figures/EnergyUsage.png>] [2] [3] [4]) (./Bab2.tex [5]
 BAB II.
 [6
 
-] [7]
-Underfull \hbox (badness 7832) in paragraph at lines 23--23
-[]\T1/ptm/m/n/12 Bangunan tan-pa
+] [7] [8]
+Overfull \hbox (1.24724pt too wide) in paragraph at lines 28--28
+[]\T1/ptm/m/n/12 Tahun| 
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 23--23
-[]\T1/ptm/m/n/12 Suhu ne-tral,
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]\T1/ptm/m/n/12 2006
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 23--23
-[]\T1/ptm/m/n/12 Dilakukan pa-da ren-tang su-hu
+Underfull \hbox (badness 4416) in paragraph at lines 30--30
+[]\T1/ptm/m/n/12 E. Arens, H.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]\T1/ptm/m/n/12 Sensasi
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]\T1/ptm/m/n/12 2010
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 27--27
-\T1/ptm/m/n/12 J. K. Jo-ki-ni-e-
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+\T1/ptm/m/n/12 ha-med Sa-at,
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 27--27
-[]\T1/ptm/m/n/12 Peneliti meng-i-ngink-an te-kan-an
+Underfull \hbox (badness 2644) in paragraph at lines 32--32
+\T1/ptm/m/n/12 gai sa-ra-na pe-ngu-ji-an sen-si-ti-vi-tas
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 27--27
-\T1/ptm/m/n/12 di da-lam cham-ber yang sa-ma
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]\T1/ptm/m/n/12 2019
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 27--27
-\T1/ptm/m/n/12 de-ngan su-hu dan ke-lem-bab-an
+Underfull \hbox (badness 2837) in paragraph at lines 34--34
+\T1/ptm/m/n/12 Su-hu Nyam-an,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]\T1/ptm/m/n/12 Pesawat ulang
+Underfull \hbox (badness 3009) in paragraph at lines 34--34
+\T1/ptm/m/n/12 Pre-fe-ren-si Ter-
  []
 
 
-Underfull \hbox (badness 3088) in paragraph at lines 29--29
-\T1/ptm/m/n/12 li-ti-a-n/pe-nge-tes-an yang ter-kon-
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]\T1/ptm/m/n/12 2020
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 29--29
-\T1/ptm/m/n/12 trol da-ri pe-sa-wat ulang alik
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]\T1/ptm/m/n/12 Suhu ru-ang
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 29--29
-\T1/ptm/m/it/12 ber \T1/ptm/m/n/12 pe-ne-li-ti-an dan mem-ban-
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\T1/ptm/m/n/12 (Tdb) dan
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]\T1/ptm/m/n/12 A. Hu-gu-et,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-\T1/ptm/m/n/12 A. Fran-cez,
- []
-
-
-Underfull \hbox (badness 3815) in paragraph at lines 31--31
-\T1/ptm/m/n/12 M. Dung, C.
- []
-
-
-Underfull \hbox (badness 1902) in paragraph at lines 31--31
-\T1/ptm/m/n/12 Fos-se, dan S.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]\T1/ptm/m/n/12 Lumut Sphag-
- []
-
-
-Overfull \hbox (24.7886pt too wide) in paragraph at lines 19--33
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 26.42537pt on input line 33.
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-[]\T1/ptm/m/n/12 E. Mar-ti-nez,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--46
-[]\T1/ptm/m/n/12 Objek bi-o-lo-gis,
- []
-
-
-Underfull \hbox (badness 1902) in paragraph at lines 46--46
-\T1/ptm/m/it/12 tro-lled Cham-ber \T1/ptm/m/n/12 (TCC) di-gu-
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 46--46
-[]\T1/ptm/m/n/12 Peneliti meng-i-ngink-an kon-trol
- []
-
-
-Underfull \hbox (badness 4765) in paragraph at lines 46--46
-\T1/ptm/m/n/12 su-hu da-lam cham-ber de-ngan
- []
-
-
-Underfull \hbox (badness 2245) in paragraph at lines 46--46
-\T1/ptm/m/n/12 aku-ra-si ter-ten-tu, me-mi-li-ki ra-
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 46--46
-\T1/ptm/m/n/12 wak-tu yang di-bu-tuhk-an un-tuk
- []
-
-
-Underfull \hbox (badness 4378) in paragraph at lines 48--48
-[]\T1/ptm/m/n/12 A. Jo-fre-re-che,
- []
-
-
-Underfull \hbox (badness 3179) in paragraph at lines 48--48
-[]\T1/ptm/m/n/12 Material Pos-tcu-
- []
-
-
-Underfull \hbox (badness 2478) in paragraph at lines 48--48
-[]\T1/ptm/m/n/12 Peneliti meng-i-ngink-an ter-ja-di-
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 48--48
-\T1/ptm/m/n/12 bab-an re-la-tif 90% la-lu di-li-hat
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]\T1/ptm/m/n/12 A. Sri-ni-va-sa,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]\T1/ptm/m/it/12 Chamber \T1/ptm/m/n/12 di-gu-nak-an se-ba-gai
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\T1/ptm/m/n/12 tem-pat me-nyimp-an se-ka-li-gus
- []
-
-
-Underfull \hbox (badness 2073) in paragraph at lines 50--50
-\T1/ptm/m/n/12 tem-pat pe-ne-li-ti-an ma-yat yang
- []
-
-
-Underfull \hbox (badness 2103) in paragraph at lines 50--50
-[]\T1/ptm/m/n/12 Peneliti men-ja-ga su-hu di da-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]\T1/ptm/m/it/12 Chamber \T1/ptm/m/n/12 di-gu-nak-an se-ba-gai
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]\T1/ptm/m/n/12 Suhu dan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 \T1/ptm/m/n/12 ke-lem-bap-an
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]\T1/ptm/m/it/12 Chamber \T1/ptm/m/n/12 di-gu-nak-an se-ba-gai
- []
-
-
-Overfull \hbox (30.7886pt too wide) in paragraph at lines 41--57
+Overfull \hbox (37.85672pt too wide) in paragraph at lines 26--40
  [][] 
  []
-
-
-LaTeX Warning: Float too large for page by 26.42537pt on input line 57.
 
 [9] [10
 
 
-
-
-] [11] [12] [13]
-Underfull \hbox (badness 5133) in paragraph at lines 88--88
-[]\T1/ptm/m/n/12 Variabel Gang-
+] [11]
+Overfull \hbox (1.24724pt too wide) in paragraph at lines 73--73
+[]\T1/ptm/m/n/12 Tahun| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]\T1/ptm/m/n/12 G. Mus-ta-fa-raj,
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\T1/ptm/m/n/12 Tipe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]\T1/ptm/m/n/12 Kantor ta-pak
+Underfull \hbox (badness 3838) in paragraph at lines 73--73
+[]\T1/ptm/m/n/12 Variabel Gang-gu-
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 90--90
-[]\T1/ptm/m/n/12 Suhu ru-ang dan
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\T1/ptm/m/n/12 Metode
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-\T1/ptm/m/n/12 ne-u-ral ne-tworks:
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]\T1/ptm/m/n/12 2010
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-\T1/ptm/m/n/12 NNA-RX, NNAR-
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]\T1/ptm/m/n/12 Jin Woo
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 90--90
-\T1/ptm/m/n/12 Ni-lai R$[]$ masing-masing ber-ni-lai 0.95,
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+\T1/ptm/m/n/12 Mo-on dan
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 90--90
-\T1/ptm/m/n/12 0.9469, dan 0.8586 un-tuk NNA-RX,
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+\T1/ptm/m/n/12 Jong-Jin
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
-\T1/ptm/m/n/12 an re-la-tif, dan
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]\T1/ptm/m/n/12 Suhu, ke-lem-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
-[]\T1/ptm/m/n/12 Zakia Afroz,
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+\T1/ptm/m/n/12 bap-an re-la-tif,
  []
 
 
-Overfull \hbox (231.19562pt too wide) in paragraph at lines 85--99
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]\T1/ptm/m/n/12 AC, He-a-ter,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+\T1/ptm/m/n/12 Hu-mi-di-fi-er,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+\T1/ptm/m/n/12 dan De-hu-mi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]\T1/ptm/m/n/12 2011
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]\T1/ptm/m/n/12 Jin Woo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\T1/ptm/m/n/12 Mo-on,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]\T1/ptm/m/n/12 Bangunan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\T1/ptm/m/n/12 tem-pat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]\T1/ptm/m/n/12 Suhu dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\T1/ptm/m/n/12 ke-nya-man-an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]\T1/ptm/m/n/12 ANN,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+\T1/ptm/m/it/12 Fu-zzy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]\T1/ptm/m/n/12 2017
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]\T1/ptm/m/n/12 Ján Dr-go-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]\T1/ptm/m/n/12 Bangunan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/ptm/m/n/12 re-si-den-si-
+ []
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 79--79
+\T1/ptm/m/n/12 al de-ngan
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 79--79
+[]\T1/ptm/m/n/12 Suhu ope-ra-sio-
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 79--79
+\T1/ptm/m/n/12 Ba-ngun-an: 1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/ptm/m/n/12 Ra-di-a-tor ti-ap
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]\T1/ptm/m/n/12 MPC,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/ptm/m/n/12 PID,
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 79--79
+[]\T1/ptm/m/n/12 Kontroler TDNN mam-pu mem-per-ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]\T1/ptm/m/n/12 Penelitian
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]\T1/ptm/m/it/12 Climate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\T1/ptm/m/it/12 Cham-ber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\T1/ptm/m/n/12 DTN-TF
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]\T1/ptm/m/n/12 Suhu ru-ang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\T1/ptm/m/n/12 (Tdb) dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\T1/ptm/m/n/12 ke-lem-bap-an
+ []
+
+
+Underfull \hbox (badness 3792) in paragraph at lines 81--81
+[]\T1/ptm/m/n/12 Intensitas Ra-di-a-si
+ []
+
+
+Overfull \hbox (87.46404pt too wide) in paragraph at lines 70--83
  [][] 
  []
 
-[14
-
-]
-Underfull \hbox (badness 5133) in paragraph at lines 110--110
-[]\T1/ptm/m/n/12 Variabel Gang-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-[]\T1/ptm/m/n/12 Ján Dr-go-¬a,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-[]\T1/ptm/m/n/12 Bangunan re-si-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-[]\T1/ptm/m/n/12 MPC, PID, RBC,
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 112--112
-\T1/ptm/m/n/12 men-ta-ra itu mam-pu meng-u-ra-ngi kom-
- []
-
-
-Underfull \hbox (badness 3701) in paragraph at lines 114--114
-[]\T1/ptm/m/n/12 Hyun-Jung Yo-
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 114--114
-[]\T1/ptm/m/n/12 Zona-zona sta-di-
- []
-
-
-Underfull \hbox (badness 5924) in paragraph at lines 114--114
-[]\T1/ptm/m/n/12 Suhu uda-ra ru-
- []
-
-
-Underfull \hbox (badness 7759) in paragraph at lines 116--116
-[]\T1/ptm/m/n/12 Zhipeng Deng,
- []
-
-
-Underfull \hbox (badness 1412) in paragraph at lines 116--116
-[]\T1/ptm/m/n/12 Kantor (10) dan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-\T1/ptm/m/n/12 ru-ma-h/a-par-te-men
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-[]\T1/ptm/m/n/12 Sensasi ter-mal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
-\T1/ptm/m/n/12 dan per-i-la-ku
- []
-
-
-Underfull \hbox (badness 2158) in paragraph at lines 118--118
-[]\T1/ptm/m/n/12 Suhu ru-ang dan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
-\T1/ptm/m/n/12 ba-nyak He-a-ter
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 118--118
-[]\T1/ptm/m/n/12 Intensitas Ra-di-
- []
-
-
-Overfull \hbox (231.19562pt too wide) in paragraph at lines 107--120
- [][] 
- []
-
-[15
-
+[12
 
 ]) (./Bab3.tex
 BAB III.
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-[16
+[13
 
 
 ]
-Overfull \hbox (0.15947pt too wide) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+[14] [15] [16]
+<figures/HeatTransferProcess.png, id=128, 281.25075pt x 149.358pt>
+File: figures/HeatTransferProcess.png Graphic file (type png)
+<use figures/HeatTransferProcess.png>
+Package pdftex.def Info: figures/HeatTransferProcess.png  used on input line 76
+.
+(pdftex.def)             Requested size: 406.87448pt x 216.06898pt.
+
+Overfull \hbox (2.27278pt too wide) in paragraph at lines 81--82
+[]\T1/ptm/m/n/12 Lingkungan ter-mal ba-ngung-an di-pe-nga-ru-hi oleh be-be-ra-p
+a fak-tor. Faktor-faktor
+ []
+
+[17 <./figures/HeatTransferProcess.png>]
+<figures/HeatTransferScheme.png, id=132, 280.6485pt x 357.13425pt>
+File: figures/HeatTransferScheme.png Graphic file (type png)
+<use figures/HeatTransferScheme.png>
+Package pdftex.def Info: figures/HeatTransferScheme.png  used on input line 94.
+
+(pdftex.def)             Requested size: 325.50082pt x 414.24332pt.
+ [18 <./figures/HeatTransferScheme.png>] [19]
+Overfull \hbox (0.15947pt too wide) in paragraph at lines 125--126
 []\T1/ptm/m/n/12 Sistem ada-lah kom-bi-na-si da-ri be-be-ra-pa kom-po-nen yang 
 be-ker-ja bersama-sama
  []
 
-[17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-[19] [20]
-<figures/neuron.png, id=140, 237.2865pt x 189.70876pt>
-File: figures/neuron.png Graphic file (type png)
-<use figures/neuron.png>
-Package pdftex.def Info: figures/neuron.png  used on input line 166.
-(pdftex.def)             Requested size: 305.15585pt x 243.97267pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [21]
-<figures/neuronmath.png, id=144, 443.40656pt x 297.36093pt>
-File: figures/neuronmath.png Graphic file (type png)
-<use figures/neuronmath.png>
-Package pdftex.def Info: figures/neuronmath.png  used on input line 175.
-(pdftex.def)             Requested size: 305.15585pt x 204.65746pt.
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (22.53708pt too wide) in paragraph at lines 182--183
-\T1/ptm/m/n/12 ne-ar $\OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^A
-\OT1/cmr/m/n/12 )$\T1/ptm/m/n/12 . Sel in-put ada-lah si-nyal ke-$\OML/cmm/m/it
-/12 n$ \T1/ptm/m/n/12 pa-da wak-tu in-st-an $\OML/cmm/m/it/12 kx[]\OT1/cmr/m/n/
-12 (\OML/cmm/m/it/12 k\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; kx[]\OT1/cmr/m/n/12 (
-\OML/cmm/m/it/12 k\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; kx[]\OT1/cmr/m/n/12 (\OML
-/cmm/m/it/12 k\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; :::; x[]\OT1/cmr/m/n/12 (\OML
-/cmm/m/it/12 k\OT1/cmr/m/n/12 )$
  []
 
-[22 <./figures/neuron.png>]
-Overfull \hbox (1.39546pt too wide) in paragraph at lines 188--189
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+[22] [23]
+<figures/SSEExample.png, id=152, 490.83376pt x 105.39375pt>
+File: figures/SSEExample.png Graphic file (type png)
+<use figures/SSEExample.png>
+Package pdftex.def Info: figures/SSEExample.png  used on input line 175.
+(pdftex.def)             Requested size: 305.15585pt x 65.52676pt.
+ [24 <./figures/SSEExample.PNG>]
+<figures/neuron.png, id=158, 237.2865pt x 189.70876pt>
+File: figures/neuron.png Graphic file (type png)
+<use figures/neuron.png>
+Package pdftex.def Info: figures/neuron.png  used on input line 243.
+(pdftex.def)             Requested size: 305.15585pt x 243.97267pt.
+ [25 <./figures/neuron.png>]
+<figures/neuronmath.png, id=163, 443.40656pt x 297.36093pt>
+File: figures/neuronmath.png Graphic file (type png)
+<use figures/neuronmath.png>
+Package pdftex.def Info: figures/neuronmath.png  used on input line 252.
+(pdftex.def)             Requested size: 305.15585pt x 204.65746pt.
+
+Overfull \hbox (1.39546pt too wide) in paragraph at lines 265--266
 []\T1/ptm/m/n/12 Bobot-bobot po-si-tif $\OML/cmm/m/it/12 v[]$ \T1/ptm/m/n/12 be
 r-hu-bung-an de-ngan si-na-psis \T1/ptm/m/it/12 exi-ta-tory \T1/ptm/m/n/12 dan 
 bobot-bobot
  []
 
-<figures/activationFunction.png, id=150, 716.6775pt x 624.08156pt>
+<figures/activationFunction.png, id=164, 716.6775pt x 624.08156pt>
 File: figures/activationFunction.png Graphic file (type png)
 <use figures/activationFunction.png>
-Package pdftex.def Info: figures/activationFunction.png  used on input line 193
+Package pdftex.def Info: figures/activationFunction.png  used on input line 270
 .
 (pdftex.def)             Requested size: 406.87448pt x 354.3113pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[23 <./figures/neuronmath.PNG>] [24 <./figures/activationFunction.PNG>]
-<figures/jstTunggal.png, id=161, 329.73187pt x 364.36125pt>
+[26 <./figures/neuronmath.PNG>] [27 <./figures/activationFunction.PNG>]
+<figures/jstTunggal.png, id=174, 329.73187pt x 364.36125pt>
 File: figures/jstTunggal.png Graphic file (type png)
 <use figures/jstTunggal.png>
-Package pdftex.def Info: figures/jstTunggal.png  used on input line 230.
+Package pdftex.def Info: figures/jstTunggal.png  used on input line 307.
 (pdftex.def)             Requested size: 305.15585pt x 337.21234pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
-
- []
-
-[25 <./figures/jstTunggal.PNG>] [26]
-<figures/mlp.png, id=169, 718.685pt x 642.4pt>
-File: figures/mlp.png Graphic file (type png)
-<use figures/mlp.png>
-Package pdftex.def Info: figures/mlp.png  used on input line 302.
-(pdftex.def)             Requested size: 305.15585pt x 272.76643pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27] [28 <./figures/mlp.png>] [29]) (./Bab4.tex
-Underfull \hbox (badness 10000) in paragraph at lines 423--1
-
- []
-
-[30]
+[28] [29 <./figures/jstTunggal.PNG>]
+<figures/mlp.png, id=182, 718.685pt x 642.4pt>
+File: figures/mlp.png Graphic file (type png)
+<use figures/mlp.png>
+Package pdftex.def Info: figures/mlp.png  used on input line 379.
+(pdftex.def)             Requested size: 305.15585pt x 272.76643pt.
+ [30] [31 <./figures/mlp.png>] [32]
+[33] [34]
+<figures/ControlSystemTaxonomy.png, id=201, 591.4095pt x 419.76825pt>
+File: figures/ControlSystemTaxonomy.png Graphic file (type png)
+<use figures/ControlSystemTaxonomy.png>
+Package pdftex.def Info: figures/ControlSystemTaxonomy.png  used on input line 
+513.
+(pdftex.def)             Requested size: 406.87448pt x 288.78851pt.
+) (./Bab4.tex [35 <./figures/ControlSystemTaxonomy.PNG>]
 BAB IV.
 
 Overfull \hbox (5.29437pt too wide) in paragraph at lines 13--31
@@ -1195,61 +949,62 @@ Overfull \hbox (16.67531pt too wide) in paragraph at lines 39--49
  [][] 
  []
 
-<figures/TataLaksanaPenelitian.png, id=184, 380.42125pt x 654.445pt>
+<figures/TataLaksanaPenelitian.png, id=206, 380.42125pt x 654.445pt>
 File: figures/TataLaksanaPenelitian.png Graphic file (type png)
 <use figures/TataLaksanaPenelitian.png>
 Package pdftex.def Info: figures/TataLaksanaPenelitian.png  used on input line 
 56.
 (pdftex.def)             Requested size: 244.12717pt x 419.98178pt.
-[31
+[36
 
-] [32 <./figures/TataLaksanaPenelitian.png>] [33]
-<figures/NNPlantModelDesign.png, id=196, 322.20375pt x 161.60374pt>
+] [37 <./figures/TataLaksanaPenelitian.png>] [38]
+<figures/NNPlantModelDesign.png, id=218, 322.20375pt x 161.60374pt>
 File: figures/NNPlantModelDesign.png Graphic file (type png)
 <use figures/NNPlantModelDesign.png>
 Package pdftex.def Info: figures/NNPlantModelDesign.png  used on input line 92.
 
 (pdftex.def)             Requested size: 264.46593pt x 132.64908pt.
- [34 <./figures/NNPlantModelDesign.png>]
-<figures/ControlDesignDiagramI.png, id=201, 438.8897pt x 106.89937pt>
-File: figures/ControlDesignDiagramI.png Graphic file (type png)
-<use figures/ControlDesignDiagramI.png>
-Package pdftex.def Info: figures/ControlDesignDiagramI.png  used on input line 
-103.
-(pdftex.def)             Requested size: 366.18454pt x 89.19295pt.
-<figures/ControlDesignDiagramII.png, id=202, 436.63126pt x 118.19156pt>
-File: figures/ControlDesignDiagramII.png Graphic file (type png)
-<use figures/ControlDesignDiagramII.png>
-Package pdftex.def Info: figures/ControlDesignDiagramII.png  used on input line
- 112.
-(pdftex.def)             Requested size: 366.18454pt x 99.12332pt.
-<figures/ControlDesignDiagramIII.png, id=203, 429.10312pt x 151.3153pt>
-File: figures/ControlDesignDiagramIII.png Graphic file (type png)
-<use figures/ControlDesignDiagramIII.png>
-Package pdftex.def Info: figures/ControlDesignDiagramIII.png  used on input lin
-e 121.
-(pdftex.def)             Requested size: 366.18454pt x 129.12886pt.
-<figures/ControlDesignDiagram.png, id=204, 659.46375pt x 241.65282pt>
-File: figures/ControlDesignDiagram.png Graphic file (type png)
-<use figures/ControlDesignDiagram.png>
-Package pdftex.def Info: figures/ControlDesignDiagram.png  used on input line 1
-30.
-(pdftex.def)             Requested size: 366.18454pt x 134.18895pt.
- [35 <./figures/ControlDesignDiagramI.png> <./figures/ControlDesignDiagramII.pn
-g> <./figures/ControlDesignDiagramIII.png>]) (./Bab5.tex [36 <./figures/Control
-DesignDiagram.png>]
-BAB V.
-<figures/KondisiChamber.png, id=216, 484.81125pt x 282.45525pt>
-File: figures/KondisiChamber.png Graphic file (type png)
-<use figures/KondisiChamber.png>
-Package pdftex.def Info: figures/KondisiChamber.png  used on input line 11.
-(pdftex.def)             Requested size: 406.87448pt x 237.06252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-<figures/AC.jpg, id=217, 834.11626pt x 484.81125pt>
+[39 <./figures/NNPlantModelDesign.png>]
+<figures/ControlDesignDiagramI.png, id=223, 438.8897pt x 106.89937pt>
+File: figures/ControlDesignDiagramI.png Graphic file (type png)
+<use figures/ControlDesignDiagramI.png>
+Package pdftex.def Info: figures/ControlDesignDiagramI.png  used on input line 
+106.
+(pdftex.def)             Requested size: 366.18454pt x 89.19295pt.
+<figures/ControlDesignDiagramII.png, id=224, 436.63126pt x 118.19156pt>
+File: figures/ControlDesignDiagramII.png Graphic file (type png)
+<use figures/ControlDesignDiagramII.png>
+Package pdftex.def Info: figures/ControlDesignDiagramII.png  used on input line
+ 115.
+(pdftex.def)             Requested size: 366.18454pt x 99.12332pt.
+<figures/ControlDesignDiagramIII.png, id=225, 429.10312pt x 151.3153pt>
+File: figures/ControlDesignDiagramIII.png Graphic file (type png)
+<use figures/ControlDesignDiagramIII.png>
+Package pdftex.def Info: figures/ControlDesignDiagramIII.png  used on input lin
+e 124.
+(pdftex.def)             Requested size: 366.18454pt x 129.12886pt.
+ [40 <./figures/ControlDesignDiagramI.png> <./figures/ControlDesignDiagramII.pn
+g>]
+<figures/ControlDesignDiagram.png, id=231, 659.46375pt x 241.65282pt>
+File: figures/ControlDesignDiagram.png Graphic file (type png)
+<use figures/ControlDesignDiagram.png>
+Package pdftex.def Info: figures/ControlDesignDiagram.png  used on input line 1
+33.
+(pdftex.def)             Requested size: 366.18454pt x 134.18895pt.
+) (./Bab5.tex [41 <./figures/ControlDesignDiagramIII.png> <./figures/ControlDes
+ignDiagram.png>] [42]
+BAB V.
+<figures/KondisiChamber.png, id=241, 484.81125pt x 282.45525pt>
+File: figures/KondisiChamber.png Graphic file (type png)
+<use figures/KondisiChamber.png>
+Package pdftex.def Info: figures/KondisiChamber.png  used on input line 13.
+(pdftex.def)             Requested size: 406.87448pt x 237.06252pt.
+<figures/AC.jpg, id=242, 834.11626pt x 484.81125pt>
 File: figures/AC.jpg Graphic file (type jpg)
 <use figures/AC.jpg>
 Package pdftex.def Info: figures/AC.jpg  used on input line 21.
@@ -1257,7 +1012,7 @@ Package pdftex.def Info: figures/AC.jpg  used on input line 21.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Heater.jpg, id=218, 152.0955pt x 202.6845pt>
+<figures/Heater.jpg, id=243, 152.0955pt x 202.6845pt>
 File: figures/Heater.jpg Graphic file (type jpg)
 <use figures/Heater.jpg>
 Package pdftex.def Info: figures/Heater.jpg  used on input line 29.
@@ -1265,221 +1020,233 @@ Package pdftex.def Info: figures/Heater.jpg  used on input line 29.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[37
+[43
 
- <./figures/KondisiChamber.PNG>] [38 <./figures/AC.jpg> <./figures/Heater.jpg>]
+ <./figures/KondisiChamber.PNG>] [44 <./figures/AC.jpg> <./figures/Heater.jpg>]
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-[39]
-<figures/SkenarioData.png, id=229, 310.15875pt x 252.19218pt>
-File: figures/SkenarioData.png Graphic file (type png)
-<use figures/SkenarioData.png>
-Package pdftex.def Info: figures/SkenarioData.png  used on input line 60.
-(pdftex.def)             Requested size: 264.46593pt x 215.03778pt.
-<figures/HeaterAC.png, id=230, 425.1885pt x 296.90926pt>
+[45]
+<figures/HeaterAC.png, id=254, 425.1885pt x 296.90926pt>
 File: figures/HeaterAC.png Graphic file (type png)
 <use figures/HeaterAC.png>
-Package pdftex.def Info: figures/HeaterAC.png  used on input line 68.
-(pdftex.def)             Requested size: 203.43724pt x 142.06177pt.
- [40 <./figures/SkenarioData.PNG> <./figures/HeaterAC.PNG>]
-<figures/HasilSimulasiIESVE.png, id=236, 511.6716pt x 303.534pt>
+Package pdftex.def Info: figures/HeaterAC.png  used on input line 62.
+(pdftex.def)             Requested size: 305.15585pt x 213.10399pt.
+<figures/SkenarioData.png, id=255, 310.15875pt x 252.19218pt>
+File: figures/SkenarioData.png Graphic file (type png)
+<use figures/SkenarioData.png>
+Package pdftex.def Info: figures/SkenarioData.png  used on input line 72.
+(pdftex.def)             Requested size: 345.84578pt x 281.21036pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[46 <./figures/HeaterAC.PNG>]
+<figures/HasilSimulasiIESVE.png, id=260, 409.0482pt x 293.4162pt>
 File: figures/HasilSimulasiIESVE.png Graphic file (type png)
 <use figures/HasilSimulasiIESVE.png>
-Package pdftex.def Info: figures/HasilSimulasiIESVE.png  used on input line 82.
+Package pdftex.def Info: figures/HasilSimulasiIESVE.png  used on input line 86.
 
-(pdftex.def)             Requested size: 325.50082pt x 193.09857pt.
+(pdftex.def)             Requested size: 366.18454pt x 262.67526pt.
 
-Overfull \hbox (11.3673pt too wide) in paragraph at lines 92--93
-[]\T1/ptm/m/n/12 Model Plant meng-gu-nak-an mo-del JST yang te-lah di-ba-ngun o
-leh Tri Hartanto[[]]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[47 <./figures/SkenarioData.PNG>]
+<figures/LoadSimulasiIESVE.png, id=265, 439.8834pt x 285.7074pt>
+File: figures/LoadSimulasiIESVE.png Graphic file (type png)
+<use figures/LoadSimulasiIESVE.png>
+Package pdftex.def Info: figures/LoadSimulasiIESVE.png  used on input line 95.
+(pdftex.def)             Requested size: 366.18454pt x 237.8433pt.
+ [48 <./figures/HasilSimulasiIESVE.png> <./figures/LoadSimulasiIESVE.png>]
+Overfull \hbox (6.24326pt too wide) in paragraph at lines 104--105
+[]\T1/ptm/m/n/12 Model Plant meng-a-cu pa-da mo-del JST yang te-lah di-ba-ngun 
+oleh Tri Hartanto[[]]
  []
 
+<figures/BlokDiagramPlant.jpg, id=272, 353.82187pt x 177.66376pt>
+File: figures/BlokDiagramPlant.jpg Graphic file (type jpg)
+<use figures/BlokDiagramPlant.jpg>
+Package pdftex.def Info: figures/BlokDiagramPlant.jpg  used on input line 108.
+(pdftex.def)             Requested size: 325.50082pt x 163.44449pt.
+File: figures/NNPlantModelDesign.png Graphic file (type png)
+<use figures/NNPlantModelDesign.png>
+Package pdftex.def Info: figures/NNPlantModelDesign.png  used on input line 115
+.
+(pdftex.def)             Requested size: 305.15585pt x 153.0591pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- []
-
-[41 <./figures/HasilSimulasiIESVE.png>]
-<figures/DataSplittingResult.png, id=241, 466.8642pt x 334.3692pt>
+[49 <./figures/BlokDiagramPlant.jpg>]
+<figures/DataSplittingResult.png, id=276, 466.8642pt x 334.3692pt>
 File: figures/DataSplittingResult.png Graphic file (type png)
 <use figures/DataSplittingResult.png>
-Package pdftex.def Info: figures/DataSplittingResult.png  used on input line 13
-9.
+Package pdftex.def Info: figures/DataSplittingResult.png  used on input line 16
+8.
 (pdftex.def)             Requested size: 366.18454pt x 262.27121pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/DataSplittingFinal.png, id=242, 361.35pt x 216.81pt>
+ [50]
+<figures/DataSplittingFinal.png, id=280, 361.35pt x 216.81pt>
 File: figures/DataSplittingFinal.png Graphic file (type png)
 <use figures/DataSplittingFinal.png>
-Package pdftex.def Info: figures/DataSplittingFinal.png  used on input line 146
+Package pdftex.def Info: figures/DataSplittingFinal.png  used on input line 175
 .
 (pdftex.def)             Requested size: 305.15585pt x 183.09508pt.
+ [51 <./figures/DataSplittingResult.png> <./figures/DataSplittingFinal.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+[52]
+<figures/ControlComparisonTd1.png, id=289, 451.08525pt x 234.8775pt>
+File: figures/ControlComparisonTd1.png Graphic file (type png)
+<use figures/ControlComparisonTd1.png>
+Package pdftex.def Info: figures/ControlComparisonTd1.png  used on input line 2
+19.
+(pdftex.def)             Requested size: 305.15585pt x 158.89745pt.
+<figures/ControlComparisonTd2.png, id=290, 449.88075pt x 232.4685pt>
+File: figures/ControlComparisonTd2.png Graphic file (type png)
+<use figures/ControlComparisonTd2.png>
+Package pdftex.def Info: figures/ControlComparisonTd2.png  used on input line 2
+27.
+(pdftex.def)             Requested size: 305.15585pt x 157.68274pt.
+ [53 <./figures/ControlComparisonTd1.png> <./figures/ControlComparisonTd2.png>]
+<figures/ControlComparisonTd3.png, id=296, 451.6875pt x 231.86626pt>
+File: figures/ControlComparisonTd3.png Graphic file (type png)
+<use figures/ControlComparisonTd3.png>
+Package pdftex.def Info: figures/ControlComparisonTd3.png  used on input line 2
+37.
+(pdftex.def)             Requested size: 305.15585pt x 156.65509pt.
+<figures/ControlComparisonTd4.png, id=297, 449.88075pt x 230.66174pt>
+File: figures/ControlComparisonTd4.png Graphic file (type png)
+<use figures/ControlComparisonTd4.png>
+Package pdftex.def Info: figures/ControlComparisonTd4.png  used on input line 2
+45.
+(pdftex.def)             Requested size: 305.15585pt x 156.45721pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
+
+ []
+
+<figures/ControlComparisonRH1.png, id=298, 454.0965pt x 230.0595pt>
+File: figures/ControlComparisonRH1.png Graphic file (type png)
+<use figures/ControlComparisonRH1.png>
+Package pdftex.def Info: figures/ControlComparisonRH1.png  used on input line 2
+57.
+(pdftex.def)             Requested size: 305.15585pt x 154.59892pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<figures/ControlComparisonRH2.png, id=299, 454.0965pt x 233.07076pt>
+File: figures/ControlComparisonRH2.png Graphic file (type png)
+<use figures/ControlComparisonRH2.png>
+Package pdftex.def Info: figures/ControlComparisonRH2.png  used on input line 2
+65.
+(pdftex.def)             Requested size: 305.15585pt x 156.62247pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- []
-
-[42] [43 <./figures/DataSplittingResult.png> <./figures/DataSplittingFinal.png>
-]
-Overfull \hbox (0.78296pt too wide) in paragraph at lines 186--187
-[]\T1/ptm/m/n/12 Kinerja da-ri ke-em-pat ran-cang-an sis-tem kon-trol di-a-tas 
-da-pat di-a-ma-ti pa-da Gam-
- []
-
-<figures/ControlSystemComparisonTd.png, id=252, 406.6392pt x 279.9258pt>
-File: figures/ControlSystemComparisonTd.png Graphic file (type png)
-<use figures/ControlSystemComparisonTd.png>
-Package pdftex.def Info: figures/ControlSystemComparisonTd.png  used on input l
-ine 190.
-(pdftex.def)             Requested size: 366.18454pt x 252.08466pt.
-[44]
-<figures/ControlSystemComparisonRH.png, id=256, 433.1382pt x 279.9258pt>
-File: figures/ControlSystemComparisonRH.png Graphic file (type png)
-<use figures/ControlSystemComparisonRH.png>
-Package pdftex.def Info: figures/ControlSystemComparisonRH.png  used on input l
-ine 197.
-(pdftex.def)             Requested size: 366.18454pt x 236.66092pt.
- [45 <./figures/ControlSystemComparisonTd.png> <./figures/ControlSystemComparis
-onRH.png>] [46]
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
-
- []
+<figures/ControlComparisonRH3.png, id=300, 454.0965pt x 230.66174pt>
+File: figures/ControlComparisonRH3.png Graphic file (type png)
+<use figures/ControlComparisonRH3.png>
+Package pdftex.def Info: figures/ControlComparisonRH3.png  used on input line 2
+73.
+(pdftex.def)             Requested size: 305.15585pt x 155.00362pt.
+[54 <./figures/ControlComparisonTd3.png> <./figures/ControlComparisonTd4.png>]
+<figures/ControlComparisonRH4.png, id=307, 452.892pt x 232.4685pt>
+File: figures/ControlComparisonRH4.png Graphic file (type png)
+<use figures/ControlComparisonRH4.png>
+Package pdftex.def Info: figures/ControlComparisonRH4.png  used on input line 2
+81.
+(pdftex.def)             Requested size: 305.15585pt x 156.63988pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[55 <./figures/ControlComparisonRH1.png> <./figures/ControlComparisonRH2.png> <
+./figures/ControlComparisonRH3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+[56 <./figures/ControlComparisonRH4.png>]
+<figures/NNForwardModelDesign.png, id=318, 342.27875pt x 364.36125pt>
+File: figures/NNForwardModelDesign.png Graphic file (type png)
+<use figures/NNForwardModelDesign.png>
+Package pdftex.def Info: figures/NNForwardModelDesign.png  used on input line 3
+01.
+(pdftex.def)             Requested size: 203.43724pt x 216.5669pt.
+ [57 <./figures/NNForwardModelDesign.png>]
+<figures/NNInverseModelDesign.png, id=323, 342.27875pt x 323.2075pt>
+File: figures/NNInverseModelDesign.png Graphic file (type png)
+<use figures/NNInverseModelDesign.png>
+Package pdftex.def Info: figures/NNInverseModelDesign.png  used on input line 3
+38.
+(pdftex.def)             Requested size: 203.43724pt x 192.10619pt.
+ [58 <./figures/NNInverseModelDesign.png>] [59]
+Underfull \hbox (badness 10000) in paragraph at lines 418--420
 
  []
 
-[48]
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
-
- []
-
-<figures/SimulinkSP1Td.png, id=272, 451.6875pt x 238.491pt>
+[60]
+<figures/SimulinkSP1Td.png, id=335, 451.6875pt x 238.491pt>
 File: figures/SimulinkSP1Td.png Graphic file (type png)
 <use figures/SimulinkSP1Td.png>
-Package pdftex.def Info: figures/SimulinkSP1Td.png  used on input line 336.
+Package pdftex.def Info: figures/SimulinkSP1Td.png  used on input line 440.
 (pdftex.def)             Requested size: 305.15585pt x 161.13095pt.
-<figures/SimulinkSP1RH.png, id=273, 451.08525pt x 238.491pt>
+<figures/SimulinkSP1RH.png, id=336, 451.08525pt x 238.491pt>
 File: figures/SimulinkSP1RH.png Graphic file (type png)
 <use figures/SimulinkSP1RH.png>
-Package pdftex.def Info: figures/SimulinkSP1RH.png  used on input line 343.
+Package pdftex.def Info: figures/SimulinkSP1RH.png  used on input line 447.
 (pdftex.def)             Requested size: 305.15585pt x 161.34201pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/SimulinkSP1AC.png, id=274, 451.08525pt x 239.6955pt>
-File: figures/SimulinkSP1AC.png Graphic file (type png)
-<use figures/SimulinkSP1AC.png>
-Package pdftex.def Info: figures/SimulinkSP1AC.png  used on input line 350.
-(pdftex.def)             Requested size: 305.15585pt x 162.15688pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/SimulinkSP1HT.png, id=275, 451.08525pt x 242.1045pt>
-File: figures/SimulinkSP1HT.png Graphic file (type png)
-<use figures/SimulinkSP1HT.png>
-Package pdftex.def Info: figures/SimulinkSP1HT.png  used on input line 357.
-(pdftex.def)             Requested size: 305.15585pt x 163.7866pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
+Underfull \hbox (badness 10000) in paragraph at lines 468--470
 
  []
 
-[49 <./figures/SimulinkSP1Td.png>]
-
-LaTeX Warning: Text page 50 contains only floats.
-
-[50 <./figures/SimulinkSP1RH.png> <./figures/SimulinkSP1AC.png> <./figures/Simu
-linkSP1HT.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
-
- []
-
-<figures/SimulinkSP2Td.png, id=286, 451.6875pt x 237.2865pt>
+[61 <./figures/SimulinkSP1Td.png> <./figures/SimulinkSP1RH.png>]
+<figures/SimulinkSP2Td.png, id=342, 451.6875pt x 237.2865pt>
 File: figures/SimulinkSP2Td.png Graphic file (type png)
 <use figures/SimulinkSP2Td.png>
-Package pdftex.def Info: figures/SimulinkSP2Td.png  used on input line 382.
+Package pdftex.def Info: figures/SimulinkSP2Td.png  used on input line 490.
 (pdftex.def)             Requested size: 305.15585pt x 160.31715pt.
-<figures/SimulinkSP2RH.png, id=287, 451.6875pt x 237.2865pt>
+<figures/SimulinkSP2RH.png, id=343, 451.6875pt x 237.2865pt>
 File: figures/SimulinkSP2RH.png Graphic file (type png)
 <use figures/SimulinkSP2RH.png>
-Package pdftex.def Info: figures/SimulinkSP2RH.png  used on input line 389.
+Package pdftex.def Info: figures/SimulinkSP2RH.png  used on input line 498.
 (pdftex.def)             Requested size: 305.15585pt x 160.31715pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/SimulinkSP2AC.png, id=288, 450.483pt x 239.09325pt>
-File: figures/SimulinkSP2AC.png Graphic file (type png)
-<use figures/SimulinkSP2AC.png>
-Package pdftex.def Info: figures/SimulinkSP2AC.png  used on input line 396.
-(pdftex.def)             Requested size: 305.15585pt x 161.96469pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/SimulinkSP2HT.png, id=289, 450.483pt x 236.68425pt>
-File: figures/SimulinkSP2HT.png Graphic file (type png)
-<use figures/SimulinkSP2HT.png>
-Package pdftex.def Info: figures/SimulinkSP2HT.png  used on input line 403.
-(pdftex.def)             Requested size: 305.15585pt x 160.33281pt.
+[62 <./figures/SimulinkSP2Td.png>]
+Overfull \hbox (20.51009pt too wide) in paragraph at lines 528--534
+ [][] 
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `tbl:5:SP3Ess' on page 51 undefined on input line 410.
-
-
-[51 <./figures/SimulinkSP2Td.png>]
-
-LaTeX Warning: Text page 52 contains only floats.
-
-[52 <./figures/SimulinkSP2RH.png> <./figures/SimulinkSP2AC.png> <./figures/Simu
-linkSP2HT.png>]
-<figures/SimulinkSP3Td.png, id=300, 451.08525pt x 234.8775pt>
+[63 <./figures/SimulinkSP2RH.png>]
+<figures/SimulinkSP3Td.png, id=352, 451.08525pt x 234.8775pt>
 File: figures/SimulinkSP3Td.png Graphic file (type png)
 <use figures/SimulinkSP3Td.png>
-Package pdftex.def Info: figures/SimulinkSP3Td.png  used on input line 414.
+Package pdftex.def Info: figures/SimulinkSP3Td.png  used on input line 544.
 (pdftex.def)             Requested size: 305.15585pt x 158.89745pt.
-<figures/SimulinkSP3RH.png, id=301, 451.08525pt x 235.47975pt>
+<figures/SimulinkSP3RH.png, id=353, 451.08525pt x 235.47975pt>
 File: figures/SimulinkSP3RH.png Graphic file (type png)
 <use figures/SimulinkSP3RH.png>
-Package pdftex.def Info: figures/SimulinkSP3RH.png  used on input line 421.
+Package pdftex.def Info: figures/SimulinkSP3RH.png  used on input line 552.
 (pdftex.def)             Requested size: 305.15585pt x 159.30487pt.
-<figures/SimulinkSP3AC.png, id=302, 451.08525pt x 235.47975pt>
-File: figures/SimulinkSP3AC.png Graphic file (type png)
-<use figures/SimulinkSP3AC.png>
-Package pdftex.def Info: figures/SimulinkSP3AC.png  used on input line 428.
-(pdftex.def)             Requested size: 305.15585pt x 159.30487pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/SimulinkSP3HT.png, id=303, 451.6875pt x 239.6955pt>
-File: figures/SimulinkSP3HT.png Graphic file (type png)
-<use figures/SimulinkSP3HT.png>
-Package pdftex.def Info: figures/SimulinkSP3HT.png  used on input line 435.
-(pdftex.def)             Requested size: 305.15585pt x 161.94473pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./Bab6.tex [53 <./figures/SimulinkSP3Td.png> <./figures/SimulinkSP3RH.png>]
-[54 <./figures/SimulinkSP3AC.png> <./figures/SimulinkSP3HT.png>]
+) (./Bab6.tex [64 <./figures/SimulinkSP3Td.png> <./figures/SimulinkSP3RH.png>]
 BAB VI.
 
 Overfull \hbox (1.1378pt too wide) in paragraph at lines 33--34
@@ -1487,18 +1254,15 @@ Overfull \hbox (1.1378pt too wide) in paragraph at lines 33--34
 tm/m/it/12 cli-ma-te cham-ber \T1/ptm/m/n/12 un-tuk me-
  []
 
-) (./skripsi.bbl [55
+) (./skripsi.bbl [65
 
-] [56
+] [66
 
-] [57]) [58]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 26.
- [59
+]) [67] [68
 
 ] (./app1.tex
 LAMPIRAN A.
-<figures/DataSkripsiRidhan.png, id=330, 331.83975pt x 319.1925pt>
+<figures/DataSkripsiRidhan.png, id=372, 331.83975pt x 319.1925pt>
 File: figures/DataSkripsiRidhan.png Graphic file (type png)
 <use figures/DataSkripsiRidhan.png>
 Package pdftex.def Info: figures/DataSkripsiRidhan.png  used on input line 10.
@@ -1513,100 +1277,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
-<figures/BobotPlant.png, id=331, 588.39825pt x 810.02625pt>
+<figures/BobotPlant.png, id=373, 588.39825pt x 810.02625pt>
 File: figures/BobotPlant.png Graphic file (type png)
 <use figures/BobotPlant.png>
 Package pdftex.def Info: figures/BobotPlant.png  used on input line 21.
 (pdftex.def)             Requested size: 386.52951pt x 532.13461pt.
-[60
+[69
 
  <./figures/DataSkripsiRidhan.png>]
-<figures/BobotEmulator.png, id=337, 790.152pt x 810.02625pt>
+<figures/BobotEmulator.png, id=378, 790.152pt x 810.02625pt>
 File: figures/BobotEmulator.png Graphic file (type png)
 <use figures/BobotEmulator.png>
 Package pdftex.def Info: figures/BobotEmulator.png  used on input line 30.
 (pdftex.def)             Requested size: 406.87448pt x 417.11255pt.
- [61 <./figures/BobotPlant.png>]
+ [70 <./figures/BobotPlant.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-<figures/BobotKontroler.png, id=341, 693.792pt x 766.66425pt>
+<figures/BobotKontroler.png, id=382, 693.792pt x 766.66425pt>
 File: figures/BobotKontroler.png Graphic file (type png)
 <use figures/BobotKontroler.png>
 Package pdftex.def Info: figures/BobotKontroler.png  used on input line 40.
 (pdftex.def)             Requested size: 406.87448pt x 449.61398pt.
-[62 <./figures/BobotEmulator.png>]) (./app2.tex [63 <./figures/BobotKontroler.p
+[71 <./figures/BobotEmulator.png>]) (./app2.tex [72 <./figures/BobotKontroler.p
 ng>]
 LAMPIRAN B.
-(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-) [64
-
-] [65]
-LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 9
-6.
-
-(c:/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
- [66] [67] [68] [69]
-[70] [71]) (./app3.tex [72]
-LAMPIRAN C.
-<figures/NNForwardModelDesign.png, id=377, 342.27875pt x 364.36125pt>
-File: figures/NNForwardModelDesign.png Graphic file (type png)
-<use figures/NNForwardModelDesign.png>
-Package pdftex.def Info: figures/NNForwardModelDesign.png  used on input line 7
-.
-(pdftex.def)             Requested size: 203.43724pt x 216.5669pt.
-<figures/NNInverseModelDesign.png, id=378, 342.27875pt x 323.2075pt>
-File: figures/NNInverseModelDesign.png Graphic file (type png)
-<use figures/NNInverseModelDesign.png>
-Package pdftex.def Info: figures/NNInverseModelDesign.png  used on input line 1
-7.
-(pdftex.def)             Requested size: 203.43724pt x 192.10619pt.
-[73
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
+5.
 
- <./figures/NNForwardModelDesign.png> <./figures/NNInverseModelDesign.png>]
-<figures/SimulinkBlockDiagram.png, id=384, 943.1235pt x 525.76425pt>
+(/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [73
+
+] [74] [75] [76] [77]
+[78] [79] [80] [81]) (./app3.tex [82]
+LAMPIRAN C.
+<figures/SimulinkBlockDiagram.png, id=422, 943.1235pt x 525.76425pt>
 File: figures/SimulinkBlockDiagram.png Graphic file (type png)
 <use figures/SimulinkBlockDiagram.png>
-Package pdftex.def Info: figures/SimulinkBlockDiagram.png  used on input line 2
-6.
-(pdftex.def)             Requested size: 610.31172pt x 340.25052pt.
+Package pdftex.def Info: figures/SimulinkBlockDiagram.png  used on input line 6
+.
+(pdftex.def)             Requested size: 488.24812pt x 272.18758pt.
+[83
 
-[74
 
- <./figures/SimulinkBlockDiagram.PNG>]) (./skripsi.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ <./figures/SimulinkBlockDiagram.PNG>]) (./skripsi.aux) ) 
 Here is how much of TeX's memory you used:
- 19898 strings out of 492163
- 345150 string characters out of 6129076
- 801237 words of memory out of 5000000
- 23962 multiletter control sequences out of 15000+600000
- 566027 words of font info for 66 fonts, out of 8000000 for 9000
+ 10577 strings out of 480478
+ 164478 string characters out of 5905959
+ 822989 words of memory out of 5000000
+ 26304 multiletter control sequences out of 15000+600000
+ 566341 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,16n,110p,1431b,2127s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2019/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texliv
-e/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/20
-19/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/font
-s/type1/urw/times/utmbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times
-/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on skripsi.pdf (93 pages, 1836543 bytes).
+ 65i,16n,110p,1428b,2119s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist
+/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></us
+r/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/font
+s/type1/urw/times/utmbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr
+8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on skripsi.pdf (102 pages, 2023180 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
+ 470 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

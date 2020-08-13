@@ -2,47 +2,47 @@
 \begin{thenomenclature} 
 \nomgroup{A}
   \item [{\emph {Lambang }}]\begingroup \emph {Kuantitas } \nomunit {\emph {Satuan }}\nomeqref {0.0}\nompageref{xvi}
-  \item [{$Td$}]\begingroup Suhu Ruang (Dry-Bulb Temperature)  \nomunit{$^\circ$C}\nomeqref {0.0}\nompageref{xvii}
-  \item [{$RH$}]\begingroup Kelembapan Relatif  \nomunit{\%}\nomeqref {0.0}\nompageref{xvii}
-  \item [{$To$}]\begingroup Suhu Luar (Dry-Bulb Temeperature) \nomunit{$^\circ$C}\nomeqref {0.0}\nompageref{xvii}
-  \item [{$RD$}]\begingroup Radiasi Global Matahari  \nomunit{W/m$^2$}\nomeqref {0.0}\nompageref{xvii}
-  \item [{$AC$}]\begingroup SET AC \nomunit{$^\circ$C}\nomeqref {0.0}\nompageref{xvii}
-  \item [{$HT$}]\begingroup SET Heater \nomunit{ON}\nomeqref {0.0}\nompageref{xvii}
-  \item [{$t$}]\begingroup Waktu \nomunit{detik}\nomeqref {0.0}\nompageref{xvii}
-  \item [{$s$}]\begingroup Frekuensi \nomunit{Hertz}\nomeqref {0.0}\nompageref{xvii}
-  \item [{$R$}]\begingroup Koefisien Korelasi \nomunit{\%}\nomeqref {0.0}\nompageref{xvii}
-  \item [{$\mathbb{R}$}]\begingroup Domain Bilangan Riil\nomeqref {0.0}\nompageref{xvii}
-  \item [{$R(s)$}]\begingroup Input Sistem Kontrol\nomeqref {0.0}\nompageref{xvii}
-  \item [{$E(s)$}]\begingroup Error Sistem Kontrol\nomeqref {0.0}\nompageref{xvii}
-  \item [{$C(s)$}]\begingroup Ouput Sistem Kontrol\nomeqref {0.0}\nompageref{xvii}
-  \item [{$K$}]\begingroup Gain Konstan\nomeqref {0.0}\nompageref{xvii}
-  \item [{$T(s)$}]\begingroup Fungsi Gain Lup tertutup\nomeqref {0.0}\nompageref{xvii}
-  \item [{$G(s)$}]\begingroup Fngsi Gain Lup Tertutup Umpan Balik Satuan\nomeqref {0.0}\nompageref{xvii}
-  \item [{$H(s)$}]\begingroup Fungsi Gain Umpan Balik\nomeqref {0.0}\nompageref{xvii}
-  \item [{$x$}]\begingroup Lapisan Input Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xvii}
-  \item [{$y$}]\begingroup Lapisan Output Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xvii}
-  \item [{$z$}]\begingroup Lapisan Tersembunyi Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xvii}
-  \item [{}]\begingroup \nomeqref {0.0}\nompageref{xvii}
+  \item [{$Tdb$}]\begingroup Suhu Ruang (Dry-Bulb Temperature)  \nomunit{$^\circ$C}\nomeqref {0.0}\nompageref{xviii}
+  \item [{$RH$}]\begingroup Kelembapan Relatif  \nomunit{\%}\nomeqref {0.0}\nompageref{xviii}
+  \item [{$To$}]\begingroup Suhu Lingkungan (Dry-Bulb Temeperature) \nomunit{$^\circ$C}\nomeqref {0.0}\nompageref{xviii}
+  \item [{$RD$}]\begingroup Intensitas Radiasi Global Matahari  \nomunit{W/m$^2$}\nomeqref {0.0}\nompageref{xviii}
+  \item [{$AC$}]\begingroup SET AC \nomunit{$^\circ$C}\nomeqref {0.0}\nompageref{xviii}
+  \item [{$HT$}]\begingroup SET Heater \nomunit{ON}\nomeqref {0.0}\nompageref{xviii}
+  \item [{$t$}]\begingroup Waktu \nomunit{detik}\nomeqref {0.0}\nompageref{xviii}
+  \item [{$f$}]\begingroup Frekuensi \nomunit{Hertz}\nomeqref {0.0}\nompageref{xviii}
+  \item [{$R$}]\begingroup Koefisien Korelasi \nomunit{\%}\nomeqref {0.0}\nompageref{xviii}
+  \item [{$\mathbb{R}$}]\begingroup Domain Bilangan Riil\nomeqref {0.0}\nompageref{xviii}
+  \item [{$R(s)$}]\begingroup Input Sistem Kontrol\nomeqref {0.0}\nompageref{xviii}
+  \item [{$C(s)$}]\begingroup Output Sistem Kontrol\nomeqref {0.0}\nompageref{xviii}
+  \item [{$E(s)$}]\begingroup Eror Sistem Kontrol\nomeqref {0.0}\nompageref{xviii}
+  \item [{$K$}]\begingroup Gain Konstan\nomeqref {0.0}\nompageref{xviii}
+  \item [{$T(s)$}]\begingroup Fungsi Gain Kalang Tertutup\nomeqref {0.0}\nompageref{xviii}
+  \item [{$G(s)$}]\begingroup Fungsi Gain Kalang Tertutup Umpan Balik Satuan\nomeqref {0.0}\nompageref{xviii}
+  \item [{$x$}]\begingroup Lapisan Input Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xviii}
+  \item [{$y$}]\begingroup Lapisan Output Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xviii}
+  \item [{$z$}]\begingroup Lapisan Tersembunyi Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xviii}
+  \item [{}]\begingroup \nomeqref {0.0}\nompageref{xviii}
+  \item [{}]\begingroup \nomeqref {0.0}\nompageref{xviii}
 \nomgroup{B}
   \item [{\emph {Lambang }}]\begingroup \emph {Kuantitas } \nomunit {\emph {Satuan }}\nomeqref {0.0}\nompageref{xvi}
-  \item [{$\nu$}]\begingroup Bobot Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xvii}
-  \item [{$\sigma$}]\begingroup Fungsi Aktivasi Neuron\nomeqref {0.0}\nompageref{xvii}
+  \item [{$\nu$}]\begingroup Bobot Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xviii}
+  \item [{$\sigma$}]\begingroup Fungsi Aktivasi Neuron\nomeqref {0.0}\nompageref{xviii}
 \nomgroup{C}
   \item [{\emph {Lambang }}]\begingroup \emph {Deskripsi }\nomeqref {0.0}\nompageref{xvi}
-  \item [{steady-state}]\begingroup Kondisi Ajeg Sistem\nomeqref {0.0}\nompageref{xvii}
+  \item [{steady-state}]\begingroup Kondisi-Ajeg\nomeqref {0.0}\nompageref{xviii}
 \nomgroup{D}
   \item [{\emph {Lambang }}]\begingroup \emph {Deskripsi }\nomeqref {0.0}\nompageref{xvi}
-  \item [{n+1}]\begingroup Dimensi n+1\nomeqref {0.0}\nompageref{xvii}
-  \item [{T}]\begingroup Fungsi Tranpos Vektor/Matrix\nomeqref {0.0}\nompageref{xvii}
+  \item [{n}]\begingroup Dimensi n\nomeqref {0.0}\nompageref{xviii}
+  \item [{T}]\begingroup Fungsi Tranpos Vektor/Matrix\nomeqref {0.0}\nompageref{xviii}
 \nomgroup{E}
-  \item [{ANN}]\begingroup Artificial Neural Network\nomeqref {0.0}\nompageref{xvii}
-  \item [{DBT}]\begingroup Dry-Bulb Temperature\nomeqref {0.0}\nompageref{xvii}
-  \item [{DTNTF}]\begingroup Departemen Teknik Nuklir dan Teknik Fisika\nomeqref {0.0}\nompageref{xvii}
-  \item [{IMC}]\begingroup Internal Model Control\nomeqref {0.0}\nompageref{xvii}
-  \item [{JST}]\begingroup Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xvii}
-  \item [{MRT}]\begingroup Mean Radiant Temperature\nomeqref {0.0}\nompageref{xvii}
-  \item [{MAE}]\begingroup Mean Absoulte Error\nomeqref {0.0}\nompageref{xvii}
-  \item [{MSE}]\begingroup Mean Squared Error\nomeqref {0.0}\nompageref{xvii}
-  \item [{NN}]\begingroup Neural Network\nomeqref {0.0}\nompageref{xvii}
+  \item [{ANN}]\begingroup Artificial Neural Network\nomeqref {0.0}\nompageref{xviii}
+  \item [{DBT}]\begingroup Dry-Bulb Temperature\nomeqref {0.0}\nompageref{xviii}
+  \item [{IES VE}]\begingroup Integrated Environmental Solutions Virtual Environment\nomeqref {0.0}\nompageref{xviii}
+  \item [{IMC}]\begingroup Internal Model Control\nomeqref {0.0}\nompageref{xviii}
+  \item [{JST}]\begingroup Jaringan Saraf Tiruan\nomeqref {0.0}\nompageref{xviii}
+  \item [{MRT}]\begingroup Mean Radiant Temperature\nomeqref {0.0}\nompageref{xviii}
+  \item [{MAE}]\begingroup Mean Absoulte Error\nomeqref {0.0}\nompageref{xviii}
+  \item [{MSE}]\begingroup Mean Squared Error\nomeqref {0.0}\nompageref{xviii}
+  \item [{NN}]\begingroup Neural Network\nomeqref {0.0}\nompageref{xviii}
 
 \end{thenomenclature}
