@@ -13,75 +13,45 @@ You're missing a field name---line 44 of file pustaka.bib
  : % author = {E. Arens and H. Zhang and C. Huizenga},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 53 of file pustaka.bib
- : 
- : % author = {A. P. Leskinen and J. K. Jokiniemi and K. E. J. Lehtinen},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 62 of file pustaka.bib
- : 
- : % author = {W. He and G. Xu and R. Shen},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 71 of file pustaka.bib
- : 
- : % author = {A. Huguet and A. Francez and M. Dung and C. Fosse and S. Derenne},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 80 of file pustaka.bib
- : 
- : % author = {E. Martinez and S. J. Agosta},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 89 of file pustaka.bib
- : 
- : % author = {Jose A. Jofre-reche and J. C. Su and C. Alia},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 98 of file pustaka.bib
- : 
- : % author = {A. Srinivasa and S. Das and H. Kottyen and V. Ashok and P. Shankarrao},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You've used 21 entries,
+You've used 25 entries,
             2230 wiz_defined-function locations,
-            629 strings with 7892 characters,
-and the built_in function-call counts, 4436 in all, are:
-= -- 548
-> -- 176
+            656 strings with 8771 characters,
+and the built_in function-call counts, 5617 in all, are:
+= -- 686
+> -- 229
 < -- 0
-+ -- 69
-- -- 48
-* -- 202
-:= -- 786
-add.period$ -- 63
-call.type$ -- 21
-change.case$ -- 9
++ -- 88
+- -- 63
+* -- 290
+:= -- 983
+add.period$ -- 75
+call.type$ -- 25
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 185
-empty$ -- 377
-format.name$ -- 48
-if$ -- 1062
+cite$ -- 25
+duplicate$ -- 222
+empty$ -- 474
+format.name$ -- 63
+if$ -- 1340
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 25
-newline$ -- 108
-num.names$ -- 21
-pop$ -- 70
+int.to.str$ -- 25
+missing$ -- 29
+newline$ -- 128
+num.names$ -- 25
+pop$ -- 71
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 195
+skip$ -- 238
 stack$ -- 0
-substring$ -- 78
-swap$ -- 21
+substring$ -- 159
+swap$ -- 25
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 26
-width$ -- 23
-write$ -- 232
-(There were 8 error messages)
+while$ -- 35
+width$ -- 27
+write$ -- 278
+(There were 2 error messages)

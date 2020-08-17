@@ -18,209 +18,34 @@
 	%emph=[2]{word1,word2}, emphstyle=[2]{style},    
 }
 
-\section{Kode Sumber Model Plant JST}
+\section{Kode Sumber Program Model JST Kontroler}
 \begin{lstlisting}
 % Import Data
 data = xlsread('DataSkripsiS1Ridhan.xlsx');
 Control_Input = data(:,5:6)';
-Load_var      = data(:,7:8)';
-Plant_Output  = data(:,9:10)';
-
-% Set up Data
-u = Control_Input;
-v = Load_var;
-Yp = Plant_Output;
-clear data Control_Input Load_var Plant_Output;
-
-% ANN Input Output
-X = [u; v];
-T = Yp;
-clear Yp u v;
-
-% Create a Fitting Network
-hiddenLayerSize = 55;
-netP = feedforwardnet(hiddenLayerSize);
-
-% Choose a Training Function
-netP.trainFcn = 'trainlm'; % Levenberg-Marquardt backpropagation.
-
-% Choose Input and Output Pre/Post-Processing Functions
-% For a list of all processing functions type: help nnprocess
-netP.input.processFcns = {'removeconstantrows','mapminmax'};
-netP.output.processFcns = {'removeconstantrows','mapminmax'};
-
-% Setup Division of Data for Training, Validation, Testing
-% For a list of all data division functions type: help nndivision
-netP.divideFcn = 'divideint';  % Divide data
-netP.divideMode = 'sample';  % Divide up every sample
-netP.divideParam.trainRatio = 80/100;
-netP.divideParam.valRatio = 15/100;
-netP.divideParam.testRatio = 5/100;
-
-% Choose activation functions
-netP.layers{1}.transferFcn = 'tansig';
-netP.layers{2}.transferFcn = 'purelin';
-
-% Choose a Performance Function
-% For a list of all performance functions type: help nnperformance
-netP.performFcn = 'mse';  % Mean Squared Error
-
-% Choose Plot Functions
-% For a list of all plot functions type: help nnplot
-netP.plotFcns = {'plotperform','plottrainstate','ploterrhist', ...
-'plotregression', 'plotfit'};
-
-% Train the Network
-[netP,tr] = train(netP,X,T);
-
-% Test the Network
-y = netP(X);
-
-% Network Performance
-e = gsubtract(T,y);
-MAE = mean(abs(e),2);
-MAE_All = mean(MAE);
-MSE = mean(e.^2,2);
-MSE_All = perform(netP,T,y);
-MSE_Relatif = mean(e/T,2);
-MSE_Std = std(e,0,2);
-
-% Correlation Coefficient
-[~,~,R_Td] = postreg(T(1,:),y(1,:));
-[~,~,R_RH] = postreg(T(2,:),y(2,:));
-[~,~,R_All] = postreg(T,y);
-R = [R_Td,R_RH];
-clear R_Td R_RH;
-
-% Recalculate Training, Validation and Test Performance
-trainTargets = T .* tr.trainMask{1};
-valTargets = T .* tr.valMask{1};
-testTargets = T .* tr.testMask{1};
-All_MSETrain = perform(netP,trainTargets,y);
-All_MSEVal = perform(netP,valTargets,y);
-All_MSETest = perform(netP,testTargets,y);
-\end{lstlisting}
-\hfill
-
-\section{Kode Sumber Model Emulator JST}
-\begin{lstlisting}
-% Import Data
-data = xlsread('DataSkripsiS1Ridhan.xlsx');
-Control_Input = data(:,5:6)';
-Load_var      = data(:,7:8)';
-Plant_Output  = data(:,9:10)';
-
-% Set up Data
-u = Control_Input;
-v = Load_var;
-Yp = Plant_Output;
-[~,datasize] = size(Yp);
-clear data Plant_Input Plant_Output;
-
-% ANN Input Output
-normal = 2:datasize;
-delay = 1:datasize-1;
-X  = [Ypz(:,delay);uv(:,normal);uv(:,delay)]; % Feature
-T  = Yp(:,normal); % Target
-clear normal delay;
-
-% Create a Fitting Network
-hiddenLayerSize = 55;
-netM = feedforwardnet(hiddenLayerSize);
-
-% Choose a Training Function
-netM.trainFcn = 'trainlm'; % Levenberg-Marquardt backpropagation.
-
-% Choose Input and Output Pre/Post-Processing Functions
-% For a list of all processing functions type: help nnprocess
-netM.input.processFcns = {'removeconstantrows','mapminmax'};
-netM.output.processFcns = {'removeconstantrows','mapminmax'};
-
-% Setup Division of Data for Training, Validation, Testing
-% For a list of all data division functions type: help nndivision
-netM.divideFcn = 'divideint';  % Divide data randomly
-netM.divideMode = 'sample';  % Divide up every sample
-netM.divideParam.trainRatio = 80/100;
-netM.divideParam.valRatio = 15/100;
-netM.divideParam.testRatio = 5/100;
-
-% Choose activation functions
-netM.layers{1}.transferFcn = 'tansig';
-netM.layers{2}.transferFcn = 'purelin';
-
-% Choose a Performance Function
-% For a list of all performance functions type: help nnperformance
-netM.performFcn = 'mse';  % Mean Squared Error
-
-% Choose Plot Functions
-% For a list of all plot functions type: help nnplot
-netM.plotFcns = {'plotperform','plottrainstate','ploterrhist', ...
-'plotregression', 'plotfit'};
-
-% Train the Network
-[netM,tr] = train(netM,X,T);
-
-% Test the Network
-y = netM(X);
-
-% Network Performance
-e = gsubtract(T,y);
-MAE = mean(abs(e),2);
-All_MAE = mean(MAE);
-MSE = mean(e.^2,2);
-All_MSE = perform(netM,T,y);
-MSE_Relatif = mean(e/T,2);
-MSE_Std = std(e,0,2);
-
-% Correlation Coefficient
-[~,~,R_Td] = postreg(T(1,:),y(1,:));
-[~,~,R_RH] = postreg(T(2,:),y(2,:));
-[~,~,All_R] = postreg(T,y);
-R = [R_Td,R_RH];
-clear R_Td R_RH;
-
-% Recalculate Training, Validation and Test Performance
-trainTargets = T .* tr.trainMask{1};
-valTargets = T .* tr.valMask{1};
-testTargets = T .* tr.testMask{1};
-All_MSETrain = perform(netM,trainTargets,y);
-All_MSEVal = perform(netM,valTargets,y);
-All_MSETest = perform(netM,testTargets,y);
-\end{lstlisting}
-\hfill
-
-\section{Kode Sumber Model Kontroler JST}
-\begin{lstlisting}
-% Import Data
-data = xlsread('DataSkripsiS1Ridhan.xlsx');
-Control_Input = data(:,5:6)';
-Load_var      = data(:,7:8)';
 Plant_Output  = data(:,9:10)';
 
 % Set up Data
 Yp = Plant_Output;  % Plant Output
-v  = Load_var;      % Disturbance
 u  = Control_Input; % Manipulated Variable
+[~,datasize] = size(Yp);
 clear data Control_Input Load_var Plant_Output;
 
 % Feature Scaling
 parY = [30.31, 100; 16, 55.84];
 [Yp, ~] = MinMaxScaler(Yp',parY);
-parv = [29.38, 845.418; 22.48, 0];
-[v,  ~] = MinMaxScaler(v',parv);
-Yp = Yp'; v = v';
-[~,datasize] = size(Yp);
-clear parY parv;
+Yp = Yp';
+clear parY;
 
 % ANN Input Output
 normal = 2:datasize;
 delay = 1:datasize-1;
-X  = [Yp(:,delay);Yp(:,normal);v(:,normal);ud(:,delay)]; % Feature
+X  = [Yp(:,delay);Yp(:,normal);u(:,delay)]; % Feature
 T  = u(:,normal); % Target
-clear v Yr Yp E u normal delay;
+clear Yp u normal delay;
 
 % Create a Fitting Network
-hiddenLayerSize = 52;
+hiddenLayerSize = 35;
 netC = feedforwardnet(hiddenLayerSize);
 
 % Choose a Training Function
@@ -233,11 +58,11 @@ netC.output.processFcns = {'removeconstantrows','mapminmax'};
 
 % Setup Division of Data for Training, Validation, Testing
 % For a list of all data division functions type: help nndivision
-netC.divideFcn = 'divideint';  % Divide data randomly
+netC.divideFcn = 'dividerand';  % Divide data randomly
 netC.divideMode = 'sample';  % Divide up every sample
 netC.divideParam.trainRatio = 80/100;
-netC.divideParam.valRatio = 15/100;
-netC.divideParam.testRatio = 5/100;
+netC.divideParam.valRatio = 10/100;
+netC.divideParam.testRatio = 10/100;
 
 % Choose activation functions
 netC.layers{1}.transferFcn = 'tansig';
@@ -257,29 +82,6 @@ netC.plotFcns = {'plotperform','plottrainstate','ploterrhist', ...
 
 % Test the Network
 u = netC(X);
-
-for i = 1:datasize-1
-  AC = round(u(1,i));
-  if (AC < 12)
-    u(1,i) = 0;
-  elseif (AC <= 16)
-    u(1,i) = 16;
-  elseif (AC >= 30)
-    u(1,i) = 30;    
-  else
-    u(1,i) = AC;
-  end
-
-  HT = round(u(2,i));
-  if (HT < 1)
-    u(2,i) = 0;
-  elseif (HT > 2)
-    u(2,i) = 2;
-  else
-    u(2,i) = HT;
-  end
-end
-clear i AC HT datasize;
 
 % Network Performance
 e = gsubtract(T,u);
@@ -305,7 +107,7 @@ All_MSETrain = perform(netC,trainTargets,u);
 All_MSEVal = perform(netC,valTargets,u);
 All_MSETest = perform(netC,testTargets,u);
 \end{lstlisting}
-\hfill
+\vspace{1em}
 
 \section{Fungsi Min Max Scaler}
 \begin{lstlisting}
@@ -321,7 +123,7 @@ function [newx, par] = MinMaxScaler(x,parx)
   end
 end
 \end{lstlisting}
-\hfill
+\break
 
 \section{Fungsi Kuantisasi AC}
 \begin{lstlisting}
@@ -337,7 +139,7 @@ function y = QuantizationAC(u)
     y = AC;
 end
 \end{lstlisting}
-\hfill
+\vspace{1em}
 
 \section{Fungsi Kuantisasi Heater}
 \begin{lstlisting}
@@ -351,40 +153,21 @@ function y = QuantizationHT(u)
     y = HT;
 end
 \end{lstlisting}
-\hfill
+\vspace{1em}
 
-\section{Fungsi Scaler Suhu Ruang}
+\section{Fungsi Penskalaan Suhu Ruang}
 \begin{lstlisting}
 function y = ScalerTd(u)
   maxTd  = 30.31;
   minTd  = 16;
 y = ( u - minTd ) ./ ( maxTd - minTd );
 \end{lstlisting}
-\hfill
+\vspace{1em}
 
-\section{Fungsi Scaler Kelembapan Relatif}
+\section{Fungsi Penskalaan Kelembapan Relatif}
 \begin{lstlisting}
 function y = ScalerRH(u)
   maxRH  = 100;
   minRH  = 55.84;
 y = ( u - minRH ) ./ ( maxRH - minRH );
 \end{lstlisting}
-\hfill
-
-\section{Fungsi Scaler Suhu Lingkungan}
-\begin{lstlisting}
-function y = ScalerTo(u)
-  maxTo  = 29.38;
-  minTo  = 22.48;
-y = ( u - minTo ) ./ ( maxTo - minTo );
-\end{lstlisting}
-\hfill
-
-\section{Fungsi Scaler Radiasi Matahari}
-\begin{lstlisting}
-function y = ScalerRD(u)
-  maxRD  = 845.418;
-  minRD  = 0;
-y = ( u - minRD ) ./ ( maxRD - minRD );
-\end{lstlisting}
-\hfill

@@ -16,7 +16,7 @@ penyejuk ruangan tumbuh cepat dan diperkirakan bertambah dua kali lipat antara t
 
 Ruangan pada setiap bangunan umumnya menggunakan penyejuk ruangan atau \textit{Air Conditioner} (AC) untuk mencapai kondisi yang nyaman bagi penghuni di dalamnya. Padahal hal tersebut belum tentu tepat. Sesungguhnya, penghuni tidak menginginkan kondisi ruang yang lebih dingin ataupun lebih panas dari keadaan awalnya. Penghuni ruang menginginkan kondisi ruangan yang nyaman bagi tubuh mereka. Kondisi ini yang disebut sebagai kenyamanan termal. Kenyamanan termal yang dimaksud tidaklah sesederhana upaya untuk menurunkan suhu di suatu ruangan. Kenyaman termal bergantung juga kepada sensasi termal tubuh manusia. Dengan demikian, kebutuhan energi dalam pemenuhan kenyamaan termal tersebut dapat dikatakan cukup tinggi.
 
-Kenyamanan termal didefinisikan sebagai kondisi pikiran yang mengekspresikan kepuasan terhadap lingkungan termal \cite{ASHRAE55}. Lingkungan Termal adalah lingkungan yang mempengaruhi manusia dalam hal kualitas termalnya, sehingga manusia dapat merasakan lingkungan tersebut sebagai lingkungan yang dingin atau panas. Kenyamanan termal penting untuk kesehatan dan kebugaran tubuh manusia. Hal tersebut berpengaruh terhadap produktivitas manusia dalam melakukan kegiatan. Kurangnya kenyamanan termal dapat mengakibatkan kondisi stres bagi penghuni bangunan. Apabila kondisi bangungan terlalu panas, maka penghuni akan merasa lelah. Apabila kondisi bangunan terlalu dingin, maka penghuni akan merasa gelisah dan bimbang. Karena terdapat variasi yang besar, baik secara fisiologis maupun psikologis, dari orang ke orang, sulit untuk memuaskan semua orang di suatu ruang. Kondisi lingkungan yang dibutuhkan untuk kenyamanan tidak sama untuk semua orang. 
+Kenyamanan termal didefinisikan sebagai kondisi pikiran yang mengekspresikan kepuasan terhadap lingkungan termal \cite{ASHRAE55}. Lingkungan Termal adalah lingkungan yang mempengaruhi manusia dalam hal kualitas termalnya, sehingga manusia dapat merasakan lingkungan tersebut sebagai lingkungan yang dingin atau panas. Kenyamanan termal penting untuk kesehatan dan kebugaran tubuh manusia. Hal tersebut berpengaruh terhadap produktivitas manusia dalam melakukan kegiatan. Kurangnya kenyamanan termal dapat mengakibatkan kondisi stres bagi penghuni bangunan. Apabila kondisi bangunan terlalu panas, maka penghuni akan merasa lelah. Apabila kondisi bangunan terlalu dingin, maka penghuni akan merasa gelisah dan bimbang. Karena terdapat variasi yang besar, baik secara fisiologis maupun psikologis, dari orang ke orang, sulit untuk memuaskan semua orang di suatu ruang. Kondisi lingkungan yang dibutuhkan untuk kenyamanan tidak sama untuk semua orang. 
 
 Kenyamanan termal secara fisiologis bergantung kepada proses perpindahan kalor antara tubuh dan lingkungan dimana respon fisiologis tubuh berupaya untuk mempertahankan suhu inti tubuh agar tetap bernilai konstan. Untuk mempelajari respon fisiologis tersebut, dibutuhkan sebuah \textit{climate chamber} dimana kondisi iklim di dalamnya dapat dikendalikan sesuai dengan kebutuhan penelitian.
 
@@ -41,23 +41,25 @@ Pada penelitian ini studi kasus diambil pada \textit{climate chamber} di Departe
 
 Berdasarkan hal tersebut, permasalahan yang penulis angkat yaitu bagaimana rancangan model kontroler berbasis jaringan saraf tiruan yang optimal dengan meninjau nilai \textit{steady-state error} untuk mengendalikan lingkungan termal pada \textit{climate chamber} DTNTF FT-UGM.
 
+\section{Tujuan}
+Penelitian ini bertujuan untuk membangun model kontroler berbasis jaringan saraf tiruan dengan meninjau nilai \textit{steady-state error} untuk mengendalikan lingkungan termal pada \textit{climate chamber} DTNTF FT-UGM.
+
 \section{Batasan Masalah}
 Berikut batasan masalah yang digunakan dalam penelitian ini:
 \begin{enumerate}
 	%\item Rancang bangun diperuntukkan untuk sistem lingkungan termal \textit{climate chamber} DTNTF UGM.
-	\item Penelitian hanya berfokus pada bagian \textit{controller} dari keseluruhan sistem pengendalian. Penelitian ini tidak membahas sensor, aktuator atau sistem komunikasi data.
-	\item Parameter kinerja kontroler yang ditinjau hanya \textit{steady-state error}. %karena secara fisis, respons transien termal pada bangunan berlangsung cukup lama.
-	\item Pemodelan \textit{plant} dilakukan berdasarkan data IES-VE dari skripsi yang dibuat oleh Ichfan Kurniawan \cite{skripsiIchfan}.	
-	\item Pembahasan pada penelitian ini tidak mencangkup karakterisasi sistem lingkungan termal.
+	\item Model \textit{plant} menggunakan model berbasis jaringan saraf tiruan yang dibuat oleh Tri Hartanto\cite{skripsiTanto}.
+	\item Kinerja kontroler hanya ditinjau melalui nilai \textit{steady-state error} karena secara fisis respon transien termal pada bangunan berlangsung cukup lama.
+	\item Perancangan kontroler dilakukan pada aplikasi MATLAB karena memiliki fitur JST dan dianggap mudah untuk menjalankan simulasi sistem kendali pada SIMULINK.
+	%\item Penelitian hanya berfokus pada bagian \textit{controller} dari keseluruhan sistem pengendalian. %Penelitian ini tidak membahas sensor, aktuator atau sistem komunikasi data.
+	%\item Penelitian ini tidak membahas karakterisasi sistem lingkungan termal secara mendalam dan lebih berfokus pada rancangan kontroler.
 \end{enumerate}
-
-\section{Tujuan}
-Penelitian ini bertujuan untuk membangun model kontroler berbasis jaringan saraf tiruan dengan meninjau nilai \textit{steay-state error} untuk mengendalikan lingkungan termal pada \textit{climate chamber} DTNTF FT-UGM.
+\break
 
 \section{Manfaat}
 Berikut manfaat dari penelitian ini:
 \begin{enumerate}
-	\item Penelitian ini diharapkan mampu mengembangkan ilmu pengetahuan dan aplikasinya di bidang fisika bangunan, sistem kontrol, dan kecerdasan buatan.
+	\item Penelitian ini diharapkan mampu mengembangkan ilmu pengetahuan dan aplikasinya di bidang fisika bangunan, sistem kontrol dan kecerdasan buatan.
 	\item Penelitian ini diharapkan mampu menjadi referensi bagi praktisi kecerdasan buatan atau praktisi dalam pengembangan kenyamanan termal suatu bangunan.
 	\item Penelitian ini diharapkan mampu memajukan perkembangan teknologi sistem bangunan di Indonesia.
 \end{enumerate}

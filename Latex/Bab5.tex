@@ -2,121 +2,23 @@
 \label{hasil-dan-pembahasan}
 Bangunan yang dijadikan objek penelitian adalah \textit{climate chamber} DTNTF FT-UGM. Dalam bab ini, akan dibahas mengenai hasil perancangan kontroler sesuai dengan langkah-langkah yang dijelaskan pada Bab IV.
 
-\section{Pengambilan Data Simulasi IES-VE}
+\section{Model Plant JST}
 
-\subsection{Kondisi \textit{Climate Chamber}}
-
-Climate chamber memiliki ukuran 3m $\times$ 2m $\times$ 3m (p $\times$ l $\times$ t). Komponen-komponen di dalam climate chamber terdiri dari meja, kursi, blower, penghuni, lampu, heater, dan AC. Posisi setiap komponen di dalam \textit{climate chamber} digambarakan pada Gambar \ref{fig:5:KondisiChamber}.
+Model \textit{plant} pada penelitian ini menggunakan model JST yang telah dibangun oleh Tri Hartanto\cite{skripsiTanto}. Arsitektur model dirancang dengan memperhatikan sistem \textit{plant} pada Gambar \ref{fig:5:DiagramBlokPlant}. Arsitektur memiliki nilai-nilai \textit{hyperparameter} yang dirangkum pada Tabel \ref{tbl:5:NNPlantTanto}.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=1\textwidth]{figures/KondisiChamber}
-	\caption{Posisi Komponen-Komponen di dalam \textit{Climate Chamber}}
-	\label{fig:5:KondisiChamber}
-\end{figure}
-%\vspace{1em}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/AC}
-	\caption{Perangkat AC}
-	\label{fig:5:AC}
-\end{figure}
-%\vspace{1em}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.5\textwidth]{figures/Heater}
-	\caption{Perangkat Heater}
-	\label{fig:5:Heater}
-\end{figure}
-%\vspace{1em}
-
-Perangkat AC yang berada di dalam \textit{Climate Chamber} DTNTF FT-UGM memiliki daya sebesar 2800W (1 PK). Perangkat AC mampu mengkondisikan lingkungan melalui aliran udara yang keluar. Maka dari itu, Perangkat AC sangatlah berpengaruh terhadap kondisi lingkungan termal di dalam ruangan. Tampak dari wujud perangkat AC dapat dilihat pada Gambar \ref{fig:5:AC}
-
-Perangkat heater yang berada di dalam climate chamber memiliki daya sebesar 900W. Terdapat dua buah perangkat heater di dalam climate chamber. Semakin banyak perangkat heater yang aktif maka akan suhu ruang akan menjadi semakin meningkat. Kenaikan rerata suhu ruang yaitu sebesar $\pm1,9^\circ$C untuk setiap perangkat heater. Tampak dari wujud perangkat heater dapat dilihat pada Gambar \ref{fig:5:Heater}.
-
-Selain faktor dari dalam \textit{climate chamber}, faktor dari luar ruangan \textit{climate chamber} pun secara tidak langsung mempengaruhi kondisi lingkungan termal \textit{climate chamber}. Diantaranya adalah suhu lingkungan (\textit{dry bulb temperature}) dan intensitas radiasi matahari. Posisi harian matahari mempengaruhi perubahan nilai suhu lingkungan dan intensitas radiasi matahari. Pada siang hari (posisi altitude matahari ketika berada tepat diatas \textit{climate chamber}) memberikan paparan radiasi matahari yang mengenai selubung bangunan. Hal ini menyebabkan kenaikan suhu di dalam \textit{climate chamber}. Kalor yang menembus selubung bangunan berbanding lurus dengan nilai U-value. Nilai U-Value pada selubung bangunan dapat dilihat pada Tabel \ref{tbl:5:UValue}.\\
-
-\begin{table}[!h]
-	\caption{U-Value Selubung Climate Chamber\cite{skripsiTanto}}
-	\label{tbl:5:UValue}
-	\centering
-	% use packages: array
-	\begin{tabular}{|p{5.7cm}|p{5cm}|}
-		\hline
-		\textbf{Selubung Climate Chamber} & \textbf{U-Value (W/m$^2$.K)} \\ \hline
-		Dinding & 0,707 \\ \hline
-		Atap & 1,996 \\ \hline 
-		Lantai & 0,707 \\ \hline
-	\end{tabular}
-\end{table}
-\vspace{1em}
-\break
-
-\subsection{Rancangan Skenario Pengambilan Data}
-Rancangan skenario pada climate chamber menghasilkan kombinasi antara set AC dan jumlah heater ON. Set AC dikondisikan untuk menyala dari pukul 08:00 s.d. 17:00 dengan rentang nilai 16$^\circ$C - 30$^\circ$C. Set jumlah heater ON terbagi menjadi 3 kondisi, yaitu keduanya tidak menyala (berkode 0), salah satu menyala (berkode 1), dan keduanya menyala (berkode 2). Kombinasi tersebut menghasilkan 25 variasi skenario. Kombinasi set heater dan set AC digambarkan pada Gambar \ref{fig:5:HeaterAC}.
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/HeaterAC}
-	\caption{Kombinasi SET AC dan Heater}
-	\label{fig:5:HeaterAC}
-\end{figure}
-\vspace{1em}
-
-Untuk variasi suhu lingkungan dan intensitas radiasi matahari digunakan 4 titik ekstrim bumi terhadap matahari yaitu pada tanggal 21 Maret, 21 Juni, 23 September dan 22 Desember. Kemudian kami melakukan simulasi disetiap titik tersebut dengan kombinasi pada Gambar \ref{fig:5:SkenarioData}. Sehingga, total skenario yang dihasilkan dari kombinasi tersebut berjumlah 100 skenario.
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.85\textwidth]{figures/SkenarioData}
-	\caption{Skenario Pengambilan Data}
-	\label{fig:5:SkenarioData}
-\end{figure}
-\vspace{1em}
-\break
-\break
-
-\subsection{Hasil Simulasi IES-VE}
-
-Pada Gambar \ref{fig:5:HasilSimulasiIESVE} penulis menunjukan salah satu hasil simulasi untuk skenario SET AC 26$^\circ$C dan SET Heater ON 2 buah dengan variabel gangguan yang digambarkan pada Gambar \ref{fig:5:LoadSimulasiIESVE}. Grafik yang ditampilkan terdiri dari 4 parameter yaitu suhu luar (To), intensitas radiasi matahari (RD), suhu ruang (Tdb), dan kelembapan relatif (RH). Skenario ini dilakukan selama 24 jam dengan selang waktu pengambilan data selama 6 menit dimulai dari pukul 00:03 hingga 23:57. Selang waktu tersebut adalah waktu tersingkat yang dapat dilakukan pada software IES-VE 2019. Respon waktu suhu ruang terhadap aktivasi AC tidak penulis perhitungkan dikarenakan secara fisis, respons transien termal pada bangunan cukup lama, sehingga hanya berfokus untuk meninjau nilai kesalahan keadaan-ajeg (\textit{steady-state error}).
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/HasilSimulasiIESVE}
-	\caption{Data Hasil Simulasi ISE-VE}
-	\label{fig:5:HasilSimulasiIESVE}
-\end{figure}
-\vspace{1em}
-\break
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/LoadSimulasiIESVE}
-	\caption{Variabel Gangguan Simulasi ISE-VE}
-	\label{fig:5:LoadSimulasiIESVE}
-\end{figure}
-\vspace{1em}
-\break
-
-\section{Pengembangan Model Plant JST}
-
-Model Plant mengacu pada model JST yang telah dibangun oleh Tri Hartanto\cite{skripsiTanto} yang kemudian dikembangan kembali untuk meningkatkan kinerjanya sebagai model \textit{plant}. Arsitektur model dirancang dengan memperhatikan sistem plant pada Gambar \ref{fig:5:BlokDiagramPlant}. Arsitektur Model digambarkan pada Gambar \ref{fig:5:NNPlantModelDesign} dengan \textit{hyperparameter} yang dirangkum pada Tabel \ref{tbl:5:NNPlantTanto}. Model dikembangkan dengan melakukan variasi pembagian data (data latih, data validasi, dan data uji) ke dalam beberapa variasi. Kinerja model JST dievaluasi dengan meninjau nilai MAE dari model tersebut.
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.8\textwidth]{figures/BlokDiagramPlant}
-	\caption{Blok Diagram Plant}
-	\label{fig:5:BlokDiagramPlant}
+	\includegraphics[width=0.5\textwidth]{figures/BlokDiagramPlant}
+	\caption{Diagram Blok Plant}
+	\label{fig:5:DiagramBlokPlant}
 \end{figure}
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/NNPlantModelDesign}
-	\caption{Arsitektur Model Plant JST}
-	\label{fig:5:NNPlantModelDesign}
+	\includegraphics[width=0.85\textwidth]{figures/ControlDesignDiagramII}
+	\caption{Diagram blok sistem kontrol berbasis JST}
+	\label{fig:5:ConstrolSystemBlockDiagram}
 \end{figure}
-\vspace{1em}
 
 \begin{table}[!h]
 	\caption{Tabel Rancangan Model Plant JST\cite{skripsiTanto}}
@@ -138,432 +40,126 @@ Model Plant mengacu pada model JST yang telah dibangun oleh Tri Hartanto\cite{sk
 	\end{tabular}
 \end{table}
 
-%Tri Hartanto membangun model \textit{plant} dengan menggunakan data menyeluruh selama 24 jam. Pada penelitian ini penulis membangun model dengan menggunakan data selama jam operasional, yaitu pukul 07:00 s.d. 17:00. Hal ini dilakukan karena pada praktiknya \textit{climate chamber} digunakan untuk pengujian pada jam operasional tersebut. Hasil model \textit{plant} dengan penyesuaian data ini dapat dilihat pada Tabel \ref{tbl:5:NNPlantTanto2}.
+\section{Rancangan Kontrol berbasis JST}
 
-\subsection{Variasi Pembagian Data} 
+Model JST kontroler dibangun dengan menggunakan model jaringan saraf tiruan arsitektur \textit{feedforward neural network} dengan 1 lapisan tersembunyi. Pada Sub Bab ini akan dijabarkan hasil dari proses perancangan model JST untuk kontroler.
 
-Variasi pembagiaan data dilakukan dengan membandingkan beberapa variasi pembagiaan data ke dalam 5 variasi. Kemudian kinerja dari setiap pembagian data dibandingkan dengan konfigurasi \textit{hyperparameter} pada \ref{tbl:5:NNPlantTanto}.
+\subsection{Variasi Pembagian Data Perancangan JST Kontroler}
 
-\begin{table}[h!]
-	\caption{Daftar variasi pembagian data}
-	\label{tbl:5:DataSplitting}
-	\centering
-	% use packages: array
-	\begin{tabular}{|p{3cm}|p{3cm}|p{1.5cm}|p{1cm}|p{1.5cm}|p{1cm}|}
-		\hline
-		Pembagian Data   & Persentase Data \\ \hline
-		Data Splitting 0 & (50\% 25\% 25\%)\\ \hline
-		Data Splitting 1 & (60\% 20\% 20\%)\\ \hline
-		Data Splitting 2 & (70\% 15\% 15\%)\\ \hline
-		Data Splitting 3 & (80\% 10\% 10\%)\\ \hline
-		Data Splitting 4 & (80\% 15\% 05\%)\\ \hline
-		Data Splitting 5 & (85\% 10\% 05\%)\\ \hline
-	\end{tabular}
-\end{table}
-
-Pada Tabel \ref{tbl:5:DataSplitting}, "Data Splitting 0" merupakan konfigurasi pembagian data yang digunakan oleh Tri Hartanto pada penelitian sebelumnya dalam membangun model plant JST. Pada tabel yang penulis sajikan, penulis menulis pembagian data dengan format 'Data Splitting n' dan '(x\% y\% z\%)' dimana n = nomor variasi, x = pembagian data pelatihan, y = pembagian data validasi, dan z = pembagian data pengujian. Pembagian data terbaik yang penulis gunakan yaitu pembagian data bernama "Data Splitting 4". Data dibagi menjadi 3 bagian, yakni 80\% data pelatihan, 15\% data validasi, dan 5\% data pengujian.
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/DataSplittingResult}
-	\caption{Hasil Variasi Pembagian Data}
-	\label{fig:5:DataSplittingResult}
-\end{figure}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/DataSplittingFinal}
-	\caption{Pembagian Data yang digunakan}
-	\label{fig:5:DataSplittingFinal}
-\end{figure}
-\vspace{1em}
-
-\subsection{Hasil Model Plant JST}
-
-Dari pengembangan model plant JST ini, didapatkan rancangan yang lebih baik dari hasil kinerja rancangan sebelumnya. Dengan mengubah pembagiaan data dari 50\% 25\% 25\% menjadi 80\% 15\% 5\%, nilai R model untuk kelembapan relatif pun berubah dari 68,90\% menjadi sebesar 71,44\%. Hasil akhir rancangan model plant JST ini dirangkum pada Tabel \ref{tbl:5:NNPlantRidhan}.
+Variasi pembagiaan data dilakukan dengan membandingkan beberapa variasi pembagiaan data ke dalam 5 variasi. Kemudian kinerja dari setiap pembagian data dibandingkan dengan konfigurasi hyperparameter pada Tabel \ref{tbl:5:NeuronVariation}.\\
 
 \begin{table}[!h]
-	\caption{Tabel Rancangan Model Plant JST}
-	\label{tbl:5:NNPlantRidhan}
+	\caption{Tabel Daftar Variasi Pembagian Data}
+	\label{tbl:5:NeuronVariation}
 	\centering
 	% use packages: array
-	\begin{tabular}{|p{5cm}|p{5.2cm}|}
+	\begin{tabular}{|p{3.2cm}|p{3cm}|}
 		\hline
-		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\ \hline
-		Arsitektur & Feedforward Neural Network \\ \hline
-		Pembagian Data & 80\% 15\% 5\% \\ \hline 
-		Jumlah Layar Tersembunyi & 1 \\ \hline
-		Jumlah Neuron pada Layar & [55] \\ \hline
-		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
-		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
-		Mean Absolute Error (MAE) & Tdb: 0,62$^\circ$C ; RH: 5,45\% \\ \hline
-		Mean Squared Error (MSE) & Tdb: 0,82$^\circ$C ; RH: 54,45\% \\ \hline
-		Koefisien Korelasi (R) & Tdb: 93,09\% ; RH: 71,44\% \\ \hline
+		\textbf{Pembagian Data} & \textbf{Persentase Data} \\ \hline
+		Pembagian Data 1 & (50\% 25\% 25\%) \\ \hline
+		Pembagian Data 2 & (60\% 20\% 20\%) \\ \hline
+		Pembagian Data 3 & (70\% 15\% 15\%) \\ \hline
+		Pembagian Data 4 & (80\% 10\% 10\%) \\ \hline
+		Pembagian Data 5 & (80\% 15\% 05\%) \\ \hline
 	\end{tabular}
 \end{table}
+\vspace{2em}
 
-\section{Perancangan Kontroler JST}
-
-Perancangan kontroler dipilih dengan membandingkan kinerja dengan nilai \textit{steady-state error} dari 4 rancangan kontroler berbasis jaringan saraf tiruan. Keempat rancangan kontroler tersebut adalah sebagai berikut:
-\begin{enumerate}
-	\item Design I: Neural Network Inverse Model
-	\item Design II: NN Inverse Model dengan Umpan Variabel Manipulasi
-	\item Design III: NN Inverse Model dengan Umpan Variabel Gangguan
-	\item Design IV: NN Internal Model Control
-\end{enumerate}
-
-Hasil kontrol untuk suhu ruang dari empat rancangan kontroler yang digunakan dapat diamati pada Gambar \ref{fig:5:ControlComparisonTd1}, Gambar \ref{fig:5:ControlComparisonTd2}, Gambar \ref{fig:5:ControlComparisonTd3}, dan Gambar \ref{fig:5:ControlComparisonTd4}. Dari keempat rancangan tersebut dapat dilihat bahwa rancangan Design IV memiliki nilai \textit{steady-state error} paling kecil untuk variabel suhu ruang, yaitu sebesar 0,09$^\circ$C.\\
+Model JST untuk membandingkan variasi pembagian data menggunakan arsitektur \textit{feedforward network} dengan 1 lapisan tersembunyi berisi 10 neuron. Pada tabel yang disajikan, pembagian data ditulis dengan format ’Pembagian Data n’ dan ’(x\% y\% z\%)’ dimana n = nomor variasi, x = pembagian data pelatihan, y = pembagian data validasi, dan z = pembagian data pengujian. Berdasarkan hasil variasi yang ditunjukkan pada Gambar \ref{fig:5:DataSplittingVariation}, didapatkan pembagian data terbaik yaitu pembagian data bernama "Pembagian Data 4". Data dibagi menjadi 3 bagian, yakni 80\% data pelatihan, 10\% data validasi, dan 10\% data pengujian.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/ControlComparisonTd1}
-	\caption{Output Suhu Ruang Kontroler Design I}
-	\label{fig:5:ControlComparisonTd1}
+	\includegraphics[width=0.85\textwidth]{figures/VariasiPembagianDataJSTKontroler}
+	\caption{Grafik Variasi Pembagian Data}
+	\label{fig:5:DataSplittingVariation}
 \end{figure}
-\vspace{1em}
+
+\subsection{Variasi Arsitektur Perancangan JST Kontroler}
+
+Pada perancangan model JST kontroler digunakan 2 variasi fungsi aktivasi, yaitu fungsi tansig (fungsi \textit{hyperbolic tanget}) dan fungsi logsig (fungsi sigmoid). Kemudian masing-masing dilatih dengan jumlah neuron yang bervariasi dari 5 neuron hingga 60 neuron dengan lompatan sebesar 5 neuron. Dari proses variasi ini, didapatkan hasil bahwa model yang menggunakan fungsi aktivasi tansig dengan 35 neuron menghasilkan kinerja dengan nilai MSE terkecil. Hasil dari variasi ini ditunjukkan pada Gambar \ref{fig:5:ActivationVariation}.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/ControlComparisonTd2}
-	\caption{Output Suhu Ruang Kontroler Design II}
-	\label{fig:5:ControlComparisonTd2}
+	\includegraphics[width=0.75\textwidth]{figures/ActivationVariation}
+	\caption{Grafik Persebaran MSE Variasi Arsitektur JST Kontroler}
+	\label{fig:5:ActivationVariation}
 \end{figure}
-\vspace{1em}
 
-\break
+Kemudian arsitektur JST divariasikan kembali menggunakan fungsi aktivasi tansig dari 30 neuron hingga 40 neuron dengan lompatan sebesar 1 neuron untuk mengetahui kinerja model pada jumlah neuron yang berdekatan. Setelah dilakukan variasi, didapatkan hasil bahwa model JST dengan 35 neuron masih merupakan model arsitektur terbaik dengan nilai MSE terkecil. Hasil variasi ini dapat dilihat pada Gambar \ref{fig:5:NeuronVariation}.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/ControlComparisonTd3}
-	\caption{Output Suhu Ruang Kontroler Design III}
-	\label{fig:5:ControlComparisonTd3}
-\end{figure}
-\vspace{1em}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/ControlComparisonTd4}
-	\caption{Output Suhu Ruang Kontroler Design IV}
-	\label{fig:5:ControlComparisonTd4}
-\end{figure}
-\vspace{1em}
-
-Hasil kontrol untuk kelembapan relatif dari empat rancangan kontroler yang digunakan dapat diamati pada Gambar \ref{fig:5:ControlComparisonRH1}, Gambar \ref{fig:5:ControlComparisonRH2}, Gambar, \ref{fig:5:ControlComparisonRH3}, dan Gambar \ref{fig:5:ControlComparisonRH4}. Dari keempat rancangan tersebut dapat dilihat bahwa rancangan Design IV juga memiliki nilai \textit{steady-state error} paling kecil untuk variabel kelembapan relatif, yaitu sebesar 1,24\%.\\
-\break
-\break
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/ControlComparisonRH1}
-	\caption{Output Kelembapan Relatif Kontroler Design I}
-	\label{fig:5:ControlComparisonRH1}
-\end{figure}
-\vspace{1em}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/ControlComparisonRH2}
-	\caption{Output Kelembapan Relatif Kontroler Design II}
-	\label{fig:5:ControlComparisonRH2}
-\end{figure}
-\vspace{1em}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/ControlComparisonRH3}
-	\caption{Output Kelembapan Relatif Kontroler Design III}
-	\label{fig:5:ControlComparisonRH3}
-\end{figure}
-\vspace{1em}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/ControlComparisonRH4}
-	\caption{Output Kelembapan Relatif Kontroler Design IV}
-	\label{fig:5:ControlComparisonRH4}
-\end{figure}
-\vspace{1em}
-
-Berdasarkan uraian diatas, dapat dilihat bahwa rancangan terbaik dengan nilai \textit{steady-state error} paling rendah adalah rancangan Design IV: NN Internal Model Control. Sehingga rancangan ini yang dipilih untuk digunakan sebagai kontroler. 
-
-NN Internal Model Control terdiri dari 3 komponen utama, yaitu: Plant, Emulator, dan Kontroler. Emulator dibangun dari model umpan maju JST (\textit{NN Forward Model}) dan kontroler dibangun dari model umpan balik JST (\textit{NN Inverse Model}).\\
-
-\section{Kinerja Kontroler JST Terpilih}
-
-Kontroler JST terpilih (Design IV: NN Internal Model Control) terdiri dari 3 komponen utama, yaitu: blok plant, blok emulator, dan blok kontroler. Masing-masing dibangun oleh model jaringan saraf tiruan dengan 1 layar tersembunyi. Kinerja JST untuk Plant sudah dijelaskan pada Sub Bab 5.2. Oleh karena itu, selanjutnya akan dijelaskan kinerja model JST untuk blok emulator dan blok kontrol. Kemudian dijelaskan pula kinerja simulasi kontrol dengan 3 variasi \textit{set point}.
-
-\subsection{Kinerja JST Blok Emulator}
-
-Emulator JST dibangun menyerupai rancangan model plant JST. Perbedaannya berada pada masukan dan keluaran dari arsitektur JST. Emulator juga menggunakan nilai Output Plant sebelumnya sebagai masukan untuk memprediksi nilai Output Plant pada saat ini. Blok diagram untuk Emulator dapat dilihat pada Gambar \ref{fig:5:NNForwardModelDesign}. Hasil kinerja emulator JST ini dijabarkan pada Tabel \ref{tbl:5:NNEmulator}.
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.5\textwidth]{figures/NNForwardModelDesign}
-	\caption{Arsitektur NN Forward Model}
-	\label{fig:5:NNForwardModelDesign}
-\end{figure}
-\vspace{-1em}
-
-\begin{table}[!hbt]
-	\caption{Tabel Rancangan Emulator JST (\textit{NN Forward Model})}
-	\label{tbl:5:NNEmulator}
-	\centering
-	% use packages: array
-	\begin{tabular}{|p{5.7cm}|p{5cm}|}
-		\hline
-		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\ \hline
-		Arsitektur & Feedforward Neural Network \\ \hline
-		Pembagian Data & 80\% 15\% 5\% \\ \hline 
-		Jumlah Layar Tersembunyi & 1 \\ \hline
-		Jumlah Neuron pada Layar & [55] \\ \hline
-		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
-		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
-		Mean Absolute Error (MAE) & Tdb: 0,51$^\circ$C ; RH: 1,43\% \\ \hline
-		Mean Squared Error (MSE) & Tdb: 0,49$^\circ$C ; RH: 5,91\% \\ \hline
-		Koefisien Korelasi (R) & Tdb: 96,38\% ; RH: 97,79\% \\ \hline
-	\end{tabular}
-\end{table}
-
-\subsection{Kinerja JST Blok Kontroler}
-
-Kontroler JST dibangun dengan proses invers dari model plant JST. Pada proses pelatihan JST, dilakukan pengskalaan terhadap semua input JST menggunakan metode \textit{Min Max Scaling} kecuali variabel delay umpan masuk SET AC dan SET Heater. Pengskalaan bertujuan untuk meningkatkan kinerja JST menjadi optimal dengan menyamakan rentang nilai dan besar satuan dari setiap variabel (berupa rentang nilai dari 0 hingga 1). Masing-masing variabel diubah menjadi skala satuan dengan melakukan transformasi data secara statistik. Data dari setiap variabel akan dikurangi dengan nilai minimum variabel tersebut yang dikemudian dibagi oleh selisih dari nilai maksimum dan nilai minimum variabel tersebut. Secara lengkap dapat dirumuskan pada persamaan berikut:
-\begin{equation} \label{eq:5:MinMaxScaler}
-z = \frac{x_i - min(x)}{max(x) - min(x)}
-\end{equation}
-
-Rancangan kontroler JST mirip dengan rancangan model plant JST. Perbedaannya hanyalah pada jumlah neuron pada \textit{hidden layer} yang berjumlah 52 neuron. Blok diagram untuk Emulator dapat dilihat pada Gambar \ref{fig:5:NNInverseModelDesign}. Hasil kinerja dari kontroler JST ini dapat dilihat pada Tabel \ref{tbl:5:NNControler}.
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.5\textwidth]{figures/NNInverseModelDesign}
-	\caption{Arsitektur NN Inverse Model}
-	\label{fig:5:NNInverseModelDesign}
+	\includegraphics[width=0.75\textwidth]{figures/NeuronVariation}
+	\caption{Grafik Persebaran MSE Variasi Arsitektur JST Kontroler}
+	\label{fig:5:NeuronVariation}
 \end{figure}
 
+\subsection{Rancangan Model JST Kontroler}
+
+Setelah dilakukan perancangan model JST melalui variasi arsitektur model, didapatkan rancangan model JST kontroler terbaik. Model JST dibangun dengan arsitektur \textit{feedforward neural network} 1 lapisan tersembunyi dengan 35 neuron. Model JST menggunakan fungsi aktivasi tansig (\textit{hyperbolic tanget}) dan algoritma pembelajaran Levenberg-Marquardt. Model JST Kontroler terbaik memiliki nilai \textit{hyperparameter} yang diringkas pada Tabel \ref{tbl:5:NNControl}.
+ 
 \begin{table}[!h]
 	\caption{Tabel Rancangan Kontroler JST (\textit{NN Inverse Model})}
-	\label{tbl:5:NNControler}
+	\label{tbl:5:NNControl}
 	\centering
 	% use packages: array
 	\begin{tabular}{|p{5.7cm}|p{5cm}|}
 		\hline
 		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\ \hline
 		Arsitektur & Feedforward Neural Network \\ \hline
-		Pembagian Data & 80\% 15\% 5\% \\ \hline 
+		Pembagian Data & 80\% 10\% 10\% \\ \hline 
 		Jumlah Layar Tersembunyi & 1 \\ \hline
-		Jumlah Neuron pada Layar & [52] \\ \hline
-		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
+		Jumlah Neuron pada Layar & [35] \\ \hline
+		Fungsi Aktivasi Layar & Hyperbolic Tangent (tansig) \\ \hline
 		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
-		Mean Absolute Error (MAE) & AC: 0,23$^\circ$C ; HT: 0,00 \\ \hline
-		Mean Squared Error (MSE) & AC: 4,85$^\circ$C ; HT: 0,00 \\ \hline
-		Koefisien Korelasi (R) & AC: 98,41\% ; HT: 99,64\% \\ \hline
+		Mean Absolute Error (MAE) & AC: 0,37$^\circ$C ; HT: 0,02\\ \hline
+		Mean Squared Error (MSE) & AC: 2,68$^\circ$C ; HT: 0,01\\ \hline
+		Koefisien Korelasi (R) & AC: 99,12\% ; HT: 99,65\% \\ \hline
 	\end{tabular}
 \end{table}
 
-\subsection{Kinerja Simulasi Kontrol}
-
-Kontroler terpilih diuji dengan 3 variasi kombinasi SET POINT. Kombinasi terdiri dari SET POINT untuk variabel yang diingikan dan variabel gangguan. Ketiga variasi tersebut adalah sebagai berikut:
-\begin{enumerate}
-	\item SP1
-	\begin{table}[!h]
-		\caption{Nilai Kombinasi SET POINT SP1}
-		\label{tbl:5:SP1Combination}
-		\centering
-		% use packages: array
-		\begin{tabular}{|l|l|c|}
-			\hline
-			\textbf{Jenis Variabel} & \textbf{Variabel} & \textbf{Nilai} \\ \hline
-			SET Point & Suhu Ruang (Tdb) & 26$^\circ$C          \\ \hline
-			SET Point & Kelembapan Relatif (RH) & 90\%         \\ \hline
-			Variabel Gangguan & Suhu Lingkungan (To) & 27$^\circ$C           \\ \hline
-			Variabel Gangguan & Radiasi Matahari (RD) & 400 W/m$^2$    \\ \hline
-		\end{tabular}
-	\end{table}
-	
-	\item SP2
-	\begin{table}[!h]
-		\caption{Nilai Kombinasi SET POINT SP2}
-		\label{tbl:5:SP2Combination}
-		\centering
-		% use packages: array
-		\begin{tabular}{|l|l|c|}
-			\hline
-			\textbf{Jenis Variabel} & \textbf{Variabel} & \textbf{SET Point} \\ \hline
-			SET Point & Suhu Ruang (Tdb) & 27$^\circ$C          \\ \hline
-			SET Point & Kelembapan Relatif (RH) & 85\%         \\ \hline
-			Variabel Gangguan & Suhu Lingkungan (To) & 27$^\circ$C           \\ \hline
-			Variabel Gangguan & Radiasi Matahari (RD) & 400 W/m$^2$    \\ \hline
-		\end{tabular}
-	\end{table}
-	
-	\item SP3
-	\begin{table}[!h]
-		\caption{Nilai Kombinasi SET POINT SP3}
-		\label{tbl:5:SP3Combination}
-		\centering
-		% use packages: array
-		\begin{tabular}{|l|l|c|}
-			\hline
-			\textbf{Jenis Variabel} & \textbf{Variabel} & \textbf{SET Point} \\ \hline
-			SET Point & Suhu Ruang (Tdb) & Step 26$^\circ$C -> 27$^\circ$C \\ \hline
-			SET Point & Kelembapan Relatif (RH) & Step 90\% -> 85\% \\ \hline
-			Variabel Gangguan & Suhu Lingkungan (To) & 27$^\circ$C           \\ \hline
-			Variabel Gangguan & Radiasi Matahari (RD) & 400 W/m$^2$    \\ \hline
-		\end{tabular}
-	\end{table}
-\end{enumerate}
-
-\subsubsection{SET POINT SP1}
-
-Kombinasi SET Point dapat dilihat pada Tabel \ref{tbl:5:SP1Combination}. Hasil dari simulasi simulink dapat dilihat pada Gambar \ref{fig:5:SimulinkSP1Td} dan Gambar \ref{fig:5:SimulinkSP1RH}. Pada Gambar \ref{fig:5:SimulinkSP1Td} dan Gambar \ref{fig:5:SimulinkSP1RH} dapat dilihat bahwa nilai \textit{steady-state error} kontroler cukup kecil. Nilai \textit{steady-state error} dari simulasi ini dapat dilihat pada Tabel \ref{tbl:5:SP1Ess}. Grafik dari hasil simulasi dapat dilihat pada Gambar \ref{fig:5:SimulinkSP1Td} untuk Suhu Ruang dan Gambar \ref{fig:5:SimulinkSP1RH} untuk Kelembapan Relatif. Hasil simulasi dengan variasi SET POINT SP1 menunjukan bahwa kontroler memiliki kinerja yang cukup baik dan sudah dapat mengikuti nilai SET POINT yang diinginkan dengan nilai \textit{steady-state error} sebesar 0,09$^\circ$C untuk suhu ruang dan 1,24\% untuk kelembapan relatif. \\
-%Kontroler mengeluarkan nilai \textit{Manipulated Variable} yang ditunjukkan oleh Gambar \ref{fig:5:SimulinkSP1AC} dan Gambar \ref{fig:5:SimulinkSP1HT}. 
-
-\begin{table}[!h]
-	\caption{Hasil Simulasi Kontrol SP1}
-	\label{tbl:5:SP1Ess}
-	\centering
-	% use packages: array
-	\begin{tabular}{|l|c|c|c|}
-		\hline
-		\textbf{Variabel} & \textbf{SET Point} & \textbf{Output Plant} & \textbf{Steady-State Error}\\ \hline
-		Suhu Ruang (Tdb) & 26$^\circ$C & 26,09$^\circ$C & 0,09$^\circ$C \\ \hline
-		Kelembapan Relatif (RH) & 90\% & 88,76\% & 1,24\% \\ \hline
-	\end{tabular}
-\end{table}
-
-Dengan adanya emulator pada sistem kontrol, maka kontroler mampu menyesuaikan perbedaan nilai antara plant dan emulator. Rancangan ini akan menekan perbedaan antara plant dan emulator untuk mencapai nilai yang cukup kecil sehingga kontroler mampu mengendalikan suhu ruang dan kelembapan relatif sesuai dengan \textit{set point}.
-
-Pada Gambar \ref{fig:5:SimulinkSP1Td} dan Gambar \ref{fig:5:SimulinkSP1RH} dapat dilihat bahwa kontroler mengendalikan nilai output sistem mendekati nilai \textit{set point} pada detik ke-0 hingga detik ke-25.
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP1Td}
-	\caption{Hasil Simulasi Kontrol untuk Suhu Ruang SP1}
-	\label{fig:5:SimulinkSP1Td}
-\end{figure}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP1RH}
-	\caption{Hasil Simulasi Kontrol untuk Kelembapan Relatif SP1}
-	\label{fig:5:SimulinkSP1RH}
-\end{figure}
-
-%\begin{figure}[!h]
-%	\centering
-%	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP1AC}
-%	\caption{Nilai MV SET AC SP1}
-%	\label{fig:5:SimulinkSP1AC}
-%\end{figure}
-
-%\begin{figure}[!h]
-%	\centering
-%	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP1HT}
-%	\caption{Nilai MV SET Heater SP1}
-%	\label{fig:5:SimulinkSP1HT}
-%\end{figure}
-
-\subsubsection{SET POINT SP2}
-
-Kombinasi SET Point dapat dilihat pada Tabel \ref{tbl:5:SP2Combination}. Hasil dari simulasi simulink dapat dilihat pada Gambar \ref{fig:5:SimulinkSP2Td} dan Gambar \ref{fig:5:SimulinkSP2RH}. Pada Gambar \ref{fig:5:SimulinkSP2Td} dan Gambar \ref{fig:5:SimulinkSP2RH} dapat dilihat bahwa nilai \textit{steady-state error} kontroler cukup kecil. Nilai \textit{steady-state error} dari simulasi ini dapat dilihat pada Tabel \ref{tbl:5:SP2Ess}. Grafik dari hasil simulasi dapat dilihat pada Gambar \ref{fig:5:SimulinkSP2Td} untuk Suhu Ruang dan Gambar \ref{fig:5:SimulinkSP2RH} untuk Kelembapan Relatif. Hasil simulasi dengan variasi SET POINT SP2 menunjukan bahwa kontroler memiliki kinerja yang cukup baik dan sudah dapat mengikuti nilai SET POINT yang diinginkan dengan nilai \textit{steady-state error} sebesar 0,09$^\circ$C untuk suhu ruang dan 1,14\% untuk kelembapan relatif. \\ 
-%Kontroler mengeluarkan nilai \textit{Manipulated Variable} yang ditunjukkan oleh Gambar \ref{fig:5:SimulinkSP2AC} dan Gambar \ref{fig:5:SimulinkSP2HT}.
-
-\begin{table}[!h]
-	\caption{Hasil Simulasi Kontrol SP2}
-	\label{tbl:5:SP2Ess}
-	\centering
-	% use packages: array
-	\begin{tabular}{|l|c|c|c|}
-		\hline
-		\textbf{Variabel} & \textbf{SET Point} & \textbf{Output Plant} & \textbf{Steady-State Error}\\ \hline
-		Suhu Ruang (Tdb) & 27$^\circ$C & 27,09$^\circ$C & 0,09$^\circ$C \\ \hline
-		Kelembapan Relatif (RH) & 85\% & 86,14\% & 1,14\% \\ \hline
-	\end{tabular}
-\end{table}
-
-Dengan adanya emulator pada sistem kontrol, maka kontroler mampu menyesuaikan perbedaan nilai antara plant dan emulator. Rancangan ini akan menekan perbedaan antara plant dan emulator untuk mencapai nilai yang cukup kecil sehingga kontroler mampu mengendalikan suhu ruang dan kelembapan relatif sesuai dengan \textit{set point}.
-
-Pada Gambar \ref{fig:5:SimulinkSP2Td} dan Gambar \ref{fig:5:SimulinkSP2RH} dapat dilihat bahwa kontroler mengendalikan nilai output sistem mendekati nilai \textit{set point} pada detik ke-0 hingga detik ke-125.
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP2Td}
-	\caption{Hasil Simulasi Kontrol untuk Suhu Ruang SP2}
-	\label{fig:5:SimulinkSP2Td}
-\end{figure}
-\vspace{1em}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP2RH}
-	\caption{Hasil Simulasi Kontrol untuk Kelembapan Relatif SP2}
-	\label{fig:5:SimulinkSP2RH}
-\end{figure}
-\vspace{1em}
+Model JST Kontroler memiliki nilai MAE sebesar 0,37$^\circ$C dimana nilai ini di bawah 1$^\circ$C. Dengan demikian, model JST dapat digunakan sebagai model kontroler. Model hasil rancangan ini kemudian diubah ke dalam bentuk blok SIMULINK dengan menggunakan perintah \textit{gensim} yang kemudian akan dijadikan blok kontroler untuk simulasi sistem kontrol pada SIMULINK.\\
 \break
 
-%\begin{figure}[!h]
-%	\centering
-%	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP2AC}
-%	\caption{Nilai MV SET AC SP2}
-%	\label{fig:5:SimulinkSP2AC}
-%\end{figure}
+\section{Hasil Simulasi Kontrol SIMULINK}
 
-%\begin{figure}[!h]
-%	\centering
-%	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP2HT}
-%	\caption{Nilai MV SET Heater SP2}
-%	\label{fig:5:SimulinkSP2HT}
-%\end{figure}
+Pada simulasi kontrol, digunakan nilai \textit{set point} sesuai dengan uji eksperimental level sensasi termal yang dilakukan oleh Nur Muna pada \textit{climate chamber}\cite{skripsiMuna}. Perbedaannya, pada penelitian ini variasi naik turun suhu dari 16$^\circ$C hingga 30$^\circ$C menggunakan lompatan sebesar 2$^\circ$C. Pada simulasi ini digunakan nilai variabel gangguan konstan sebesar 26,8$^\circ$C untuk suhu lingkungan dan 423,343 $W/m^2$ untuk intensitas radiasi matahari. Nilai-nilai variabel gangguan tersebut merupakan nilai rerata dari variabel gangguan pada jam operasi penggunaan \textit{climate chamber}, yaitu pukul 08:00 WIB sampai dengan pukul 17:00 WIB.
 
-\subsubsection{SET POINT SP3}
+\subsection{Skenario Simulasi Proses Pemanasan Pendinginan \textit{Climate Chamber}}
 
-Kombinasi SET Point dapat dilihat pada Tabel \ref{tbl:5:SP3Combination}. Hasil dari simulasi simulink dapat dilihat pada Gambar \ref{fig:5:SimulinkSP3Td} dan Gambar \ref{fig:5:SimulinkSP3RH}. Pada Gambar \ref{fig:5:SimulinkSP3Td} dan Gambar \ref{fig:5:SimulinkSP3RH} dapat dilihat bahwa nilai \textit{steady-state error} kontroler cukup kecil. Nilai \textit{steady-state error} dari simulasi ini dapat dilihat pada Tabel \ref{tbl:5:SP3Ess}. Grafik dari hasil simulasi dapat dilihat pada Gambar \ref{fig:5:SimulinkSP3Td} untuk Suhu Ruang dan Gambar \ref{fig:5:SimulinkSP3RH} untuk Kelembapan Relatif. Hasil simulasi dengan variasi SET POINT SP3 menunjukan bahwa kontroler memiliki kinerja yang cukup baik dan sudah dapat mengikuti nilai SET POINT yang diinginkan.
-
-\begin{table}[!h]
-	\caption{Hasil Simulasi Kontrol SP3}
-	\label{tbl:5:SP3Ess}
-	\centering
-	% use packages: array
-	\begin{tabular}{|l|c|c|c|}
-		\hline
-		\textbf{Variabel} & \textbf{SET Point} & \textbf{Output Plant} & \textbf{Steady-State Error}\\ \hline
-		Suhu Ruang (Tdb) & Step 26$^\circ$C -> 27$^\circ$C & 27,09$^\circ$C & 0,09$^\circ$C \\ \hline
-		Kelembapan Relatif (RH) & Step 90\% -> 85\% & 86,14\% & 1,14\% \\ \hline
-	\end{tabular}
-\end{table}
-
-Dengan adanya emulator pada sistem kontrol, maka kontroler mampu menyesuaikan perbedaan nilai antara plant dan emulator. Rancangan ini akan menekan perbedaan antara plant dan emulator untuk mencapai nilai yang cukup kecil sehingga kontroler mampu mengendalikan suhu ruang dan kelembapan relatif sesuai dengan \textit{set point}.
-
-Pada Gambar \ref{fig:5:SimulinkSP3Td} dan Gambar \ref{fig:5:SimulinkSP3RH} dapat dilihat bahwa kontroler mengendalikan nilai output sistem mendekati nilai \textit{set point} pada proses transisi fungsi step pada detik ke-250 hingga detik ke-350.
-
-%Kontroler mengeluarkan nilai \textit{Manipulated Variable} yang ditunjukkan oleh Gambar \ref{fig:5:SimulinkSP3AC} dan Gambar \ref{fig:5:SimulinkSP3HT}.
+Berdasarkan hasil simulasi, kontroler mampu mengendalikan suhu ruang dan kelembapan relatif mengikuti nilai \textit{set point}. Akan tetapi, kontroler tidak mampu menaikan suhu ruang mencapai nilai lebih dari 27$^\circ$C. Hal ini dapat terjadi diakibatkan nilai manipulator AC tidak mampu melebihi nilai maksimum (SET 30$^\circ$C). Kombinasi \textit{set point} dan hasil simulasi ditunjukkan pada Gambar \ref{fig:5:SimulinkTd} untuk suhu ruang dan Gambar \ref{fig:5:SimulinkRH} untuk kelembapan relatif.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP3Td}
-	\caption{Hasil Simulasi Kontrol untuk Suhu Ruang SP3}
-	\label{fig:5:SimulinkSP3Td}
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkTd}
+	\caption{Grafik Hasil Simulasi Simulink untuk Suhu Ruang}
+	\label{fig:5:SimulinkTd}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkRH}
+	\caption{Grafik Hasil Simulasi Simulink untuk Kelembapan Relatif}
+	\label{fig:5:SimulinkRH}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkAC}
+	\caption{Grafik Variabel Manipulasi AC pada Simulasi Simulink}
+	\label{fig:5:SimulinkAC}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/SimulinkHT}
+	\caption{Grafik Variabel Manipulasi \textit{Heater} pada Simulasi Simulink}
+	\label{fig:5:SimulinkHT}
 \end{figure}
 \vspace{1em}
 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP3RH}
-	\caption{Hasil Simulasi Kontrol untuk Kelembapan Relatif SP3}
-	\label{fig:5:SimulinkSP3RH}
-\end{figure}
+Dengan meninjau nilai variabel manipulasi AC yang ditunjukkan pada Gambar \ref{fig:5:SimulinkAC}, dapat dilihat bahwa untuk mengendalikan suhu mencapai \textit{set point} 26$^\circ$C, perangkat AC perlu mengeluarkan sinyal sebesar 28$^\circ$C (waktu ke-100 hingga ke-120). Dengan demikian, ketika \textit{set point} bernilai 28$^\circ$C, perangkat AC hanya mampu mengeluarkan sinyal maksimum 30$^\circ$C (waktu ke-120 hingga ke-140).
 
-%\begin{figure}[!h]
-%	\centering
-%	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP3AC}
-%	\caption{Nilai MV SET AC SP3}
-%	\label{fig:5:SimulinkSP3AC}
-%\end{figure}
+Kurangnya kehandalan kinerja kontroler pada penelitian ini untuk mengendalikan suhu ruang di atas \textit{set point} 26$^\circ$C disebabkan oleh salah satu kelemahan model JST dalam pemodelan \textit{plant}. Secara fisis, proses pemanasan pada sistem bangunan (dalam hal ini \textit{climate chamber}) membutuhkan waktu yang cukup lama. Dengan demikian, proses pemanasan pada kenyataannya tetap bisa mencapai \textit{set point} suhu di atas 26$^\circ$C. Hanya saja proses tersebut membutuhkan waktu (\textit{settling time}) yang cukup lama. Akan tetapi, proses tersebut tidak dapat disimulasikan secara sempurna pada penelitian ini dikarenakan model JST \textit{plant} yang dibangun oleh Tri Hartanto\cite{skripsiTanto} hanya berupa model pasangan data dan bukan berupa model yang bergantung terhadap waktu. Sehingga, model JST \textit{plant} hanya dapat langsung mengeluarkan suatu nilai keluaran setiap menerima nilai masukan.
 
-%\begin{figure}[!h]
-%	\centering
-%	\includegraphics[width=0.75\textwidth]{figures/SimulinkSP3HT}
-%	\caption{Nilai MV SET Heater SP3}
-%	\label{fig:5:SimulinkSP3HT}
-%\end{figure}
+Ditinjau dari \textit{set point} 16$^\circ$C hingga 26$^\circ$C, didapatkan nilai \textit{steady-state error} untuk suhu ruang sebesar 0,15$^\circ$C pada proses pemanasan dan sebesar 0,2$^\circ$C pada proses pendinginan. Lalu, didapatkan pula nilai \textit{steady-state error} untuk kelembapan relatif sebesar 0,05\% pada proses pemanasan dan sebesar 0,02\% pada proses pendinginan. Sehingga rerata nilai \textit{steady-state error} sebesar 0,18$^\circ$C untuk suhu ruang dan sebesar 0,04\% untuk kelembapan relatif.

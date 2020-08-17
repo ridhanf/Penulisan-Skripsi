@@ -37,6 +37,12 @@ Jagannathan Sarangapani.
 \newblock {\em {Neural Network Control of Nonlinear Discrete-Time Systems}}.
 \newblock Taylor and Francis Group, LLC, United State of America, 2006.
 
+\bibitem{paper42Paisan}
+M.~A. Hussain, P.~Kittisupakorn  dan W.~Daosud.
+\newblock ``{Implementation of Neural-Network-Based Inverse-Model Control
+  Strategies on an Exothermic Reactor}''.
+\newblock {\em ScienceAsia}, 27:41--50, 2001.
+
 \bibitem{ASHRAE55}
 ASHRAE.
 \newblock {\em {ANSI/ASHRAE Standard 55-2010 Thermal Environmental Conditions
@@ -96,6 +102,45 @@ William~R. Santee dan William~T. Matthew.
 \newblock Office of The Surgeon General Borden Institute, Fort Detrick,
   Maryland, 2012.
 
+\bibitem{paper31WHe}
+W.~He, G.~Xu  dan R.~Shen.
+\newblock ``{Control of Temperature Uniformity in the Temperature Chamber With
+  Centrifugal Acceleration}''.
+\newblock {\em Journal of Process Control, Elsevier Ltd.}, 24:1--6, 2014.
+
+\bibitem{paper31APLeskinen}
+A.~P. Leskinen, J.~K. Jokiniemi  dan K.~E.~J. Lehtinen.
+\newblock ``{Characterization of Aging Wood Chip Combustion Aerosol in an
+  Environmental Chamber}''.
+\newblock {\em Elsevier Ltd.}, 41:3713--3721, 2007.
+
+\bibitem{paper31AHuguet}
+A.~Huguet, A.~Francez, M.~Dung, C.~Fosse  dan S.~Derenne.
+\newblock ``{A Climatic Chamber Experiment to Test the Short Term Effect of
+  Increasing Temperature on Branched GDGT Distribution in Sphagnum Peat}''.
+\newblock {\em Journal of Organic Geochemistry, Elsevier Ltd.}, 73:109--112,
+  2014.
+
+\bibitem{paper31EJofre}
+Jose~A. Jofre-reche, J.~C. Su  dan C.~Alia.
+\newblock ``{Characterization of the Chemical Structure of Vinyl Ester Resin in
+  a Climate Chamber Under Different Conditions of Degradation}''.
+\newblock {\em Polymer Degradation and Stability, Elsevier Ltd.}, 153:88--99,
+  2018.
+
+\bibitem{paper31Srinivasa}
+A.~Srinivasa, S.~Das, H.~Kottyen, V.~Ashok  dan P.~Shankarrao.
+\newblock ``{The Effect of Cold Chamber Temperature on the Cadaver's
+  Electrolyte Changes in Vitreous Humor and Plasma}''.
+\newblock {\em Journal of Forensic and Legal Medicine, Elsevier Ltd.},
+  62:87--91, 2019.
+
+\bibitem{paper31Emartinez}
+E.~Martinez dan S.~J. Agosta.
+\newblock ``{Budget-Limited Thermal Biology: Design, Construction and
+  Performance of a Large, Walk-in Style Temperature-Controlled Chamber}''.
+\newblock {\em Journal of Thermal Biology, Elsevier Ltd.}, 58:29--34, 2016.
+
 \bibitem{HeatTransferIncropera}
 Theodore~L. Bergman, Adrienne~S. Lavine, Frank~P. Incropera  dan David~P.
   Dewitt.
@@ -108,30 +153,9 @@ Hugo Hens.
   Engineering Methods with Examples and Exercises}}.
 \newblock Ernst and Sohn, Berlin, Germany, 2007.
 
-\bibitem{SNI-03-06390-2000}
-BSN.
-\newblock {\em {SNI 03-6390-2000: Konservasi Energi Sistem Tata Udara pada
-  Bangunan Gedung}}.
-\newblock Badan Standardisasi Nasional, 2000.
-
-\bibitem{paper42Paisan}
-M.~A. Hussain, P.~Kittisupakorn  dan W.~Daosud.
-\newblock ``{Implementation of Neural-Network-Based Inverse-Model Control
-  Strategies on an Exothermic Reactor}''.
-\newblock {\em ScienceAsia}, 27:41--50, 2001.
-
-\bibitem{paper42LMa}
-Liangyu Ma, Kwang~Y. Lee  dan Zhiyan Wang.
-\newblock ``{Intelligent Coordinated Controller Design for a 600 MW
-  Supercritical Boiler Unit Based on Expanded-Structure Neural Network Inverse
-  Models}''.
-\newblock {\em Journal of Control Engineering Practice, Elsevier Ltd.},
-  53:194--201, 2016.
-
-\bibitem{paper42Hussain}
-M.~A. Hussain, J.~M. Ali  dan M.~J.~H. Khan.
-\newblock ``{Neural Network Inverse Model Control Strategy: Discrete-Time
-  Stability Analysis for Relative Order Two Systems}''.
-\newblock {\em Hindawi}, 2014.
+\bibitem{HandsOnML}
+Aurélien Géron.
+\newblock {\em {Hands-On Machine Learning with Scikit-Learn and TensorFlow}}.
+\newblock O’Reilly Media, Inc., United State of America, 2017.
 
 \end{thebibliography}
