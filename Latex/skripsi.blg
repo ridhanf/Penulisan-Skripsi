@@ -3,55 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: skripsi.aux
 The style file: skripsi.bst
 Database file #1: pustaka.bib
-You're missing a field name---line 35 of file pustaka.bib
- : 
- : % author = {H. Feriadi and N. Hien},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 44 of file pustaka.bib
- : 
- : % author = {E. Arens and H. Zhang and C. Huizenga},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 You've used 25 entries,
             2230 wiz_defined-function locations,
-            656 strings with 8771 characters,
-and the built_in function-call counts, 5617 in all, are:
-= -- 686
+            663 strings with 8872 characters,
+and the built_in function-call counts, 5905 in all, are:
+= -- 723
 > -- 229
 < -- 0
 + -- 88
 - -- 63
-* -- 290
-:= -- 983
+* -- 324
+:= -- 1017
 add.period$ -- 75
 call.type$ -- 25
 change.case$ -- 13
 chr.to.int$ -- 0
 cite$ -- 25
-duplicate$ -- 222
-empty$ -- 474
+duplicate$ -- 225
+empty$ -- 505
 format.name$ -- 63
-if$ -- 1340
+if$ -- 1411
 int.to.chr$ -- 0
 int.to.str$ -- 25
 missing$ -- 29
 newline$ -- 128
 num.names$ -- 25
-pop$ -- 71
+pop$ -- 65
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 238
+skip$ -- 241
 stack$ -- 0
-substring$ -- 159
+substring$ -- 234
 swap$ -- 25
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 35
+while$ -- 38
 width$ -- 27
-write$ -- 278
-(There were 2 error messages)
+write$ -- 281

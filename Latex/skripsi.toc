@@ -26,53 +26,59 @@
 \contentsline {subsection}{\numberline {III.1.2.}\textit {Climate Chamber}}{14}%
 \contentsline {subsubsection}{\numberline {III.1.2.2.}Psikrometrik}{15}%
 \contentsline {subsection}{\numberline {III.1.3.}Perpindahan Kalor pada Bangunan}{16}%
-\contentsline {section}{\numberline {III.2.}Kontrol Otomatis}{20}%
-\contentsline {subsection}{\numberline {III.2.1.}Dasar-dasar Ilmu Kontrol}{20}%
-\contentsline {subsection}{\numberline {III.2.2.}Kesalahan Keadaan-Ajeg}{23}%
-\contentsline {section}{\numberline {III.3.}Jaringan Saraf Tiruan}{24}%
-\contentsline {subsection}{\numberline {III.3.1.}Model Matematis Neuron}{25}%
-\contentsline {subsection}{\numberline {III.3.2.}Jaringan Layar Jamak (MLP)}{29}%
-\contentsline {subsubsection}{\numberline {III.3.2.2.}Penskalaan Fitur}{32}%
-\contentsline {subsubsection}{\numberline {III.3.2.2.}Evaluasi Kinerja Model JST}{33}%
-\contentsline {section}{\numberline {III.4.}Kontrol Jaringan Saraf Tiruan}{34}%
-\contentsline {chapter}{\numberline {IV}PELAKSANAAN PENELITIAN}{36}%
-\contentsline {section}{\numberline {IV.1.}Alat dan Bahan Penelitian}{36}%
-\contentsline {section}{\numberline {IV.2.}Tata Laksana Penelitian}{37}%
-\contentsline {subsection}{\numberline {IV.2.1.}Studi Pustaka}{38}%
-\contentsline {subsection}{\numberline {IV.2.2.}Penentuan Tuntutan Rancangan}{38}%
-\contentsline {subsection}{\numberline {IV.2.3.}Pengambilan Data Simulasi IES-VE}{38}%
-\contentsline {subsubsection}{\numberline {IV.2.3.3.}Kondisi \textit {Climate Chamber}}{39}%
-\contentsline {subsubsection}{\numberline {IV.2.3.3.}Rancangan Skenario Pengambilan Data}{41}%
-\contentsline {subsubsection}{\numberline {IV.2.3.3.}Simulasi IES-VE}{42}%
-\contentsline {subsection}{\numberline {IV.2.4.}Model \textit {Plant} JST}{44}%
-\contentsline {subsection}{\numberline {IV.2.5.}Perancangan Kontrol berbasis JST}{45}%
-\contentsline {subsection}{\numberline {IV.2.6.}Penarikan Kesimpulan}{46}%
-\contentsline {section}{\numberline {IV.3.}Rencana Analisis Hasil Penelitian}{46}%
-\contentsline {chapter}{\numberline {V}HASIL DAN PEMBAHASAN}{47}%
-\contentsline {section}{\numberline {V.1.}Model Plant JST}{47}%
-\contentsline {section}{\numberline {V.2.}Rancangan Kontrol berbasis JST}{48}%
-\contentsline {subsection}{\numberline {V.2.1.}Variasi Pembagian Data Perancangan JST Kontroler}{48}%
-\contentsline {subsection}{\numberline {V.2.2.}Variasi Arsitektur Perancangan JST Kontroler}{49}%
-\contentsline {subsection}{\numberline {V.2.3.}Rancangan Model JST Kontroler}{51}%
-\contentsline {section}{\numberline {V.3.}Hasil Simulasi Kontrol SIMULINK}{52}%
-\contentsline {subsection}{\numberline {V.3.1.}Skenario Simulasi Proses Pemanasan Pendinginan \textit {Climate Chamber}}{52}%
-\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{55}%
-\contentsline {section}{\numberline {VI.1.}Kesimpulan}{55}%
-\contentsline {section}{\numberline {VI.2.}Saran}{55}%
+\contentsline {section}{\numberline {III.2.}Kontrol Otomatis}{19}%
+\contentsline {subsection}{\numberline {III.2.1.}Dasar-dasar Ilmu Kontrol}{19}%
+\contentsline {subsection}{\numberline {III.2.2.}Kesalahan Keadaan-Ajeg}{22}%
+\contentsline {section}{\numberline {III.3.}Jaringan Saraf Tiruan}{23}%
+\contentsline {subsection}{\numberline {III.3.1.}Model Matematis Neuron}{24}%
+\contentsline {subsection}{\numberline {III.3.2.}Jaringan Layar Jamak (MLP)}{28}%
+\contentsline {subsubsection}{\numberline {III.3.2.2.}Penskalaan Fitur}{31}%
+\contentsline {subsubsection}{\numberline {III.3.2.2.}Evaluasi Kinerja Model JST}{32}%
+\contentsline {section}{\numberline {III.4.}Kontrol Jaringan Saraf Tiruan}{33}%
+\contentsline {chapter}{\numberline {IV}PELAKSANAAN PENELITIAN}{35}%
+\contentsline {section}{\numberline {IV.1.}Alat dan Bahan Penelitian}{35}%
+\contentsline {section}{\numberline {IV.2.}Tata Laksana Penelitian}{36}%
+\contentsline {subsection}{\numberline {IV.2.1.}Studi Pustaka}{37}%
+\contentsline {subsection}{\numberline {IV.2.2.}Penentuan Tuntutan Rancangan}{37}%
+\contentsline {subsection}{\numberline {IV.2.3.}Pengambilan Data Simulasi IES-VE}{37}%
+\contentsline {subsubsection}{\numberline {IV.2.3.3.}Kondisi \textit {Climate Chamber}}{38}%
+\contentsline {subsubsection}{\numberline {IV.2.3.3.}Rancangan Skenario Pengambilan Data}{40}%
+\contentsline {subsubsection}{\numberline {IV.2.3.3.}Simulasi IES-VE}{41}%
+\contentsline {subsection}{\numberline {IV.2.4.}Model \textit {Plant} JST}{43}%
+\contentsline {subsection}{\numberline {IV.2.5.}Perancangan Kontrol berbasis JST}{44}%
+\contentsline {subsection}{\numberline {IV.2.6.}Penarikan Kesimpulan}{45}%
+\contentsline {section}{\numberline {IV.3.}Rencana Analisis Hasil Penelitian}{45}%
+\contentsline {chapter}{\numberline {V}HASIL DAN PEMBAHASAN}{46}%
+\contentsline {section}{\numberline {V.1.}Identifikasi Sistem}{46}%
+\contentsline {section}{\numberline {V.2.}Model Plant JST}{49}%
+\contentsline {section}{\numberline {V.3.}Rancangan Kontrol berbasis JST}{49}%
+\contentsline {subsection}{\numberline {V.3.1.}Variasi Pembagian Data Perancangan JST Kontroler}{49}%
+\contentsline {subsection}{\numberline {V.3.2.}Variasi Arsitektur Perancangan JST Kontroler}{51}%
+\contentsline {subsection}{\numberline {V.3.3.}Hasil Rancangan Model JST Kontroler}{51}%
+\contentsline {section}{\numberline {V.4.}Hasil Simulasi Kontrol SIMULINK}{53}%
+\contentsline {subsection}{\numberline {V.4.1.}Skenario Pemanasan Pendinginan dengan Variabel Gangguan Konstan}{53}%
+\contentsline {subsection}{\numberline {V.4.2.}Skenario Pemanasan Pendinginan dengan Variabel Gangguan Bergerak}{56}%
+\contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{59}%
+\contentsline {section}{\numberline {VI.1.}Kesimpulan}{59}%
+\contentsline {section}{\numberline {VI.2.}Saran}{59}%
 \contentsline {chapter}{LAMPIRAN}{}
-\contentsline {chapter}{\numberline {A}Data Penelitian}{60}%
-\contentsline {section}{\numberline {A.1.}Data Simulasi IES-VE}{60}%
-\contentsline {section}{\numberline {A.2.}Bobot-bobot Model JST Kontroler}{61}%
-\contentsline {section}{\numberline {A.3.}Hasil Simulasi Sistem Kontrol}{62}%
-\contentsline {section}{\numberline {A.4.}Hasil Simulasi Sistem Kontrol (lanjutan 2)}{63}%
-\contentsline {section}{\numberline {A.5.}Hasil Simulasi Sistem Kontrol (lanjutan 3)}{64}%
-\contentsline {section}{\numberline {A.6.}Hasil Simulasi Sistem Kontrol (lanjutan 4)}{65}%
-\contentsline {chapter}{\numberline {B}Listing Program}{66}%
-\contentsline {section}{\numberline {B.1.}Kode Sumber Program Model JST Kontroler}{66}%
-\contentsline {section}{\numberline {B.2.}Fungsi Min Max Scaler}{68}%
-\contentsline {section}{\numberline {B.3.}Fungsi Kuantisasi AC}{69}%
-\contentsline {section}{\numberline {B.4.}Fungsi Kuantisasi Heater}{69}%
-\contentsline {section}{\numberline {B.5.}Fungsi Penskalaan Suhu Ruang}{69}%
-\contentsline {section}{\numberline {B.6.}Fungsi Penskalaan Kelembapan Relatif}{69}%
-\contentsline {chapter}{\numberline {C}Diagram Blok}{71}%
-\contentsline {section}{\numberline {C.1.}Diagram Blok Rancangan Sistem Kontrol Simulink}{71}%
+\contentsline {chapter}{\numberline {A}Data Penelitian}{64}%
+\contentsline {section}{\numberline {A.1.}Data Simulasi IES-VE}{64}%
+\contentsline {section}{\numberline {A.2.}Bobot-bobot Model JST Kontroler}{65}%
+\contentsline {section}{\numberline {A.3.}Hasil Simulasi 1 Sistem Kontrol}{66}%
+\contentsline {section}{\numberline {A.4.}Hasil Simulasi 1 Sistem Kontrol (lanjutan 2)}{67}%
+\contentsline {section}{\numberline {A.5.}Hasil Simulasi 1 Sistem Kontrol (lanjutan 3)}{68}%
+\contentsline {section}{\numberline {A.6.}Hasil Simulasi 1 Sistem Kontrol (lanjutan 4)}{69}%
+\contentsline {section}{\numberline {A.7.}Hasil Simulasi 2 Sistem Kontrol}{70}%
+\contentsline {section}{\numberline {A.8.}Hasil Simulasi 2 Sistem Kontrol (lanjutan 2)}{71}%
+\contentsline {section}{\numberline {A.9.}Hasil Simulasi 2 Sistem Kontrol (lanjutan 3)}{72}%
+\contentsline {section}{\numberline {A.10.}Hasil Simulasi 2 Sistem Kontrol (lanjutan 4)}{73}%
+\contentsline {chapter}{\numberline {B}Listing Program}{74}%
+\contentsline {section}{\numberline {B.1.}Kode Sumber Program Model JST Kontroler}{74}%
+\contentsline {section}{\numberline {B.2.}Fungsi Min Max Scaler}{76}%
+\contentsline {section}{\numberline {B.3.}Fungsi Kuantisasi AC}{76}%
+\contentsline {section}{\numberline {B.4.}Fungsi Kuantisasi Heater}{77}%
+\contentsline {section}{\numberline {B.5.}Fungsi Penskalaan Suhu Ruang}{77}%
+\contentsline {section}{\numberline {B.6.}Fungsi Penskalaan Kelembapan Relatif}{77}%
+\contentsline {chapter}{\numberline {C}Diagram Blok}{78}%
+\contentsline {section}{\numberline {C.1.}Diagram Blok Rancangan Sistem Kontrol Simulink}{78}%

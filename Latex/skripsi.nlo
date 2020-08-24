@@ -2,15 +2,15 @@
 \nomenclatureentry{ba\emph {Lambang }@[{\emph {Lambang }}]\begingroup \emph {Kuantitas } \nomunit {\emph {Satuan }}\nomeqref {0.0}|nompageref}{xvi}
 \nomenclatureentry{ca\emph {Lambang }@[{\emph {Lambang }}]\begingroup \emph {Deskripsi }\nomeqref {0.0}|nompageref}{xvi}
 \nomenclatureentry{da\emph {Lambang }@[{\emph {Lambang }}]\begingroup \emph {Deskripsi }\nomeqref {0.0}|nompageref}{xvi}
-\nomenclatureentry{aaa$Tdb$@[{$Tdb$}]\begingroup Suhu Ruang (Dry-Bulb Temperature)  \nomunit{$^\circ$C}\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aab$RH$@[{$RH$}]\begingroup Kelembapan Relatif  \nomunit{\%}\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aac$To$@[{$To$}]\begingroup Suhu Lingkungan (Dry-Bulb Temeperature) \nomunit{$^\circ$C}\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aad$RD$@[{$RD$}]\begingroup Intensitas Radiasi Global Matahari  \nomunit{W/m$^2$}\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aae$AC$@[{$AC$}]\begingroup SET AC \nomunit{$^\circ$C}\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aaf$HT$@[{$HT$}]\begingroup SET Heater \nomunit{ON}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aaaT${_{db}}$@[{T${_{db}}$}]\begingroup Suhu Ruang (Dry-Bulb Temperature)  \nomunit{$^\circ$C}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aabRH@[{RH}]\begingroup Kelembapan Relatif  \nomunit{\%}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aacT$_o$@[{T$_o$}]\begingroup Suhu Lingkungan (Dry-Bulb Temeperature) \nomunit{$^\circ$C}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aadRD@[{RD}]\begingroup Intensitas Radiasi Global Matahari  \nomunit{W/m$^2$}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aaeAC@[{AC}]\begingroup SET AC \nomunit{$^\circ$C}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aafHT@[{HT}]\begingroup SET Heater \nomunit{ON}\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aag$t$@[{$t$}]\begingroup Waktu \nomunit{detik}\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aah$f$@[{$f$}]\begingroup Frekuensi \nomunit{Hertz}\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aai$R$@[{$R$}]\begingroup Koefisien Korelasi \nomunit{\%}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aaiR@[{R}]\begingroup Koefisien Korelasi \nomunit{\%}\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aaj$\mathbb{R}$@[{$\mathbb{R}$}]\begingroup Domain Bilangan Riil\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aak$R(s)$@[{$R(s)$}]\begingroup Input Sistem Kontrol\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aal$C(s)$@[{$C(s)$}]\begingroup Output Sistem Kontrol\nomeqref {0.0}|nompageref}{xvii}

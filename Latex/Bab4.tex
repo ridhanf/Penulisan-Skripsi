@@ -15,7 +15,7 @@ Penelitian ini tidak dapat dilakukan tanpa adanya alat dan bahan yang memudahkan
 		No. & Nama alat/bahan & Fungsi \\
 		\hline
 		1 & ASUS N550JX & Perangkat komputer \\ \hline
-		2 & \textit{Climate Chamber} & Objek penelitian \\ \hline
+		2 & \textit{Climate chamber} & Objek penelitian \\ \hline
 		3 & IES-VE 2019 & Perangkat lunak untuk pengambilan data lingkungan termal \textit{climate chamber} dan variasi gangguan \\ \hline
 		4 & MS Excel 365 & Perangkat lunak pengolahan data tabular \\ \hline
 		5 & MATLAB R2018a & Perangkat lunak pemrograman dalam merancang jaringan saraf tiruan untuk kontroler. \\ \hline
@@ -80,10 +80,11 @@ Studi pustaka bertujuan untuk mendapatkan pemahaman dalam penyelesaian masalah y
 
 \subsection{Penentuan Tuntutan Rancangan}
 
-Tuntutan rancangan Tugas Akhir ini yaitu kontroler mampu mengendalikan \textit{plant} dengan kinerja seoptimal mungkin. Kinerja kontroler ditinjau dari nilai \textit{steady-state error} suhu ruang dan kelembapan relatif. Semakin kecil nilai \textit{error steady-state} kontroler maka semakin baik kinerjanya.
+Tuntutan rancangan Tugas Akhir ini yaitu kontroler mampu mengendalikan \textit{plant} pada skenario penggunaan \textit{climate chamber} dengan galat suhu kurang dari $\pm$1$^\circ$C dan galat kelembapan relatif kurang dari $\pm$10\%.
+
 
 \subsection{Pengambilan Data Simulasi IES-VE}
-Penelitian ini menggunakan data yang sama dengan data yang digunakan oleh penelitian Tri Hartanto\cite{skripsiTanto} yang bersumber dari model yang telah dibuat pada penelitian sebelumnya berjudul "Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan Metode Simulasi CFD dengan Perangkat Lunak IES-VE" yang diteliti oleh Ichfan Kurniawan \cite{skripsiIchfan}.  Data tersebut merupakan hasil simulasi pada \textit{software} IES-VE dengan menerapkan beberapa variasi kondisi lingkungan pada model \textit{climate chamber}. Variasi tersebut yaitu kondisi batas lingkungan (radiasi matahari dan suhu bola kering luar / \textit{outdoor dry bulb temperature}), kondisi AC, dan kondisi \textit{heater}. Variasi kondisi batas lingkungan tersebut diwujudkan dalam pembagian 4 musim dalam 1 tahun, yakni bulan Maret, Juni, September dan Desember. Keluaran dari model IES-VE berupa nilai suhu ruang (\textit{air temperature}) \textit{chamber} dan kelembapan relatif (RH) \textit{chamber}. Dari model tersebut didapatkan nilai MAE perhitungan selisih variabel lingkungan termal hasil simulasi dan pengukuran lapangan sebesar 0,8 $\pm$ 0,7$^{\circ}$C untuk suhu udara ruang dan 2,5 $\pm$ 3,8\% untuk kelembaban relatif \cite{skripsiIchfan}. Data yang sudah terkumpul disajikan dalam bentuk tabular yang kemudian diolah dalam program komputer yang dibuat.
+Penelitian ini menggunakan data yang sama dengan data yang digunakan oleh penelitian Hartanto \cite{skripsiTanto} yang bersumber dari model yang telah dibuat pada penelitian sebelumnya berjudul "Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan Metode Simulasi CFD dengan Perangkat Lunak IES-VE" yang diteliti oleh Kurniawan \cite{skripsiIchfan}.  Data tersebut merupakan hasil simulasi pada \textit{software} IES-VE dengan menerapkan beberapa variasi kondisi lingkungan pada model \textit{climate chamber}. Variasi tersebut yaitu kondisi batas lingkungan (radiasi matahari dan suhu bola kering luar/\textit{outdoor dry bulb temperature}), kondisi AC, dan kondisi \textit{heater}. Variasi kondisi batas lingkungan tersebut diwujudkan dalam pembagian 4 musim dalam 1 tahun, yakni bulan Maret, Juni, September dan Desember. Keluaran dari model IES-VE berupa nilai suhu ruang (\textit{air temperature}) \textit{chamber} dan kelembapan relatif (RH) \textit{chamber}. Dari model tersebut didapatkan nilai MAE perhitungan selisih variabel lingkungan termal hasil simulasi dan pengukuran lapangan sebesar 0,8 $\pm$ 0,7$^{\circ}$C untuk suhu udara ruang dan 2,5 $\pm$ 3,8\% untuk kelembaban relatif \cite{skripsiIchfan}. Data yang sudah terkumpul disajikan dalam bentuk tabular dan diolah dengan menggunakan komputer.
 
 \subsubsection{Kondisi \textit{Climate Chamber}}
 
@@ -105,7 +106,7 @@ Climate chamber memiliki ukuran panjang $\times$ lebar $\times$ tinggi = 3 m $\t
 \end{figure}
 %\vspace{1em}
 
-Perangkat AC yang berada di dalam \textit{Climate Chamber} DTNTF FT-UGM memiliki daya sebesar 2800W (1 PK). Perangkat AC mampu mengkondisikan lingkungan melalui aliran udara yang keluar. Oleh karena itu, Perangkat AC sangatlah berpengaruh terhadap kondisi lingkungan termal di dalam ruangan. Penampakan wujud perangkat AC dapat dilihat pada Gambar \ref{fig:4:AC}
+Perangkat AC yang berada di dalam \textit{climate chamber} DTNTF FT-UGM memiliki daya sebesar 2800W (1 PK). Perangkat AC mampu mengkondisikan lingkungan melalui aliran udara yang keluar. Oleh karena itu, Perangkat AC sangatlah berpengaruh terhadap kondisi lingkungan termal di dalam ruangan. Penampakan wujud perangkat AC dapat dilihat pada Gambar \ref{fig:4:AC}
 
 \begin{figure}[!h]
 	\centering
@@ -120,7 +121,7 @@ Perangkat pemanas (\textit{heater}) yang berada di dalam \textit{climate chamber
 Selain faktor di dalam \textit{climate chamber}, faktor dari luar ruangan pun secara tidak langsung mempengaruhi kondisi lingkungan termal \textit{climate chamber}, di antaranya adalah suhu lingkungan (\textit{dry bulb temperature}) dan intensitas radiasi matahari. Posisi harian matahari mempengaruhi perubahan nilai suhu lingkungan dan intensitas radiasi matahari. Pada siang hari (posisi \textit{altitude} matahari ketika berada tepat di atas \textit{climate chamber}) memberikan paparan radiasi matahari yang mengenai selubung bangunan. Hal ini menyebabkan kenaikan suhu di dalam \textit{climate chamber}.
 
 \subsubsection{Rancangan Skenario Pengambilan Data}
-Rancangan skenario pada \textit{climate chamber} menghasilkan kombinasi antara perangkat AC dan jumlah \textit{heater} dalam kondisi ON. Peangkat AC dikondisikan untuk menyala dari pukul 08:00 sampai dengan pukul 17:00 WIB bervariasi dengan rentang nilai 16$^\circ$C - 30$^\circ$C dengan lompatan 1$^\circ$C. Jumlah \textit{heater} dalam kondisi ON terbagi menjadi 3 kondisi, yaitu keduanya tidak menyala (berkode 0), salah satu menyala (berkode 1), dan keduanya menyala (berkode 2). Kombinasi tersebut menghasilkan 25 variasi skenario.
+Rancangan skenario pada \textit{climate chamber} menghasilkan kombinasi antara perangkat AC dan jumlah \textit{heater} dalam kondisi ON. Perangkat AC dikondisikan untuk menyala dari pukul 08:00 sampai dengan pukul 17:00 WIB bervariasi dengan rentang nilai 16$^\circ$C - 30$^\circ$C dengan lompatan 1$^\circ$C. Jumlah \textit{heater} dalam kondisi ON terbagi menjadi 3 kondisi, yaitu keduanya tidak menyala (berkode 0), salah satu menyala (berkode 1), dan keduanya menyala (berkode 2). Kombinasi tersebut menghasilkan 25 variasi skenario.
 
 Untuk variasi suhu lingkungan dan intensitas radiasi matahari digunakan 4 titik ekstrim bumi terhadap matahari yaitu pada tanggal 21 Maret, 21 Juni, 23 September dan 22 Desember. Kemudian dilakukan simulasi pada setiap titik tersebut dengan kombinasi pada Gambar \ref{fig:4:SkenarioData}. Dengan demikian, total skenario yang dihasilkan dari kombinasi tersebut berjumlah 100 skenario.
 
@@ -136,7 +137,7 @@ Untuk variasi suhu lingkungan dan intensitas radiasi matahari digunakan 4 titik 
 
 \subsubsection{Simulasi IES-VE}
 
-Pada Gambar \ref{fig:4:HasilSimulasiIESVE} ditunjukkan salah satu hasil simulasi untuk skenario AC 26$^\circ$C dan \textit{heater} ON 2 buah dengan variabel gangguan yang digambarkan pada Gambar \ref{fig:4:LoadSimulasiIESVE}. Grafik yang ditampilkan terdiri dari 4 parameter yaitu suhu lingkungan (\textit{To}), intensitas radiasi matahari (RD), suhu ruang (\textit{Tdb}), dan kelembapan relatif (RH). Skenario ini dilakukan selama 24 jam dengan selang waktu pengambilan data selama 6 menit dimulai dari pukul 00:03 hingga 23:57 WIB. Selang waktu tersebut adalah waktu tersingkat yang dapat dilakukan pada software IES-VE 2019. Respon waktu suhu ruang terhadap aktivasi AC tidak diperhitungkan dikarenakan secara fisis, respons transien termal pada bangunan berlangsung cukup lama, sehingga hanya berfokus untuk meninjau nilai kesalahan keadaan-ajeg (\textit{steady-state error}).
+Pada Gambar \ref{fig:4:HasilSimulasiIESVE} ditunjukkan salah satu hasil simulasi untuk skenario AC 26$^\circ$C dan \textit{heater} ON 2 buah dengan variabel gangguan yang digambarkan pada Gambar \ref{fig:4:LoadSimulasiIESVE}. Grafik yang ditampilkan terdiri dari 4 parameter yaitu suhu lingkungan (T$_o$), intensitas radiasi matahari (RD), suhu ruang (T$_{db}$), dan kelembapan relatif (RH). Skenario ini dilakukan selama 24 jam dengan selang waktu pengambilan data selama 6 menit dimulai dari pukul 00:03 hingga 23:57 WIB. Selang waktu tersebut adalah waktu tersingkat yang dapat dilakukan pada software IES-VE 2019. Respon waktu suhu ruang terhadap aktivasi AC tidak diperhitungkan dikarenakan secara fisis, respons transien termal pada bangunan berlangsung cukup lama, sehingga hanya berfokus untuk meninjau nilai kesalahan keadaan-ajeg (\textit{steady-state error}).
 
 \begin{figure}[!h]
 	\centering
@@ -165,7 +166,7 @@ Pada Gambar \ref{fig:4:HasilSimulasiIESVE} ditunjukkan salah satu hasil simulasi
 \break
 
 \subsection{Model \textit{Plant} JST}
-Model \textit{plant} pada penelitian ini menggunakan model plant JST yang telah dirancang pada penelitian sebelumnya\cite{skripsiTanto}. Model plant tersebut memiliki nilai MAE perhitungan antara target dan prediksi sebesar 0,59$^{\circ}$C untuk suhu ruang dan 5,44\% untuk kelembapan relatif. Akurasi JST sebesar 96,23\% untuk suhu ruang dan 68,90\% untuk kelembapan relatif. Arsitektur Model Plant JST digambarkan pada Gambar \ref{fig:4:NNPlantModelDesign}.
+Model \textit{plant} pada penelitian ini menggunakan model plant JST yang telah dirancang pada penelitian sebelumnya \cite{skripsiTanto}. Model plant tersebut memiliki nilai MAE perhitungan antara target dan prediksi sebesar 0,59$^{\circ}$C untuk suhu ruang dan 5,44\% untuk kelembapan relatif. Akurasi JST sebesar 96,23\% untuk suhu ruang dan 68,90\% untuk kelembapan relatif. Arsitektur Model Plant JST digambarkan pada Gambar \ref{fig:4:NNPlantModelDesign}.
 
 \begin{figure}[!h]
 	\centering
@@ -183,7 +184,7 @@ Dalam melakukan pemodelan kontrol, pertama-tama didefinisikan terlebih dahulu pa
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=1\textwidth]{figures/ControlDesignDiagramII}
-	\caption{Diagram blok sistem kontrol berbasis JST\cite{paper42Paisan}}
+	\caption{Diagram blok sistem kontrol berbasis JST \cite{paper42Paisan}}
 	\label{fig:4:ConstrolSystemBlockDiagram}
 \end{figure}
 
@@ -194,7 +195,7 @@ Dalam melakukan pemodelan kontrol, pertama-tama didefinisikan terlebih dahulu pa
 	\label{fig:4:NNControlIO}
 \end{figure}
 
-Kontroler dibangun dari model JST dengan menggunakan prinsip model invers dari model \textit{plant}. Perancangan JST untuk kontroler menggunakan delay umpan balik AC, delay umpan balik \textit{heater}, output \textit{plant} dan delay output \textit{plant} sebagai sebagai masukan untuk pelatihan JST. Kemudian, pasangan data AC dan \textit{heater} digunakan sebagai pasangan data keluaran (data target) untuk pelatihan JST. Arsitektur JST kontroler dibangun dengan menggunakan \textit{feedforward neural network} atau biasa disebut juga sebagai \textit{multilayer perceptron} (MLP). Model JST akan dilatih menggunakan data hasil simulai IES-VE yang telah digunakan pula dalam pemodelan \textit{plant} oleh Tri Hartanto\cite{skripsiTanto}. Pada proses pelatihan JST, dilakukan penskalaan terhadap semua input JST menggunakan metode \textit{Min Max Scaling} kecuali variabel delay umpan masuk AC dan \textit{heater}. Penskalaan bertujuan untuk meningkatkan kinerja JST menjadi optimal dengan menyamakan rentang nilai dan besar satuan dari setiap variabel (berupa rentang nilai dari 0 hingga 1).
+Kontroler dibangun dari model JST dengan menggunakan prinsip model invers dari model \textit{plant}. Perancangan JST untuk kontroler menggunakan \textit{delay} umpan balik AC, \textit{delay} umpan balik \textit{heater}, output \textit{plant} dan \textit{delay} output \textit{plant} sebagai sebagai masukan untuk pelatihan JST. Kemudian, pasangan data AC dan \textit{heater} digunakan sebagai pasangan data keluaran (data target) untuk pelatihan JST. Arsitektur JST kontroler dibangun dengan menggunakan \textit{feedforward neural network} atau biasa disebut juga sebagai \textit{multilayer perceptron} (MLP). Model JST akan dilatih menggunakan data hasil simulai IES-VE yang telah digunakan pula dalam pemodelan \textit{plant} oleh Hartanto \cite{skripsiTanto}. Pada proses pelatihan JST, dilakukan penskalaan terhadap semua input JST menggunakan metode \textit{Min Max Scaling} kecuali variabel \textit{delay} umpan masuk AC dan \textit{heater}. Penskalaan bertujuan untuk meningkatkan kinerja JST menjadi optimal dengan menyamakan rentang nilai dan besar satuan dari setiap variabel (berupa rentang nilai dari 0 hingga 1).
 
 Perancangan model JST kontroler dilakukan dengan membandingkan variasi pembagian data latih, data validasi, dan data uji. Kemudian akan divariasikan pula fungsi aktivasi dan jumlah neuron untuk memperoleh model JST yang optimal. Evaluasi kinerja model JST kontroler menggunakan perbandingan nilai MSE pada setiap rancangan. Rancangan model JST dengan nilai MSE terkecil akan digunakan sebagai model kontroler.
 

@@ -1,14 +1,14 @@
 \begin{thebibliography}{10}
 
 \bibitem{MPCDissertation}
-Ing.~Ján Drgoňa.
+J.~Drgoňa.
 \newblock {\em {Model Predictive Control with Applications in Building Thermal
   Comfort}}.
 \newblock Disertasi, Slovak University of Technology in Bratislava, Vazovova 5,
   811 07 Bratislava, Slovakia, 2017.
 
 \bibitem{skripsiTanto}
-Tri Hartanto.
+T.~Hartanto.
 \newblock {\em {Pemodelan Lingkungan Termal Sistem Climate Chamber Dengan
   Metode Jaringan Saraf Tiruan}}.
 \newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
@@ -21,7 +21,7 @@ IEA.
 \newblock International Energy Agency, Indonesia, 2017.
 
 \bibitem{skripsiIchfan}
-Ichfan Kurniawan.
+I.~Kurniawan.
 \newblock {\em {Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan
   Metode Simulasi CFD Dengan Perangkat Lunak IES VE}}.
 \newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
@@ -38,7 +38,7 @@ Jagannathan Sarangapani.
 \newblock Taylor and Francis Group, LLC, United State of America, 2006.
 
 \bibitem{paper42Paisan}
-M.~A. Hussain, P.~Kittisupakorn  dan W.~Daosud.
+M.A. Hussain, P.~Kittisupakorn  dan W.~Daosud.
 \newblock ``{Implementation of Neural-Network-Based Inverse-Model Control
   Strategies on an Exothermic Reactor}''.
 \newblock {\em ScienceAsia}, 27:41--50, 2001.
@@ -51,49 +51,51 @@ ASHRAE.
   Engineers, Inc., Atlanta, GA, 2010.
 
 \bibitem{paper21Arens}
-Edward Arens, Hui Zhang  dan Charlie Huizenga.
+E.~Arens, H.~Zhang  dan C.~Huizenga.
 \newblock ``{Partial- and Whole-body Thermal Sensation and Comfort— Part I
   Uniform Environmental Conditions}''.
 \newblock {\em Journal of Thermal Biology, Elsevier Ltd.}, 31:53--59, 2006.
 
 \bibitem{paper21JYLee}
-Joo-Young Lee, Mohamed Saat, Chinmei Chou, Nobuko Hashiguchi, Titis Wijayanto,
-  Hitoshi Wakabayashi  dan Yutaka Tochihara.
+J.Y. Lee, M.~Saat, C.~Chou, N.~Hashiguchi, T.~Wijayanto, H.~Wakabayashi  dan
+  Y.~Tochihara.
 \newblock ``{Cutaneous Warm and Cool Sensation Thresholds and the
   Inter-threshold Zone in Malaysian and Japanese Males}''.
 \newblock {\em Journal of Thermal Biology, Elsevier Ltd.}, 35:70--76, 2010.
 
 \bibitem{paper21Veronica}
-Veronica Soebarto, Hui Zhang  dan Stefano Schiavon.
+V.~Soebarto, H.~Zhang  dan S.~Schiavon.
 \newblock ``{A Thermal Comfort Environmental Chamber Study of Older and Younger
   People}''.
 \newblock {\em Journal of Building and Environment, Elsevier Ltd.}, 155:1--14,
   2019.
 
 \bibitem{skripsiMuna}
-Nur~Muna Nadiya.
+N.M. Nadiya.
 \newblock {\em {Analisis Pengaruh Perubahan Lingkungan Termal terhadap
   Perubahan Level Sensasi Termal}}.
 \newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
   Universitas Gadjah Mada, Yogyakarta, 2020.
 
 \bibitem{paper22JJkim}
-Jin~Woo Moon dan Jong-Jin Kim.
+J.W. Moon dan J.J. Kim.
 \newblock ``{ANN-Based Thermal Control Models for Residential Buildings}''.
-\newblock {\em Elsevier Ltd.}, 2010.
+\newblock {\em Journal of Building and Environment, Elsevier Ltd.},
+  45:1612--1625, 2010.
 
 \bibitem{paper22SKJung}
-Jin~Woo Moon, Sung~Kwon Jung, Youngchul Kim  dan Seung-Hoon Han.
+J.W. Moon, S.K. Jung, Y.~Kim  dan S.H. Han.
 \newblock ``{Comparative Study of Artificial Intelligence-Based Building
   Thermal Control Methods - Application of Fuzzy, Adaptive Neuro-Fuzzy
   Inference System, and Artificial Neural Network}''.
-\newblock {\em Elsevier Ltd.}, 2011.
+\newblock {\em Journal of Applied Thermal Engineering, Elsevier Ltd.},
+  31:2422--2429, 2011.
 
 \bibitem{paper22JanDrgona}
-Ján Drgoňa, Damien Picard, Michal Kvasnica  dan Lieve Helsen.
+J.~Drgoňa, D.~Picard, M.~Kvasnica  dan L.~Helsen.
 \newblock ``{Approximate Model Predictive Building Control via Machine
   Learning}''.
-\newblock {\em Elsevier Ltd.}, 2018.
+\newblock {\em Journal of Applied Energy, Elsevier Ltd.}, 218:199--216, 2018.
 
 \bibitem{book1}
 William~R. Santee dan William~T. Matthew.
@@ -109,10 +111,11 @@ W.~He, G.~Xu  dan R.~Shen.
 \newblock {\em Journal of Process Control, Elsevier Ltd.}, 24:1--6, 2014.
 
 \bibitem{paper31APLeskinen}
-A.~P. Leskinen, J.~K. Jokiniemi  dan K.~E.~J. Lehtinen.
+A.P. Leskinen, J.K. Jokiniemi  dan K.E.J. Lehtinen.
 \newblock ``{Characterization of Aging Wood Chip Combustion Aerosol in an
   Environmental Chamber}''.
-\newblock {\em Elsevier Ltd.}, 41:3713--3721, 2007.
+\newblock {\em Journal of Atmospheric Environment, Elsevier Ltd.},
+  41:3713--3721, 2007.
 
 \bibitem{paper31AHuguet}
 A.~Huguet, A.~Francez, M.~Dung, C.~Fosse  dan S.~Derenne.
@@ -122,11 +125,11 @@ A.~Huguet, A.~Francez, M.~Dung, C.~Fosse  dan S.~Derenne.
   2014.
 
 \bibitem{paper31EJofre}
-Jose~A. Jofre-reche, J.~C. Su  dan C.~Alia.
+J.A. Jofre-reche, J.C. Su  dan C.~Alia.
 \newblock ``{Characterization of the Chemical Structure of Vinyl Ester Resin in
   a Climate Chamber Under Different Conditions of Degradation}''.
-\newblock {\em Polymer Degradation and Stability, Elsevier Ltd.}, 153:88--99,
-  2018.
+\newblock {\em Journal of Polymer Degradation and Stability, Elsevier Ltd.},
+  153:88--99, 2018.
 
 \bibitem{paper31Srinivasa}
 A.~Srinivasa, S.~Das, H.~Kottyen, V.~Ashok  dan P.~Shankarrao.
@@ -136,7 +139,7 @@ A.~Srinivasa, S.~Das, H.~Kottyen, V.~Ashok  dan P.~Shankarrao.
   62:87--91, 2019.
 
 \bibitem{paper31Emartinez}
-E.~Martinez dan S.~J. Agosta.
+E.~Martinez dan S.J. Agosta.
 \newblock ``{Budget-Limited Thermal Biology: Design, Construction and
   Performance of a Large, Walk-in Style Temperature-Controlled Chamber}''.
 \newblock {\em Journal of Thermal Biology, Elsevier Ltd.}, 58:29--34, 2016.

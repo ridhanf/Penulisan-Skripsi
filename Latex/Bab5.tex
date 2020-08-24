@@ -1,27 +1,48 @@
 \chapter{HASIL DAN PEMBAHASAN}
 \label{hasil-dan-pembahasan}
-Bangunan yang dijadikan objek penelitian adalah \textit{climate chamber} DTNTF FT-UGM. Dalam bab ini, akan dibahas mengenai hasil perancangan kontroler sesuai dengan langkah-langkah yang dijelaskan pada Bab IV.
+Sistem bangunan yang dijadikan objek penelitian adalah \textit{climate chamber} DTNTF FT-UGM. Dalam bab ini, akan dibahas mengenai hasil perancangan kontroler sesuai dengan langkah-langkah yang dijelaskan pada Bab IV.
 
-\section{Model Plant JST}
+\section{Identifikasi Sistem}
 
-Model \textit{plant} pada penelitian ini menggunakan model JST yang telah dibangun oleh Tri Hartanto\cite{skripsiTanto}. Arsitektur model dirancang dengan memperhatikan sistem \textit{plant} pada Gambar \ref{fig:5:DiagramBlokPlant}. Arsitektur memiliki nilai-nilai \textit{hyperparameter} yang dirangkum pada Tabel \ref{tbl:5:NNPlantTanto}.
+Dalam perancangan sistem kendali, perlu diidentifikasi terlebih dahulu variabel-variabel yang terlibat pada suatu sistem. Terdapat beberapa variabel yang terlibat pada sistem \textit{climate chamber}. Variabel-variabel yang diangkat pada penelitian ini tunjukkan oleh diagram blok \textit{plant} pada Gambar \ref{fig:5:DiagramBlokPlant}. Berdasarkan diagram tersebut, dapat dikatakan bahwa sistem merupakan sistem MIMO (\textit{Multi Input Multi Output}) yaitu sistem yang memiliki beberapa masukan dan beberapa keluaran. Identifikasi sistem yang telah dilakukan akan menghasilkan suatu diagram blok fungsional sistem seperti yang ditunjukkan pada Gambar \ref{fig:5:DiagramBlokSistem}.\\
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.5\textwidth]{figures/BlokDiagramPlant}
-	\caption{Diagram Blok Plant}
+	\includegraphics[width=0.8\textwidth]{figures/BlokDiagramPlant}
+	\caption{Diagram Blok \textit{Plant}}
 	\label{fig:5:DiagramBlokPlant}
 \end{figure}
+\vspace{1em}
+
+Dalam sistem \textit{climate chamber}, variabel manipulasi yang digunakan adalah \textit{setting} suhu AC dan \textit{heater} (jumlah \textit{heater} ON). Kemudian, variabel kontrol yang digunakan yaitu suhu udara (T$_{db}$) dan kelembapan relatif (RH) pada \textit{plant} (\textit{climate chamber}). Ada pula variabel gangguan sistem yaitu berupa intensitas radiasi matahari dan suhu lingkungan. Untuk pengujian \textit{set point}, skenario pengujian mengadaptasi Tugas Akhir pengujian level sensasi termal yang dilakukan oleh Nadiya\cite{skripsiMuna}. Hanya saja pada penelitian menggunakan \textit{set point} step bertingkat dengan lompatan 2$^{\circ}$C dari nilai suhu sebesar 16$^{\circ}$C hingga 30$^{\circ}$C.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.85\textwidth]{figures/ControlDesignDiagramII}
+	\includegraphics[width=1\textwidth]{figures/DiagramBlokFungsionalSistem}
+	\caption{Diagram Blok Fungsional Sistem}
+	\label{fig:5:DiagramBlokSistem}
+\end{figure}
+
+Kontroler pada \textit{climate chamber} memiliki enam buah variabel masukan dan dua buah variabel keluaran. Variabel masukan kendali ini yaitu nilai \textit{set point} suhu udara, \textit{set point} kelembapan relatif, nilai aktual umpan balik suhu udara, nilai aktual umpan balik kelembapan relatif, nilai umpan balik \textit{setting} suhu AC, dan nilai umpan balik \textit{heater}. Sementara, variabel keluaran kontroler ini adalah \textit{setting} suhu AC dan \textit{heater} (jumlah \textit{heater} ON).
+
+Untuk memaksimalkan kinerja kontroler, pada proses pelatihan JST (kontroler) dilakukan penskalaan terhadap semua variabel masukan JST menggunakan metode \textit{Min Max Scaling} kecuali variabel umpan balik \textit{setting} suhu AC dan variabel umpan balik \textit{heater}. Penskalaan bertujuan untuk meningkatkan kinerja JST menjadi optimal dengan menyamakan rentang nilai dan besar satuan dari setiap variabel (berupa rentang nilai dari 0 hingga 1). Masing-masing variabel diubah menjadi skala satuan dengan melakukan transformasi data secara statistik. Data dari setiap variabel akan dikurangi dengan nilai minimum variabel tersebut yang dikemudian dibagi oleh selisih dari nilai maksimum dan nilai minimum variabel tersebut. Dengan demikian, ditambahkan pula blok \textit{scaler} pada diagram blok sistem kontrol agar nilai masukan kontroler dapat disesuaikan.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=1\textwidth]{figures/ControlDesignDiagramII}
 	\caption{Diagram blok sistem kontrol berbasis JST}
 	\label{fig:5:ConstrolSystemBlockDiagram}
 \end{figure}
 
+Diagram blok sistem kontrol juga memiliki blok tambahan berupa blok kuantisasi (\textit{Quantization}). Blok ini berperan sebagai penyesuai nilai variabel manipulasi yang dihasilkan kontroler. Hal ini dilakukan karena pada praktiknya nilai \textit{setting} suhu AC merupakan nilai bilangan bulat dan bukan nilai bilangan desimal. Hal ini pun berlaku untuk variabel manipulasi \textit{heater} di mana nilainya berupa nilai 0, 1, atau 2 yang menunjukkan jumlah \textit{heater} ON/menyala. Sehingga tidak mungkin ada nilai diantara nilai tersebut. Dengan demikian, diagram blok dipasangi sebuah blok kuantisasi (\textit{Quantization}) yang berfungsi untuk menghindari nilai desimal atau pun nilai yang berada di luar rentang nilai variabel manipulasi. Pada akhirnya dihasilkan diagram blok sistem kontrol yang ditunjukkan pada Gambar \ref{fig:5:ConstrolSystemBlockDiagram}.\\
+\vspace{1em}
+
+\section{Model Plant JST}
+
+Model \textit{plant} pada penelitian ini menggunakan model JST yang telah dibangun oleh Hartanto \cite{skripsiTanto}. Arsitektur model dirancang dengan memperhatikan sistem \textit{plant} pada Gambar \ref{fig:5:DiagramBlokPlant}. Arsitektur memiliki nilai-nilai \textit{hyperparameter} yang dirangkum pada Tabel \ref{tbl:5:NNPlantTanto}.
+
 \begin{table}[!h]
-	\caption{Tabel Rancangan Model Plant JST\cite{skripsiTanto}}
+	\caption{Tabel Rancangan Model Plant JST \cite{skripsiTanto}}
 	\label{tbl:5:NNPlantTanto}
 	\centering
 	% use packages: array
@@ -34,9 +55,9 @@ Model \textit{plant} pada penelitian ini menggunakan model JST yang telah dibang
 		Jumlah Neuron pada Layar & [55] \\ \hline
 		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
 		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
-		Mean Absolute Error (MAE) & Tdb: 0,59$^\circ$C ; RH: 5,44\% \\ \hline
-		Mean Squared Error (MSE) & Tdb: 0,75$^\circ$C ; RH: 52,33\% \\ \hline
-		Koefisien Korelasi (R) & Tdb: 96,23\% ; RH: 68,90\% \\ \hline
+		Mean Absolute Error (MAE) & T$_{db}$: 0,59$^\circ$C ; RH: 5,44\% \\ \hline
+		Mean Squared Error (MSE) & T$_{db}$: 0,75$^\circ$C ; RH: 52,33\% \\ \hline
+		Koefisien Korelasi (R) & T$_{db}$: 96,23\% ; RH: 68,90\% \\ \hline
 	\end{tabular}
 \end{table}
 
@@ -46,7 +67,7 @@ Model JST kontroler dibangun dengan menggunakan model jaringan saraf tiruan arsi
 
 \subsection{Variasi Pembagian Data Perancangan JST Kontroler}
 
-Variasi pembagiaan data dilakukan dengan membandingkan beberapa variasi pembagiaan data ke dalam 5 variasi. Kemudian kinerja dari setiap pembagian data dibandingkan dengan konfigurasi hyperparameter pada Tabel \ref{tbl:5:NeuronVariation}.\\
+Variasi pembagiaan data dilakukan dengan membandingkan beberapa variasi pembagiaan data ke dalam 5 variasi. Kemudian kinerja dari setiap pembagian data dibandingkan dengan konfigurasi \textit{hyperparameter} pada Tabel \ref{tbl:5:NeuronVariation}.\\
 
 \begin{table}[!h]
 	\caption{Tabel Daftar Variasi Pembagian Data}
@@ -65,7 +86,7 @@ Variasi pembagiaan data dilakukan dengan membandingkan beberapa variasi pembagia
 \end{table}
 \vspace{2em}
 
-Model JST untuk membandingkan variasi pembagian data menggunakan arsitektur \textit{feedforward network} dengan 1 lapisan tersembunyi berisi 10 neuron. Pada tabel yang disajikan, pembagian data ditulis dengan format ’Pembagian Data n’ dan ’(x\% y\% z\%)’ dimana n = nomor variasi, x = pembagian data pelatihan, y = pembagian data validasi, dan z = pembagian data pengujian. Berdasarkan hasil variasi yang ditunjukkan pada Gambar \ref{fig:5:DataSplittingVariation}, didapatkan pembagian data terbaik yaitu pembagian data bernama "Pembagian Data 4". Data dibagi menjadi 3 bagian, yakni 80\% data pelatihan, 10\% data validasi, dan 10\% data pengujian.
+Model JST untuk membandingkan variasi pembagian data menggunakan arsitektur \textit{feedforward network} dengan 1 lapisan tersembunyi berisi 10 neuron. Pada tabel yang disajikan, pembagian data ditulis dengan format "Pembagian Data n" dan "(x\% y\% z\%)" di mana n = nomor variasi, x = pembagian data pelatihan, y = pembagian data validasi, dan z = pembagian data pengujian. Berdasarkan hasil variasi yang ditunjukkan pada Gambar \ref{fig:5:DataSplittingVariation}, didapatkan pembagian data terbaik yaitu pembagian data bernama "Pembagian Data 4". Data dibagi menjadi 3 bagian, yakni 80\% data pelatihan, 10\% data validasi, dan 10\% data pengujian.
 
 \begin{figure}[!h]
 	\centering
@@ -94,7 +115,7 @@ Kemudian arsitektur JST divariasikan kembali menggunakan fungsi aktivasi tansig 
 	\label{fig:5:NeuronVariation}
 \end{figure}
 
-\subsection{Rancangan Model JST Kontroler}
+\subsection{Hasil Rancangan Model JST Kontroler}
 
 Setelah dilakukan perancangan model JST melalui variasi arsitektur model, didapatkan rancangan model JST kontroler terbaik. Model JST dibangun dengan arsitektur \textit{feedforward neural network} 1 lapisan tersembunyi dengan 35 neuron. Model JST menggunakan fungsi aktivasi tansig (\textit{hyperbolic tanget}) dan algoritma pembelajaran Levenberg-Marquardt. Model JST Kontroler terbaik memiliki nilai \textit{hyperparameter} yang diringkas pada Tabel \ref{tbl:5:NNControl}.
  
@@ -118,48 +139,100 @@ Setelah dilakukan perancangan model JST melalui variasi arsitektur model, didapa
 	\end{tabular}
 \end{table}
 
-Model JST Kontroler memiliki nilai MAE sebesar 0,37$^\circ$C dimana nilai ini di bawah 1$^\circ$C. Dengan demikian, model JST dapat digunakan sebagai model kontroler. Model hasil rancangan ini kemudian diubah ke dalam bentuk blok SIMULINK dengan menggunakan perintah \textit{gensim} yang kemudian akan dijadikan blok kontroler untuk simulasi sistem kontrol pada SIMULINK.\\
-\break
+Model JST Kontroler memiliki nilai MAE sebesar 0,37$^\circ$C di mana nilai ini di bawah 1$^\circ$C. Dengan demikian, model JST dapat digunakan sebagai model kontroler. Model hasil rancangan ini kemudian diubah ke dalam bentuk blok SIMULINK dengan menggunakan perintah \textit{gensim} yang kemudian akan dijadikan blok kontroler untuk simulasi sistem kontrol pada SIMULINK.
 
 \section{Hasil Simulasi Kontrol SIMULINK}
 
-Pada simulasi kontrol, digunakan nilai \textit{set point} sesuai dengan uji eksperimental level sensasi termal yang dilakukan oleh Nur Muna pada \textit{climate chamber}\cite{skripsiMuna}. Perbedaannya, pada penelitian ini variasi naik turun suhu dari 16$^\circ$C hingga 30$^\circ$C menggunakan lompatan sebesar 2$^\circ$C. Pada simulasi ini digunakan nilai variabel gangguan konstan sebesar 26,8$^\circ$C untuk suhu lingkungan dan 423,343 $W/m^2$ untuk intensitas radiasi matahari. Nilai-nilai variabel gangguan tersebut merupakan nilai rerata dari variabel gangguan pada jam operasi penggunaan \textit{climate chamber}, yaitu pukul 08:00 WIB sampai dengan pukul 17:00 WIB.
+Pada simulasi kontrol, digunakan nilai \textit{set point} sesuai dengan uji eksperimental level sensasi termal yang dilakukan oleh Nadiya pada \textit{climate chamber} \cite{skripsiMuna}. Perbedaannya, pada penelitian ini variasi naik turun suhu dari 16$^\circ$C hingga 30$^\circ$C menggunakan lompatan sebesar 2$^\circ$C.
 
-\subsection{Skenario Simulasi Proses Pemanasan Pendinginan \textit{Climate Chamber}}
+\subsection{Skenario Pemanasan Pendinginan dengan Variabel Gangguan Konstan}
 
-Berdasarkan hasil simulasi, kontroler mampu mengendalikan suhu ruang dan kelembapan relatif mengikuti nilai \textit{set point}. Akan tetapi, kontroler tidak mampu menaikan suhu ruang mencapai nilai lebih dari 27$^\circ$C. Hal ini dapat terjadi diakibatkan nilai manipulator AC tidak mampu melebihi nilai maksimum (SET 30$^\circ$C). Kombinasi \textit{set point} dan hasil simulasi ditunjukkan pada Gambar \ref{fig:5:SimulinkTd} untuk suhu ruang dan Gambar \ref{fig:5:SimulinkRH} untuk kelembapan relatif.
+Pada simulasi ini digunakan nilai variabel gangguan konstan sebesar 26,8$^\circ$C untuk suhu lingkungan dan 423,343 $W/m^2$ untuk intensitas radiasi matahari. Nilai-nilai variabel gangguan tersebut merupakan nilai rerata dari variabel gangguan pada jam operasi penggunaan \textit{climate chamber}, yaitu pukul 08:00 WIB sampai dengan pukul 17:00 WIB. Berdasarkan hasil simulasi, kontroler mampu mengendalikan suhu ruang dan kelembapan relatif mengikuti nilai \textit{set point}. Akan tetapi, kontroler tidak mampu menaikan suhu ruang mencapai nilai lebih dari 27$^\circ$C. Hal ini terjadi diakibatkan kontroler gagal dalam mengaktifkan 2 \textit{heater} disaat nilai \textit{setting} AC tidak mampu melebihi nilai maksimum (SET 30$^\circ$C). Kombinasi \textit{set point} dan hasil simulasi ditunjukkan pada Gambar \ref{fig:5:SimulinkTd} dan Gambar \ref{fig:5:SimulinkRH}.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/SimulinkTd}
-	\caption{Grafik Hasil Simulasi Simulink untuk Suhu Ruang}
+	\includegraphics[width=0.75\textwidth]{figures/Simulink1Td}
+	\caption{Grafik Hasil Simulasi 1 Simulink untuk Suhu Ruang}
 	\label{fig:5:SimulinkTd}
 \end{figure}
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/SimulinkRH}
-	\caption{Grafik Hasil Simulasi Simulink untuk Kelembapan Relatif}
+	\includegraphics[width=0.75\textwidth]{figures/Simulink1RH}
+	\caption{Grafik Hasil Simulasi 1 Simulink untuk Kelembapan Relatif}
 	\label{fig:5:SimulinkRH}
 \end{figure}
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/SimulinkAC}
-	\caption{Grafik Variabel Manipulasi AC pada Simulasi Simulink}
+	\includegraphics[width=0.75\textwidth]{figures/Simulink1AC}
+	\caption{Grafik Variabel Manipulasi AC pada Simulasi 1 Simulink}
 	\label{fig:5:SimulinkAC}
 \end{figure}
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/SimulinkHT}
-	\caption{Grafik Variabel Manipulasi \textit{Heater} pada Simulasi Simulink}
+	\includegraphics[width=0.75\textwidth]{figures/Simulink1HT}
+	\caption{Grafik Variabel Manipulasi \textit{Heater} pada Simulasi 1 Simulink}
 	\label{fig:5:SimulinkHT}
 \end{figure}
 \vspace{1em}
 
 Dengan meninjau nilai variabel manipulasi AC yang ditunjukkan pada Gambar \ref{fig:5:SimulinkAC}, dapat dilihat bahwa untuk mengendalikan suhu mencapai \textit{set point} 26$^\circ$C, perangkat AC perlu mengeluarkan sinyal sebesar 28$^\circ$C (waktu ke-100 hingga ke-120). Dengan demikian, ketika \textit{set point} bernilai 28$^\circ$C, perangkat AC hanya mampu mengeluarkan sinyal maksimum 30$^\circ$C (waktu ke-120 hingga ke-140).
 
-Kurangnya kehandalan kinerja kontroler pada penelitian ini untuk mengendalikan suhu ruang di atas \textit{set point} 26$^\circ$C disebabkan oleh salah satu kelemahan model JST dalam pemodelan \textit{plant}. Secara fisis, proses pemanasan pada sistem bangunan (dalam hal ini \textit{climate chamber}) membutuhkan waktu yang cukup lama. Dengan demikian, proses pemanasan pada kenyataannya tetap bisa mencapai \textit{set point} suhu di atas 26$^\circ$C. Hanya saja proses tersebut membutuhkan waktu (\textit{settling time}) yang cukup lama. Akan tetapi, proses tersebut tidak dapat disimulasikan secara sempurna pada penelitian ini dikarenakan model JST \textit{plant} yang dibangun oleh Tri Hartanto\cite{skripsiTanto} hanya berupa model pasangan data dan bukan berupa model yang bergantung terhadap waktu. Sehingga, model JST \textit{plant} hanya dapat langsung mengeluarkan suatu nilai keluaran setiap menerima nilai masukan.
+Kurangnya keandalan kinerja kontroler pada penelitian ini untuk mengendalikan suhu ruang di atas \textit{set point} 26$^\circ$C disebabkan oleh salah satu kelemahan model JST dalam pemodelan \textit{plant}. Secara fisis, proses pemanasan pada sistem bangunan (dalam hal ini \textit{climate chamber}) membutuhkan waktu yang cukup lama. Dengan demikian, proses pemanasan pada kenyataannya tetap bisa mencapai \textit{set point} suhu di atas 26$^\circ$C. Hanya saja proses tersebut membutuhkan waktu (\textit{settling time}) yang cukup lama. Akan tetapi, proses tersebut tidak dapat disimulasikan secara sempurna pada penelitian ini dikarenakan model JST \textit{plant} yang dibangun oleh Hartanto\cite{skripsiTanto} hanya berupa model pasangan data dan bukan berupa model yang bergantung terhadap waktu. Sehingga, model JST \textit{plant} hanya dapat langsung mengeluarkan suatu nilai keluaran setiap menerima nilai masukan.
 
-Ditinjau dari \textit{set point} 16$^\circ$C hingga 26$^\circ$C, didapatkan nilai \textit{steady-state error} untuk suhu ruang sebesar 0,15$^\circ$C pada proses pemanasan dan sebesar 0,2$^\circ$C pada proses pendinginan. Lalu, didapatkan pula nilai \textit{steady-state error} untuk kelembapan relatif sebesar 0,05\% pada proses pemanasan dan sebesar 0,02\% pada proses pendinginan. Sehingga rerata nilai \textit{steady-state error} sebesar 0,18$^\circ$C untuk suhu ruang dan sebesar 0,04\% untuk kelembapan relatif.
+Ditinjau dari \textit{set point} 16$^\circ$C hingga 26$^\circ$C, didapatkan nilai \textit{steady-state error} untuk suhu ruang sebesar 0,15$^\circ$C pada proses pemanasan dan sebesar 0,2$^\circ$C pada proses pendinginan. Lalu, didapatkan pula nilai \textit{steady-state error} untuk kelembapan relatif sebesar 0,05\% pada proses pemanasan dan sebesar 0,02\% pada proses pendinginan. Sehingga rerata nilai \textit{steady-state error} sebesar 0,18$^\circ$C untuk suhu ruang dan sebesar 0,04\% untuk kelembapan relatif.\\
+\vspace{3em}
+
+\subsection{Skenario Pemanasan Pendinginan dengan Variabel Gangguan Bergerak}
+
+Pada skenario ini digunakan data variabel gangguan pada 21 Juni 2019 yang bergerak dari pukul 08:03 sampai dengan 08:51 WIB. Nilai dari variabel gangguan ditunjukkan pada Gambar \ref{fig:5:Simulink2To} untuk suhu lingkungan dan \ref{fig:5:Simulink2RD} untuk intensitas radiasi matahari. Pada skenario ini, nilai \textit{set point} yang digunakan senilai dengan nilai \textit{set point} pada simulasi dengan variabel gangguan konstan.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/Simulink2To}
+	\caption{Grafik Nilai Variabel Gangguan Suhu Lingkungan}
+	\label{fig:5:Simulink2To}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/Simulink2RD}
+	\caption{Grafik Nilai Variabel Gangguan Intensitas Radiasi Matahari}
+	\label{fig:5:Simulink2RD}
+\end{figure}
+\vspace{1em}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/Simulink2Td}
+	\caption{Grafik Hasil Simulasi 2 Simulink untuk Suhu Ruang}
+	\label{fig:5:Simulink2Td}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/Simulink2RH}
+	\caption{Grafik Hasil Simulasi 2 Simulink untuk Kelembapan Relatif}
+	\label{fig:5:Simulink2RH}
+\end{figure}
+
+Hasil simulasi dengan variabel gangguan bergerak pun menunjukan kinerja yang kurang optimal. Berdasarkan Gambar \ref{fig:5:Simulink2Td}, dapat dilihat bahwa kontroler tidak mampu menaikan suhu ruang mencapai nilai lebih dari 27$^\circ$C. Dapat dilihat pula bahwa terjai lonjakan nilai suhu udara pada detik ke-1980. Lonjakan tersebut terjadi akibat penonaktifan AC yang dilakukan oleh kontroler yang dapat dilihat pada Gambar \ref{fig:5:Simulink2AC}. Pada proses pendinginan, nilai \textit{steady-state error} tampak lebih besar dibandingkan saat proses pemanasan. Hal ini mungkin disebabkan karena kenaikan suhu lingkungan dan intensitas radiasi matahari. Walaupun nilai galat membesar, dapat dilihat bahwa pada proses pendinginan kontroler tetap berupaya untuk mengikuti perubahan \textit{set point}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/Simulink2AC}
+	\caption{Grafik Variabel Manipulasi AC pada Simulasi 2 Simulink}
+	\label{fig:5:Simulink2AC}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/Simulink2HT}
+	\caption{Grafik Variabel Manipulasi \textit{Heater} pada Simulasi 2 Simulink}
+	\label{fig:5:Simulink2HT}
+\end{figure}
+\vspace{1em}
+
+Dari hasil 2 simulasi yang telah dijabarkan, kontroler jarang sekali mengaktifkan 2 \textit{heater} bahkan ketika ingin mencapai suhu yang tinggi. Hal ini menimbulkan kecurigaan terhadap rentang kinerja JST, baik pada model kontroler maupun model \textit{plant}. Diketahui bahwa pada umumnya jika jumlah data pelatihan JST kurang banyak dalam men-generalisasi suatu sistem, maka kinerja dari model JST pun akan menjadi kurang optimal. Hal ini merupakan salah satu kelemahan penggunaan model JST. Dengan memperhatikan \textit{manipulator} (\textit{final control elements}) yang digunakan, secara fisis RH tidaklah mungkin dapat dikendalikan oleh kontroler. Perubahan nilai RH yang terjadi diakibatkan oleh pengaruh AC secara tidak langsung.
