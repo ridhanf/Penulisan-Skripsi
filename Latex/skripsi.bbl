@@ -1,25 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{MPCDissertation}
-J.~Drgoňa.
-\newblock {\em {Model Predictive Control with Applications in Building Thermal
-  Comfort}}.
-\newblock Disertasi, Slovak University of Technology in Bratislava, Vazovova 5,
-  811 07 Bratislava, Slovakia, 2017.
-
-\bibitem{skripsiTanto}
-T.~Hartanto.
-\newblock {\em {Pemodelan Lingkungan Termal Sistem Climate Chamber Dengan
-  Metode Jaringan Saraf Tiruan}}.
-\newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
-  Universitas Gadjah Mada, Yogyakarta, 2020.
-
-\bibitem{IEA}
-IEA.
-\newblock {\em {ENERGY EFFICIENCY 2017 Laporan Khusus: Efisiensi Energi di
-  Indonesia}}.
-\newblock International Energy Agency, Indonesia, 2017.
-
 \bibitem{skripsiIchfan}
 I.~Kurniawan.
 \newblock {\em {Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan
@@ -36,6 +16,13 @@ Norman~S. Nise.
 Jagannathan Sarangapani.
 \newblock {\em {Neural Network Control of Nonlinear Discrete-Time Systems}}.
 \newblock Taylor and Francis Group, LLC, United State of America, 2006.
+
+\bibitem{MPCDissertation}
+J.~Drgoňa.
+\newblock {\em {Model Predictive Control with Applications in Building Thermal
+  Comfort}}.
+\newblock Disertasi, Slovak University of Technology in Bratislava, Vazovova 5,
+  811 07 Bratislava, Slovakia, 2017.
 
 \bibitem{paper42Paisan}
 M.A. Hussain, P.~Kittisupakorn  dan W.~Daosud.
@@ -160,5 +147,19 @@ Hugo Hens.
 Aurélien Géron.
 \newblock {\em {Hands-On Machine Learning with Scikit-Learn and TensorFlow}}.
 \newblock O’Reilly Media, Inc., United State of America, 2017.
+
+\bibitem{skripsiTanto}
+T.~Hartanto.
+\newblock {\em {Pemodelan Lingkungan Termal Sistem Climate Chamber Dengan
+  Metode Jaringan Saraf Tiruan}}.
+\newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
+  Universitas Gadjah Mada, Yogyakarta, 2020.
+
+\bibitem{DataSplitting}
+Z.~Reitermanova.
+\newblock ``{Data Splitting}''.
+\newblock  {\em Proceedings of the 19th Annual Conference of Doctoral Students
+  - WDS 2010}, volume~10, hal. 31 -- 36, Prague, Czech Republic, 1 -- 4 Juni
+  2010.
 
 \end{thebibliography}

@@ -29,7 +29,7 @@ Psikrometrik merupakan bidang ilmu yang mempelajari tentang cara menentukan sifa
 	T$_{db}$ (disebut juga sebagai suhu udara) merupakan ukuran suhu yang menggambarkan sifat dari udara yang umum digunakan. T$_{db}$ dapat diukur dengan menggunakan termometer biasa.
 	
 	\item \textit{Wet-Bulb Temperature} (T$_{wb}$) \\
-	T$_{wb}$ merupakan ukuran suhu yang menggambarkan sifat yang berhubungan dengan kandungan uap air di udara. Twb selalu lebih rendah dengan T$_{db}$. T$_{wb}$ dapat diukur dengan termometer yang dilapisi kain basah.
+	T$_{wb}$ merupakan ukuran suhu yang menggambarkan sifat yang berhubungan dengan kandungan uap air di udara. T$_{wb}$ selalu lebih rendah dengan T$_{db}$. T$_{wb}$ dapat diukur dengan termometer yang dilapisi kain basah.
 	
 	\item \textit{Dew Point Temperature} (T$_{dp}$) \\
 	T$_{dp}$ merupakan ukuran suhu ketika uap air mulai mengembun dan mulai memisahkan diri dari campuran gas.
@@ -53,7 +53,7 @@ Psikrometrik merupakan bidang ilmu yang mempelajari tentang cara menentukan sifa
 
 %Terdapat beberapa definisi mengenai fisika bangunan. Oleh karena itu, diambil definisi dari salah satu sumber referensi terpercaya yang berbunyi sebagai berikut: \textit{Building Physics is an applied science that studies the hygrothermal, acoustical and light related properties of building components (roofs, facades, windows, partition walls, etc.), room, building and building assemblies)} \cite{BuildingPhysics}. Di satu sisi fisika bangunan memiliki hubungan dengan pemenuhan kebutuhan dalam hal kenyamanan dan kesehatan penghuni, di sisi yang lain mempertimbangkan keterbatasan material, arsitektur, ekologi lingkungan, dan ekonomi. Kenyamanan merupakan kondisi kesehatan mental dan fisik makhluk hidup. Hal tersebut dapat tercapai bergantung kepada faktor manusia dan lingkungannya. Dapat disimpulkan bahwa pemenuhan terhadap kenyamanan termal, kenyamanan akustik, dan kenyamanan visual memerlukan kemampuan rekayasa (\textit{engineering}).
 
-Perpindahan kalor adalah salah satu bentuk energi termal yang dapat dipindahkan karena perbedaan suhu dari suatu tempat ke tempat lain\cite{HeatTransferIncropera}. Setiap kali ada perbedaan suhu dalam suatu medium atau antar media maka perpindahan kalor pasti terjadi.Kalor muncul dalam bentuk sensitif, yang artinya berhubungan dengan suhu atau dalam bentuk laten (kalor transformasi). Kalor sensitif dipindahkan dengan cara: \cite{BuildingPhysics}
+Perpindahan kalor adalah salah satu bentuk energi termal yang dapat dipindahkan karena perbedaan suhu dari suatu tempat ke tempat lain \cite{HeatTransferIncropera}. Setiap kali ada perbedaan suhu dalam suatu medium atau antar media maka perpindahan kalor pasti terjadi.Kalor muncul dalam bentuk sensitif, yang artinya berhubungan dengan suhu atau dalam bentuk laten (kalor transformasi). Kalor sensitif dipindahkan dengan cara: \cite{BuildingPhysics}
 
 \begin{enumerate}
 	\item Konduksi \\
@@ -83,7 +83,7 @@ Proses perpindahan kalor yang terjadi antara bangunan dan lingkungan terbagi men
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{figures/HeatTransferProcess}
-	\caption{Pertukaran kalor bangunan dengan lingkungan\cite{skripsiIchfan}}
+	\caption{Pertukaran kalor bangunan dengan lingkungan \cite{skripsiIchfan}}
 	\label{fig:3:HeatTransferProcess}
 \end{figure}
 
@@ -169,18 +169,18 @@ Proses pengendalian merupakan tugas seorang insinyur kontrol untuk menganalisis 
 	\item Penerapan kontroler dan pengujian
 \end{enumerate}
 
-\subsection{Kesalahan Keadaan-Ajeg}
+\subsection{\textit{Steady-State Error}}
 
 Salah satu tujuan dari desain dan analisis dari sistem kontrol difokuskan pada respon keadaan-ajeg. Misalnya dalam sistem kontrol posisi elevator, kesalahan pada keadaan-ajeg akan menyebabkan posisi elevator tidak tepat pada lantai yang dituju, tetapi mungkin pada posisi di atas atau di bawahnya. Dalam keadaan-ajeg diharapkan respon sistem sesuai dengan input yang diberikan. Tujuan dari desain dan analisis sistem kontrol diarahkan pada bagaimana memperkecil kesalahan pada keadaan-ajeg.
 
-kesalahan keadaan-ajeg adalah perbedaan antara input dan output untuk input tes yang ditentukan ketika $t \rightarrow \infty$. Dalam sistem kontrol diperhatikan perbedaan antara input dan output dari sistem kontrol umpan balik setelah mencapai keadaan-ajeg. \cite{ControlSystemBook}
+kesalahan keadaan-ajeg (\textit{steady-state error}) adalah perbedaan antara input dan output untuk input tes yang ditentukan ketika $t \rightarrow \infty$. Dalam sistem kontrol diperhatikan perbedaan antara input dan output dari sistem kontrol umpan balik setelah mencapai keadaan-ajeg. \cite{ControlSystemBook}
 
 %Dengan demikian, hal ini dibatasi untuk sistem yang stabil, dimana respons alami mendekati nol selayaknya $t \rightarrow \infty$ . Sistem yang tidak stabil merepresentasikan hilangnya kendali dalam keadaan-ajeg dan sama sekali tidak dapat diterima untuk digunakan. Persamaan yang diperoleh untuk menghitung galat keadaan-ajeg dapat diterapkan secara keliru ke sistem yang tidak stabil. Dengan demikian, insinyur harus memeriksa stabilitas sistem saat melakukan analisis dan perancangan galat keadaan-ajeg.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/SSEExample}
-	\caption{Sistem dengan \textbf{a.} kesalahan keadaan-ajeg bernilai terbatas untuk input fungsi step; \textbf{b.} kesalahan keadaan-ajeg nol untuk input fungsi step \cite{ControlSystemBook}}
+	\includegraphics[width=1\textwidth]{figures/SSEExample}
+	\caption{Sistem dengan \textbf{a.} \textit{steady-state error} bernilai terbatas untuk input fungsi step; \textbf{b.} \textit{steady-state error} nol untuk input fungsi step \cite{ControlSystemBook}}
 	\label{fig:3:steadystateerror}
 \end{figure}
 
@@ -244,28 +244,28 @@ Contohnya, amati Gambar \ref{fig:3:steadystateerror}(a) di mana $R(s)$ merupakan
 %\end{equation}
 
 
-\section{Jaringan Saraf Tiruan}
+\section{Jaringan Saraf Tiruan (JST)}
 Jaringan Saraf Tiruan (JST) dimodelkan dengan mengadaptasi proses biologis untuk pemrosesan informasi, termasuk secara khusus sistem saraf dan unit dasarnya, neuron (sel saraf). Sinyal didistribusikan dalam bentuk beda potensial antara bagian dalam dan luar sel. Komponen sel saraf (neuron) ditunjukkan pada Gambar \ref{fig:3:neuron}. Dendrit membawa sinyal dari neuron lain ke dalam badan sel (soma), kemungkinan dengan memperkalikan setiap sinyal yang masuk dengan koefisien pembobotan pengiriman. \cite{NNControlBook}
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/neuron}
+	\includegraphics[width=0.5\textwidth]{figures/neuron}
 	\caption{Anatomi neuron \cite{NNControlBook}}
 	\label{fig:3:neuron}
 \end{figure}
 
 Pada badan sel, kapasitansi sel mengintegrasikan sinyal yang terkumpul di \textit{axon hillock} (bagian khusus dari badan sel neuron yang terhubung dengan akson). Sekalinya sinyal gabungan melebihi ambang batas nilai tertentu, sinyal/impuls ditransmisikan melalui akson. Ketidaklinieran sel menjadikan impuls komposit sebagai fungsi nonlinier dari kombinasi sinyal yang datang. Akson tersebut, melalui sinapsis, terhubung dengan dendrit pada neuron berikutnya. Sinapsis beroperasi melalui pelepasan kimiawi \textit{neurotransmitter} melintasi celah antar sel, dan dapat berupa \textit{excitatory} (kecenderungan dalam pengaktifan neuron berikutnya) atau \textit{inhibitory} (kecenderungan dalam mencegah pengaktifan neuron berikutnya) \cite{NNControlBook}.
 
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.75\textwidth]{figures/neuronmath}
-	\caption{Model matematis neuron \cite{NNControlBook}}
-	\label{fig:3:math}
-\end{figure}
-
 \subsection{Model Matematis Neuron}
 
 Model matematis dari suatu neuron dilukiskan oleh Gambar \ref{fig:3:math}, yang mana menunjukkan pembobotan dendrit $v_j$, nilai ambang batas $v_0$ (disebut juga sebagai bias), penjumlahan dari sinyal masuk yang diberi bobot, dan fungsi nonlinear $\sigma(\cdot)$. Sel input adalah sinyal ke-$n$ pada waktu instan 	$kx_1(k), kx_2(k), kx_3(k),...,x_n(k)$ dan outputnya adalah nilai skalar $y(k)$, yang dapat dinyatakan sebagai
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figures/neuronmath}
+	\caption{Model matematis neuron \cite{NNControlBook}}
+	\label{fig:3:math}
+\end{figure}
 
 \begin{equation} \label{eq:3:perceptron}
 y(k) = \sigma \left( \sum_{j=1}^{n}v_jx_j(k)+v_0 \right)
@@ -276,7 +276,7 @@ Bobot-bobot positif  $v_j$ berhubungan dengan sinapsis \textit{exitatory} dan bo
 Fungsi sel nonlinear dikenal sebagai fungsi aktivasi. Fungsi aktivasi dipilih secara khusus untuk aplikasi-aplikasi meskipun beberapa pilihan yg umum diilustrasikan pada Gambar \ref{fig:3:activation}. Intensi pada fungsi aktivasi adalah untuk memodelkan perilaku nonlinier suatu sel di mana tidak terdapat output di bawah nilai tertentu suatu argumen. Fungsi sigmoid adalah sebuah kelas umum dari fungsi yang tidak meningkat secara monoton dengan mengambil nilai-nilai yang dibatasi antara nilai $-\infty$ dan $+\infty$. 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=1\textwidth]{figures/activationFunction}
+	\includegraphics[width=0.6\textwidth]{figures/activationFunction}
 	\caption{Fungsi-fungsi aktivasi \cite{NNControlBook}}
 	\label{fig:3:activation}
 \end{figure}
@@ -313,7 +313,7 @@ y = \sigma(v^Tx)
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/jstTunggal}
+	\includegraphics[width=0.5\textwidth]{figures/jstTunggal}
 	\caption{Jaringan layar tunggal \cite{NNControlBook}}
 	\label{fig:3:jstTunggal}
 \end{figure}
@@ -385,7 +385,7 @@ y = \overline{\sigma}(V^Tx)
 Jaringan layar jamak (\textit{Multilayer Perceptron}) merupakan perluasan dari jaringan layar tunggal (\textit{perceptron}). Sebuah JST 2 layar memiliki dua lapisan neuron dengan satu layar memiliki $L$ buah neuron yang memberikan umpan kepada lapisan kedua yang memiliki $m$ buah neuron, digambarkan pada Gambar \ref{fig:3:mlp}. Lapisan pertama dikenal sebagai lapisan tersembunyi, dengan $L$ sebagai jumlah neuron pada lapisan tersembunyi tersebut. Lapisan kedua dikenal sebagai lapisan output. Jaringan saraf tiruan yang terdiri dari banyak lapisan disebut sebagai \textit{multilayer perceptron}. Daya komputasi untuk lapisan ini perlu ditingkatkan secara signifikan dibandingkan jaringan layar tunggal. Dengan jaringan layar tunggal, dimungkinkan untuk menerapkan operasi digital seperti AND, OR, dan COMPLEMENT. 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/mlp}
+	\includegraphics[width=0.65\textwidth]{figures/mlp}
 	\caption{Jaringan 2 layar \cite{NNControlBook}}
 	\label{fig:3:mlp}
 \end{figure}
@@ -503,7 +503,7 @@ Pada umumnya, MSE digunakan untuk mengevaluasi kinerja arsitektur model JST. Nil
 
 Untuk mengendalikan lingkungan termal, pada umumnya digunakan sistem kontrol modern (\textit{modern control system}). Hal ini didasarkan pada karakteristik lingkungan termal yang memiliki sifat MIMO (\textit{multiple input multiple output}). Dengan demikian, sistem kontrol klasik tidak tepat digunakan untuk sistem \textit{climate chamber}.
 \begin{table}[!h]
-	\caption{Perbandingan metode kontrol \cite{MPCDissertation}}
+	\caption{Perbandingan metode kontrol}
 	\label{tbl:3:whyann}
 	\centering
 	% use packages: array
@@ -542,7 +542,7 @@ Pada dasarnya ada banyak sekali metode kontrol yang merupakan bagian dari metode
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=1\textwidth]{figures/ControlSystemTaxonomy}
+	\includegraphics[width=0.8\textwidth]{figures/ControlSystemTaxonomy}
 	\caption{Taksonomi metode kontrok klasik vs modern \cite{MPCDissertation}}
 	\label{fig:3:ControlSystemTaxonomy}
 \end{figure}

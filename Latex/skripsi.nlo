@@ -2,38 +2,38 @@
 \nomenclatureentry{ba\emph {Lambang }@[{\emph {Lambang }}]\begingroup \emph {Kuantitas } \nomunit {\emph {Satuan }}\nomeqref {0.0}|nompageref}{xvi}
 \nomenclatureentry{ca\emph {Lambang }@[{\emph {Lambang }}]\begingroup \emph {Deskripsi }\nomeqref {0.0}|nompageref}{xvi}
 \nomenclatureentry{da\emph {Lambang }@[{\emph {Lambang }}]\begingroup \emph {Deskripsi }\nomeqref {0.0}|nompageref}{xvi}
-\nomenclatureentry{aaaT${_{db}}$@[{T${_{db}}$}]\begingroup Suhu Ruang (Dry-Bulb Temperature)  \nomunit{$^\circ$C}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aaaT${_{db}}$@[{T${_{db}}$}]\begingroup Suhu Ruang (\textit{Dry-Bulb Temperature})  \nomunit{$^\circ$C}\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aabRH@[{RH}]\begingroup Kelembapan Relatif  \nomunit{\%}\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aacT$_o$@[{T$_o$}]\begingroup Suhu Lingkungan (Dry-Bulb Temeperature) \nomunit{$^\circ$C}\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aadRD@[{RD}]\begingroup Intensitas Radiasi Global Matahari  \nomunit{W/m$^2$}\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aaeAC@[{AC}]\begingroup SET AC \nomunit{$^\circ$C}\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aafHT@[{HT}]\begingroup SET Heater \nomunit{ON}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aacT$_o$@[{T$_o$}]\begingroup Suhu Lingkungan (\textit{Dry-Bulb Temeperature}) \nomunit{$^\circ$C}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aadRD@[{RD}]\begingroup Intensitas Radiasi Matahari  \nomunit{W/m$^2$}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aaeAC@[{AC}]\begingroup \textit{Setting} AC \nomunit{$^\circ$C}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aafHT@[{HT}]\begingroup Banyak \textit{heater} menyala \nomunit{ON}\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aag$t$@[{$t$}]\begingroup Waktu \nomunit{detik}\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aah$f$@[{$f$}]\begingroup Frekuensi \nomunit{Hertz}\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aaiR@[{R}]\begingroup Koefisien Korelasi \nomunit{\%}\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aaj$\mathbb{R}$@[{$\mathbb{R}$}]\begingroup Domain Bilangan Riil\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aak$R(s)$@[{$R(s)$}]\begingroup Input Sistem Kontrol\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aal$C(s)$@[{$C(s)$}]\begingroup Output Sistem Kontrol\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aam$E(s)$@[{$E(s)$}]\begingroup Eror Sistem Kontrol\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aan$K$@[{$K$}]\begingroup Gain Konstan\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aao$T(s)$@[{$T(s)$}]\begingroup Fungsi Gain Kalang Tertutup\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aap$G(s)$@[{$G(s)$}]\begingroup Fungsi Gain Kalang Tertutup Umpan Balik Satuan\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aar$x$@[{$x$}]\begingroup Lapisan Input Jaringan Saraf Tiruan\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{aas$y$@[{$y$}]\begingroup Lapisan Output Jaringan Saraf Tiruan\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aak$R(s)$@[{$R(s)$}]\begingroup Masukan Sistem Kontrol\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aal$C(s)$@[{$C(s)$}]\begingroup Keluaran Sistem Kontrol\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aam$E(s)$@[{$E(s)$}]\begingroup Galat Sistem Kontrol\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aan$K$@[{$K$}]\begingroup Konstanta Pengali\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aao$T(s)$@[{$T(s)$}]\begingroup Fungsi Pengali Kalang Tertutup\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aap$G(s)$@[{$G(s)$}]\begingroup Fungsi Pengali Kalang Tertutup Umpan Balik Satuan\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aar$x$@[{$x$}]\begingroup Lapisan Masukan Jaringan Saraf Tiruan\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{aas$y$@[{$y$}]\begingroup Lapisan Keluaran Jaringan Saraf Tiruan\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aat$z$@[{$z$}]\begingroup Lapisan Tersembunyi Jaringan Saraf Tiruan\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{abz@[{}]\begingroup \nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{aaz@[{}]\begingroup \nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{bba$\nu$@[{$\nu$}]\begingroup Bobot Jaringan Saraf Tiruan\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{bbt$\sigma$@[{$\sigma$}]\begingroup Fungsi Aktivasi Neuron\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{cbdsteady-state@[{steady-state}]\begingroup Kondisi-Ajeg\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{cbd\textit{steady-state}@[{\textit{steady-state}}]\begingroup Kondisi-Ajeg\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{dbjn@[{n}]\begingroup Dimensi n\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{dbkT@[{T}]\begingroup Fungsi Tranpos Vektor/Matrix\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{eaaANN@[{ANN}]\begingroup Artificial Neural Network\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{eabDBT@[{DBT}]\begingroup Dry-Bulb Temperature\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{eaeIES VE@[{IES VE}]\begingroup Integrated Environmental Solutions Virtual Environment\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{eafIMC@[{IMC}]\begingroup Internal Model Control\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{dbkT@[{T}]\begingroup Fungsi Tranpos Vektor/Matriks\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{eaaANN@[{ANN}]\begingroup \textit{Artificial Neural Network}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{eabDBT@[{DBT}]\begingroup \textit{Dry-Bulb Temperature}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{eaeIES-VE@[{IES-VE}]\begingroup \textit{Integrated Environmental Solutions - Virtual Environment}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{eafDTNTF@[{DTNTF}]\begingroup Departemen Teknik Nuklir dan Teknik Fisika\nomeqref {0.0}|nompageref}{xvii}
 \nomenclatureentry{eagJST@[{JST}]\begingroup Jaringan Saraf Tiruan\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{eahMRT@[{MRT}]\begingroup Mean Radiant Temperature\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{eaiMAE@[{MAE}]\begingroup Mean Absoulte Error\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{eajMSE@[{MSE}]\begingroup Mean Squared Error\nomeqref {0.0}|nompageref}{xvii}
-\nomenclatureentry{eakNN@[{NN}]\begingroup Neural Network\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{eahMRT@[{MRT}]\begingroup \textit{Mean Radiant Temperature}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{eaiMAE@[{MAE}]\begingroup \textit{Mean Absoulte Error}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{eajMSE@[{MSE}]\begingroup \textit{Mean Squared Error}\nomeqref {0.0}|nompageref}{xvii}
+\nomenclatureentry{eakNN@[{NN}]\begingroup \textit{Neural Network}\nomeqref {0.0}|nompageref}{xvii}

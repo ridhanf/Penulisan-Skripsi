@@ -4,21 +4,59 @@ Sistem bangunan yang dijadikan objek penelitian adalah \textit{climate chamber} 
 
 \section{Identifikasi Sistem}
 
-Dalam perancangan sistem kendali, perlu diidentifikasi terlebih dahulu variabel-variabel yang terlibat pada suatu sistem. Terdapat beberapa variabel yang terlibat pada sistem \textit{climate chamber}. Variabel-variabel yang diangkat pada penelitian ini tunjukkan oleh diagram blok \textit{plant} pada Gambar \ref{fig:5:DiagramBlokPlant}. Berdasarkan diagram tersebut, dapat dikatakan bahwa sistem merupakan sistem MIMO (\textit{Multi Input Multi Output}) yaitu sistem yang memiliki beberapa masukan dan beberapa keluaran. Identifikasi sistem yang telah dilakukan akan menghasilkan suatu diagram blok fungsional sistem seperti yang ditunjukkan pada Gambar \ref{fig:5:DiagramBlokSistem}.\\
+Pada penelitian \cite{skripsiIchfan}, Kurniawan melakukan karakterisasi lingkungan termal dengan pendekatan numerik yaitu menggunakan pendekatan numerik melalui simulasi CFD. Metode yang digunakan Kurniawan yaitu dengan melakukan pemodelan kawasan \textit{climate chamber} dengan menggunakan piranti lunak IES-VE. Model yang dibangun Kurniawan divalidasi dengan hasil pengukuran di 4 titik \textit{climate chamber}. Model yang dibangun digunakan untuk memprediksi karakter lingkungan termal \textit{climate chamber} dengan memvariasikan berbagai skenario gangguan. Model IES-VE yang dibangun Kurniawan dapat mewakili variabel lingkungan termal meliputi variabel suhu dengan selisih 0,8$\pm$0,7$^\circ$C, variabel kelembapan relatif dengan selisih 2,5$\pm$3,8\%, serta variabel kecepatan udara dengan selisih 0,056$\pm$0,004 m/s. Perangkat yang paling mempengaruhi \textit{climate chamber} merupakan perangkat AC dan \textit{heater}. AC menyebabkan perubahan suhu sesuai \textit{set point}. \textit{Heater} menyebabkan perubahan suhu hingga 3,2$^\circ$C/perangkat dan kelembaban relatif 3,5\%/perangkat. Manipulasi dari AC berpengaruh besar pada variabel kecepatan udara yang menyebabkan perubahan kecepatan udara sebesar 0,9 m/s.
+
+Pada penelitian Hartanto \cite{skripsiTanto}, model IES-VE yang telah dibangun Kurniawan digunakan untuk memperoleh data lingkungan termal. Sampel data yang digunakan sebanyak 24.000 data. Data tersebut digunakan untuk membangun model \textit{plant} lingkungan termal sistem \textit{climate chamber} menggunakan jaringan saraf tiruan. Jaringan dengan model terpilih menghasilkan MAE antara target dengan prediksi suhu sebesar 0,59$^\circ$C. Sedangkan antara target dan prediksi kelembapan relatif sebesar 5,44\%. Akurasi jaringan terpilih sebesar 96,23\% untuk suhu udara dan 68,90\% untuk kelembaban relatif.
+
+Pada penelitian ini, digunakan model IES-VE yang dibangun Kurniawan untuk memperoleh data lingkungan termal \textit{climate chamber} bersamaan dengan Hartanto. Kemudian, model yang dibangun Hartanto digunakan dalam penelitian ini sebagai model \textit{plant} dalam proses simulasi.
+
+\subsection{Pengambilan Data Simulasi IES-VE}
+
+Pada Gambar \ref{fig:4:HasilSimulasiIESVE} ditunjukkan salah satu hasil simulasi untuk skenario AC 26$^\circ$C dan \textit{heater} ON 2 buah dengan variabel gangguan yang digambarkan pada Gambar \ref{fig:4:LoadSimulasiIESVE}. Grafik yang ditampilkan terdiri dari 4 parameter yaitu suhu lingkungan (T$_o$), intensitas radiasi matahari (RD), suhu ruang (T$_{db}$), dan kelembapan relatif (RH). Skenario ini dilakukan selama 24 jam dengan selang waktu pengambilan data selama 6 menit dimulai dari pukul 00:03 hingga 23:57 WIB. Selang waktu tersebut adalah waktu tersingkat yang dapat dilakukan pada software IES-VE 2019. Respon waktu suhu ruang terhadap aktivasi AC tidak diperhitungkan dikarenakan secara fisis, respons transien termal pada bangunan berlangsung cukup lama, sehingga hanya berfokus untuk meninjau nilai \textit{steady-state error}.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.8\textwidth]{figures/BlokDiagramPlant}
+	\includegraphics[width=1\textwidth]{figures/ACHTSimulasiIESVE}
+	\caption{Data Konfigurasi AC dan \textit{Heater} pada Simulasi ISE-VE}
+	\label{fig:4:ACHTSimulasiIESVE}
+\end{figure}
+\vspace{1em}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=1\textwidth]{figures/LoadSimulasiIESVE}
+	\caption{Variabel Gangguan Simulasi ISE-VE}
+	\label{fig:4:LoadSimulasiIESVE}
+\end{figure}
+\vspace{1em}
+\hfill\break
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=1\textwidth]{figures/HasilSimulasiIESVE}
+	\caption{Data Hasil Simulasi ISE-VE}
+	\label{fig:4:HasilSimulasiIESVE}
+\end{figure}
+\vspace{1em}
+\break
+
+\subsection{Identifikasi Sistem Pengendalian}
+
+Dalam perancangan sistem kendali, perlu diidentifikasi terlebih dahulu variabel-variabel yang terlibat pada suatu sistem. Terdapat beberapa variabel yang terlibat pada sistem \textit{climate chamber}. Variabel-variabel yang diangkat pada penelitian ini tunjukkan oleh diagram blok \textit{plant} pada Gambar \ref{fig:5:DiagramBlokPlant}. Berdasarkan diagram tersebut, dapat dikatakan bahwa sistem merupakan sistem MIMO (\textit{Multi Input Multi Output}) yaitu sistem yang memiliki beberapa masukan dan beberapa keluaran. Identifikasi sistem yang telah dilakukan akan menghasilkan suatu diagram blok fungsional sistem seperti yang ditunjukkan pada Gambar \ref{fig:5:DiagramBlokSistem}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.55\textwidth]{figures/BlokDiagramPlant}
 	\caption{Diagram Blok \textit{Plant}}
 	\label{fig:5:DiagramBlokPlant}
 \end{figure}
 \vspace{1em}
 
-Dalam sistem \textit{climate chamber}, variabel manipulasi yang digunakan adalah \textit{setting} suhu AC dan \textit{heater} (jumlah \textit{heater} ON). Kemudian, variabel kontrol yang digunakan yaitu suhu udara (T$_{db}$) dan kelembapan relatif (RH) pada \textit{plant} (\textit{climate chamber}). Ada pula variabel gangguan sistem yaitu berupa intensitas radiasi matahari dan suhu lingkungan. Untuk pengujian \textit{set point}, skenario pengujian mengadaptasi Tugas Akhir pengujian level sensasi termal yang dilakukan oleh Nadiya\cite{skripsiMuna}. Hanya saja pada penelitian menggunakan \textit{set point} step bertingkat dengan lompatan 2$^{\circ}$C dari nilai suhu sebesar 16$^{\circ}$C hingga 30$^{\circ}$C.
+Dalam sistem \textit{climate chamber}, variabel manipulasi yang digunakan adalah \textit{setting} suhu AC dan \textit{heater} (jumlah \textit{heater} ON). Kemudian, variabel kontrol yang digunakan yaitu suhu udara (T$_{db}$) dan kelembapan relatif (RH) pada \textit{plant} (\textit{climate chamber}). Ada pula variabel gangguan sistem yaitu berupa intensitas radiasi matahari dan suhu lingkungan. Perubahan suhu oleh AC hanya mampu bekerja dengan kenaikan nilai sebesar 1$^\circ$C. Dengan memperhatikan \textit{manipulator} (\textit{final control elements}) yang digunakan, secara fisis RH tidaklah mungkin dapat dikendalikan oleh kontroler. Perubahan nilai RH yang terjadi diakibatkan oleh pengaruh AC secara tidak langsung. Untuk pengujian \textit{set point}, skenario pengujian mengadaptasi Tugas Akhir pengujian level sensasi termal yang dilakukan oleh Nadiya\cite{skripsiMuna}. Hanya saja pada penelitian menggunakan \textit{set point} step bertingkat dengan lompatan 2$^{\circ}$C dari nilai suhu sebesar 16$^{\circ}$C hingga 30$^{\circ}$C.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=1\textwidth]{figures/DiagramBlokFungsionalSistem}
+	\includegraphics[width=0.85\textwidth]{figures/DiagramBlokFungsionalSistem}
 	\caption{Diagram Blok Fungsional Sistem}
 	\label{fig:5:DiagramBlokSistem}
 \end{figure}
@@ -29,37 +67,12 @@ Untuk memaksimalkan kinerja kontroler, pada proses pelatihan JST (kontroler) dil
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=1\textwidth]{figures/ControlDesignDiagramII}
+	\includegraphics[width=0.85\textwidth]{figures/ControlDesignDiagramII}
 	\caption{Diagram blok sistem kontrol berbasis JST}
 	\label{fig:5:ConstrolSystemBlockDiagram}
 \end{figure}
 
-Diagram blok sistem kontrol juga memiliki blok tambahan berupa blok kuantisasi (\textit{Quantization}). Blok ini berperan sebagai penyesuai nilai variabel manipulasi yang dihasilkan kontroler. Hal ini dilakukan karena pada praktiknya nilai \textit{setting} suhu AC merupakan nilai bilangan bulat dan bukan nilai bilangan desimal. Hal ini pun berlaku untuk variabel manipulasi \textit{heater} di mana nilainya berupa nilai 0, 1, atau 2 yang menunjukkan jumlah \textit{heater} ON/menyala. Sehingga tidak mungkin ada nilai diantara nilai tersebut. Dengan demikian, diagram blok dipasangi sebuah blok kuantisasi (\textit{Quantization}) yang berfungsi untuk menghindari nilai desimal atau pun nilai yang berada di luar rentang nilai variabel manipulasi. Pada akhirnya dihasilkan diagram blok sistem kontrol yang ditunjukkan pada Gambar \ref{fig:5:ConstrolSystemBlockDiagram}.\\
-\vspace{1em}
-
-\section{Model Plant JST}
-
-Model \textit{plant} pada penelitian ini menggunakan model JST yang telah dibangun oleh Hartanto \cite{skripsiTanto}. Arsitektur model dirancang dengan memperhatikan sistem \textit{plant} pada Gambar \ref{fig:5:DiagramBlokPlant}. Arsitektur memiliki nilai-nilai \textit{hyperparameter} yang dirangkum pada Tabel \ref{tbl:5:NNPlantTanto}.
-
-\begin{table}[!h]
-	\caption{Tabel Rancangan Model Plant JST \cite{skripsiTanto}}
-	\label{tbl:5:NNPlantTanto}
-	\centering
-	% use packages: array
-	\begin{tabular}{|p{5cm}|p{5.2cm}|}
-		\hline
-		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\ \hline
-		Arsitektur & Feedforward Neural Network \\ \hline
-		Pembagian Data & 50\% 25\% 25\% \\ \hline 
-		Jumlah Layar Tersembunyi & 1 \\ \hline
-		Jumlah Neuron pada Layar & [55] \\ \hline
-		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
-		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
-		Mean Absolute Error (MAE) & T$_{db}$: 0,59$^\circ$C ; RH: 5,44\% \\ \hline
-		Mean Squared Error (MSE) & T$_{db}$: 0,75$^\circ$C ; RH: 52,33\% \\ \hline
-		Koefisien Korelasi (R) & T$_{db}$: 96,23\% ; RH: 68,90\% \\ \hline
-	\end{tabular}
-\end{table}
+Diagram blok sistem kontrol juga memiliki blok tambahan berupa blok kuantisasi (\textit{Quantization}). Blok ini berperan sebagai penyesuai nilai variabel manipulasi yang dihasilkan kontroler. Hal ini dilakukan karena pada praktiknya nilai \textit{setting} suhu AC merupakan nilai bilangan bulat dan bukan nilai bilangan desimal. Hal ini pun berlaku untuk variabel manipulasi \textit{heater} di mana nilainya berupa nilai 0, 1, atau 2 yang menunjukkan jumlah \textit{heater} ON/menyala. Sehingga tidak mungkin ada nilai diantara nilai tersebut. Dengan demikian, diagram blok dipasangi sebuah blok kuantisasi (\textit{Quantization}) yang berfungsi untuk menghindari nilai desimal atau pun nilai yang berada di luar rentang nilai variabel manipulasi. Pada akhirnya dihasilkan diagram blok sistem kontrol yang ditunjukkan pada Gambar \ref{fig:5:ConstrolSystemBlockDiagram}.
 
 \section{Rancangan Kontrol berbasis JST}
 
@@ -67,7 +80,7 @@ Model JST kontroler dibangun dengan menggunakan model jaringan saraf tiruan arsi
 
 \subsection{Variasi Pembagian Data Perancangan JST Kontroler}
 
-Variasi pembagiaan data dilakukan dengan membandingkan beberapa variasi pembagiaan data ke dalam 5 variasi. Kemudian kinerja dari setiap pembagian data dibandingkan dengan konfigurasi \textit{hyperparameter} pada Tabel \ref{tbl:5:NeuronVariation}.\\
+Dalam memvariasikan pembagian data digunakan metode \textit{trial-and-error} berdasarkan artikel \cite{DataSplitting}. Pada penelitian ini, variasi pembagiaan data dilakukan dengan membandingkan beberapa variasi pembagiaan data ke dalam 5 variasi. Kemudian kinerja dari setiap pembagian data dibandingkan dengan konfigurasi \textit{hyperparameter} pada Tabel \ref{tbl:5:NeuronVariation}.
 
 \begin{table}[!h]
 	\caption{Tabel Daftar Variasi Pembagian Data}
@@ -84,7 +97,6 @@ Variasi pembagiaan data dilakukan dengan membandingkan beberapa variasi pembagia
 		Pembagian Data 5 & (80\% 15\% 05\%) \\ \hline
 	\end{tabular}
 \end{table}
-\vspace{2em}
 
 Model JST untuk membandingkan variasi pembagian data menggunakan arsitektur \textit{feedforward network} dengan 1 lapisan tersembunyi berisi 10 neuron. Pada tabel yang disajikan, pembagian data ditulis dengan format "Pembagian Data n" dan "(x\% y\% z\%)" di mana n = nomor variasi, x = pembagian data pelatihan, y = pembagian data validasi, dan z = pembagian data pengujian. Berdasarkan hasil variasi yang ditunjukkan pada Gambar \ref{fig:5:DataSplittingVariation}, didapatkan pembagian data terbaik yaitu pembagian data bernama "Pembagian Data 4". Data dibagi menjadi 3 bagian, yakni 80\% data pelatihan, 10\% data validasi, dan 10\% data pengujian.
 
@@ -124,7 +136,7 @@ Setelah dilakukan perancangan model JST melalui variasi arsitektur model, didapa
 	\label{tbl:5:NNControl}
 	\centering
 	% use packages: array
-	\begin{tabular}{|p{5.7cm}|p{5cm}|}
+	\begin{tabular}{|p{5.7cm}|p{6.5cm}|}
 		\hline
 		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\ \hline
 		Arsitektur & Feedforward Neural Network \\ \hline
@@ -133,8 +145,8 @@ Setelah dilakukan perancangan model JST melalui variasi arsitektur model, didapa
 		Jumlah Neuron pada Layar & [35] \\ \hline
 		Fungsi Aktivasi Layar & Hyperbolic Tangent (tansig) \\ \hline
 		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
-		Mean Absolute Error (MAE) & AC: 0,37$^\circ$C ; HT: 0,02\\ \hline
-		Mean Squared Error (MSE) & AC: 2,68$^\circ$C ; HT: 0,01\\ \hline
+		Mean Absolute Error (MAE) & AC: 0,37$^\circ$C ; HT: 0,02 Perangkat ON\\ \hline
+		Mean Squared Error (MSE) & AC: 2,68$^\circ$C ; HT: 0,01 Perangkat ON\\ \hline
 		Koefisien Korelasi (R) & AC: 99,12\% ; HT: 99,65\% \\ \hline
 	\end{tabular}
 \end{table}
@@ -182,8 +194,7 @@ Dengan meninjau nilai variabel manipulasi AC yang ditunjukkan pada Gambar \ref{f
 
 Kurangnya keandalan kinerja kontroler pada penelitian ini untuk mengendalikan suhu ruang di atas \textit{set point} 26$^\circ$C disebabkan oleh salah satu kelemahan model JST dalam pemodelan \textit{plant}. Secara fisis, proses pemanasan pada sistem bangunan (dalam hal ini \textit{climate chamber}) membutuhkan waktu yang cukup lama. Dengan demikian, proses pemanasan pada kenyataannya tetap bisa mencapai \textit{set point} suhu di atas 26$^\circ$C. Hanya saja proses tersebut membutuhkan waktu (\textit{settling time}) yang cukup lama. Akan tetapi, proses tersebut tidak dapat disimulasikan secara sempurna pada penelitian ini dikarenakan model JST \textit{plant} yang dibangun oleh Hartanto\cite{skripsiTanto} hanya berupa model pasangan data dan bukan berupa model yang bergantung terhadap waktu. Sehingga, model JST \textit{plant} hanya dapat langsung mengeluarkan suatu nilai keluaran setiap menerima nilai masukan.
 
-Ditinjau dari \textit{set point} 16$^\circ$C hingga 26$^\circ$C, didapatkan nilai \textit{steady-state error} untuk suhu ruang sebesar 0,15$^\circ$C pada proses pemanasan dan sebesar 0,2$^\circ$C pada proses pendinginan. Lalu, didapatkan pula nilai \textit{steady-state error} untuk kelembapan relatif sebesar 0,05\% pada proses pemanasan dan sebesar 0,02\% pada proses pendinginan. Sehingga rerata nilai \textit{steady-state error} sebesar 0,18$^\circ$C untuk suhu ruang dan sebesar 0,04\% untuk kelembapan relatif.\\
-\vspace{3em}
+Ditinjau dari \textit{set point} 16$^\circ$C hingga 26$^\circ$C, didapatkan nilai \textit{steady-state error} untuk suhu ruang sebesar 0,15$^\circ$C pada proses pemanasan dan sebesar 0,2$^\circ$C pada proses pendinginan. Lalu, didapatkan pula nilai \textit{steady-state error} untuk kelembapan relatif sebesar 0,05\% pada proses pemanasan dan sebesar 0,02\% pada proses pendinginan. Sehingga rerata nilai \textit{steady-state error} sebesar 0,18$^\circ$C untuk suhu ruang dan sebesar 0,04\% untuk kelembapan relatif.
 
 \subsection{Skenario Pemanasan Pendinginan dengan Variabel Gangguan Bergerak}
 
@@ -191,48 +202,91 @@ Pada skenario ini digunakan data variabel gangguan pada 21 Juni 2019 yang berger
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/Simulink2To}
+	\includegraphics[width=0.7\textwidth]{figures/Simulink2To}
 	\caption{Grafik Nilai Variabel Gangguan Suhu Lingkungan}
 	\label{fig:5:Simulink2To}
 \end{figure}
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/Simulink2RD}
+	\includegraphics[width=0.7\textwidth]{figures/Simulink2RD}
 	\caption{Grafik Nilai Variabel Gangguan Intensitas Radiasi Matahari}
 	\label{fig:5:Simulink2RD}
 \end{figure}
-\vspace{1em}
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/Simulink2Td}
+	\includegraphics[width=0.7\textwidth]{figures/Simulink2Td}
 	\caption{Grafik Hasil Simulasi 2 Simulink untuk Suhu Ruang}
 	\label{fig:5:Simulink2Td}
 \end{figure}
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/Simulink2RH}
+	\includegraphics[width=0.7\textwidth]{figures/Simulink2RH}
 	\caption{Grafik Hasil Simulasi 2 Simulink untuk Kelembapan Relatif}
 	\label{fig:5:Simulink2RH}
 \end{figure}
 
-Hasil simulasi dengan variabel gangguan bergerak pun menunjukan kinerja yang kurang optimal. Berdasarkan Gambar \ref{fig:5:Simulink2Td}, dapat dilihat bahwa kontroler tidak mampu menaikan suhu ruang mencapai nilai lebih dari 27$^\circ$C. Dapat dilihat pula bahwa terjai lonjakan nilai suhu udara pada detik ke-1980. Lonjakan tersebut terjadi akibat penonaktifan AC yang dilakukan oleh kontroler yang dapat dilihat pada Gambar \ref{fig:5:Simulink2AC}. Pada proses pendinginan, nilai \textit{steady-state error} tampak lebih besar dibandingkan saat proses pemanasan. Hal ini mungkin disebabkan karena kenaikan suhu lingkungan dan intensitas radiasi matahari. Walaupun nilai galat membesar, dapat dilihat bahwa pada proses pendinginan kontroler tetap berupaya untuk mengikuti perubahan \textit{set point}.
+Hasil simulasi dengan variabel gangguan bergerak pun menunjukan kinerja yang kurang optimal. Berdasarkan Gambar \ref{fig:5:Simulink2Td}, dapat dilihat bahwa kontroler tidak mampu menaikan suhu ruang mencapai nilai lebih dari 27$^\circ$C. Dapat dilihat pula bahwa terjadi lonjakan nilai suhu udara pada detik ke-1980. Lonjakan tersebut terjadi akibat penonaktifan AC yang dilakukan oleh kontroler yang dapat dilihat pada Gambar \ref{fig:5:Simulink2AC}. Pada proses pendinginan, nilai \textit{steady-state error} tampak lebih besar dibandingkan saat proses pemanasan. Hal ini mungkin disebabkan karena kenaikan suhu lingkungan dan intensitas radiasi matahari. Walaupun nilai galat membesar, dapat dilihat bahwa pada proses pendinginan kontroler tetap berupaya untuk mengikuti perubahan \textit{set point}.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/Simulink2AC}
+	\includegraphics[width=0.65\textwidth]{figures/Simulink2AC}
 	\caption{Grafik Variabel Manipulasi AC pada Simulasi 2 Simulink}
 	\label{fig:5:Simulink2AC}
 \end{figure}
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.75\textwidth]{figures/Simulink2HT}
+	\includegraphics[width=0.65\textwidth]{figures/Simulink2HT}
 	\caption{Grafik Variabel Manipulasi \textit{Heater} pada Simulasi 2 Simulink}
 	\label{fig:5:Simulink2HT}
 \end{figure}
+\break
+\subsection{Analisis Kegagalan Kendali}
+
+Dari hasil 2 simulasi yang telah dijabarkan, kontroler jarang sekali mengaktifkan 2 \textit{heater} bahkan disaat ingin mencapai suhu yang tinggi. Hal ini menimbulkan kecurigaan terhadap rentang kinerja JST, baik pada model kontroler maupun model \textit{plant}. Untuk mengetahui penyebab kegagalan, dilakukan kembali simulasi dimana kontroler berhasil mengaktifkan 2 perangkat \textit{heater}. Simulasi ini dilakukan dengan nilai variabel gangguan sebesar 27$^\circ$C untuk suhu lingkungan dan sebesar 600 $W/m^2$ untuk intensitas radiasi matahari. Hasil simulasi ditunjukkan pada Gambar \ref{fig:5:Simulink3Td}, Gambar \ref{fig:5:Simulink3RH}, Gambar \ref{fig:5:Simulink3AC}, dan Gambar \ref{fig:5:Simulink3HT}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.65\textwidth]{figures/Simulink3Td}
+	\caption{Grafik Hasil Simulasi 3 Simulink untuk Suhu Ruang}
+	\label{fig:5:Simulink3Td}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.65\textwidth]{figures/Simulink3RH}
+	\caption{Grafik Hasil Simulasi 3 Simulink untuk Kelembapan Relatif}
+	\label{fig:5:Simulink3RH}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/Simulink3AC}
+	\caption{Grafik Variabel Manipulasi AC pada Simulasi 3 Simulink}
+	\label{fig:5:Simulink3AC}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.65\textwidth]{figures/Simulink3HT}
+	\caption{Grafik Variabel Manipulasi \textit{Heater} pada Simulasi 3 Simulink}
+	\label{fig:5:Simulink3HT}
+\end{figure}
+
+Berdasarkan hasil simulasi ini, dapat disimpulkan bahwa kegagalan pengendalian bukanlah disebabkan oleh tidak aktifnya 2 buah perangkat \textit{heater}. Selanjutnya, dicoba untuk dianalis model \textit{plant} yang dibangun oleh Hartanto. Pengujian dilakuakan dengan nilai variabel gangguan yang sama dan nilai AC 30$^\circ$C serta 2 \textit{heater} ON. Grafik percobaan ditunjukkan pada Gambar \ref{fig:5:UjiPlant}\\
+\break
+\break
+\break
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/UjiPlant}
+	\caption{Grafik Hasil Uji \textit{Plant}}
+	\label{fig:5:UjiPlant}
+\end{figure}
 \vspace{1em}
 
-Dari hasil 2 simulasi yang telah dijabarkan, kontroler jarang sekali mengaktifkan 2 \textit{heater} bahkan ketika ingin mencapai suhu yang tinggi. Hal ini menimbulkan kecurigaan terhadap rentang kinerja JST, baik pada model kontroler maupun model \textit{plant}. Diketahui bahwa pada umumnya jika jumlah data pelatihan JST kurang banyak dalam men-generalisasi suatu sistem, maka kinerja dari model JST pun akan menjadi kurang optimal. Hal ini merupakan salah satu kelemahan penggunaan model JST. Dengan memperhatikan \textit{manipulator} (\textit{final control elements}) yang digunakan, secara fisis RH tidaklah mungkin dapat dikendalikan oleh kontroler. Perubahan nilai RH yang terjadi diakibatkan oleh pengaruh AC secara tidak langsung.
+Dari Gambar \ref{fig:5:UjiPlant} diketahui bahwa \textit{plant} memang tidak mampu untuk menghasilkan keluaran suhu diatas 28$^\circ$C. Dengan begitu, perlu ditelaah kembali mengenai data yang digunakan. Setelah diteliti, kurangnya keandalan kontroler ternyata disebabkan oleh data simulasi yang dinilai kurang cukup mewakili kondisi lingkungan termal di suhu yang tinggi. Hal ini disebabkan karena tidak dilakukannya validasi di suhu tinggi pada penelitian Kurniawan \cite{skripsiIchfan}. Dengan demikian, model yang telah dibangun Hartanto pun pada akhirnya tidak mampu menghasilkan skenario dimana lingkungan termal \textit{climate chamber} mencapai suhu diatas 28$^\circ$C.

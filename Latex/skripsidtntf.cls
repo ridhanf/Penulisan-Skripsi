@@ -663,13 +663,13 @@ NIP. \@nipkadep
  %  \vskip 10\p@
    {\large\bfseries\MakeUppercase{\@judul}}
         \par\nobreak
-        \vskip 6\p@
+        \vskip 1\p@
     \interlinepenalty\@M
     {\normalsize oleh}\par\nobreak
-    \vskip 6\p@
+    \vskip 1\p@
     \begin{singlespace}
     {\normalsize \@nama \\ \@nim}
-        \vskip 10\p@
+        \vskip 1\p@
       Diajukan kepada Departemen Teknik Nuklir dan Teknik Fisika Fakultas Teknik \\
       Universitas Gadjah Mada pada tanggal \@tglujian \\
       untuk memenuhi sebagian persyaratan untuk memperoleh derajat \\
@@ -677,14 +677,14 @@ NIP. \@nipkadep
     \end{singlespace}
      \par\nobreak
     } 
-  \vspace{1cm}
+  \vspace{0.3em}
 {\parindent \z@ \centering \normalfont
 {\normalsize\bfseries \intisariname}\par\nobreak }
   \begin{singlespace}%
   \addcontentsline{toc}{chapter}{\intisariname}
 }
 \def\endintisari{
-\vspace{1cm}
+\vspace{1em}
 \hspace{-1.4cm}
 \begin{tabular}{ll}
 Pembimbing Utama: & \@pembimbingutama \\
@@ -705,13 +705,13 @@ Pembimbing Pendamping: & \@pembimbingpendamping
  %  {\large\bfseries\@juduleng}
    {\large\bfseries\MakeUppercase{\@juduleng}}
         \par\nobreak
-        \vskip 6\p@
+        \vskip 1\p@
     \interlinepenalty\@M
     {\normalsize by}\par\nobreak
-    \vskip 6\p@
+    \vskip 1\p@
     \begin{singlespace}
     {\normalsize \@nama \\ \@nim}
-        \vskip 10\p@
+        \vskip 1\p@
       Submitted to the Department of Nuclear Engineering and Engineering Physics \\
       Faculty of Engineering Universitas Gadjah Mada on \@tglujianeng \\
       in partial fulfillment of the requirement for the Degree of \\ Bachelor of Engineering in 
@@ -721,14 +721,14 @@ Pembimbing Pendamping: & \@pembimbingpendamping
  \end{singlespace}
     \par\nobreak
     } 
-  \vspace{1cm}
+  \vspace{0.3em}
 {\parindent \z@ \centering \normalfont
 {\normalsize\bfseries \abstractname}\par\nobreak }
   \begin{singlespace}%
   \addcontentsline{toc}{chapter}{\abstractname}
 }
 \def\endabstracteng{
-\vspace{1cm}
+\vspace{1em}
 \hspace{-1.4cm}
 \begin{tabular}{ll}
 Supervisor: & \@pembimbingutama \\

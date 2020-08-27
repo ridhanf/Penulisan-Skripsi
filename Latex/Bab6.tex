@@ -2,13 +2,14 @@
 \label{kesimpulan-dan-saran}
 
 \section{Kesimpulan}
-Rancangan kontroler berbasis jaringan saraf tiruan memiliki nilai \textit{steady-state error} sebesar 0,18$^\circ$C untuk suhu ruang dan sebesar 0,04\% untuk kelembapan relatif. Akan tetapi, kontroler tidak mampu mengendalikan suhu ruang \textit{climate chamber} di atas nilai \textit{set point} 26$^\circ$C dikarenakan model plant\cite{skripsiTanto} bukan merupakan model yang bergantung terhadap waktu. Kontroler berbasis jaringan saraf tiruan yang dihasilkan dibangun dengan pembagian data 80\% data latih, 10\% data validasi, dan 10\% data uji. Model Kontroler JST menggunakan fungsi aktivasi \textit{hyperbolic tangent} dengan algoritma pembelajaran Levenberg-Marquardt. Model Kontroler JST terdiri dari 1 lapisan tersembunyi dengan 35 neuron. Secara fisis, kelembapan relatif (RH) tidak dapat dikendalikan dengan sistem kontrol yang dibangun. Perubahan nilai RH yang terjadi diakibatkan oleh pengaruh AC secara tidak langsung.
+Rancangan kontroler berbasis jaringan saraf tiruan memiliki nilai \textit{steady-state error} sebesar 0,18$^\circ$C untuk suhu ruang. Kontroler berbasis jaringan saraf tiruan yang dihasilkan dibangun dengan pembagian data 80\% data latih, 10\% data validasi, dan 10\% data uji. Model Kontroler JST menggunakan fungsi aktivasi \textit{hyperbolic tangent} dengan algoritma pembelajaran Levenberg-Marquardt. Model Kontroler JST terdiri dari 1 lapisan tersembunyi dengan 35 neuron. Akan tetapi, kontroler tidak mampu mengendalikan suhu ruang \textit{climate chamber} di atas nilai \textit{set point} 26$^\circ$C dikarenakan data lingkungan termal dari Model IES-VE kurang mewakili kondisi sistem pada suhu yang tinggi.
 
 \section{Saran}
 
 %Berikut merupakan saran-saran untuk pengembangan kontroler ini agar menjadi lebih baik pada penelitian-penelitian selanjutnya:
 \begin{enumerate}
+	\item Disarankan untuk melakukan validasi model di nilai suhu yang tinggi terlebih dahulu apabila menggunaan model IES-VE yang serupa.
 	\item Memperkaya data pelatihan model JST menggunakan data pengukuran langsung pada \textit{climate chamber} dalam merancang kontroler JST.
-	\item Menambahkan semacam manipulator/aktuator pada \textit{climate chamber} untuk memanipulasi kelembapan relatif ruang secara langsung seperti penelitian yang dilakukan oleh Moon \cite{paper22JJkim}. Contoh: \textit{humidifier} dan \textit{dehumidifier}.
-	\item Menambahkan variabel control lainnya ke dalam rancangan kontroler, seperti kecepatan angin, suhu radian, RH lingkungan, dsb.
+	\item Menambahkan semacam \textit{manipulator}/aktuator pada \textit{climate chamber} untuk memanipulasi kelembapan relatif ruang secara langsung seperti penelitian yang dilakukan oleh Moon \cite{paper22JJkim}. Contoh: \textit{humidifier} dan \textit{dehumidifier}.
+	\item Menambahkan variabel kontrol lainnya ke dalam rancangan kontroler, seperti kecepatan angin, suhu radian, RH lingkungan, dsb.
 \end{enumerate}

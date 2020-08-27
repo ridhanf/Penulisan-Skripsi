@@ -31,7 +31,6 @@ Penelitian ini tidak dapat dilakukan tanpa adanya alat dan bahan yang memudahkan
 	\end{tabular}
 \end{table}
 
-\vspace{2em}
 \begin{table}[!h]
 	\caption{Spesifikasi laptop ASUS N550JX}
 	\label{tbl:4:speklaptop}
@@ -48,6 +47,8 @@ Penelitian ini tidak dapat dilakukan tanpa adanya alat dan bahan yang memudahkan
 		%6 & Sistem operasi & Manjaro Linux \\ \hline
 	\end{tabular}
 \end{table}
+
+\textit{Climate chamber} memiliki fungsi sebagai prasarana uji eksperimental pada penelitian yang menggunakan variabel lingkungan termal. Salah satu penelitian yang menggunakan \textit{climate chamber} yaitu penelitian mengenai kenyamanan termal.
 
 \vspace{2em}
 \section{Tata Laksana Penelitian}
@@ -84,9 +85,10 @@ Tuntutan rancangan Tugas Akhir ini yaitu kontroler mampu mengendalikan \textit{p
 
 
 \subsection{Pengambilan Data Simulasi IES-VE}
-Penelitian ini menggunakan data yang sama dengan data yang digunakan oleh penelitian Hartanto \cite{skripsiTanto} yang bersumber dari model yang telah dibuat pada penelitian sebelumnya berjudul "Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan Metode Simulasi CFD dengan Perangkat Lunak IES-VE" yang diteliti oleh Kurniawan \cite{skripsiIchfan}.  Data tersebut merupakan hasil simulasi pada \textit{software} IES-VE dengan menerapkan beberapa variasi kondisi lingkungan pada model \textit{climate chamber}. Variasi tersebut yaitu kondisi batas lingkungan (radiasi matahari dan suhu bola kering luar/\textit{outdoor dry bulb temperature}), kondisi AC, dan kondisi \textit{heater}. Variasi kondisi batas lingkungan tersebut diwujudkan dalam pembagian 4 musim dalam 1 tahun, yakni bulan Maret, Juni, September dan Desember. Keluaran dari model IES-VE berupa nilai suhu ruang (\textit{air temperature}) \textit{chamber} dan kelembapan relatif (RH) \textit{chamber}. Dari model tersebut didapatkan nilai MAE perhitungan selisih variabel lingkungan termal hasil simulasi dan pengukuran lapangan sebesar 0,8 $\pm$ 0,7$^{\circ}$C untuk suhu udara ruang dan 2,5 $\pm$ 3,8\% untuk kelembaban relatif \cite{skripsiIchfan}. Data yang sudah terkumpul disajikan dalam bentuk tabular dan diolah dengan menggunakan komputer.
 
-\subsubsection{Kondisi \textit{Climate Chamber}}
+Pada penelitian ini, digunakan model IES-VE untuk melakukan proses simulasi lingkungan termal. Bersamaan dengan penelitian Hartanto \cite{skripsiTanto}, data bersumber dari model yang telah dibuat pada penelitian sebelumnya berjudul "Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan Metode Simulasi CFD dengan Perangkat Lunak IES-VE" yang diteliti oleh Kurniawan \cite{skripsiIchfan}.  Data tersebut merupakan hasil simulasi pada \textit{software} IES-VE dengan menerapkan beberapa variasi kondisi lingkungan pada model \textit{climate chamber}. Variasi tersebut yaitu kondisi batas lingkungan (radiasi matahari dan suhu bola kering luar/\textit{outdoor dry bulb temperature}), kondisi AC, dan kondisi \textit{heater}. Variasi kondisi batas lingkungan tersebut diwujudkan dalam pembagian 4 musim dalam 1 tahun, yakni bulan Maret, Juni, September dan Desember. Keluaran dari model IES-VE berupa nilai suhu ruang (\textit{air temperature}) \textit{chamber} dan kelembapan relatif (RH) \textit{chamber}. Dari model tersebut didapatkan nilai MAE perhitungan selisih variabel lingkungan termal hasil simulasi dan pengukuran lapangan sebesar 0,8 $\pm$ 0,7$^{\circ}$C untuk suhu udara ruang dan 2,5 $\pm$ 3,8\% untuk kelembaban relatif \cite{skripsiIchfan}. Data yang sudah terkumpul disajikan dalam bentuk tabular dan diolah dengan menggunakan komputer.\\
+
+\noindent\textbf{Kondisi \textit{Climate Chamber}}
 
 Climate chamber memiliki ukuran panjang $\times$ lebar $\times$ tinggi = 3 m $\times$ 2 m $\times$ 3 m. Komponen-komponen di dalam \textit{climate chamber} terdiri dari meja, kursi, \textit{blower}, penghuni, lampu, \textit{heater}, dan AC. Posisi setiap komponen di dalam \textit{climate chamber} digambarakan pada Gambar \ref{fig:4:KondisiChamber}.
 
@@ -96,38 +98,35 @@ Climate chamber memiliki ukuran panjang $\times$ lebar $\times$ tinggi = 3 m $\t
 	\caption{Posisi Komponen-Komponen di dalam \textit{Climate Chamber}}
 	\label{fig:4:KondisiChamber}
 \end{figure}
-%\vspace{1em}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.6\textwidth]{figures/AC}
-	\caption{Perangkat AC}
-	\label{fig:4:AC}
-\end{figure}
-%\vspace{1em}
+\vspace{3em}
 
 Perangkat AC yang berada di dalam \textit{climate chamber} DTNTF FT-UGM memiliki daya sebesar 2800W (1 PK). Perangkat AC mampu mengkondisikan lingkungan melalui aliran udara yang keluar. Oleh karena itu, Perangkat AC sangatlah berpengaruh terhadap kondisi lingkungan termal di dalam ruangan. Penampakan wujud perangkat AC dapat dilihat pada Gambar \ref{fig:4:AC}
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.35\textwidth]{figures/Heater}
-	\caption{Perangkat Heater}
-	\label{fig:4:Heater}
+	\includegraphics[width=0.35\textwidth]{figures/AC}
+	\caption{Perangkat AC}
+	\label{fig:4:AC}
 \end{figure}
-%\vspace{1em}
 
 Perangkat pemanas (\textit{heater}) yang berada di dalam \textit{climate chamber} memiliki daya sebesar 900W. Terdapat dua buah perangkat pemanas di dalam \textit{climate chamber}. Semakin banyak perangkat pemanas yang aktif maka suhu ruang akan menjadi semakin meningkat. Kenaikan rerata suhu ruang yaitu sebesar $\pm1,9^\circ$C untuk setiap perangkat pemanas. Penampakan wujud \textit{heater} dapat dilihat pada Gambar \ref{fig:4:Heater}.
 
-Selain faktor di dalam \textit{climate chamber}, faktor dari luar ruangan pun secara tidak langsung mempengaruhi kondisi lingkungan termal \textit{climate chamber}, di antaranya adalah suhu lingkungan (\textit{dry bulb temperature}) dan intensitas radiasi matahari. Posisi harian matahari mempengaruhi perubahan nilai suhu lingkungan dan intensitas radiasi matahari. Pada siang hari (posisi \textit{altitude} matahari ketika berada tepat di atas \textit{climate chamber}) memberikan paparan radiasi matahari yang mengenai selubung bangunan. Hal ini menyebabkan kenaikan suhu di dalam \textit{climate chamber}.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.2\textwidth]{figures/Heater}
+	\caption{Perangkat Heater}
+	\label{fig:4:Heater}
+\end{figure}
 
-\subsubsection{Rancangan Skenario Pengambilan Data}
-Rancangan skenario pada \textit{climate chamber} menghasilkan kombinasi antara perangkat AC dan jumlah \textit{heater} dalam kondisi ON. Perangkat AC dikondisikan untuk menyala dari pukul 08:00 sampai dengan pukul 17:00 WIB bervariasi dengan rentang nilai 16$^\circ$C - 30$^\circ$C dengan lompatan 1$^\circ$C. Jumlah \textit{heater} dalam kondisi ON terbagi menjadi 3 kondisi, yaitu keduanya tidak menyala (berkode 0), salah satu menyala (berkode 1), dan keduanya menyala (berkode 2). Kombinasi tersebut menghasilkan 25 variasi skenario.
+Selain faktor di dalam \textit{climate chamber}, faktor dari luar ruangan pun secara tidak langsung mempengaruhi kondisi lingkungan termal \textit{climate chamber}, di antaranya adalah suhu lingkungan (\textit{dry bulb temperature}) dan intensitas radiasi matahari. Posisi harian matahari mempengaruhi perubahan nilai suhu lingkungan dan intensitas radiasi matahari. Pada siang hari (posisi \textit{altitude} matahari ketika berada tepat di atas \textit{climate chamber}) memberikan paparan radiasi matahari yang mengenai selubung bangunan. Hal ini menyebabkan kenaikan suhu di dalam \textit{climate chamber}.\\
 
-Untuk variasi suhu lingkungan dan intensitas radiasi matahari digunakan 4 titik ekstrim bumi terhadap matahari yaitu pada tanggal 21 Maret, 21 Juni, 23 September dan 22 Desember. Kemudian dilakukan simulasi pada setiap titik tersebut dengan kombinasi pada Gambar \ref{fig:4:SkenarioData}. Dengan demikian, total skenario yang dihasilkan dari kombinasi tersebut berjumlah 100 skenario.
+\noindent\textbf{Rancangan Skenario Pengambilan Data}
+
+Rancangan skenario pada \textit{climate chamber} menghasilkan kombinasi antara perangkat AC dan jumlah \textit{heater} dalam kondisi ON. Perangkat AC dikondisikan untuk menyala dari pukul 08:00 sampai dengan pukul 17:00 WIB bervariasi dengan rentang nilai 16$^\circ$C - 30$^\circ$C dengan lompatan 1$^\circ$C. Jumlah \textit{heater} dalam kondisi ON terbagi menjadi 3 kondisi, yaitu keduanya tidak menyala (berkode 0), salah satu menyala (berkode 1), dan keduanya menyala (berkode 2). Kombinasi tersebut menghasilkan 25 variasi skenario. Untuk variasi suhu lingkungan dan intensitas radiasi matahari digunakan 4 titik ekstrim bumi terhadap matahari yaitu pada tanggal 21 Maret, 21 Juni, 23 September dan 22 Desember. Kemudian dilakukan simulasi pada setiap titik tersebut dengan kombinasi pada Gambar \ref{fig:4:SkenarioData}. Dengan demikian, total skenario yang dihasilkan dari kombinasi tersebut berjumlah 100 skenario.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.85\textwidth]{figures/SkenarioData}
+	\includegraphics[width=0.65\textwidth]{figures/SkenarioData}
 	\caption{Skenario Pengambilan Data}
 	\label{fig:4:SkenarioData}
 \end{figure}
@@ -135,38 +134,8 @@ Untuk variasi suhu lingkungan dan intensitas radiasi matahari digunakan 4 titik 
 \break
 \break
 
-\subsubsection{Simulasi IES-VE}
-
-Pada Gambar \ref{fig:4:HasilSimulasiIESVE} ditunjukkan salah satu hasil simulasi untuk skenario AC 26$^\circ$C dan \textit{heater} ON 2 buah dengan variabel gangguan yang digambarkan pada Gambar \ref{fig:4:LoadSimulasiIESVE}. Grafik yang ditampilkan terdiri dari 4 parameter yaitu suhu lingkungan (T$_o$), intensitas radiasi matahari (RD), suhu ruang (T$_{db}$), dan kelembapan relatif (RH). Skenario ini dilakukan selama 24 jam dengan selang waktu pengambilan data selama 6 menit dimulai dari pukul 00:03 hingga 23:57 WIB. Selang waktu tersebut adalah waktu tersingkat yang dapat dilakukan pada software IES-VE 2019. Respon waktu suhu ruang terhadap aktivasi AC tidak diperhitungkan dikarenakan secara fisis, respons transien termal pada bangunan berlangsung cukup lama, sehingga hanya berfokus untuk meninjau nilai kesalahan keadaan-ajeg (\textit{steady-state error}).
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/ACHTSimulasiIESVE}
-	\caption{Data Konfigurasi AC dan \textit{Heater} pada Simulasi ISE-VE}
-	\label{fig:4:ACHTSimulasiIESVE}
-\end{figure}
-\vspace{1em}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/LoadSimulasiIESVE}
-	\caption{Variabel Gangguan Simulasi ISE-VE}
-	\label{fig:4:LoadSimulasiIESVE}
-\end{figure}
-\vspace{1em}
-\hfill\break
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/HasilSimulasiIESVE}
-	\caption{Data Hasil Simulasi ISE-VE}
-	\label{fig:4:HasilSimulasiIESVE}
-\end{figure}
-\vspace{1em}
-\break
-
 \subsection{Model \textit{Plant} JST}
-Model \textit{plant} pada penelitian ini menggunakan model plant JST yang telah dirancang pada penelitian sebelumnya \cite{skripsiTanto}. Model plant tersebut memiliki nilai MAE perhitungan antara target dan prediksi sebesar 0,59$^{\circ}$C untuk suhu ruang dan 5,44\% untuk kelembapan relatif. Akurasi JST sebesar 96,23\% untuk suhu ruang dan 68,90\% untuk kelembapan relatif. Arsitektur Model Plant JST digambarkan pada Gambar \ref{fig:4:NNPlantModelDesign}.
+Model \textit{plant} pada penelitian ini menggunakan model JST yang telah dibangun oleh Hartanto pada \cite{skripsiTanto}. Arsitektur Model Plant JST digambarkan pada Gambar \ref{fig:4:NNPlantModelDesign}. Model plant yang digunakan memiliki nilai MAE perhitungan antara target dan prediksi sebesar 0,59$^{\circ}$C untuk suhu ruang dan 5,44\% untuk kelembapan relatif. Akurasi JST sebesar 96,23\% untuk suhu ruang dan 68,90\% untuk kelembapan relatif. Keseluruhan nilai \textit{hyperparameter} model JST yang dirangkum pada Tabel \ref{tbl:5:NNPlantTanto}.
 
 \begin{figure}[!h]
 	\centering
@@ -175,11 +144,30 @@ Model \textit{plant} pada penelitian ini menggunakan model plant JST yang telah 
 	\label{fig:4:NNPlantModelDesign}
 \end{figure}
 
-%Model plant ini akan dikembangkan kembali dalam melakukan perancangan kontroler JST. Rancangan Model plant JST yang dikembangkan akan dipilih berdasarkan kinerja prediksi yang lebih baik untuk variabel kelembapan relatif. Kinerja model akan dievaluasi melalui nilai koefisien korelasi (R).
+\begin{table}[!h]
+	\caption{Tabel Rancangan Model Plant JST}
+	\label{tbl:5:NNPlantTanto}
+	\centering
+	% use packages: array
+	\begin{tabular}{|p{5cm}|p{5.2cm}|}
+		\hline
+		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\ \hline
+		Arsitektur & Feedforward Neural Network \\ \hline
+		Pembagian Data & 50\% 25\% 25\% \\ \hline 
+		Jumlah Layar Tersembunyi & 1 \\ \hline
+		Jumlah Neuron pada Layar & [55] \\ \hline
+		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
+		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
+		Mean Absolute Error (MAE) & T$_{db}$: 0,59$^\circ$C ; RH: 5,44\% \\ \hline
+		Mean Squared Error (MSE) & T$_{db}$: 0,75$^\circ$C ; RH: 52,33\% \\ \hline
+		Koefisien Korelasi (R) & T$_{db}$: 96,23\% ; RH: 68,90\% \\ \hline
+	\end{tabular}
+\end{table}
+
 
 \subsection{Perancangan Kontrol berbasis JST}
 
-Dalam melakukan pemodelan kontrol, pertama-tama didefinisikan terlebih dahulu pasangan data masukan dan keluaran dari sistem kendali. Nilai pasangan masukan dan keluaran kontrol ditunjukkan dengan Gambar \ref{fig:4:NNControlIO}. Pasangan masukan dan keluaran tersebut didapatkan dengan memperhatikan diagram blok sistem pengendalian. Diagram blok sistem pengendalian ditunjukkan pada Gambar \ref{fig:4:ConstrolSystemBlockDiagram}.
+Dalam melakukan pemodelan kontrol, pertama-tama didefinisikan terlebih dahulu pasangan data masukan dan keluaran dari sistem kendali. Pasangan data masukan dan keluaran tersebut didapatkan dengan memperhatikan diagram blok sistem pengendalian yang ditunjukkan pada Gambar \ref{fig:4:ConstrolSystemBlockDiagram}. Nilai pasangan masukan dan keluaran kontrol ditunjukkan pada Gambar \ref{fig:4:NNControlIO}.
 
 \begin{figure}[!h]
 	\centering
