@@ -31,14 +31,14 @@
 \contentsline {subsection}{\numberline {III.2.2.}\textit {Steady-State Error}}{21}%
 \contentsline {section}{\numberline {III.3.}Jaringan Saraf Tiruan (JST)}{22}%
 \contentsline {subsection}{\numberline {III.3.1.}Model Matematis Neuron}{23}%
-\contentsline {subsection}{\numberline {III.3.2.}Jaringan Layar Jamak (MLP)}{26}%
+\contentsline {subsection}{\numberline {III.3.2.}Jaringan Lapisan Jamak (MLP)}{26}%
 \contentsline {subsubsection}{\numberline {III.3.2.2.}Penskalaan Fitur}{29}%
 \contentsline {subsubsection}{\numberline {III.3.2.2.}Evaluasi Kinerja Model JST}{30}%
 \contentsline {section}{\numberline {III.4.}Kontrol Jaringan Saraf Tiruan}{31}%
 \contentsline {chapter}{\numberline {IV}PELAKSANAAN PENELITIAN}{33}%
 \contentsline {section}{\numberline {IV.1.}Alat dan Bahan Penelitian}{33}%
 \contentsline {section}{\numberline {IV.2.}Tata Laksana Penelitian}{34}%
-\contentsline {subsection}{\numberline {IV.2.1.}Studi Pustaka}{35}%
+\contentsline {subsection}{\numberline {IV.2.1.}Studi Pustaka}{34}%
 \contentsline {subsection}{\numberline {IV.2.2.}Penentuan Tuntutan Rancangan}{35}%
 \contentsline {subsection}{\numberline {IV.2.3.}Pengambilan Data Simulasi IES-VE}{35}%
 \contentsline {subsection}{\numberline {IV.2.4.}Model \textit {Plant} JST}{39}%
@@ -54,7 +54,7 @@
 \contentsline {subsection}{\numberline {V.2.2.}Variasi Arsitektur Perancangan JST Kontroler}{49}%
 \contentsline {subsection}{\numberline {V.2.3.}Hasil Rancangan Model JST Kontroler}{50}%
 \contentsline {section}{\numberline {V.3.}Hasil Simulasi Kontrol SIMULINK}{51}%
-\contentsline {subsection}{\numberline {V.3.1.}Skenario Pemanasan Pendinginan dengan Variabel Gangguan Konstan}{51}%
+\contentsline {subsection}{\numberline {V.3.1.}Skenario Pemanasan Pendinginan dengan Variabel Gangguan Konstan}{52}%
 \contentsline {subsection}{\numberline {V.3.2.}Skenario Pemanasan Pendinginan dengan Variabel Gangguan Bergerak}{54}%
 \contentsline {subsection}{\numberline {V.3.3.}Analisis Kegagalan Kendali}{57}%
 \contentsline {chapter}{\numberline {VI}KESIMPULAN DAN SARAN}{60}%

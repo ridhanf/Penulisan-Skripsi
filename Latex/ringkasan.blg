@@ -1,60 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/W32TeX)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: ringkasan.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: skripsi.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: pustaka.bib
-You're missing a field name---line 35 of file pustaka.bib
- : 
- : % author = {H. Feriadi and N. Hien},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 44 of file pustaka.bib
- : 
- : % author = {E. Arens and H. Zhang and C. Huizenga},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "sedjati18"
-Warning--I didn't find a database entry for "various_notation"
-Warning--I didn't find a database entry for "vibration_clipped"
-You've used 6 entries,
+You've used 7 entries,
             2230 wiz_defined-function locations,
-            542 strings with 5016 characters,
-and the built_in function-call counts, 1164 in all, are:
-= -- 159
-> -- 31
-< -- 0
-+ -- 14
-- -- 8
-* -- 43
-:= -- 218
-add.period$ -- 18
-call.type$ -- 6
-change.case$ -- 1
+            549 strings with 5197 characters,
+and the built_in function-call counts, 1669 in all, are:
+= -- 224
+> -- 39
+< -- 2
++ -- 17
+- -- 10
+* -- 81
+:= -- 284
+add.period$ -- 21
+call.type$ -- 7
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 50
-empty$ -- 96
-format.name$ -- 8
-if$ -- 278
+cite$ -- 7
+duplicate$ -- 70
+empty$ -- 139
+format.name$ -- 10
+if$ -- 403
 int.to.chr$ -- 0
-int.to.str$ -- 6
+int.to.str$ -- 7
 missing$ -- 5
-newline$ -- 33
-num.names$ -- 6
+newline$ -- 38
+num.names$ -- 7
 pop$ -- 16
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 55
+skip$ -- 81
 stack$ -- 0
-substring$ -- 15
-swap$ -- 6
-text.length$ -- 0
+substring$ -- 74
+swap$ -- 17
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 7
-width$ -- 7
-write$ -- 71
-(There were 2 error messages)
+while$ -- 12
+width$ -- 8
+write$ -- 84

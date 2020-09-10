@@ -77,20 +77,19 @@ Alur penelitian yang digunakan dalam mencapai tujuan dapat dilihat pada Gambar \
 %\end{landscape}
 
 \subsection{Studi Pustaka}
-Studi pustaka bertujuan untuk mendapatkan pemahaman dalam penyelesaian masalah yang diangkat dalam penelitian ini. Studi pustaka juga membantu menegaskan tujuan penelitian sehingga penulis mampu mengetahui perbedaan penelitian ini dengan penelitian terkait yang telah dilakukan sebelumnya. Dari studi pustaka yang telah dilakukan maka akan memperjelas tuntutan perancangan dari sistem yang akan dibuat. Informasi yang digunakan bersumber dari berbagai artikel ilmiah, jurnal, skripsi, buku, dan/atau sumber tertulis lainnya yang membahas mrengenai sistem kontrol lingkungan termal dan/atau jaringan saraf tiruan.
+Studi pustaka bertujuan untuk mendapatkan pemahaman dalam penyelesaian masalah yang diangkat dalam penelitian ini. Studi pustaka juga membantu menegaskan tujuan penelitian sehingga mampu diketahui perbedaan penelitian ini dengan penelitian terkait yang telah dilakukan sebelumnya. Dari studi pustaka yang telah dilakukan maka akan memperjelas tuntutan perancangan dari sistem yang akan dibuat. Informasi yang digunakan bersumber dari berbagai artikel ilmiah, jurnal, skripsi, buku, dan/atau sumber tertulis lainnya yang membahas mrengenai sistem kontrol lingkungan termal dan/atau jaringan saraf tiruan.
 
 \subsection{Penentuan Tuntutan Rancangan}
 
-Tuntutan rancangan Tugas Akhir ini yaitu kontroler mampu mengendalikan \textit{plant} pada skenario penggunaan \textit{climate chamber} dengan galat suhu kurang dari $\pm$1$^\circ$C dan galat kelembapan relatif kurang dari $\pm$10\%.
-
+Tuntutan rancangan Tugas Akhir ini yaitu kontroler harus mampu mengendalikan \textit{plant} pada skenario penggunaan \textit{climate chamber} dengan galat suhu kurang dari $\pm$1$^\circ$C dan galat kelembapan relatif kurang dari $\pm$10\%.
 
 \subsection{Pengambilan Data Simulasi IES-VE}
 
-Pada penelitian ini, digunakan model IES-VE untuk melakukan proses simulasi lingkungan termal. Bersamaan dengan penelitian Hartanto \cite{skripsiTanto}, data bersumber dari model yang telah dibuat pada penelitian sebelumnya berjudul "Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan Metode Simulasi CFD dengan Perangkat Lunak IES-VE" yang diteliti oleh Kurniawan \cite{skripsiIchfan}.  Data tersebut merupakan hasil simulasi pada \textit{software} IES-VE dengan menerapkan beberapa variasi kondisi lingkungan pada model \textit{climate chamber}. Variasi tersebut yaitu kondisi batas lingkungan (radiasi matahari dan suhu bola kering luar/\textit{outdoor dry bulb temperature}), kondisi AC, dan kondisi \textit{heater}. Variasi kondisi batas lingkungan tersebut diwujudkan dalam pembagian 4 musim dalam 1 tahun, yakni bulan Maret, Juni, September dan Desember. Keluaran dari model IES-VE berupa nilai suhu ruang (\textit{air temperature}) \textit{chamber} dan kelembapan relatif (RH) \textit{chamber}. Dari model tersebut didapatkan nilai MAE perhitungan selisih variabel lingkungan termal hasil simulasi dan pengukuran lapangan sebesar 0,8 $\pm$ 0,7$^{\circ}$C untuk suhu udara ruang dan 2,5 $\pm$ 3,8\% untuk kelembaban relatif \cite{skripsiIchfan}. Data yang sudah terkumpul disajikan dalam bentuk tabular dan diolah dengan menggunakan komputer.\\
+Pada penelitian ini, digunakan model pada piranti lunak \textit{Integrated Environmental Solutions - Virtual Environment} (IES-VE) untuk melakukan proses simulasi lingkungan termal. Bersamaan dengan penelitian Hartanto \cite{skripsiTanto}, data bersumber dari model yang telah dibuat pada penelitian sebelumnya berjudul "Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan Metode Simulasi \textit{Computational Fluid Dynamics} (CFD) dengan Perangkat Lunak IES-VE" yang diteliti oleh Kurniawan \cite{skripsiIchfan}.  Data tersebut merupakan hasil simulasi pada \textit{software} IES-VE dengan menerapkan beberapa variasi kondisi lingkungan pada model \textit{climate chamber}. Variasi tersebut yaitu kondisi batas lingkungan (radiasi matahari dan suhu bola kering luar/\textit{outdoor dry bulb temperature}), kondisi AC, dan kondisi \textit{heater}. Variasi kondisi batas lingkungan tersebut diwujudkan dalam pembagian 4 musim dalam 1 tahun, yakni bulan Maret, Juni, September dan Desember. Keluaran dari model IES-VE berupa nilai suhu ruang (\textit{air temperature}) \textit{chamber} dan kelembapan relatif (RH) \textit{chamber}. Dari model tersebut didapatkan nilai MAE perhitungan selisih variabel lingkungan termal hasil simulasi dan pengukuran lapangan sebesar 0,8 $\pm$ 0,7$^{\circ}$C untuk suhu udara ruang dan 2,5 $\pm$ 3,8\% untuk kelembaban relatif \cite{skripsiIchfan}. Data yang sudah terkumpul disajikan dalam bentuk tabular dan diolah dengan menggunakan komputer.\\
 
 \noindent\textbf{Kondisi \textit{Climate Chamber}}
 
-Climate chamber memiliki ukuran panjang $\times$ lebar $\times$ tinggi = 3 m $\times$ 2 m $\times$ 3 m. Komponen-komponen di dalam \textit{climate chamber} terdiri dari meja, kursi, \textit{blower}, penghuni, lampu, \textit{heater}, dan AC. Posisi setiap komponen di dalam \textit{climate chamber} digambarakan pada Gambar \ref{fig:4:KondisiChamber}.
+\textit{Climate chamber} memiliki ukuran panjang $\times$ lebar $\times$ tinggi = 3 m $\times$ 2 m $\times$ 3 m. Komponen-komponen di dalam \textit{climate chamber} terdiri dari meja, kursi, \textit{blower}, penghuni, lampu, \textit{heater}, dan AC. Posisi setiap komponen di dalam \textit{climate chamber} digambarkan pada Gambar \ref{fig:4:KondisiChamber}.
 
 \begin{figure}[!h]
 	\centering
@@ -98,13 +97,12 @@ Climate chamber memiliki ukuran panjang $\times$ lebar $\times$ tinggi = 3 m $\t
 	\caption{Posisi Komponen-Komponen di dalam \textit{Climate Chamber}}
 	\label{fig:4:KondisiChamber}
 \end{figure}
-\vspace{3em}
 
-Perangkat AC yang berada di dalam \textit{climate chamber} DTNTF FT-UGM memiliki daya sebesar 2800W (1 PK). Perangkat AC mampu mengkondisikan lingkungan melalui aliran udara yang keluar. Oleh karena itu, Perangkat AC sangatlah berpengaruh terhadap kondisi lingkungan termal di dalam ruangan. Penampakan wujud perangkat AC dapat dilihat pada Gambar \ref{fig:4:AC}
+Perangkat AC yang berada di dalam \textit{climate chamber} DTNTF FT-UGM memiliki daya sebesar 2800W (1 PK). Perangkat AC mampu mengkondisikan lingkungan melalui aliran udara yang keluar. Oleh karena itu, Perangkat AC sangatlah berpengaruh terhadap kondisi lingkungan termal di dalam ruangan. Penampakan wujud perangkat AC dapat dilihat pada Gambar \ref{fig:4:AC}.\\
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.35\textwidth]{figures/AC}
+	\includegraphics[width=0.5\textwidth]{figures/AC}
 	\caption{Perangkat AC}
 	\label{fig:4:AC}
 \end{figure}
@@ -113,8 +111,8 @@ Perangkat pemanas (\textit{heater}) yang berada di dalam \textit{climate chamber
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[width=0.2\textwidth]{figures/Heater}
-	\caption{Perangkat Heater}
+	\includegraphics[width=0.25\textwidth]{figures/Heater}
+	\caption{Perangkat \textit{heater}}
 	\label{fig:4:Heater}
 \end{figure}
 
@@ -122,7 +120,7 @@ Selain faktor di dalam \textit{climate chamber}, faktor dari luar ruangan pun se
 
 \noindent\textbf{Rancangan Skenario Pengambilan Data}
 
-Rancangan skenario pada \textit{climate chamber} menghasilkan kombinasi antara perangkat AC dan jumlah \textit{heater} dalam kondisi ON. Perangkat AC dikondisikan untuk menyala dari pukul 08:00 sampai dengan pukul 17:00 WIB bervariasi dengan rentang nilai 16$^\circ$C - 30$^\circ$C dengan lompatan 1$^\circ$C. Jumlah \textit{heater} dalam kondisi ON terbagi menjadi 3 kondisi, yaitu keduanya tidak menyala (berkode 0), salah satu menyala (berkode 1), dan keduanya menyala (berkode 2). Kombinasi tersebut menghasilkan 25 variasi skenario. Untuk variasi suhu lingkungan dan intensitas radiasi matahari digunakan 4 titik ekstrim bumi terhadap matahari yaitu pada tanggal 21 Maret, 21 Juni, 23 September dan 22 Desember. Kemudian dilakukan simulasi pada setiap titik tersebut dengan kombinasi pada Gambar \ref{fig:4:SkenarioData}. Dengan demikian, total skenario yang dihasilkan dari kombinasi tersebut berjumlah 100 skenario.
+Rancangan skenario pada \textit{climate chamber} menghasilkan kombinasi antara perangkat AC dan jumlah \textit{heater} dalam kondisi ON. Perangkat AC dikondisikan untuk menyala dari pukul 08:00 sampai dengan pukul 17:00 WIB bervariasi dengan rentang nilai 16$^\circ$C - 30$^\circ$C dengan lompatan 1$^\circ$C. Jumlah \textit{heater} dalam kondisi ON terbagi menjadi 3 kondisi, yaitu keduanya tidak menyala (berkode 0), salah satu menyala (berkode 1), dan keduanya menyala (berkode 2). Kombinasi tersebut menghasilkan 25 variasi skenario. Untuk variasi suhu lingkungan dan intensitas radiasi matahari digunakan 4 titik ekstrim bumi terhadap matahari yaitu pada tanggal 21 Maret, 21 Juni, 23 September dan 22 Desember. Kemudian dilakukan simulasi pada setiap titik tersebut dengan kombinasi seperti pada Gambar \ref{fig:4:SkenarioData}. Dengan demikian, total skenario yang dihasilkan dari kombinasi tersebut berjumlah 100 skenario.
 
 \begin{figure}[!h]
 	\centering
@@ -135,7 +133,7 @@ Rancangan skenario pada \textit{climate chamber} menghasilkan kombinasi antara p
 \break
 
 \subsection{Model \textit{Plant} JST}
-Model \textit{plant} pada penelitian ini menggunakan model JST yang telah dibangun oleh Hartanto pada \cite{skripsiTanto}. Arsitektur Model Plant JST digambarkan pada Gambar \ref{fig:4:NNPlantModelDesign}. Model plant yang digunakan memiliki nilai MAE perhitungan antara target dan prediksi sebesar 0,59$^{\circ}$C untuk suhu ruang dan 5,44\% untuk kelembapan relatif. Akurasi JST sebesar 96,23\% untuk suhu ruang dan 68,90\% untuk kelembapan relatif. Keseluruhan nilai \textit{hyperparameter} model JST yang dirangkum pada Tabel \ref{tbl:5:NNPlantTanto}.
+Model \textit{plant} pada penelitian ini menggunakan model JST yang telah dibangun oleh Hartanto pada \cite{skripsiTanto}. Arsitektur Model \textit{plant} JST digambarkan pada Gambar \ref{fig:4:NNPlantModelDesign}. Model \textit{plant} yang digunakan memiliki nilai MAE perhitungan antara target dan prediksi sebesar 0,59$^{\circ}$C untuk suhu ruang dan 5,44\% untuk kelembapan relatif. Akurasi JST sebesar 96,23\% untuk suhu ruang dan 68,90\% untuk kelembapan relatif. Keseluruhan nilai \textit{hyperparameter} model JST yang dirangkum pada Tabel \ref{tbl:5:NNPlantTanto}.
 
 \begin{figure}[!h]
 	\centering
@@ -154,9 +152,9 @@ Model \textit{plant} pada penelitian ini menggunakan model JST yang telah dibang
 		\textbf{Nama Hyperparameter} & \textbf{Nilai Hyperparameter} \\ \hline
 		Arsitektur & Feedforward Neural Network \\ \hline
 		Pembagian Data & 50\% 25\% 25\% \\ \hline 
-		Jumlah Layar Tersembunyi & 1 \\ \hline
-		Jumlah Neuron pada Layar & [55] \\ \hline
-		Fungsi Aktivasi Layar & Hyperbolic Tangent \\ \hline
+		Jumlah Lapisan Tersembunyi & 1 \\ \hline
+		Jumlah Neuron & [55] \\ \hline
+		Fungsi Aktivasi & Hyperbolic Tangent \\ \hline
 		Algoritma Pembelajaran & Levenberg-Marquardt \\ \hline
 		Mean Absolute Error (MAE) & T$_{db}$: 0,59$^\circ$C ; RH: 5,44\% \\ \hline
 		Mean Squared Error (MSE) & T$_{db}$: 0,75$^\circ$C ; RH: 52,33\% \\ \hline

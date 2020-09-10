@@ -716,9 +716,7 @@ Pembimbing Pendamping: & \@pembimbingpendamping
       Faculty of Engineering Universitas Gadjah Mada on \@tglujianeng \\
       in partial fulfillment of the requirement for the Degree of \\ Bachelor of Engineering in 
        \@prodieng
-      
-
- \end{singlespace}
+   \end{singlespace}
     \par\nobreak
     } 
   \vspace{0.3em}

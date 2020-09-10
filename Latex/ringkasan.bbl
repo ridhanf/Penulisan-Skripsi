@@ -1,25 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{skripsiIchfan}
-Ichfan Kurniawan.
-\newblock {\em {Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan
-  Metode Simulasi CFD Dengan Perangkat Lunak IES VE}}.
-\newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
-  Universitas Gadjah Mada, Yogyakarta, 2019.
-
-\bibitem{skripsiTanto}
-Tri Hartanto.
-\newblock {\em {Pemodelan Lingkungan Termal Sistem Climate Chamber Dengan
-  Metode Jaringan Saraf Tiruan}}.
-\newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
-  Universitas Gadjah Mada, Yogyakarta, 2020.
-
-\bibitem{IEA}
-IEA.
-\newblock {\em {ENERGY EFFICIENCY 2017 Laporan Khusus: Efisiensi Energi di
-  Indonesia}}.
-\newblock International Energy Agency, Indonesia, 2017.
-
 \bibitem{ASHRAE55}
 ASHRAE.
 \newblock {\em {ANSI/ASHRAE Standard 55-2010 Thermal Environmental Conditions
@@ -27,17 +7,44 @@ ASHRAE.
 \newblock American Society of Heating, Refrigerating, and Air-Conditioning
   Engineers, Inc., Atlanta, GA, 2010.
 
+\bibitem{skripsiTanto}
+T.~Hartanto.
+\newblock {\em {Pemodelan Lingkungan Termal Sistem Climate Chamber Dengan
+  Metode Jaringan Saraf Tiruan}}.
+\newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
+  Universitas Gadjah Mada, Yogyakarta, 2020.
+
+\bibitem{skripsiIchfan}
+I.~Kurniawan.
+\newblock {\em {Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan
+  Metode Simulasi CFD Dengan Perangkat Lunak IES VE}}.
+\newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
+  Universitas Gadjah Mada, Yogyakarta, 2019.
+
 \bibitem{paper42Paisan}
-M.~A. Hussain, P.~Kittisupakorn  dan W.~Daosud.
+M.A. Hussain, P.~Kittisupakorn  dan W.~Daosud.
 \newblock ``{Implementation of Neural-Network-Based Inverse-Model Control
   Strategies on an Exothermic Reactor}''.
 \newblock {\em ScienceAsia}, 27:41--50, 2001.
 
 \bibitem{skripsiMuna}
-Nur~Muna Nadiya.
+N.M. Nadiya.
 \newblock {\em {Analisis Pengaruh Perubahan Lingkungan Termal terhadap
   Perubahan Level Sensasi Termal}}.
 \newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
   Universitas Gadjah Mada, Yogyakarta, 2020.
+
+\bibitem{DataSplitting}
+Z.~Reitermanova.
+\newblock ``{Data Splitting}''.
+\newblock  {\em Proceedings of the 19th Annual Conference of Doctoral Students
+  - WDS 2010}, volume~10, hal. 31 -- 36, Prague, Czech Republic, 1 -- 4 Juni
+  2010.
+
+\bibitem{paper22JJkim}
+J.W. Moon dan J.J. Kim.
+\newblock ``{ANN-Based Thermal Control Models for Residential Buildings}''.
+\newblock {\em Journal of Building and Environment, Elsevier Ltd.},
+  45:1612--1625, 2010.
 
 \end{thebibliography}
