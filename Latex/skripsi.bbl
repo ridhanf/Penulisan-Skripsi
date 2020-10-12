@@ -7,6 +7,26 @@ I.~Kurniawan.
 \newblock Skripsi, Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik,
   Universitas Gadjah Mada, Yogyakarta, 2019.
 
+\bibitem{paperChamber}
+J.C. Guedes, E.Q. Costa  dan J.S. Baptista.
+\newblock ``{Using a Climatic Chamber to Measure the Human Psychophysiological
+  Response Under Different Combinations of Temperature and Humidity}''.
+\newblock {\em Thermology International, European Association of Thermology
+  (EAT)}, 22:Appendix 1, 2012.
+
+\bibitem{ChamberGrande}
+GRANDETOP.
+\newblock {\em {Walk-In Test Chamber}}.
+\newblock Diakses dari
+  \url{https://www.grandetop.com/walk-in-test-chamber/walk-in-test-chamber.html?gclid=CjwKCAjwkoz7BRBPEiwAeKw3q-6iKLHsFgRonKD_h3URGQejpaP1dlc7018yuzl62zIRwPXa5pCHsxoCd-gQAvD_BwE},
+  26 Agustus 2020.
+
+\bibitem{ChamberASLI}
+ASLI.
+\newblock {\em {Walk-In Chamber Temperature Aging Room}}.
+\newblock Diakses dari \url{https://www.aslitesting.com/show-82.html}, 26
+  Agustus 2020.
+
 \bibitem{ControlSystemBook}
 Norman~S. Nise.
 \newblock {\em {Control System Engineering}}.
@@ -84,13 +104,6 @@ J.~Drgoňa, D.~Picard, M.~Kvasnica  dan L.~Helsen.
   Learning}''.
 \newblock {\em Journal of Applied Energy, Elsevier Ltd.}, 218:199--216, 2018.
 
-\bibitem{book1}
-William~R. Santee dan William~T. Matthew.
-\newblock {\em {Military Quantitative Physiology: Problems and Concepts in
-  Military Operational Medicine}}.
-\newblock Office of The Surgeon General Borden Institute, Fort Detrick,
-  Maryland, 2012.
-
 \bibitem{paper31WHe}
 W.~He, G.~Xu  dan R.~Shen.
 \newblock ``{Control of Temperature Uniformity in the Temperature Chamber With
@@ -130,6 +143,13 @@ E.~Martinez dan S.J. Agosta.
 \newblock ``{Budget-Limited Thermal Biology: Design, Construction and
   Performance of a Large, Walk-in Style Temperature-Controlled Chamber}''.
 \newblock {\em Journal of Thermal Biology, Elsevier Ltd.}, 58:29--34, 2016.
+
+\bibitem{book1}
+William~R. Santee dan William~T. Matthew.
+\newblock {\em {Military Quantitative Physiology: Problems and Concepts in
+  Military Operational Medicine}}.
+\newblock Office of The Surgeon General Borden Institute, Fort Detrick,
+  Maryland, 2012.
 
 \bibitem{HeatTransferIncropera}
 Theodore~L. Bergman, Adrienne~S. Lavine, Frank~P. Incropera  dan David~P.

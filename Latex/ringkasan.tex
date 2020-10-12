@@ -138,11 +138,11 @@
 	\vspace{0.3cm}
 	
 	{\setlength{\parindent}{0cm}\bfseries
-		Intisari--- Penelitian-penelitan kenyamanan termal membutuhkan kondisi lingkungan termal pada \textit{climate chamber} (sebagai ruang uji eksperimental) untuk dapat dikondisikan secara otomatis sesuai dengan skema pengujian penelitian. \textit{Climate chamber} dapat terwujud jika kondisi iklim di dalamnya dapat dikendalikan sesuai dengan kebutuhan skenario penelitian. Oleh karena itu, dibutuhkan suatu sistem kontrol yang mampu mengendalikan lingkungan termal pada \textit{climate chamber}.
+		Intisari--- Penelitian-penelitan kenyamanan termal membutuhkan kondisi lingkungan termal pada \textit{climate chamber} (sebagai ruang uji eksperimental) untuk dapat dikondisi-kan secara otomatis sesuai dengan skema pengujian penelitian. \textit{Climate chamber} dapat terwujud jika kondisi iklim di dalamnya dapat dikendalikan sesuai dengan kebutuhan skenario penelitian. Oleh karena itu, dibutuhkan suatu sistem kontrol yang mampu mengendalikan lingkungan termal pada \textit{climate chamber}.
 		
-		\qquad Penelitian ini menggunakan sampel data sebanyak 24.000 yang didapatkan dari simulasi IES-VE. Dengan menggunakan data tersebut, dibangun kontroler berbasis jaringan saraf tiruan (JST) untuk mengendalikan suhu ruang (T$_{db}$) dan kelembapan relatif (RH) pada \textit{climate chamber}. Kontroler dibangun dari model JST dengan menggunakan prinsip model invers dari model \textit{plant} berdasarkan data simulasi IES-VE. Kontroler dirancang dengan memvariasikan pembagian data pelatihan, fungsi aktivasi, serta banyak neuron pada \textit{hidden layer}. Model dipilih berdasarkan nilai \textit{mean squared errror} terkecil dari hasil variasi model. Simulasi kontrol dilakukan dengan skenario pemanasan dengan laju 0,625$^\circ$C. Kinerja hasil simulasi ditinjau melalui nilai \textit{steady-state error}.
+		\qquad Penelitian ini menggunakan sampel data sebanyak 24.000 yang didapatkan dari simulasi IES-VE. Dengan menggunakan data tersebut, dibangun kontroler berbasis jaringan saraf tiruan (JST) untuk mengendalikan suhu ruang (T$_{db}$) dan kelembapan relatif (RH) pada \textit{climate chamber}. Kontroler dibangun dari model JST dengan menggunakan prinsip model invers dari model \textit{plant} berdasarkan data simulasi IES-VE. Kontroler dirancang dengan memvariasikan pembagian data pelatihan, fungsi aktivasi, serta banyak neuron pada \textit{hidden layer}. Model dipilih berdasarkan nilai \textit{mean squared errror} terkecil dari hasil variasi model. Simulasi kontrol dilakukan dengan skenario pemanasan dengan laju 0,625$^\circ$C.
 		
-		\qquad Kontroler dibangun dengan menggunakan MATLAB dan disimulasikan dengan menggunakan Simulink. Model JST Kontroler dibangun dengan pembagian data 80\% data latih, 10\% data validasi, dan 10\% data uji. Model JST Kontroler menggunakan fungsi aktivasi \textit{hyperbolic tangent} dengan algoritma pembelajaran Levenberg-Marquardt. Model JST Kontroler memiliki arsitektur jaringan dengan 1 lapisan tersembunyi (\textit{hidden layer}) berisi 35 neuron. Hasil perancangan mampu mengendalikan lingkungan termal \textit{climate chamber} dengan nilai \textit{steady-state error} sebesar 0,18$^\circ$C untuk suhu ruang dan sebesar 0,04\% untuk kelembapan relatif.\\
+		\qquad Kontroler dibangun dengan menggunakan MATLAB dan disimulasikan deng-an menggunakan Simulink. Model JST Kontroler dibangun dengan pembagian data 80\% data latih, 10\% data validasi, dan 10\% data uji. Model JST Kontroler meng-gunakan fungsi aktivasi \textit{hyperbolic tangent}. Model JST Kontroler memiliki arsitektur jaringan dengan 1 lapisan tersembunyi (\textit{hidden layer}) berisi 35 neuron. Hasil perancangan mampu mengendalikan lingkungan termal \textit{climate chamber} dengan nilai \textit{steady-state error} sebesar 0,18$^\circ$C untuk suhu ruang. Akan tetapi, kontroler tidak mampu mengendalikan suhu ruang \textit{climate chamber} di atas nilai \textit{set point} 26$^\circ$C dikarenakan data lingkungan termal dari Model IES-VE kurang mewakili kondisi sistem pada suhu yang tinggi.\\
 		
 		Kata kunci--- Lingkungan Termal, Kontroler, Jaringan Saraf Tiruan, Ruang Iklim.
 	}
@@ -152,9 +152,9 @@
 	{\setlength{\parindent}{0cm}\bfseries
 		Abstract--- Thermal comfort studies require the thermal environment conditions in the climate chamber (as a thermal test room) to be automatically conditioned according to the research test scheme. Climate chamber can be realized if the climatic conditions in it can be controlled according to the needs of the research scenario. Therefore, we need a control system capable of controlling the thermal environment in the climate chamber.
 		
-		\qquad This study uses a sample of 24,000 data obtained from the IES-VE simulation. By using this data, a controller based on an artificial neural network (ANN) was built to control air temperature (T$_{db}$) and relative humidity (RH) in the climate chamber. The Controller is designed from ANN model using the principle of plant inverse model based on IES-VE simulation data. Controller was designed by varying the distribution of training data, activation functions, and many neurons in the hidden layer. The model is selected based on the smallest mean squared error from the variation in the model. The control simulation is carried out with a heating scenario with a rate of 0.625 der C. The performance of the simulation results is reviewed through the steady-state error value.
+		\qquad This study uses a sample of 24,000 data obtained from the IES-VE simulation. By using this data, a controller based on an artificial neural network (ANN) was built to control air temperature (T$_{db}$) and relative humidity (RH) in the climate chamber. The Controller is designed from ANN model using the principle of plant inverse model based on IES-VE simulation data. Controller was designed by varying the distribution of training data, activation functions, and many neurons in the hidden layer. The model is selected based on the smallest mean squared error from the variation in the model. The control simulation is carried out with a heating scenario with a rate of 0.625$^\circ$C.
 		
-		\qquad Controller was built using MATLAB and simulated using Simulink. ANN Controller was created by split the data into 80\% training data, 10\% validation data, and 10\% testing data. ANN controller uses the hyperbolic tangent activation function with the Levenberg-Marquardt learning algorithm. ANN Controller has a network architecture with one hidden layer containing 35 neurons. The results of the author's design able to control the thermal environment of the climate chamber with a steady-state error value 0.18$^\circ$C for room temperature and 0.04\% for relative humidity.\\
+		\qquad The Controller was built using MATLAB and simulated using Simulink. The ANN Controller was created by spliting the data into 80\% training data, 10\% validation data, and 10\% testing data. The ANN controller uses the hyperbolic tangent activation function. The ANN Controller has a network architecture with one hidden layer containing 35 neurons. The results of the design able to control the thermal environment of the climate chamber with a steady-state error value 0.18$^\circ$C for room temperature. However, the controller is not able to control the room temperature of climate chamber above the set point value of 26$^\circ$C because of the thermal environment data from the IES-VE Model does not represent the system conditions at high temperatures.\\
 		
 		Keywords--- Thermal Environment, Controller, Artificial Neural Network, Climate Chamber.
 	}
@@ -166,18 +166,33 @@
 		
 		\subsection{Latar Belakang}\label{latar belakang}
 		
-		\textit{Climate chamber} merupakan suatu ruangan tertutup yang digunakan untuk menguji efek dari kondisi lingkungan yang ditentukan pada objek biologis, produk industri, bahan, dan/atau perangkat elektronik. Pada penulisan ini, \textit{climate chamber} yang dimaksud berfokus pada objek biologis mengenai penelitian kenyamanan termal. Dalam melakukan penelitian kenyamanan termal, peneliti tersebut membutuhkan suatu \textit{climate chamber} untuk dapat melakukan pengujian. Kondisi lingkungan termal di dalam \textit{climate chamber} dapat berubah sesuai dengan skema pengujian. Terdapat 6 faktor lingkungan termal yang mempengaruhi kenyamanan termal. Faktor lingkungan termal tersebut meliputi tingkat metabolisme tubuh, insulasi pakaian, suhu udara, suhu radian, kecepatan udara dan kelembapan \cite{ASHRAE55}.
+		Pada penelitian ini studi kasus diambil di \textit{climate chamber} Departemen Teknik Nuklir dan Teknik Fisika (DTNTF) Fakultas Teknik Universitas Gadjah Mada (FT-UGM) yang digunakan sebagai ruang uji eksperimental penelitian kenyamanan termal yang ditunjukkan pada Gambar \ref{fig:1:fotochamber} dan Gambar \ref{fig:1:denahchamber}. \textit{Climate chamber} DTNTF dilengkapi dengan beberapa perangkat sensor untuk mengukur faktor lingkungan termal. Sensor yang digunakan yakni sensor suhu, sensor kelembaban relatif dan sensor kecepatan udara. \textit{Climate chamber} DTNTF pun dilengkapi dengan perangkat aktuator berupa \textit{Air Conditioner} (AC) dan \textit{heater} sebagai sistem \textit{Heating, Ventilation, and Air Conditioning} (HVAC). Semua sistem yang digunakan pada \textit{climate chamber} ini masih dioperasikan secara manual.\\
 		
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.4\textwidth]{figures/climatechamber}
-			\caption{\textit{Climate chamber} DTNTF FT-UGM}
-			\label{fig:1:climatechamber}
+			\includegraphics[width=0.35\textwidth]{figures/climatechamber}
+			\caption{Foto \textit{Climate chamber} DTNTF FT-UGM}
+			\label{fig:1:fotochamber}
 		\end{figure}
+	
+		\vspace{1mm}
 		
-		\textit{Climate chamber} dapat terwujud jika kondisi iklim di dalamnya dapat dikendalikan sesuai dengan kebutuhan penelitian. Oleh karena itu, dibutuhkan suatu sistem kontrol yang mampu mengendalikan lingkungan termal pada \textit{climate chamber} dengan meninjau nilai \textit{steady-state error} suhu ruang dan kelembapan relatif. \textit{Climate chamber} memiliki banyak nilai masukan dan keluaran atau dikatakan sebagai sistem MIMO (\textit{multiple input multiple output}). Untuk dapat mengendalikan sistem MIMO, diperlukan sistem kontrol cerdas (\textit{intelligent control system}). Salah satu sistem kontrol cerdas yang dapat digunakan untuk sistem MIMO ini yaitu pengendali dengan menggunakan jaringan saraf tiruan (\textit{neural network controller}).\\
+		\begin{figure}
+			\centering
+			\centering
+			\includegraphics[width=0.45\textwidth]{figures/DenahChamber}
+			\caption{Denah \textit{Climate Chamber} DTNTF FT-UGM\cite{skripsiIchfan}}
+			\label{fig:1:denahchamber}
+		\end{figure}
+	
+		\vspace{1mm}
+		
+		\textit{Climate chamber} merupakan suatu ruangan tertutup yang digunakan untuk menguji efek dari kondisi lingkungan yang ditentukan pada objek biologis, produk industri, bahan, dan/atau perangkat elektronik. Pada penulisan ini, \textit{climate chamber} yang dimaksud berfokus pada objek biologis mengenai penelitian kenyamanan termal. Dalam melakukan penelitian kenyamanan termal, peneliti tersebut membutuhkan suatu \textit{climate chamber} untuk dapat melakukan pengujian. Kondisi lingkungan termal di dalam \textit{climate chamber} dapat berubah sesuai dengan skema pengujian. Terdapat 6 faktor lingkungan termal yang mempengaruhi kenyamanan termal. Faktor lingkungan termal tersebut meliputi tingkat metabolisme tubuh, insulasi pakaian, suhu udara, suhu radian, kecepatan udara dan kelembapan \cite{ASHRAE55}.\\
 		
 		\subsection{Perumusan Masalah}
+		
+		\textit{Climate chamber} dapat terwujud jika kondisi iklim di dalamnya dapat dikendalikan sesuai dengan kebutuhan penelitian. Oleh karena itu, dibutuhkan suatu sistem kontrol yang mampu mengendalikan lingkungan termal pada \textit{climate chamber} dengan meninjau nilai \textit{steady-state error} suhu ruang dan kelembapan relatif. \textit{Climate chamber} memiliki banyak nilai masukan dan keluaran atau dikatakan sebagai sistem MIMO (\textit{multiple input multiple output}). Untuk dapat mengendalikan sistem MIMO, diperlukan sistem kontrol cerdas (\textit{intelligent control system}). Salah satu sistem kontrol cerdas yang dapat digunakan untuk sistem MIMO ini yaitu pengendali dengan menggunakan jaringan saraf tiruan (\textit{neural network controller}).
+		
 		Perumusan masalah pada penelitian ini yaitu bagaimana merancang kontroler lingkungan termal berbasis jaringan saraf tiruan untuk dapat mencapai kondisi ajeg sesuai dengan skenario penggunaan \textit{climate chamber} DTNTF FT-UGM.\\
 		
 		\subsection{Tujuan}
@@ -249,7 +264,7 @@
 		
 		\subsection{Pengambilan Data Simulasi IES-VE}\label{subsec:lang_bench}
 		
-		Pada penelitian ini, digunakan model IES-VE untuk melakukan proses simulasi lingkungan termal. Bersamaan dengan penelitian Hartanto \cite{skripsiTanto}, data bersumber dari model yang telah dibuat pada penelitian sebelumnya berjudul "Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan Metode Simulasi CFD dengan Perangkat Lunak IES-VE" yang diteliti oleh Kurniawan \cite{skripsiIchfan}.  Data tersebut merupakan hasil simulasi pada \textit{software} IES-VE dengan menerapkan beberapa variasi kondisi lingkungan pada model \textit{climate chamber}. Variasi tersebut yaitu kondisi batas lingkungan (radiasi matahari dan suhu bola kering luar/\textit{outdoor dry bulb temperature}), kondisi AC, dan kondisi \textit{heater}. Variasi kondisi batas lingkungan tersebut diwujudkan dalam pembagian 4 musim dalam 1 tahun, yakni bulan Maret, Juni, September dan Desember. Keluaran dari model IES-VE berupa nilai suhu ruang (\textit{air temperature}) \textit{chamber} dan kelembapan relatif (RH) \textit{chamber}. Dari model tersebut didapatkan nilai MAE perhitungan selisih variabel lingkungan termal hasil simulasi dan pengukuran lapangan sebesar 0,8 $\pm$ 0,7$^{\circ}$C untuk suhu udara ruang dan 2,5 $\pm$ 3,8\% untuk kelembaban relatif \cite{skripsiIchfan}. Data yang sudah terkumpul disajikan dalam bentuk tabular dan diolah dengan menggunakan komputer.\\
+		Pada penelitian ini, digunakan model pada piranti lunak \textit{Integrated Environmental Solutions - Virtual Environment} (IES-VE) untuk melakukan proses simulasi lingkungan termal. Bersamaan dengan penelitian Hartanto \cite{skripsiTanto}, data bersumber dari model yang telah dibuat pada penelitian sebelumnya berjudul "Karakterisasi Lingkungan Termal Chamber Iklim Menggunakan Metode Simulasi \textit{Computational Fluid Dynamics} (CFD) dengan Perangkat Lunak IES-VE" yang diteliti oleh Kurniawan \cite{skripsiIchfan}.  Data tersebut merupakan hasil simulasi pada \textit{software} IES-VE dengan menerapkan beberapa variasi kondisi lingkungan pada model \textit{climate chamber}. Variasi tersebut yaitu kondisi batas lingkungan (radiasi matahari dan suhu bola kering luar/\textit{outdoor dry bulb temperature}), kondisi AC, dan kondisi \textit{heater}. Variasi kondisi batas lingkungan tersebut diwujudkan dalam pembagian 4 musim dalam 1 tahun, yakni bulan Maret, Juni, September dan Desember. Keluaran dari model IES-VE berupa nilai suhu ruang (\textit{air temperature}) \textit{chamber} dan kelembapan relatif (RH) \textit{chamber}. Dari model tersebut didapatkan nilai MAE perhitungan selisih variabel lingkungan termal hasil simulasi dan pengukuran lapangan sebesar 0,8 $\pm$ 0,7$^{\circ}$C untuk suhu udara ruang dan 2,5 $\pm$ 3,8\% untuk kelembaban relatif \cite{skripsiIchfan}. Data yang sudah terkumpul disajikan dalam bentuk tabular dan diolah dengan menggunakan komputer.\\
 		
 		\subsubsection{Kondisi \textit{Climate Chamber}}
 		
@@ -257,7 +272,7 @@
 		
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.4\textwidth]{figures/KondisiChamber}
+			\includegraphics[width=0.5\textwidth]{figures/KondisiChamber}
 			\caption{Posisi Komponen-Komponen di dalam \textit{Climate Chamber}}
 			\label{fig:4:KondisiChamber}
 		\end{figure}
@@ -290,7 +305,7 @@
 		
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.3\textwidth]{figures/SkenarioData}
+			\includegraphics[width=0.4\textwidth]{figures/SkenarioData}
 			\caption{Skenario Pengambilan Data}
 			\label{fig:4:SkenarioData}
 		\end{figure}
@@ -302,7 +317,7 @@
 		
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.3\textwidth]{figures/NNPlantModelDesign}
+			\includegraphics[width=0.35\textwidth]{figures/NNPlantModelDesign}
 			\caption{Arsitektur Model Plant JST}
 			\label{fig:4:NNPlantModelDesign}
 		\end{figure}
@@ -336,15 +351,16 @@
 			\caption{Diagram blok sistem kontrol berbasis JST\cite{paper42Paisan}}
 			\label{fig:4:ConstrolSystemBlockDiagram}
 		\end{figure}
-	\vspace{1em}
 		
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.25\textwidth]{figures/NNControllerIO}
+			\includegraphics[width=0.3\textwidth]{figures/NNControllerIO}
 			\caption{Pasangan masukan dan keluaran model JST kontroler}
 			\label{fig:4:NNControlIO}
 		\end{figure}
-	
+		
+		\vspace{1mm}
+		
 		Kontroler dibangun dari model JST dengan menggunakan prinsip model invers dari model \textit{plant}. Perancangan JST untuk kontroler menggunakan \textit{delay} umpan balik AC, \textit{delay} umpan balik \textit{heater}, output \textit{plant} dan \textit{delay} output \textit{plant} sebagai sebagai masukan untuk pelatihan JST. Kemudian, pasangan data AC dan \textit{heater} digunakan sebagai pasangan data keluaran (data target) untuk pelatihan JST. Arsitektur JST kontroler dibangun dengan menggunakan \textit{feedforward neural network} atau biasa disebut juga sebagai \textit{multilayer perceptron} (MLP). Model JST akan dilatih menggunakan data hasil simulai IES-VE yang telah digunakan pula dalam pemodelan \textit{plant} oleh Hartanto \cite{skripsiTanto}. Pada proses pelatihan JST, dilakukan penskalaan terhadap semua input JST menggunakan metode \textit{Min Max Scaling} kecuali variabel \textit{delay} umpan masuk AC dan \textit{heater}. Penskalaan bertujuan untuk meningkatkan kinerja JST menjadi optimal dengan menyamakan rentang nilai dan besar satuan dari setiap variabel (berupa rentang nilai dari 0 hingga 1).
 		
 		Perancangan model JST kontroler dilakukan dengan membandingkan variasi pembagian data latih, data validasi, dan data uji. Kemudian akan divariasikan pula fungsi aktivasi dan jumlah neuron untuk memperoleh model JST yang optimal. Evaluasi kinerja model JST kontroler menggunakan perbandingan nilai MSE pada setiap rancangan. Rancangan model JST dengan nilai MSE terkecil akan digunakan sebagai model kontroler.\\
@@ -353,7 +369,7 @@
 		
 		\subsection{Pengambilan Data Simulasi IES-VE}
 		
-		Pada Gambar \ref{fig:4:HasilSimulasiIESVE} ditunjukkan salah satu hasil simulasi untuk skenario AC 26$^\circ$C dan \textit{heater} ON 2 buah dengan variabel gangguan yang digambarkan pada Gambar \ref{fig:4:LoadSimulasiIESVE}. Grafik yang ditampilkan terdiri dari 4 parameter yaitu suhu lingkungan (T$_o$), intensitas radiasi matahari (RD), suhu ruang (T$_{db}$), dan kelembapan relatif (RH). Skenario ini dilakukan selama 24 jam dengan selang waktu pengambilan data selama 6 menit dimulai dari pukul 00:03 hingga 23:57 WIB. Selang waktu tersebut adalah waktu tersingkat yang dapat dilakukan pada software IES-VE 2019. Respon waktu suhu ruang terhadap aktivasi AC tidak diperhitungkan dikarenakan secara fisis, respons transien termal pada bangunan berlangsung cukup lama, sehingga hanya berfokus untuk meninjau nilai \textit{steady-state error}.\\
+		Pengambilan data simulasi IES-VE salah satunya menggunakan skenario AC 26$^\circ$C dan \textit{heater} ON 2 buah seperti yang ditunjukkan pada Gambar \ref{fig:4:ACHTSimulasiIESVE} dengan variabel gangguan yang digambarkan pada Gambar \ref{fig:4:LoadSimulasiIESVE}. Grafik yang ditampilkan terdiri dari 4 parameter yaitu suhu lingkungan (T$_o$), intensitas radiasi matahari (RD), suhu ruang (T$_{db}$), dan kelembapan relatif (RH). Skenario ini dilakukan selama 24 jam dengan selang waktu pengambilan data selama 6 menit dimulai dari pukul 00:03 hingga 23:57 WIB. Selang waktu tersebut adalah waktu tersingkat yang dapat dilakukan pada software IES-VE 2019. Respon waktu suhu ruang terhadap aktivasi AC tidak diperhitungkan dikarenakan secara fisis, respons transien termal pada bangunan berlangsung cukup lama, sehingga hanya berfokus untuk meninjau nilai \textit{steady-state error}. Hasil simulasi ini dapat dilihat pada Gambar \ref{fig:4:HasilSimulasiIESVE}.\\
 		
 		\begin{figure}
 			\centering
@@ -413,6 +429,8 @@
 		
 		\subsection{Rancangan Kontroler JST}
 		
+		\vspace{1mm}
+		
 		\subsubsection{Variasi Pembagiaan Data}
 		
 		Dalam memvariasikan pembagian data digunakan metode \textit{trial-and-error} berdasarkan artikel \cite{DataSplitting}. Pada penelitian ini, variasi pembagiaan data dilakukan dengan membandingkan beberapa variasi pembagiaan data ke dalam 5 variasi. Kemudian kinerja dari setiap pembagian data dibandingkan dengan konfigurasi \textit{hyperparameter} pada Tabel \ref{tbl:5:NeuronVariation}.
@@ -440,6 +458,8 @@
 			\caption{Grafik Variasi Pembagian Data}
 			\label{fig:5:DataSplittingVariation}
 		\end{figure}
+	
+		\vspace{3mm}
 		
 		\subsubsection{Variasi Arsitektur JST Kontroler}
 		
@@ -460,7 +480,7 @@
 		\end{figure}
 		\vspace{1em}
 		
-		Kemudian arsitektur JST divariasikan kembali menggunakan fungsi aktivasi tansig dari 30 neuron hingga 40 neuron dengan lompatan sebesar 1 neuron untuk mengetahui kinerja model pada jumlah neuron yang berdekatan. Setelah dilakukan variasi, didapatkan hasil bahwa model JST dengan 35 neuron masih merupakan model arsitektur terbaik dengan nilai MSE terkecil. Hasil variasi ini dapat dilihat pada Gambar \ref{fig:5:NeuronVariation}.
+		Kemudian arsitektur JST divariasikan kembali menggunakan fungsi aktivasi tansig dari 30 neuron hingga 40 neuron dengan lompatan sebesar 1 neuron untuk mengetahui kinerja model pada jumlah neuron yang berdekatan. Setelah dilakukan variasi, didapatkan hasil bahwa model JST dengan 35 neuron masih merupakan model arsitektur terbaik dengan nilai MSE terkecil. Hasil variasi ini dapat dilihat pada Gambar \ref{fig:5:NeuronVariation}.\\
 		
 		\subsubsection{Hasil Rancangan Model JST Kontroler}
 		Setelah dilakukan perancangan model JST melalui variasi arsitektur model, didapatkan rancangan model JST kontroler terbaik. Model JST dibangun dengan arsitektur \textit{feedforward neural network} 1 lapisan tersembunyi dengan 35 neuron. Model JST menggunakan fungsi aktivasi tansig (\textit{hyperbolic tanget}) dan algoritma pembelajaran Levenberg-Marquardt. Model JST Kontroler terbaik memiliki nilai \textit{hyperparameter} yang diringkas pada Tabel \ref{tbl:5:NNControl}.
@@ -484,17 +504,21 @@
 			\end{tabularx}
 		\end{table}
 	
+		\vspace{1mm}
+		
+		Model JST Kontroler memiliki nilai MAE sebesar 0,37$^\circ$C di mana nilai ini di bawah 1$^\circ$C. Dengan demikian, model JST dapat digunakan sebagai model kontroler. Model hasil rancangan ini kemudian diubah ke dalam bentuk blok SIMULINK dengan menggunakan perintah \textit{gensim} yang kemudian akan dijadikan blok kontroler untuk simulasi sistem kontrol pada SIMULINK.
+		
 		\vspace{2mm}
 				
 		\subsection{Hasil Simulasi Kontrol SIMULINK}
 		
-		Pada simulasi kontrol, digunakan nilai \textit{set point} sesuai dengan uji eksperimental level sensasi termal yang dilakukan oleh Nur Muna pada \textit{climate chamber}\cite{skripsiMuna}. Perbedaannya, pada penelitian ini variasi naik turun suhu dari 16$^\circ$C hingga 30$^\circ$C menggunakan lompatan sebesar 2$^\circ$C.
+		Pada simulasi kontrol, digunakan nilai \textit{set point} sesuai dengan uji eksperimental level sensasi termal yang dilakukan oleh Nadiya pada \textit{climate chamber} \cite{skripsiMuna}. Pada penelitian Nadiya digunakan \textit{set point} ramp dengan kecepatan pemanasan dan pendinginan sebesar 0,4$^{\circ}$C (16$^{\circ}$C-30$^{\circ}$C). Perbedaannya, pada penelitian ini variasi naik turun suhu dari 16$^\circ$C hingga 30$^\circ$C menggunakan kecepatan pemanasan dan pendinginan sebesar 0,625$^{\circ}$C (16$^{\circ}$C-30$^{\circ}$C) yaitu dengan lompatan sebesar 2$^\circ$C.\\
 		
 		\subsubsection{Skenario Pemanasan Pendinginan dengan Variabel Gangguan Konstan}
 		
-		Pada simulasi ini digunakan nilai variabel gangguan konstan sebesar 26,8$^\circ$C untuk suhu lingkungan dan 423,343 $W/m^2$ untuk intensitas radiasi matahari. Nilai-nilai variabel gangguan tersebut merupakan nilai rerata dari variabel gangguan pada jam operasi penggunaan \textit{climate chamber}, yaitu pukul 08:00 WIB sampai dengan pukul 17:00 WIB. Berdasarkan hasil simulasi, kontroler mampu mengendalikan suhu ruang dan kelembapan relatif mengikuti nilai \textit{set point}. Akan tetapi, kontroler tidak mampu menaikan suhu ruang mencapai nilai lebih dari 27$^\circ$C. Hal ini dapat terjadi diakibatkan nilai manipulator AC tidak mampu melebihi nilai maksimum (SET 30$^\circ$C). Kombinasi \textit{set point} dan hasil simulasi ditunjukkan pada Gambar \ref{fig:5:SimulinkTd} untuk suhu ruang dan Gambar \ref{fig:5:SimulinkRH} untuk kelembapan relatif.
+		Pada simulasi ini digunakan nilai variabel gangguan konstan sebesar 26,8$^\circ$C untuk suhu lingkungan dan 423,343 $W/m^2$ untuk intensitas radiasi matahari. Nilai-nilai variabel gangguan tersebut merupakan nilai rerata dari variabel gangguan pada jam operasi penggunaan \textit{climate chamber}, yaitu pukul 08:00 WIB sampai dengan pukul 17:00 WIB. Berdasarkan hasil simulasi, kontroler mampu mengendalikan suhu ruang dan kelembapan relatif mengikuti nilai \textit{set point}. Akan tetapi, kontroler tidak mampu menaikan suhu ruang mencapai nilai lebih dari 27$^\circ$C. Hal ini terjadi diakibatkan kontroler gagal dalam mengaktifkan 2 \textit{heater} pada saat nilai \textit{setting} AC tidak mampu melebihi nilai maksimum (SET 30$^\circ$C). Kombinasi \textit{set point} dan hasil simulasi ditunjukkan pada Gambar \ref{fig:5:SimulinkTd} dan Gambar \ref{fig:5:SimulinkRH}.
 		
-		Dengan meninjau nilai variabel manipulasi AC yang ditunjukkan pada Gambar \ref{fig:5:SimulinkAC}, dapat dilihat bahwa untuk mengendalikan suhu mencapai \textit{set point} 26$^\circ$C, perangkat AC perlu mengeluarkan sinyal sebesar 28$^\circ$C (waktu ke-100 hingga ke-120). Dengan demikian, ketika \textit{set point} bernilai 28$^\circ$C, perangkat AC hanya mampu mengeluarkan sinyal maksimum 30$^\circ$C (waktu ke-120 hingga ke-140).
+		Dengan meninjau nilai variabel manipulasi AC yang ditunjukkan pada Gambar \ref{fig:5:SimulinkAC}, dapat dilihat bahwa untuk mengendalikan suhu mencapai \textit{set point} 26$^\circ$C, perangkat AC perlu mengeluarkan sinyal sebesar 28$^\circ$C (waktu ke-900 hingga ke-1080). Dengan demikian, ketika \textit{set point} bernilai 28$^\circ$C, perangkat AC hanya mampu mengeluarkan sinyal maksimum 30$^\circ$C (waktu ke-1080 hingga ke-1260).
 		
 		\begin{figure}
 			\centering
@@ -528,9 +552,9 @@
 		\end{figure}
 		\vspace{1em}
 		
-		Kurangnya kehandalan kinerja kontroler pada penelitian ini untuk mengendalikan suhu ruang di atas \textit{set point} 26$^\circ$C disebabkan oleh salah satu kelemahan model JST dalam pemodelan \textit{plant}. Secara fisis, proses pemanasan pada sistem bangunan (dalam hal ini \textit{climate chamber}) membutuhkan waktu yang cukup lama. Dengan demikian, proses pemanasan pada kenyataannya tetap bisa mencapai \textit{set point} suhu di atas 26$^\circ$C. Hanya saja proses tersebut membutuhkan waktu (\textit{settling time}) yang cukup lama. Akan tetapi, proses tersebut tidak dapat disimulasikan secara sempurna pada penelitian ini dikarenakan model JST \textit{plant} yang dibangun oleh Tri Hartanto\cite{skripsiTanto} hanya berupa model pasangan data dan bukan berupa model yang bergantung terhadap waktu. Sehingga, model JST \textit{plant} hanya dapat langsung mengeluarkan suatu nilai keluaran setiap menerima nilai masukan.
+		Kurangnya keandalan kinerja kontroler pada penelitian ini untuk mengendalikan suhu ruang di atas \textit{set point} 26$^\circ$C disebabkan oleh salah satu kelemahan model JST dalam pemodelan \textit{plant}. Secara fisis, proses pemanasan pada sistem bangunan (dalam hal ini \textit{climate chamber}) membutuhkan waktu yang cukup lama. Dengan demikian, proses pemanasan pada kenyataannya tetap bisa mencapai \textit{set point} suhu di atas 26$^\circ$C. Hanya saja proses tersebut membutuhkan waktu (\textit{settling time}) yang cukup lama. Akan tetapi, proses tersebut tidak dapat disimulasikan secara sempurna pada penelitian ini dikarenakan model JST \textit{plant} yang dibangun oleh Hartanto\cite{skripsiTanto} hanya berupa model pasangan data dan bukan berupa model yang bergantung terhadap waktu. Dengan demikian, model JST \textit{plant} hanya dapat langsung mengeluarkan suatu nilai keluaran setiap menerima nilai masukan. Sepeti yang telah dibahas pada sub bab V.1.2 dengan memperhatikan \textit{manipulator} (\textit{final control elements}) yang digunakan, secara fisis RH tidaklah mungkin dapat dikendalikan oleh kontroler. Perubahan nilai RH yang terjadi diakibatkan oleh pengaruh AC secara tidak langsung. Dengan demikian, data hasil simulasi untuk nilai kelembapan relatif tidak cukup relevan untuk dianalisis.
 		
-		Ditinjau dari \textit{set point} 16$^\circ$C hingga 26$^\circ$C, didapatkan nilai \textit{steady-state error} untuk suhu ruang sebesar 0,15$^\circ$C pada proses pemanasan dan sebesar 0,2$^\circ$C pada proses pendinginan. Lalu, didapatkan pula nilai \textit{steady-state error} untuk kelembapan relatif sebesar 0,05\% pada proses pemanasan dan sebesar 0,02\% pada proses pendinginan. Sehingga rerata nilai \textit{steady-state error} sebesar 0,18$^\circ$C untuk suhu ruang dan sebesar 0,04\% untuk kelembapan relatif.
+		Ditinjau dari \textit{set point} 16$^\circ$C hingga 26$^\circ$C, berdasarkan data hasil simulasi didapatkan nilai \textit{steady-state error} untuk suhu ruang sebesar 0,15$^\circ$C pada proses pemanasan dan sebesar 0,2$^\circ$C pada proses pendinginan. Dengan demikian, rerata nilai \textit{steady-state error} sebesar $\frac{0,15^\circ C + 0,2^\circ C}{2} = \frac{0,35^\circ C}{2} \approx 0,18^\circ C$ untuk suhu ruang.\\
 		
 		\subsubsection{Skenario Pemanasan Pendinginan dengan Variabel Gangguan Bergerak}
 		
@@ -585,21 +609,61 @@
 		\end{figure}
 		\vspace{1em}
 		
-		\subsection{Analisis Kegagalan Kendali}
+		\subsubsection{Analisis Kegagalan Kendali}
 		
-		Dari hasil 2 simulasi yang telah dijabarkan, kontroler jarang sekali mengaktifkan 2 \textit{heater} bahkan disaat ingin mencapai suhu yang tinggi. Hal ini menimbulkan kecurigaan terhadap rentang kinerja JST, baik pada model kontroler maupun model \textit{plant}. Untuk mengetahui penyebab kegagalan, dilakukan kembali simulasi dimana kontroler berhasil mengaktifkan 2 perangkat \textit{heater}. Simulasi ini dilakukan dengan nilai variabel gangguan sebesar 27$^\circ$C untuk suhu lingkungan dan sebesar 600 $W/m^2$ untuk intensitas radiasi matahari.
+		Dari hasil 2 simulasi yang telah dijabarkan, kontroler jarang sekali mengaktifkan 2 \textit{heater} bahkan pada saat ingin mencapai suhu yang tinggi. Hal ini menimbulkan kecurigaan terhadap rentang kinerja JST, baik pada model kontroler maupun model \textit{plant}. Untuk mengetahui penyebab kegagalan, dilakukan kembali simulasi di mana kontroler berhasil mengaktifkan 2 perangkat \textit{heater}. Simulasi ini dilakukan dengan nilai variabel gangguan sebesar 27$^\circ$C untuk suhu lingkungan dan sebesar 600 $W/m^2$ untuk intensitas radiasi matahari. Hasil simulasi ditunjukkan pada Gambar \ref{fig:5:Simulink3Td}, Gambar \ref{fig:5:Simulink3RH}, Gambar \ref{fig:5:Simulink3AC}, dan Gambar \ref{fig:5:Simulink3HT}.
 		
-		Berdasarkan hasil simulasi tersebut, dapat disimpulkan bahwa kegagalan pengendalian bukanlah disebabkan oleh tidak aktifnya 2 buah perangkat \textit{heater}. Selanjutnya, dicoba untuk dianalis model \textit{plant} yang dibangun oleh Hartanto. Pengujian dilakuakan dengan nilai variabel gangguan yang sama dan nilai AC 30$^\circ$C serta 2 \textit{heater} ON.
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.4\textwidth]{figures/Simulink3Td}
+			\caption{Grafik Hasil Simulasi 3 Simulink untuk Suhu Ruang}
+			\label{fig:5:Simulink3Td}
+		\end{figure}
+		\vspace{1em}
 		
-		Berdasarkan analisis, diketahui bahwa \textit{plant} memang tidak mampu untuk menghasilkan keluaran suhu diatas 28$^\circ$C. Dengan begitu, perlu ditelaah kembali mengenai data yang digunakan. Setelah diteliti, kurangnya keandalan kontroler ternyata disebabkan oleh data simulasi yang dinilai kurang cukup mewakili kondisi lingkungan termal di suhu yang tinggi. Hal ini disebabkan karena tidak dilakukannya validasi di suhu tinggi pada penelitian Kurniawan \cite{skripsiIchfan}. Dengan demikian, model yang telah dibangun Hartanto pun pada akhirnya tidak mampu menghasilkan skenario dimana lingkungan termal \textit{climate chamber} mencapai suhu diatas 28$^\circ$C.\\
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.4\textwidth]{figures/Simulink3RH}
+			\caption{Grafik Hasil Simulasi 3 Simulink untuk Kelembapan Relatif}
+			\label{fig:5:Simulink3RH}
+		\end{figure}
+		
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.4\textwidth]{figures/Simulink3AC}
+			\caption{Grafik Variabel Manipulasi AC pada Simulasi 3 Simulink}
+			\label{fig:5:Simulink3AC}
+		\end{figure}
+		\vspace{1em}
+		
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.4\textwidth]{figures/Simulink3HT}
+			\caption{Grafik Variabel Manipulasi \textit{Heater} pada Simulasi 3 Simulink}
+			\label{fig:5:Simulink3HT}
+		\end{figure}
+		\vspace{1em}
+		
+		Berdasarkan hasil simulasi ini, dapat disimpulkan bahwa kegagalan pengendalian bukanlah disebabkan oleh tidak aktifnya 2 buah perangkat \textit{heater}. Selanjutnya, dicoba untuk dianalis model \textit{plant} yang dibangun oleh Hartanto. Pengujian dilakukan dengan nilai variabel gangguan yang sama dan nilai AC 30$^\circ$C serta 2 \textit{heater} ON. Grafik percobaan ditunjukkan pada Gambar \ref{fig:5:UjiPlant}.
+		
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.4\textwidth]{figures/UjiPlant}
+			\caption{Grafik Hasil Uji \textit{Plant}}
+			\label{fig:5:UjiPlant}
+		\end{figure}
+		
+		\vspace{1mm}
+		
+		Dari Gambar \ref{fig:5:UjiPlant} diketahui bahwa \textit{plant} memang tidak mampu untuk menghasilkan keluaran suhu di atas 28$^\circ$C. Dengan begitu, perlu ditelaah kembali mengenai data yang digunakan. Setelah diteliti, kurangnya keandalan kontroler ternyata disebabkan oleh data simulasi yang dinilai kurang cukup mewakili kondisi lingkungan termal di suhu yang tinggi. Hal ini disebabkan karena tidak dilakukannya validasi di suhu tinggi pada penelitian Kurniawan \cite{skripsiIchfan}. Dengan demikian, model yang telah dibangun Hartanto pun pada akhirnya tidak mampu menghasilkan skenario di mana lingkungan termal \textit{climate chamber} mencapai suhu diatas 28$^\circ$C.\\
 		
 		\section{Kesimpulan}
-		Rancangan kontroler berbasis jaringan saraf tiruan memiliki nilai \textit{steady-state error} sebesar 0,18$^\circ$C untuk suhu ruang. Kontroler berbasis jaringan saraf tiruan yang dihasilkan dibangun dengan pembagian data 80\% data latih, 10\% data validasi, dan 10\% data uji. Model Kontroler JST menggunakan fungsi aktivasi \textit{hyperbolic tangent} dengan algoritma pembelajaran Levenberg-Marquardt. Model Kontroler JST terdiri dari 1 lapisan tersembunyi dengan 35 neuron. Akan tetapi, kontroler tidak mampu mengendalikan suhu ruang \textit{climate chamber} di atas nilai \textit{set point} 26$^\circ$C dikarenakan data lingkungan termal dari Model IES-VE kurang mewakili kondisi sistem pada suhu yang tinggi.\\
+		Rancangan kontroler berbasis jaringan saraf tiruan memiliki nilai \textit{steady-state error} sebesar 0,18$^\circ$C untuk suhu ruang. Kontroler berbasis jaringan saraf tiruan yang dihasilkan dibangun dengan pembagian data 80\% data latih, 10\% data validasi, dan 10\% data uji. Model JST Kontroler menggunakan fungsi aktivasi \textit{hyperbolic tangent}. Model JST Kontroler terdiri dari 1 lapisan tersembunyi dengan 35 neuron. Akan tetapi, kontroler tidak mampu mengendalikan suhu ruang \textit{climate chamber} di atas nilai \textit{set point} 26$^\circ$C dikarenakan data lingkungan termal dari Model IES-VE kurang mewakili kondisi sistem pada suhu yang tinggi.\\
 		
 		\section{Saran}
 		\begin{enumerate}
 			\item Disarankan untuk melakukan validasi model di nilai suhu yang tinggi terlebih dahulu apabila menggunaan model IES-VE yang serupa.
-			\item Memperkaya data pelatihan model JST menggunakan data pengukuran langsung pada \textit{climate chamber} dalam merancang kontroler JST.
+			\item Memperkaya data pelatihan model JST menggunakan data pengukuran langsung pada \textit{climate chamber} dalam merancang JST kontroler.
 			\item Menambahkan semacam \textit{manipulator}/aktuator pada \textit{climate chamber} untuk memanipulasi kelembapan relatif ruang secara langsung seperti penelitian yang dilakukan oleh Moon \cite{paper22JJkim}. Contoh: \textit{humidifier} dan \textit{dehumidifier}.
 			\item Menambahkan variabel kontrol lainnya ke dalam rancangan kontroler, seperti kecepatan angin, suhu radian, RH lingkungan, dsb.
 		\end{enumerate}

@@ -429,52 +429,9 @@
 %------------------------------------------------------------
 \def\halamanpernyataan{%
   \newpage\thispagestyle{chapterheading}%
- 
-  \begin{onehalfspace}
- \begin{center}
-  {\normalfont\large\bfseries PERNYATAAN BEBAS PLAGIASI}\par\nobreak
-\end{center}
-  \vspace{1cm}
- Saya yang bertanda tangan di bawah ini:
-\par\nobreak
-  \vspace{0.5cm}
-\begin{singlespace}
-\begin{tabular}{p{3cm}p{0.1cm}p{9cm}}
-Nama  & : &\@nama\\
-NIM   & : & \@nim\\
-Tahun terdaftar & : & \@angkatan\\
-Program Studi & : & \@prodi\\
-Fakultas & : & Teknik
-\end{tabular}
-\end{singlespace}
-
-\vspace{0.6cm}
-\noindent menyatakan bahwa dokumen ilmiah skripsi ini tidak terdapat bagian dari karya ilmiah lain yang telah diajukan untuk memperoleh gelar akademik di suatu lembaga Pendidikan Tinggi, dan juga tidak terdapat karya atau pendapat yang pernah ditulis atau diterbitkan oleh orang/lembaga lain, kecuali yang secara tertulis disitasi dalam dokumen ini dan disebutkan sumbernya secara lengkap dalam daftar pustaka.
-
-Dengan demikian saya menyatakan bahwa dokumen ilmiah ini bebas dari unsur- unsur plagiasi dan apabila dokumen ilmiah Skripsi ini di kemudian hari terbukti merupakan plagiasi dari hasil karya penulis lain dan/atau dengan sengaja mengajukan karya atau pendapat yang merupakan hasil karya penulis lain, maka penulis bersedia menerima sanksi akademik dan/atau sanksi hukum yang berlaku.
-
-\vspace{1.5cm}
-%\begin{flushright}
- 
-
-
-
-\begin{singlespace}
-
- {\raggedleft\begin{tabular}{l@{}}\ignorespaces
-     Yogyakarta, \@tglpenulisan\\
-Yang menyatakan,\\ \\ \\ \fbox{\textit{(Materai Rp. 6000,-)}}\\ \\ \\
-      \@nama \\*[2\parskip]%
-      NIM. \@nim \end{tabular}\par}
-\end{singlespace}
-
-%\end{flushright}
-
-
-
-    \end{onehalfspace}
-%    \end{center}
-\addcontentsline{toc}{chapter}{\plagiarismname}
+  \phantomsection
+  \addcontentsline{toc}{chapter}{\plagiarismname}
+  \includepdf[page=1]{BebasPlagiasi}
 }
 
 
@@ -483,129 +440,19 @@ Yang menyatakan,\\ \\ \\ \fbox{\textit{(Materai Rp. 6000,-)}}\\ \\ \\
 %------------------------------------------------------------
 \def\halamanpengesahan{%
   \newpage\thispagestyle{chapterheading}%
-  \begin{center}
-  \begin{onehalfspace}
-  {\normalfont\large\bfseries HALAMAN PENGESAHAN}\par\nobreak
-  \vspace{0.3cm}
-  {\normalfont \@jenisTA}\par\nobreak
-  \vspace{0.3cm}
-  {\normalfont\bfseries\MakeUppercase{\@judul}}\par\nobreak
-  \vspace{0.5cm}
-oleh \\
-\vspace{0.5cm}
-{\normalfont\bfseries \@nama}\\
-{\normalfont\bfseries \@nim}\\
-\vspace{0.5cm}
-telah dipertahankan di depan Tim Penguji\\
-pada tanggal \expandafter{\@tglujian}\\
-\vspace{1.cm}
-{\bfseries{Susunan Tim Penguji}}\\
-\vspace{.5cm}
-
-
-\begin{singlespace}
-Ketua Sidang  \vspace{1.5cm}\\
-
-\underline{\@ketuasidang}\\
-NIP. \@nipketuasidang 
-\end{singlespace}
-
-\vspace{0.5cm}
-\begin{singlespace}
-\begin{tabular}{cp{0.5cm}c}
-Penguji Utama && Anggota Penguji  \vspace{1.5cm}\\
-
-
-\underline{\@pengujiutama}&& \underline{\@anggotapenguji} \\
-NIP. \@nippengujiutama && NIP. \@nipanggotapenguji
-\end{tabular}
-\end{singlespace}
-
-
-\vspace{0.5cm}
-Diterima dan dinyatakan memenuhi \\syarat kelulusan pada tanggal $\dots\dots$\\
-
-\vspace{0.3cm}
-Ketua Departemen Teknik Nuklir dan Teknik Fisika \\
-Fakultas Teknik UGM \\
-
-\vspace{1.25cm}
-\begin{singlespace}\underline{\@kadep} \\
-NIP. \@nipkadep
-\end{singlespace}
-
-
-
-    \end{onehalfspace}
-    \end{center}
-\addcontentsline{toc}{chapter}{\approvalname}
+  \phantomsection
+  \addcontentsline{toc}{chapter}{\approvalname}
+  \includepdf[page=1]{SuratKeterangan}
 }
 
-%------------------------------------------------------------
+%-----------------------------s-------------------------------
 %HALAMAN TUGAS
 %------------------------------------------------------------
 \def\halamantugas{%
   \newpage\thispagestyle{chapterheading}%
-  \begin{center}
-  \begin{onehalfspace}
-  {\normalfont\large\bfseries HALAMAN TUGAS}\par\nobreak
-\par\nobreak
-  \vspace{0.1cm}
-  {\normalfont\large\bfseries UNIVERSITAS GADJAH MADA}\par\nobreak
-  \vspace{0.1cm}
-  {\normalfont\large\bfseries FAKULTAS TEKNIK}\par\nobreak
-  \vspace{0.1cm}
-  {\normalfont\large\bfseries DEPARTEMEN TEKNIK NUKLIR DAN TEKNIK FISIKA}\par\nobreak
-\vspace{1.cm}
-\hrule
-  \vspace{0.5cm}
-
-
-%  {\normalfont\large\bfseries TUGAS AKHIR}\par\nobreak
-%  \vspace{0.5cm}
-\begin{singlespace}
-\begin{tabular}{p{4.4cm}p{0.1cm}p{9cm}}
-Nama  & : &\@nama\\
-NIM   & : & \@nim\\
-Pembimbing Utama &: & \@pembimbingutama \\
-Pembimbing Pendamping &: & \@pembimbingpendamping   \\
-Judul Skripsi &:& \@judul \\
-Permasalahan &:& \@permasalahan\\
-\end{tabular}
-\end{singlespace}
-\vspace{0.5cm}
-\hrule
-
-\vspace{1.cm}
-
-\begin{singlespace}
-\centering
-\begin{tabular}{cp{.5cm}c}
-Pembimbing Utama && Pembimbing Pendamping  \vspace{1.5cm}\\
-
-
-\underline{\@pembimbingutama}&&\underline{\@pembimbingpendamping} \\
-NIP. \@nippembimbingutama && NIP. \@nippembimbingpendamping
-
-\end{tabular}
-\end{singlespace}
-
-\vspace{1cm}
-Mengetahui,\\
-
-\vspace{0.35cm}
-Ketua Departemen Teknik Nuklir dan Teknik Fisika \\
-Fakultas Teknik UGM \\
-
-\vspace{1.25cm}
-\begin{singlespace}\underline{\@kadep} \\
-NIP. \@nipkadep
-\end{singlespace}
-
-
-    \end{onehalfspace}
-    \end{center}
-\addcontentsline{toc}{chapter}{\halamantugasname}
+  \phantomsection
+  \addcontentsline{toc}{chapter}{\halamantugasname}
+  \includepdf[page=2]{SuratKeterangan}
 }
 
 
@@ -614,8 +461,9 @@ NIP. \@nipkadep
 %------------------------------------------------------------
 \def\persembahan{%
   \clearpage\thispagestyle{chapterheading}%
-\null%\vfill%Force the content of acknowledment to bottom page 
-\addcontentsline{toc}{chapter}{\persembahanname}
+  \phantomsection
+  \null%\vfill%Force the content of acknowledment to bottom page 
+  \addcontentsline{toc}{chapter}{\persembahanname}
 }
 
 %------------------------------------------------------------
@@ -623,8 +471,9 @@ NIP. \@nipkadep
 %------------------------------------------------------------
 \def\motto{%
   \clearpage\thispagestyle{chapterheading}%
-\null\vfill%Force the content of acknowledment to bottom page 
-\addcontentsline{toc}{chapter}{\mottoname}
+  \phantomsection
+  \null\vfill%Force the content of acknowledment to bottom page 
+  \addcontentsline{toc}{chapter}{\mottoname}
 }
 
 %------------------------------------------------------------
@@ -648,6 +497,7 @@ NIP. \@nipkadep
 \nomenclature[da]{\emph{Lambang }}{\emph{Deskripsi }}%
 %\nomenclature[eaa]{\emph{Singkatan }}{\emph{ }}%
 %\markboth{\nomname}{\nomname}
+\phantomsection
 \addcontentsline{toc}{chapter}{\nomenclaturename}%
 %\printglossary[2.5cm]%
 \printnomenclature[2.5cm]
@@ -658,15 +508,16 @@ NIP. \@nipkadep
 %------------------------------------------------------------
 \def\intisari{%
   \clearpage\thispagestyle{chapterheading}%
+  \phantomsection
   {\parindent \z@ \centering \normalfont
  %  {\normalsize\bfseries \intisariname}\par\nobreak
  %  \vskip 10\p@
    {\large\bfseries\MakeUppercase{\@judul}}
         \par\nobreak
-        \vskip 1\p@
+        \vskip 1\p@ %\vspace{0.1mm} 
     \interlinepenalty\@M
     {\normalsize oleh}\par\nobreak
-    \vskip 1\p@
+    \vskip 1\p@ %\vspace{0.1mm} 
     \begin{singlespace}
     {\normalsize \@nama \\ \@nim}
         \vskip 1\p@
@@ -677,14 +528,14 @@ NIP. \@nipkadep
     \end{singlespace}
      \par\nobreak
     } 
-  \vspace{0.3em}
+  \vspace{0.3mm}
 {\parindent \z@ \centering \normalfont
 {\normalsize\bfseries \intisariname}\par\nobreak }
   \begin{singlespace}%
   \addcontentsline{toc}{chapter}{\intisariname}
 }
 \def\endintisari{
-\vspace{1em}
+\vspace{1mm}
 \hspace{-1.4cm}
 \begin{tabular}{ll}
 Pembimbing Utama: & \@pembimbingutama \\
@@ -699,6 +550,7 @@ Pembimbing Pendamping: & \@pembimbingpendamping
 %------------------------------------------------------------
 \def\abstracteng{%
   \clearpage\thispagestyle{chapterheading}%
+  \phantomsection
   {\parindent \z@ \centering \normalfont
 %   {\normalsize\bfseries \abstractname}\par\nobreak
 %   \vskip 10\p@
@@ -719,14 +571,14 @@ Pembimbing Pendamping: & \@pembimbingpendamping
    \end{singlespace}
     \par\nobreak
     } 
-  \vspace{0.3em}
+  \vspace{0.3mm}
 {\parindent \z@ \centering \normalfont
 {\normalsize\bfseries \abstractname}\par\nobreak }
   \begin{singlespace}%
   \addcontentsline{toc}{chapter}{\abstractname}
 }
 \def\endabstracteng{
-\vspace{1em}
+\vspace{1mm}
 \hspace{-1.4cm}
 \begin{tabular}{ll}
 Supervisor: & \@pembimbingutama \\

@@ -2,53 +2,58 @@
 \babel@toc {bahasa}{}
 \babel@toc {bahasa}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces \textit {Climate chamber} DTNTF FT-UGM\relax }}{2}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Foto \textit {Climate Chamber} DTNTF FT-UGM\relax }}{2}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Denah \textit {Climate Chamber} DTNTF FT-UGM\cite {skripsiIchfan}\relax }}{2}{figure.caption.15}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Pertukaran kalor bangunan dengan lingkungan \cite {skripsiIchfan}\relax }}{17}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sistem dengan \textit {steady-state error} bernilai terbatas untuk input fungsi step \cite {ControlSystemBook}\relax }}{21}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Anatomi neuron \cite {NNControlBook}\relax }}{22}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Model matematis neuron \cite {NNControlBook}\relax }}{23}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Fungsi-fungsi aktivasi \cite {NNControlBook}\relax }}{24}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Jaringan lapisan tunggal \cite {NNControlBook}\relax }}{25}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Jaringan 2 lapisan \cite {NNControlBook}\relax }}{27}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Taksonomi metode kontrok klasik vs modern \cite {MPCDissertation}\relax }}{32}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Tampak dalam ruang \textit {climate chamber} FITOCLIMA 25000 \cite {paperChamber}\relax }}{13}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Interval regulasi iklim suhu dan kelembapan \cite {paperChamber}\relax }}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Climate chamber} GRANDETOP \cite {ChamberGrande}\relax }}{15}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Climate chamber} ASLI \cite {ChamberASLI}\relax }}{15}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Pertukaran kalor bangunan dengan lingkungan \cite {skripsiIchfan}\relax }}{20}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sistem dengan \textit {steady-state error} bernilai terbatas untuk input fungsi step \cite {ControlSystemBook}\relax }}{24}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Anatomi neuron \cite {NNControlBook}\relax }}{25}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Model matematis neuron \cite {NNControlBook}\relax }}{26}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Fungsi-fungsi aktivasi \cite {NNControlBook}\relax }}{27}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Jaringan lapisan tunggal \cite {NNControlBook}\relax }}{28}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Jaringan 2 lapisan \cite {NNControlBook}\relax }}{30}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Taksonomi metode kontrok klasik vs modern \cite {MPCDissertation}\relax }}{35}{figure.caption.30}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Bagan Tata Laksana Penelitian\relax }}{34}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Posisi Komponen-Komponen di dalam \textit {Climate Chamber}\relax }}{36}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Perangkat AC\relax }}{37}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Perangkat \textit {heater}\relax }}{37}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Skenario Pengambilan Data\relax }}{38}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Arsitektur Model Plant JST\relax }}{39}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Diagram blok sistem kontrol berbasis JST \cite {paper42Paisan}\relax }}{40}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Pasangan masukan dan keluaran model JST kontroler\relax }}{40}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Bagan Tata Laksana Penelitian\relax }}{37}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Posisi Komponen-Komponen di dalam \textit {Climate Chamber} \cite {skripsiIchfan}\relax }}{39}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Perangkat AC\relax }}{40}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Perangkat \textit {heater}\relax }}{40}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Skenario Pengambilan Data\relax }}{41}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Arsitektur Model Plant JST\relax }}{42}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Diagram blok sistem kontrol berbasis JST \cite {paper42Paisan}\relax }}{43}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Pasangan masukan dan keluaran model JST kontroler\relax }}{43}{figure.caption.41}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Data Konfigurasi AC dan \textit {Heater} pada Simulasi ISE-VE\relax }}{44}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Variabel Gangguan Simulasi ISE-VE\relax }}{44}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Data Hasil Simulasi ISE-VE\relax }}{45}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagram Blok \textit {Plant}\relax }}{46}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Diagram Blok Fungsional Sistem\relax }}{46}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Diagram blok sistem kontrol berbasis JST\relax }}{47}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Grafik Variasi Pembagian Data\relax }}{49}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Grafik Persebaran MSE Variasi Arsitektur JST Kontroler\relax }}{50}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Grafik Persebaran MSE Variasi Arsitektur JST Kontroler\relax }}{50}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Grafik Hasil Simulasi 1 Simulink untuk Suhu Ruang\relax }}{52}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Grafik Hasil Simulasi 1 Simulink untuk Kelembapan Relatif\relax }}{53}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Grafik Variabel Manipulasi AC pada Simulasi 1 Simulink\relax }}{53}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Grafik Variabel Manipulasi \textit {Heater} pada Simulasi 1 Simulink\relax }}{53}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Grafik Nilai Variabel Gangguan Suhu Lingkungan\relax }}{55}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Grafik Nilai Variabel Gangguan Intensitas Radiasi Matahari\relax }}{55}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Grafik Hasil Simulasi 2 Simulink untuk Suhu Ruang\relax }}{56}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Grafik Hasil Simulasi 2 Simulink untuk Kelembapan Relatif\relax }}{56}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Grafik Variabel Manipulasi AC pada Simulasi 2 Simulink\relax }}{57}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Grafik Variabel Manipulasi \textit {Heater} pada Simulasi 2 Simulink\relax }}{57}%
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Grafik Hasil Simulasi 3 Simulink untuk Suhu Ruang\relax }}{58}%
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Grafik Hasil Simulasi 3 Simulink untuk Kelembapan Relatif\relax }}{58}%
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Grafik Variabel Manipulasi AC pada Simulasi 3 Simulink\relax }}{58}%
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Grafik Variabel Manipulasi \textit {Heater} pada Simulasi 3 Simulink\relax }}{59}%
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Grafik Hasil Uji \textit {Plant}\relax }}{59}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Data Konfigurasi AC dan \textit {Heater} pada Simulasi ISE-VE\relax }}{47}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Variabel Gangguan Simulasi ISE-VE\relax }}{47}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Data Hasil Simulasi ISE-VE\relax }}{48}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagram Blok \textit {Plant}\relax }}{49}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Diagram Blok Fungsional Sistem\relax }}{49}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Diagram blok sistem kontrol berbasis JST\relax }}{50}{figure.caption.47}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Grafik Variasi Pembagian Data\relax }}{52}{figure.caption.49}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Grafik Persebaran MSE Variasi Arsitektur JST Kontroler\relax }}{53}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Grafik Persebaran MSE Variasi Arsitektur JST Kontroler\relax }}{53}{figure.caption.51}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Grafik Hasil Simulasi 1 Simulink untuk Suhu Ruang\relax }}{55}{figure.caption.53}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Grafik Hasil Simulasi 1 Simulink untuk Kelembapan Relatif\relax }}{56}{figure.caption.54}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Grafik Variabel Manipulasi AC pada Simulasi 1 Simulink\relax }}{56}{figure.caption.55}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Grafik Variabel Manipulasi \textit {Heater} pada Simulasi 1 Simulink\relax }}{56}{figure.caption.56}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Grafik Nilai Variabel Gangguan Suhu Lingkungan\relax }}{58}{figure.caption.57}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Grafik Nilai Variabel Gangguan Intensitas Radiasi Matahari\relax }}{58}{figure.caption.58}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Grafik Hasil Simulasi 2 Simulink untuk Suhu Ruang\relax }}{59}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Grafik Hasil Simulasi 2 Simulink untuk Kelembapan Relatif\relax }}{59}{figure.caption.60}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Grafik Variabel Manipulasi AC pada Simulasi 2 Simulink\relax }}{60}{figure.caption.61}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Grafik Variabel Manipulasi \textit {Heater} pada Simulasi 2 Simulink\relax }}{60}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Grafik Hasil Simulasi 3 Simulink untuk Suhu Ruang\relax }}{61}{figure.caption.63}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Grafik Hasil Simulasi 3 Simulink untuk Kelembapan Relatif\relax }}{61}{figure.caption.64}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Grafik Variabel Manipulasi AC pada Simulasi 3 Simulink\relax }}{61}{figure.caption.65}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Grafik Variabel Manipulasi \textit {Heater} pada Simulasi 3 Simulink\relax }}{62}{figure.caption.66}%
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Grafik Hasil Uji \textit {Plant}\relax }}{62}{figure.caption.67}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Diagram Blok Rancangan Sistem Kontrol Simulink\relax }}{79}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Diagram Blok Rancangan Sistem Kontrol Simulink\relax }}{82}{figure.caption.80}%

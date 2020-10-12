@@ -5,44 +5,47 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: skripsi.bst
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: pustaka.bib
-You've used 25 entries,
+Warning--empty institution in ChamberGrande
+Warning--empty institution in ChamberASLI
+You've used 28 entries,
             2230 wiz_defined-function locations,
-            667 strings with 8934 characters,
-and the built_in function-call counts, 6125 in all, are:
-= -- 753
-> -- 229
+            685 strings with 9564 characters,
+and the built_in function-call counts, 6735 in all, are:
+= -- 828
+> -- 248
 < -- 2
-+ -- 88
-- -- 63
-* -- 343
-:= -- 1038
-add.period$ -- 75
-call.type$ -- 25
-change.case$ -- 14
++ -- 96
+- -- 68
+* -- 384
+:= -- 1143
+add.period$ -- 84
+call.type$ -- 28
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 236
-empty$ -- 522
-format.name$ -- 63
-if$ -- 1468
+cite$ -- 30
+duplicate$ -- 257
+empty$ -- 573
+format.name$ -- 68
+if$ -- 1606
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 28
-newline$ -- 128
-num.names$ -- 25
-pop$ -- 64
+int.to.str$ -- 28
+missing$ -- 29
+newline$ -- 143
+num.names$ -- 28
+pop$ -- 69
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 256
+skip$ -- 280
 stack$ -- 0
-substring$ -- 266
-swap$ -- 35
+substring$ -- 296
+swap$ -- 38
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 41
-width$ -- 27
-write$ -- 283
+warning$ -- 2
+while$ -- 45
+width$ -- 30
+write$ -- 314
+(There were 2 warnings)
